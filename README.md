@@ -39,3 +39,8 @@ Follow the instructions [here](https://discordpy.readthedocs.io/en/stable/discor
     pip install -U discord.py
     ```
 1. Add the bot to your server (see above instructions)
+1. Execute the `hello_world` test bot:
+    ```zsh
+    python hello_world.py
+    ```
+1. Send the test message "$hello" to your test server. You should get a response from the bot. Inspect `hello_world.log` to make sure logging works correctly.
