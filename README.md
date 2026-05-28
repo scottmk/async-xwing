@@ -39,6 +39,7 @@ Follow the instructions [here](https://discordpy.readthedocs.io/en/stable/discor
     pip install -U discord.py
     ```
 1. Add the bot to your server (see above instructions)
+1. Create a `.env` file and create an entry for `TOKEN`, set to your bot's token
 1. Execute the `hello_world` test bot:
     ```zsh
     python hello_world.py
