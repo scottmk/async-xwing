@@ -29,7 +29,6 @@ exclude = [
     "venv",
 ]
 
-# Same as Black.
 line-length = 100
 indent-width = 4
 
