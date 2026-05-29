@@ -46,7 +46,7 @@ DEFENSE_DIE_FACES = [
 ]
 
 
-class DiceCog(commands.GroupCog, name="roll", description="A cog "):
+class DiceCog(commands.GroupCog, name="roll", description="A cog for handling all dice commands"):
     def __init__(self, bot):
         self.bot: AsyncXwingBot = bot
 
