@@ -15,6 +15,10 @@ def get_value(key: ConfigKey, default_val: str = "") -> str:
     return os.getenv(key.value, default_val)
 
 
+def get_game_state_path() -> str:
+    return os.getenv(ConfigKey.GAME_STATE_PATH, "")
+
+
 def increment_game_number():
     env_file_path = Path("./.env")
     # Create the file if it does not exist.
