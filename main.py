@@ -12,6 +12,8 @@ import discord
 from discord.ext import commands
 from dotenv import load_dotenv
 
+import game.config as config
+
 
 class AsyncXwingBot(commands.Bot):
     client: aiohttp.ClientSession
@@ -78,11 +80,13 @@ class AsyncXwingBot(commands.Bot):
 
     def run(self, *args: typing.Any, **kwargs: typing.Any) -> None:
         load_dotenv()
+        config.increment_game_number()
         try:
             self._setup_logger()
-            super().run(str(os.getenv("TOKEN")), log_handler=None, *args, **kwargs)
+            token: str | None = config.get_value(config.ConfigKey.TOKEN)
+            super().run(str(token), log_handler=None, *args, **kwargs)
         except discord.LoginFailure, KeyboardInterrupt:
-            self.logger.info("Exiting...")
+            self.logger.exception("Failure. Exiting...")
             exit()
 
     def _setup_logger(self) -> None:

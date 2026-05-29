@@ -55,18 +55,18 @@ class DiceCog(commands.GroupCog, name="roll", description="A cog "):
         emojis: Sequence[discord.Emoji] = interaction.guild.emojis if interaction.guild else []
         rolls: list[AttackDie] = [random.choice(ATTACK_DIE_FACES) for i in range(0, num_dice)]
 
-        result_str: str = "".join(
-            [str(discord.utils.get(emojis, name=f"die_atk_{roll}")) for roll in rolls]
-        )
+        result_str: str = "".join([
+            str(discord.utils.get(emojis, name=f"die_atk_{roll}")) for roll in rolls
+        ])
         await interaction.response.send_message(result_str)
 
     @app_commands.command(name="defense", description="Make a defense")
     async def defense_roll(self, interaction: discord.Interaction, num_dice: int) -> None:
         emojis: Sequence[discord.Emoji] = interaction.guild.emojis if interaction.guild else []
         rolls: list[DefenseDie] = [random.choice(DEFENSE_DIE_FACES) for i in range(0, num_dice)]
-        result_str: str = "".join(
-            [str(discord.utils.get(emojis, name=f"die_def_{roll}")) for roll in rolls]
-        )
+        result_str: str = "".join([
+            str(discord.utils.get(emojis, name=f"die_def_{roll}")) for roll in rolls
+        ])
         await interaction.response.send_message(result_str)
 
 
