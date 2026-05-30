@@ -31,10 +31,10 @@ class AsyncXwingBot(commands.Bot):
         self.synced = False
 
     async def on_error(self, event_method: str, *args, **kwargs) -> None:
-        self.logger.error(f"An error occurred in {event_method}.\n{traceback.format_exc()}")
+        self.logger.error(f'An error occurred in {event_method}.\n{traceback.format_exc()}')
 
     async def on_ready(self) -> None:
-        self.logger.info(f"Logged in as {self.user} ({self.user.id})")
+        self.logger.info(f'Logged in as {self.user} ({self.user.id})')
 
     async def setup_hook(self) -> None:
         self.client = aiohttp.ClientSession()
@@ -42,23 +42,23 @@ class AsyncXwingBot(commands.Bot):
         if not self.synced:
             await self.tree.sync()
             self.synced = True
-            self.logger.info("Synced command tree")
+            self.logger.info('Synced command tree')
         self._watcher = self.loop.create_task(self._cog_watcher())
 
     async def _load_extensions(self) -> None:
         if not os.path.isdir(self.ext_dir):
-            self.logger.error(f"Extension directory {self.ext_dir} does not exist.")
+            self.logger.error(f'Extension directory {self.ext_dir} does not exist.')
             return
         for filename in os.listdir(self.ext_dir):
-            if filename.endswith(".py") and not filename.startswith("_"):
+            if filename.endswith('.py') and not filename.startswith('_'):
                 try:
-                    await self.load_extension(f"{self.ext_dir}.{filename[:-3]}")
-                    self.logger.info(f"Loaded extension {filename[:-3]}")
+                    await self.load_extension(f'{self.ext_dir}.{filename[:-3]}')
+                    self.logger.info(f'Loaded extension {filename[:-3]}')
                 except commands.ExtensionError:
-                    self.logger.exception(f"Failed to load extension {filename[:-3]}")
+                    self.logger.exception(f'Failed to load extension {filename[:-3]}')
 
     async def _cog_watcher(self):
-        self.logger.debug("Watching for changes...")
+        self.logger.debug('Watching for changes...')
         last = time.time()
         while True:
             extensions: set[str] = set()
@@ -68,9 +68,9 @@ class AsyncXwingBot(commands.Bot):
             for ext in extensions:
                 try:
                     await self.reload_extension(ext)
-                    self.logger.debug(f"Reloaded {ext}")
+                    self.logger.debug(f'Reloaded {ext}')
                 except commands.ExtensionError as e:
-                    self.logger.debug(f"Failed to reload {ext}: {e}")
+                    self.logger.debug(f'Failed to reload {ext}: {e}')
             last = time.time()
             await asyncio.sleep(1)
 
@@ -86,27 +86,27 @@ class AsyncXwingBot(commands.Bot):
             token: str | None = config.get_value(config.ConfigKey.TOKEN)
             super().run(str(token), log_handler=None, *args, **kwargs)
         except discord.LoginFailure, KeyboardInterrupt:
-            self.logger.exception("Failure. Exiting...")
+            self.logger.exception('Failure. Exiting...')
             exit()
 
     def _setup_logger(self) -> None:
-        logging.getLogger("discord").setLevel(logging.DEBUG)
-        logging.getLogger("discord.http").setLevel(logging.INFO)
+        logging.getLogger('discord').setLevel(logging.DEBUG)
+        logging.getLogger('discord.http').setLevel(logging.INFO)
         self.logger.setLevel(logging.DEBUG)
 
         console_handler = logging.StreamHandler()
         console_handler.setLevel(logging.INFO)
 
         file_handler = RotatingFileHandler(
-            filename="xwing.log",
-            encoding="utf-8",
+            filename='xwing.log',
+            encoding='utf-8',
             maxBytes=32 * 1024 * 1024,  # 32 MiB
             backupCount=5,  # Rotate through 5 files
         )
         formatter = logging.Formatter(
-            fmt="[{asctime}] [{levelname:^10}] {name}: {message}",
-            datefmt="%Y-%m-%d %H:%M:%S",
-            style="{",
+            fmt='[{asctime}] [{levelname:^10}] {name}: {message}',
+            datefmt='%Y-%m-%d %H:%M:%S',
+            style='{',
         )
         console_handler.setFormatter(formatter)
         file_handler.setFormatter(formatter)
@@ -115,7 +115,7 @@ class AsyncXwingBot(commands.Bot):
 
     @property
     def user(self) -> discord.ClientUser:
-        assert super().user, "Bot is not ready yet"
+        assert super().user, 'Bot is not ready yet'
         return typing.cast(discord.ClientUser, super().user)
 
     @property
@@ -124,10 +124,10 @@ class AsyncXwingBot(commands.Bot):
 
 
 def main() -> None:
-    bot = AsyncXwingBot(prefix="$", ext_dir="cogs")
-    asyncio.run(bot.load_extension("jishaku"))
+    bot = AsyncXwingBot(prefix='$', ext_dir='cogs')
+    asyncio.run(bot.load_extension('jishaku'))
     bot.run()
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()

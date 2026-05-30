@@ -10,10 +10,10 @@ from main import AsyncXwingBot
 
 
 class AttackDie(StrEnum):
-    Hit = "hit"
-    Crit = "crit"
-    Focus = "focus"
-    Blank = "blank"
+    Hit = 'hit'
+    Crit = 'crit'
+    Focus = 'focus'
+    Blank = 'blank'
 
 
 ATTACK_DIE_FACES = [
@@ -29,9 +29,9 @@ ATTACK_DIE_FACES = [
 
 
 class DefenseDie(StrEnum):
-    Evade = "evade"
-    Focus = "focus"
-    Blank = "blank"
+    Evade = 'evade'
+    Focus = 'focus'
+    Blank = 'blank'
 
 
 DEFENSE_DIE_FACES = [
@@ -46,26 +46,26 @@ DEFENSE_DIE_FACES = [
 ]
 
 
-class DiceCog(commands.GroupCog, name="roll", description="A cog for handling all dice commands"):
+class DiceCog(commands.GroupCog, name='roll', description='A cog for handling all dice commands'):
     def __init__(self, bot):
         self.bot: AsyncXwingBot = bot
 
-    @app_commands.command(name="attack", description="Make an attack roll")
+    @app_commands.command(name='attack', description='Make an attack roll')
     async def attack_roll(self, interaction: discord.Interaction, num_dice: int) -> None:
         emojis: Sequence[discord.Emoji] = interaction.guild.emojis if interaction.guild else []
         rolls: list[AttackDie] = [random.choice(ATTACK_DIE_FACES) for i in range(0, num_dice)]
 
-        result_str: str = "".join(
-            [str(discord.utils.get(emojis, name=f"die_atk_{roll}")) for roll in rolls]
+        result_str: str = ''.join(
+            [str(discord.utils.get(emojis, name=f'die_atk_{roll}')) for roll in rolls]
         )
         await interaction.response.send_message(result_str)
 
-    @app_commands.command(name="defense", description="Make a defense")
+    @app_commands.command(name='defense', description='Make a defense')
     async def defense_roll(self, interaction: discord.Interaction, num_dice: int) -> None:
         emojis: Sequence[discord.Emoji] = interaction.guild.emojis if interaction.guild else []
         rolls: list[DefenseDie] = [random.choice(DEFENSE_DIE_FACES) for i in range(0, num_dice)]
-        result_str: str = "".join(
-            [str(discord.utils.get(emojis, name=f"die_def_{roll}")) for roll in rolls]
+        result_str: str = ''.join(
+            [str(discord.utils.get(emojis, name=f'die_def_{roll}')) for roll in rolls]
         )
         await interaction.response.send_message(result_str)
 
@@ -75,4 +75,4 @@ async def setup(bot):
 
 
 async def teardown(bot):
-    bot.logger.info("DiceCog extension unloaded!")
+    bot.logger.info('DiceCog extension unloaded!')
