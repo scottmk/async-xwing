@@ -80,6 +80,7 @@ version = "0.0.1"
 source = { virtual = "." }
 dependencies = [
     { name = "aiohttp" },
+    { name = "click" },
     { name = "discord-py" },
     { name = "dotenv" },
     { name = "jishaku" },
@@ -96,6 +97,7 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "aiohttp", specifier = ">=3.13.5" },
+    { name = "click" },
     { name = "discord-py", specifier = ">=2.7.1" },
     { name = "dotenv" },
     { name = "jishaku", specifier = ">=2.7.5" },
