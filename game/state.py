@@ -1,10 +1,11 @@
 from functools import singledispatch
-import json
 from typing import Any
 
 import discord
+import msgspec
 
 from game import config
+from game.model import GameState
 
 
 def get_game_id_from_channel(game_channel: discord.TextChannel) -> str:
@@ -22,56 +23,60 @@ def get_game_id_from_channel(game_channel: discord.TextChannel) -> str:
 
 
 @singledispatch
-def get_game_state(identifier) -> dict[str, Any]:
+def get_game_state(identifier) -> GameState:
     """
     Retrieves the game state from disk.
 
     :param identifier: Either a discord.TextChannel or a string ID
     :type game_channel: discord.TextChannel | str
-    :return: Description
-    :rtype: dict[str, Any]
+    :return: The struct representing the state of the game
+    :rtype: GameState
     """
     raise NotImplementedError()
 
 
 @get_game_state.register
-def _(game_channel: discord.TextChannel) -> dict[str, Any]:
+def _(game_channel: discord.TextChannel) -> GameState:
     game_state_path = config.get_game_state_path()
     game_id = get_game_id_from_channel(game_channel)
     with open(f"{game_state_path}/{game_id}.json", "r") as file:
-        return json.load(file)
+        file_bytes = file.read()
+        return msgspec.json.decode(file_bytes, type=GameState)
 
 
 @get_game_state.register
-def _(game_id: str) -> dict[str, Any]:
+def _(game_id: str) -> GameState:
     game_state_path = config.get_game_state_path()
     with open(f"{game_state_path}/{game_id}.json", "r") as file:
-        return json.load(file)
+        file_bytes = file.read()
+        return msgspec.json.decode(file_bytes, type=GameState)
 
 
 @singledispatch
-def update(identifier, game_state: dict[str, Any]) -> None:
+def update(identifier, game_state: GameState) -> None:
     """
     Updates the game state to disk for the given game channel or the game ID.
 
     :param identifier: Either a discord.TextChannel or a string ID
     :type identifier: discord.TextChannel | str
-    :param game_state: The dictionary representing the state of the game to be updated
-    :type game_state: dict[str, Any]
+    :param game_state: The struct representing the state of the game to be updated
+    :type game_state: GameState
     """
     raise NotImplementedError()
 
 
 @update.register
-def _(game_channel: discord.TextChannel, game_state: dict[str, Any]) -> None:
+def _(game_channel: discord.TextChannel, game_state: GameState) -> None:
     game_state_path = config.get_game_state_path()
     game_id = get_game_id_from_channel(game_channel)
-    with open(f"{game_state_path}/{game_id}.json", "w") as file:
-        json.dump(game_state, file)
+    updated_game_state = msgspec.json.encode(game_state)
+    with open(f"{game_state_path}/{game_id}.json", "wb") as file:
+        file.write(updated_game_state)
 
 
 @update.register
 def _(game_id: str, game_state: dict[str, Any]) -> None:
     game_state_path = config.get_game_state_path()
-    with open(f"{game_state_path}/{game_id}.json", "w") as file:
-        json.dump(game_state, file)
+    updated_game_state = msgspec.json.encode(game_state)
+    with open(f"{game_state_path}/{game_id}.json", "wb") as file:
+        file.write(updated_game_state)
