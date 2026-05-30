@@ -8,6 +8,7 @@ import typing
 from logging.handlers import RotatingFileHandler
 
 import aiohttp
+import click
 import discord
 from discord.ext import commands
 from dotenv import load_dotenv
@@ -80,7 +81,6 @@ class AsyncXwingBot(commands.Bot):
 
     def run(self, *args: typing.Any, **kwargs: typing.Any) -> None:
         load_dotenv()
-        config.increment_game_number()
         try:
             self._setup_logger()
             token: str | None = config.get_value(config.ConfigKey.TOKEN)
@@ -123,9 +123,15 @@ class AsyncXwingBot(commands.Bot):
         return datetime.datetime.utcnow() - self._uptime
 
 
-def main() -> None:
+@click.command()
+@click.option(
+    '--no-inc', is_flag=True, help="Don't increment the latest game number in the environment."
+)
+def main(no_inc) -> None:
     bot = AsyncXwingBot(prefix='$', ext_dir='cogs')
     asyncio.run(bot.load_extension('jishaku'))
+    if not no_inc:
+        config.increment_game_number()
     bot.run()
 
 
