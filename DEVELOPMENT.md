@@ -31,6 +31,14 @@ Follow the instructions [here](https://discordpy.readthedocs.io/en/stable/discor
        brew install python@3.14
        ```
 1. Clone the github repo
+1. Create a python venv
+   - If using VSCode, bring up the command palette with `Cmd + Shift + P` and execute `Python: Create Environment...`
+      - Make sure you select python3.14
+   - If using command line, navigate to the repo directory and run the following commands:
+       ```zsh
+       python3 -m venv .venv
+       source .venv/bin/activate
+       ```
 1. Install dependencies:
     ```zsh
     uv sync
