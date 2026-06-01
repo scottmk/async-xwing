@@ -4,7 +4,7 @@ import discord
 import msgspec
 
 from game import config
-from game.model import GameState
+from game.model.gamestate import GameState
 
 
 def get_game_id_from_channel(game_channel: discord.TextChannel) -> str:
