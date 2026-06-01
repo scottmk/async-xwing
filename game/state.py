@@ -18,12 +18,12 @@ def get_game_id_from_channel(game_channel: discord.TextChannel) -> str:
     :rtype: str
     """
     name = game_channel.name
-    return name.split("-")[0] if "-" in name else name
+    return name.split('-')[0] if '-' in name else name
 
 
 def _get_game_state_path_for_game_id(game_id: str) -> str:
     game_state_path = config.get_game_state_path()
-    return f"{game_state_path}/{game_id}.json"
+    return f'{game_state_path}/{game_id}.json'
 
 
 @singledispatch
@@ -42,14 +42,14 @@ def get_game_state(identifier) -> GameState:
 @get_game_state.register
 def _(game_channel: discord.TextChannel) -> GameState:
     game_id = get_game_id_from_channel(game_channel)
-    with open(_get_game_state_path_for_game_id(game_id), "r") as file:
+    with open(_get_game_state_path_for_game_id(game_id), 'r') as file:
         file_bytes = file.read()
         return msgspec.json.decode(file_bytes, type=GameState)
 
 
 @get_game_state.register
 def _(game_id: str) -> GameState:
-    with open(_get_game_state_path_for_game_id(game_id), "r") as file:
+    with open(_get_game_state_path_for_game_id(game_id), 'r') as file:
         file_bytes = file.read()
         return msgspec.json.decode(file_bytes, type=GameState)
 
@@ -71,12 +71,12 @@ def update(identifier, game_state: GameState) -> None:
 def _(game_channel: discord.TextChannel, game_state: GameState) -> None:
     game_id = get_game_id_from_channel(game_channel)
     updated_game_state = msgspec.json.encode(game_state)
-    with open(_get_game_state_path_for_game_id(game_id), "wb") as file:
+    with open(_get_game_state_path_for_game_id(game_id), 'wb') as file:
         file.write(updated_game_state)
 
 
 @update.register
 def _(game_id: str, game_state: GameState) -> None:
     updated_game_state = msgspec.json.encode(game_state)
-    with open(_get_game_state_path_for_game_id(game_id), "wb") as file:
+    with open(_get_game_state_path_for_game_id(game_id), 'wb') as file:
         file.write(updated_game_state)
