@@ -3,9 +3,11 @@ from typing import Annotated, Counter
 
 import msgspec
 
+from game.measurement.size import Size
 from game.model import Faction
 from game.model.catalog import Ability, Action, Attack, Card, ChargeType, ChargeValues, Keyword
 from game.model.catalog.upgrade import UpgradeType
+from game.movement.maneuver import ManeuverDifficulty, ManeuverSpeed
 
 
 class ShipSize(StrEnum):
@@ -14,31 +16,19 @@ class ShipSize(StrEnum):
     LARGE = auto()
     HUGE = auto()
 
-
-class ManeuverType(StrEnum):
-    STRAIGHT = auto()
-    REVERSE_STRAIGHT = auto()
-    BANK = auto()
-    REVERSE_BANK = auto()
-    TURN = auto()
-    KOIOGRAN_TURN = auto()
-    SEGNORS_LOOP = auto()
-    TALLON_ROLL = auto()
-    STATIONARY = auto()
-
-
-class ManeuverDirection(StrEnum):
-    LEFT = auto()
-    RIGHT = auto()
-
-
-class ManeuverDifficulty(StrEnum):
-    BLUE = auto()
-    WHITE = auto()
-    RED = auto()
-
-
-type ManeuverSpeed = int
+    @property
+    def base_size(self) -> Size:
+        match self:
+            case ShipSize.SMALL:
+                return Size(width=40, height=40)
+            case ShipSize.MEDIUM:
+                return Size(width=60, height=60)
+            case ShipSize.LARGE:
+                return Size(width=80, height=80)
+            case ShipSize.HUGE:
+                # HUGE ships are two LARGE bases with a custom connector piece that is unique to each ship.
+                # TODO - Huge ships: Figure out how to define huge ship base sizes. For now, just return the size of two LARGE bases.
+                return Size(width=80, height=160)
 
 
 class Pilot(Card, kw_only=True):
@@ -77,6 +67,18 @@ class Pilot(Card, kw_only=True):
         int,
         msgspec.Meta(description='Maximum number of upgrade points this pilot can have for XWA'),
     ]
+
+
+class ManeuverType(StrEnum):
+    STRAIGHT = auto()
+    REVERSE_STRAIGHT = auto()
+    BANK = auto()
+    REVERSE_BANK = auto()
+    TURN = auto()
+    KOIOGRAN_TURN = auto()
+    SEGNORS_LOOP = auto()
+    TALLON_ROLL = auto()
+    STATIONARY = auto()
 
 
 class Ship(msgspec.Struct, kw_only=True):
