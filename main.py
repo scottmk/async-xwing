@@ -13,6 +13,7 @@ import discord
 from discord.ext import commands
 from dotenv import load_dotenv
 
+from discord_helpers.emoji import load_emoji_cache
 import game.config as config
 
 
@@ -35,6 +36,13 @@ class AsyncXwingBot(commands.Bot):
         self.logger.error(f'An error occurred in {event_method}.\n{traceback.format_exc()}')
 
     async def on_ready(self) -> None:
+        emoji_loaded: bool = await load_emoji_cache(self)
+        if emoji_loaded:
+            self.logger.info('Emoji cache updated')
+        else:
+            emoji_guild_id = os.getenv('EMOJI_SERVER_ID')
+            self.logger.warning(f'Emoji not found. Server ID {emoji_guild_id} not valid')
+        await self.user.edit(username='AsyncXwing')
         self.logger.info(f'Logged in as {self.user} ({self.user.id})')
 
     async def setup_hook(self) -> None:

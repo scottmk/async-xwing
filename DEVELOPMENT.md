@@ -58,6 +58,7 @@ In your `.env` file, under `TOKEN`, add the following:
 ```
 GAME_STATE_PATH='data/gamestates'
 GAME_NUMBER='1'
+EMOJI_SERVER_ID='<YOUR_TEST_SERVER_ID>'
 ```
 
 This will ensure you can properly read from and save to the game state.
