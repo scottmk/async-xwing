@@ -4,7 +4,7 @@ from typing import Annotated
 import msgspec
 
 from game.model import Faction
-from game.model.catalog import (
+from game.model.catalog.card_attr import (
     Ability,
     Action,
     Card,
@@ -50,13 +50,13 @@ class UpgradeType(StrEnum):
     TURRET = auto()
 
 
-class UpgradeRestriction(msgspec.Struct, kw_only=True):
+class UpgradeRestriction(msgspec.Struct, kw_only=True, frozen=True):
     ship: str | None = None
     faction: Faction | None = None
     keywords: set[Keyword]
 
 
-class Remote(msgspec.Struct, kw_only=True):
+class Remote(msgspec.Struct, kw_only=True, frozen=True):
     """Autonomous unit launched from upgrade, e.g., commandos or droids."""
 
     name: str
@@ -74,7 +74,7 @@ class BonusAttack(SpecialAttack):
     pass
 
 
-class Upgrade(Card, kw_only=True):
+class UpgradeCard(Card, kw_only=True, frozen=True):
     types: Annotated[
         list[UpgradeType], msgspec.Meta(description='A list because types can be duplciated')
     ]
