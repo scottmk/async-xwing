@@ -5,7 +5,15 @@ import msgspec
 
 from game.measurement import Size
 from game.model import Faction
-from game.model.catalog import Ability, Action, Attack, Card, ChargeType, ChargeValues, Keyword
+from game.model.catalog.card_attr import (
+    Ability,
+    Action,
+    Attack,
+    Card,
+    ChargeType,
+    ChargeValues,
+    Keyword,
+)
 from game.model.catalog.upgrade import UpgradeType
 from game.movement.maneuver import ManeuverDifficulty, ManeuverSpeed
 
@@ -32,7 +40,7 @@ class ShipSize(StrEnum):
                 return Size(width=80.0, height=160.0)
 
 
-class Pilot(Card, kw_only=True):
+class PilotCard(Card, kw_only=True, frozen=True):
     name: str
     unique: bool
     subtitle: str | None = None
@@ -82,7 +90,7 @@ class ManeuverBearing(StrEnum):
     STATIONARY = auto()
 
 
-class Ship(msgspec.Struct, kw_only=True):
+class ShipAttr(msgspec.Struct, kw_only=True, frozen=True):
     id: str
     name: str
     size: ShipSize
@@ -93,4 +101,4 @@ class Ship(msgspec.Struct, kw_only=True):
     action_bar: list[Action]
     ship_ability: Ability | None = None
     maneuver_dial: dict[ManeuverBearing, dict[ManeuverSpeed, ManeuverDifficulty]]
-    pilots: list[Pilot]
+    pilots: list[PilotCard]
