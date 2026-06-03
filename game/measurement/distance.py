@@ -1,1 +1,0 @@
-type Distance = float

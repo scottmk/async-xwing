@@ -1,5 +1,5 @@
 from dataclasses import dataclass
-from enum import StrEnum, auto
+from enum import Enum, auto
 
 type ManeuverSpeed = int
 
@@ -11,7 +11,7 @@ class Maneuver:
     difficulty: ManeuverDifficulty
 
 
-class ManeuverBearing(StrEnum):
+class ManeuverBearing(Enum):
     STRAIGHT = auto()
     REVERSE_STRAIGHT = auto()
     BANK_LEFT = auto()
@@ -28,7 +28,7 @@ class ManeuverBearing(StrEnum):
     STATIONARY = auto()
 
 
-class ManeuverDifficulty(StrEnum):
+class ManeuverDifficulty(Enum):
     BLUE = auto()
     WHITE = auto()
     RED = auto()
