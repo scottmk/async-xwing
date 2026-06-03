@@ -1,4 +1,7 @@
 from enum import StrEnum
+from game.model.play_area import PlayArea, DEFAULT_PLAY_AREA_SIZE
+
+__all__ = ['Faction', 'PlayArea', 'DEFAULT_PLAY_AREA_SIZE']
 
 
 class Faction(StrEnum):
