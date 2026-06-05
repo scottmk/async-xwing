@@ -6,7 +6,7 @@ import msgspec
 
 class Ability(msgspec.Struct):
     text: str
-    automations: set[str]
+    automations: list[str]
     is_action: bool
 
 
@@ -71,7 +71,7 @@ class SpecialAttack(Attack, kw_only=True):
     ] = None
     is_ordnance: bool
     text: str
-    automations: set[str]
+    automations: list[str]
 
 
 class ChargeType(StrEnum):
@@ -86,7 +86,7 @@ class ChargeValues(msgspec.Struct):
 
 
 class Card(msgspec.Struct, kw_only=True, frozen=True):
-    id: str
+    id_: str
     amg_cost: int | None = None
     xwa_cost: int
     xwa_restricted_count: Annotated[

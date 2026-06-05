@@ -1,5 +1,5 @@
 from enum import StrEnum, auto
-from typing import Annotated, Counter
+from typing import Annotated
 
 import msgspec
 
@@ -57,7 +57,7 @@ class PilotCard(Card, kw_only=True, frozen=True):
     charges: dict[ChargeType, ChargeValues] | None = None
     keywords: set[Keyword]
     amg_upgrade_bar: Annotated[
-        Counter[UpgradeType] | None,
+        dict[UpgradeType, int] | None,
         msgspec.Meta(
             description='All upgrade types and number of each type allowed to be equipped on this pilot for XWA'
         ),
@@ -67,7 +67,7 @@ class PilotCard(Card, kw_only=True, frozen=True):
         msgspec.Meta(description='Maximum number of upgrade points this pilot can have for AMG'),
     ] = None
     xwa_upgrade_bar: Annotated[
-        Counter[UpgradeType],
+        dict[UpgradeType, int],
         msgspec.Meta(
             description='All upgrade types and number of each type allowed to be equipped on this pilot for XWA'
         ),
@@ -91,7 +91,7 @@ class ManeuverBearing(StrEnum):
 
 
 class ShipAttr(msgspec.Struct, kw_only=True, frozen=True):
-    id: str
+    id_: str
     name: str
     size: ShipSize
     attacks: list[Attack]
@@ -101,4 +101,4 @@ class ShipAttr(msgspec.Struct, kw_only=True, frozen=True):
     action_bar: list[Action]
     ship_ability: Ability | None = None
     maneuver_dial: dict[ManeuverBearing, dict[ManeuverSpeed, ManeuverDifficulty]]
-    pilots: list[PilotCard]
+    pilots: dict[str, PilotCard]

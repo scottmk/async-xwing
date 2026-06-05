@@ -1,0 +1,27 @@
+---
+primed_for_speed:
+  id_: primed_for_speed
+  name: ••• Primed for Speed
+  is_unique: false
+  limit: 3
+  text: 'Add a white :slam_action: action to your action bar.
+
+    After you perform a :slam_action: action, you **must** suffer 1 :hit: damage to
+    remove 1 disarm token.'
+  automations:
+  - ADD_WHITE_SLAM_ACTION
+  - AFTER_SLAM
+  - SUFFER_HIT:1
+  - REMOVE_DISARM:1
+marked_for_elimination:
+  id_: marked_for_elimination
+  name: • Marked for Elimination
+  is_unique: true
+  limit: 1
+  text: While you defend, if the attacker is equipped with **Tracking Fob** and has
+    a lock on you, you cannot spend green tokens.
+  automations:
+  - WHEN_DEFENDING
+  - ATTACKER_HAS_TRACKING_FOB
+  - ATTACKER_HAS_LOCK
+  - CANNOT_SPEND_GREEN_TKN

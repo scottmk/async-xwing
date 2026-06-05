@@ -1,0 +1,23 @@
+---
+panicked_pilot:
+  id_: panicked_pilot
+  name: Panicked Pilot
+  type: pilot
+  text: 'Gain 2 stress tokens.
+
+    Then repair this card.'
+  automations:
+  - REPAIR
+  - GAIN_STRESS:2
+console_fire:
+  id_: console_fire
+  name: Console Fire
+  type: ship
+  text: 'Before you engage, roll 1 attack die. On a :hit: result, suffer 1 :hit: damage.
+
+    **Action**: Repair this card.'
+  automations:
+  - ON_HIT_SUFFER_HIT:1
+  - ROLL_ATK_DIE:1
+  - REPAIR_ACTION
+  - BEFORE_ENGAGE

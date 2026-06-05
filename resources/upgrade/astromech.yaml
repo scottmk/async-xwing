@@ -1,0 +1,64 @@
+---
+r2d2:
+  id_: r2d2
+  amg_cost: null
+  xwa_cost: 5
+  xwa_restricted_count: null
+  types:
+  - astromech
+  name: • R2-D2
+  unique: true
+  ability:
+    text: 'After you reveal your dial, you may spend 1 :std_charge: and gain 1 disarm
+      token and recover 1 shield.'
+    automations:
+    - AFTER_DIAL_REVEALED
+    - SPEND_STD_CHARGE:1
+    - GAIN_DISARM:1
+    - RECOVER_SHIELD:1
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 3
+      recurring_val: 0
+  special_attacks: null
+  bonus_attacks: null
+  action_bar:
+  - action_name: lock
+    color: white
+    linked_action:
+      action_name: boost
+      color: red
+      linked_action: null
+  ship_stat_modifiers: null
+  deployable_remote: null
+  restrictions: null
+  setup_automations: null
+r7t1:
+  id_: r7t1
+  amg_cost: null
+  xwa_cost: 5
+  xwa_restricted_count: null
+  types:
+  - astromech
+  name: • R7-T1
+  unique: true
+  ability: null
+  flavor_text: R7-T1, nicknamed Artee, served as Luke Skywalker's in-flight astromech
+    droid when the Jedi Master borrowed an E-wing escort starfighter from the New
+    Republic Defense Force for a brief time during the Black Fleet Crisis.
+  charges: null
+  special_attacks: null
+  bonus_attacks: null
+  action_bar:
+  - action_name: lock
+    color: white
+    linked_action:
+      action_name: boost
+      color: red
+      linked_action: null
+  ship_stat_modifiers: null
+  deployable_remote: null
+  restrictions: null
+  setup_automations: null
