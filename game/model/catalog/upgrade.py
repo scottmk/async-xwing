@@ -89,4 +89,4 @@ class UpgradeCard(Card, kw_only=True, frozen=True):
     ship_stat_modifiers: dict[ShipStat, int] | None = None
     deployable_remote: Remote | None = None
     restrictions: set[UpgradeRestriction] | None = None
-    setup_automations: set[str] | None = None
+    setup_automations: list[str] | None = None
