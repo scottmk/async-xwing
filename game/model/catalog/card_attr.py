@@ -26,7 +26,7 @@ class ActionName(StrEnum):
     SLAM = auto()
 
 
-class ActionColor(StrEnum):
+class ActionDifficulty(StrEnum):
     WHITE = auto()
     RED = auto()
     PURPLE = auto()
@@ -34,7 +34,7 @@ class ActionColor(StrEnum):
 
 class Action(msgspec.Struct):
     action_name: ActionName
-    color: ActionColor = ActionColor.WHITE
+    color: ActionDifficulty = ActionDifficulty.WHITE
     linked_action: 'Action | None' = None
 
 
