@@ -15,7 +15,7 @@ from game.model.catalog.card_attr import (
     Keyword,
 )
 from game.model.catalog.upgrade import UpgradeType
-from game.movement.maneuver import ManeuverDifficulty, ManeuverSpeed
+from game.movement.maneuver import ManeuverBearing, ManeuverDifficulty, ManeuverSpeed
 
 
 class ShipSize(StrEnum):
@@ -76,18 +76,6 @@ class PilotCard(Card, kw_only=True, frozen=True):
         int,
         msgspec.Meta(description='Maximum number of upgrade points this pilot can have for XWA'),
     ]
-
-
-class ManeuverBearing(StrEnum):
-    STRAIGHT = auto()
-    REVERSE_STRAIGHT = auto()
-    BANK = auto()
-    REVERSE_BANK = auto()
-    TURN = auto()
-    KOIOGRAN_TURN = auto()
-    SEGNORS_LOOP = auto()
-    TALLON_ROLL = auto()
-    STATIONARY = auto()
 
 
 class ShipAttr(msgspec.Struct, kw_only=True, frozen=True):
