@@ -2,6 +2,7 @@ import asyncio
 import datetime
 import logging
 import os
+import sys
 import time
 import traceback
 import typing
@@ -17,6 +18,42 @@ from discord_helpers.emoji import load_emoji_cache
 import game.config as config
 
 
+root_logger: logging.Logger = logging.getLogger()
+
+if root_logger.handlers:
+    for handler in root_logger.handlers[:]:
+        root_logger.removeHandler(handler)
+
+discord_logger: logging.Logger = logging.getLogger('discord')
+discord_http_logger: logging.Logger = logging.getLogger('discord.http')
+
+root_logger.setLevel(logging.DEBUG)
+discord_logger.setLevel(logging.DEBUG)
+discord_http_logger.setLevel(logging.INFO)
+
+console_handler = logging.StreamHandler(sys.stdout)
+console_handler.setLevel(logging.INFO)
+
+file_handler = RotatingFileHandler(
+    filename='xwing.log',
+    encoding='utf-8',
+    maxBytes=32 * 1024 * 1024,  # 32 MiB
+    backupCount=5,  # Rotate through 5 files
+)
+file_handler.setLevel(logging.DEBUG)
+formatter = logging.Formatter(
+    fmt='[{asctime}] [{levelname:^10}] {name}: {message}',
+    datefmt='%Y-%m-%d %H:%M:%S',
+    style='{',
+)
+console_handler.setFormatter(formatter)
+file_handler.setFormatter(formatter)
+
+if not root_logger.handlers:
+    root_logger.addHandler(console_handler)
+    root_logger.addHandler(file_handler)
+
+
 class AsyncXwingBot(commands.Bot):
     client: aiohttp.ClientSession
     _uptime: datetime.datetime = datetime.datetime.now(datetime.timezone.utc)
@@ -29,11 +66,21 @@ class AsyncXwingBot(commands.Bot):
             *args, **kwargs, command_prefix=commands.when_mentioned_or(prefix), intents=intents
         )
         self.logger = logging.getLogger(self.__class__.__name__)
+        self.logger.setLevel(logging.NOTSET)
         self.ext_dir = ext_dir
         self.synced = False
 
     async def on_error(self, event_method: str, *args, **kwargs) -> None:
         self.logger.error(f'An error occurred in {event_method}.\n{traceback.format_exc()}')
+
+    async def on_command_error(self, ctx: commands.Context, error: Exception):
+        # Ignore errors that have their own local handlers or are expected check failures
+        if hasattr(ctx.command, 'on_error') or isinstance(error, commands.CommandNotFound):
+            return
+
+        # Log the unhandled command exception
+        self.logger.error(f'Unhandled exception in command {ctx.command}:', exc_info=error)
+        await ctx.channel.send('Something went wrong.')
 
     async def on_ready(self) -> None:
         emoji_loaded: bool = await load_emoji_cache(self)
@@ -90,36 +137,11 @@ class AsyncXwingBot(commands.Bot):
     def run(self, *args: typing.Any, **kwargs: typing.Any) -> None:
         load_dotenv()
         try:
-            self._setup_logger()
             token: str | None = config.get_value(config.ConfigKey.TOKEN)
             super().run(str(token), log_handler=None, *args, **kwargs)
         except discord.LoginFailure, KeyboardInterrupt:
             self.logger.exception('Failure. Exiting...')
             exit()
-
-    def _setup_logger(self) -> None:
-        logging.getLogger('discord').setLevel(logging.DEBUG)
-        logging.getLogger('discord.http').setLevel(logging.INFO)
-        self.logger.setLevel(logging.DEBUG)
-
-        console_handler = logging.StreamHandler()
-        console_handler.setLevel(logging.INFO)
-
-        file_handler = RotatingFileHandler(
-            filename='xwing.log',
-            encoding='utf-8',
-            maxBytes=32 * 1024 * 1024,  # 32 MiB
-            backupCount=5,  # Rotate through 5 files
-        )
-        formatter = logging.Formatter(
-            fmt='[{asctime}] [{levelname:^10}] {name}: {message}',
-            datefmt='%Y-%m-%d %H:%M:%S',
-            style='{',
-        )
-        console_handler.setFormatter(formatter)
-        file_handler.setFormatter(formatter)
-        self.logger.addHandler(console_handler)
-        self.logger.addHandler(file_handler)
 
     @property
     def user(self) -> discord.ClientUser:
@@ -128,7 +150,7 @@ class AsyncXwingBot(commands.Bot):
 
     @property
     def uptime(self) -> datetime.timedelta:
-        return datetime.datetime.utcnow() - self._uptime
+        return datetime.datetime.now(datetime.timezone.utc) - self._uptime
 
 
 @click.command()
