@@ -25,16 +25,25 @@ maneuver_dial:
     2: blue
     3: white
     4: white
-  bank:
+  bank_left:
     1: blue
     2: blue
     3: white
-  turn:
+  bank_right:
+    1: blue
+    2: blue
+    3: white
+  turn_left:
+    2: white
+    3: white
+  turn_right:
     2: white
     3: white
   koiogran_turn:
     4: red
-  tallon_roll:
+  tallon_roll_left:
+    3: red
+  tallon_roll_right:
     3: red
 pilots:
   jekporkins:

@@ -4,10 +4,10 @@ import discord
 import msgspec
 
 from game import config
-from game.model.gamestate import GameState
+from game.model import Player, GameState
 
 
-def get_game_id_from_channel(game_channel: discord.TextChannel) -> str:
+def get_game_id_from_channel(game_channel: discord.TextChannel | discord.Thread) -> str:
     """
     Extracts the game ID from the channel name.
     All game channels start with the game ID.
@@ -55,7 +55,29 @@ def _(game_id: str) -> GameState:
 
 
 @singledispatch
-def update(identifier, game_state: GameState) -> None:
+def get_player_stats(identifier, player: discord.Member | discord.User) -> Player:
+    raise NotImplementedError()
+
+
+@get_player_stats.register
+def _(
+    game_channel: discord.TextChannel | discord.Thread, player: discord.Member | discord.User
+) -> Player:
+    game_id = get_game_id_from_channel(game_channel)
+    with open(_get_game_state_path_for_game_id(game_id), 'r') as file:
+        file_bytes = file.read()
+        return msgspec.json.decode(file_bytes, type=GameState).players[player.name]
+
+
+@get_player_stats.register
+def _(game_id: str, player: discord.Member | discord.User) -> Player:
+    with open(_get_game_state_path_for_game_id(game_id), 'r') as file:
+        file_bytes = file.read()
+        return msgspec.json.decode(file_bytes, type=GameState).players[player.name]
+
+
+@singledispatch
+def update_game_state(identifier, game_state: GameState) -> None:
     """
     Updates the game state to disk for the given game channel or the game ID.
 
@@ -67,16 +89,16 @@ def update(identifier, game_state: GameState) -> None:
     raise NotImplementedError()
 
 
-@update.register
+@update_game_state.register
 def _(game_channel: discord.TextChannel, game_state: GameState) -> None:
     game_id = get_game_id_from_channel(game_channel)
     updated_game_state = msgspec.json.encode(game_state)
     with open(_get_game_state_path_for_game_id(game_id), 'wb') as file:
-        file.write(updated_game_state)
+        file.write(msgspec.json.format(updated_game_state, indent=4))
 
 
-@update.register
+@update_game_state.register
 def _(game_id: str, game_state: GameState) -> None:
     updated_game_state = msgspec.json.encode(game_state)
     with open(_get_game_state_path_for_game_id(game_id), 'wb') as file:
-        file.write(updated_game_state)
+        file.write(msgspec.json.format(updated_game_state, indent=4))
