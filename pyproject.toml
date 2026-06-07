@@ -9,7 +9,8 @@ dependencies = [
     "dotenv",
     "jishaku>=2.7.5",
     "msgspec",
-    "ruff==0.15.15"
+    "pygame-ce>=2.5.7",
+    "ruff==0.15.15",
 ]
 
 [dependency-groups]
