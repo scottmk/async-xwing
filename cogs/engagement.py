@@ -1,3 +1,4 @@
+import logging
 import random
 from enum import StrEnum
 
@@ -5,7 +6,6 @@ import discord
 from discord import app_commands
 from discord.ext import commands
 
-from main import AsyncXwingBot
 from discord_helpers.emoji import get_emoji
 
 
@@ -50,19 +50,20 @@ class EngagementCog(
     commands.GroupCog, name='engage', description='A cog for handling all Engagement phase commands'
 ):
     def __init__(self, bot):
-        self.bot: AsyncXwingBot = bot
+        self.bot = bot
+        self.logger = logging.getLogger(self.__class__.__name__)
 
     @app_commands.command(name='roll_attack', description='Make an attack roll')
     async def roll_attack(self, interaction: discord.Interaction, num_dice: int) -> None:
-        rolls: list[AttackDie] = [random.choice(ATTACK_DIE_FACES) for i in range(0, num_dice)]
+        rolls: list[AttackDie] = [random.choice(ATTACK_DIE_FACES) for _ in range(0, num_dice)]
 
-        result_str: str = ''.join([get_emoji(interaction, f'die_atk_{roll}') for roll in rolls])
+        result_str: str = ''.join([get_emoji(f'die_atk_{roll}') for roll in rolls])
         await interaction.response.send_message(result_str)
 
     @app_commands.command(name='roll_defense', description='Make a defense')
     async def roll_defense(self, interaction: discord.Interaction, num_dice: int) -> None:
-        rolls: list[DefenseDie] = [random.choice(DEFENSE_DIE_FACES) for i in range(0, num_dice)]
-        result_str: str = ''.join([get_emoji(interaction, f'die_def_{roll}') for roll in rolls])
+        rolls: list[DefenseDie] = [random.choice(DEFENSE_DIE_FACES) for _ in range(0, num_dice)]
+        result_str: str = ''.join([get_emoji(f'die_def_{roll}') for roll in rolls])
         await interaction.response.send_message(result_str)
 
 
