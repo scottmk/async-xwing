@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+from typing import Annotated
+
 from pygame.math import Vector2
 
 import math
@@ -11,14 +13,17 @@ type Radian = float
 class Pose(msgspec.Struct, kw_only=True, frozen=True):
     """An object's position and rotation in a coordinate system."""
 
-    position: Vector2
-    """This object's position."""
-    rotation: Radian
-    """This object's rotation, in Radians. +x is 0. Positive values rotate counter-clockwise."""
+    position: Annotated[Vector2, msgspec.Meta(description="This object's position.")]
+    rotation: Annotated[
+        Radian,
+        msgspec.Meta(
+            description="This object's rotation, in Radians. +x is 0. Positive values rotate counter-clockwise."
+        ),
+    ]
 
     @property
     def forward_vector(self) -> Vector2:
-        """Returns a unit vector pointing in the direction of this object, based on its ''rotation''."""
+        """Returns a unit vector pointing in the direction of this object, based on its ``rotation``."""
         return forward_vector(self.rotation)
 
 
