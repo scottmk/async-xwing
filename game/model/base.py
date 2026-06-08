@@ -1,4 +1,5 @@
 from functools import cache
+import os
 from pathlib import Path
 from typing import Generic, TypeVar
 
@@ -6,8 +7,10 @@ import msgspec
 
 from abc import ABC, ABCMeta, abstractmethod
 
-
-CATALOG_ROOT_PATH: Path = Path('./resources/')
+catalog_root_path_str = os.getenv('CATALOG_ROOT_PATH')
+if catalog_root_path_str is None:
+    raise Exception('CATALOG_ROOT_PATH not set in .env')
+CATALOG_ROOT_PATH: Path = Path(catalog_root_path_str)
 
 
 class BaseStructMeta(msgspec.StructMeta, ABCMeta):
