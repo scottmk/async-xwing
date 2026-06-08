@@ -1,5 +1,3 @@
-from game.measurement.measurement import RangeMeasurement, Size
-
-type Distance = float
-
-__all__ = ['Distance', 'RangeMeasurement', 'Size']
+from .measurement import Distance as Distance
+from .measurement import RangeMeasurement as RangeMeasurement
+from .measurement import Size as Size
