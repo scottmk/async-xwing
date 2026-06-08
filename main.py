@@ -2,6 +2,7 @@ import asyncio
 import datetime
 import logging
 import os
+from pathlib import Path
 import sys
 import time
 import traceback
@@ -55,20 +56,24 @@ if not root_logger.handlers:
 
 
 class AsyncXwingBot(commands.Bot):
-    client: aiohttp.ClientSession
+    client: aiohttp.ClientSession | None = None
     _uptime: datetime.datetime = datetime.datetime.now(datetime.timezone.utc)
 
     def __init__(self, prefix: str, ext_dir: str, *args, **kwargs) -> None:
-        intents = discord.Intents.default()
+        intents: discord.Intents = discord.Intents.default()
         intents.members = True
         intents.message_content = True
         super().__init__(
             *args, **kwargs, command_prefix=commands.when_mentioned_or(prefix), intents=intents
         )
-        self.logger = logging.getLogger(self.__class__.__name__)
+        self.logger: logging.Logger = logging.getLogger(self.__class__.__name__)
         self.logger.setLevel(logging.NOTSET)
-        self.ext_dir = ext_dir
-        self.synced = False
+
+        bot_file_path = Path(__file__).resolve()
+        project_root = bot_file_path.parent
+        self.ext_dir: str = str((project_root / ext_dir).resolve())
+
+        self.synced: bool = False
 
     async def on_error(self, event_method: str, *args, **kwargs) -> None:
         self.logger.error(f'An error occurred in {event_method}.\n{traceback.format_exc()}')
@@ -93,7 +98,8 @@ class AsyncXwingBot(commands.Bot):
         self.logger.info(f'Logged in as {self.user} ({self.user.id})')
 
     async def setup_hook(self) -> None:
-        self.client = aiohttp.ClientSession()
+        if self.client is None or self.client.closed:
+            self.client = aiohttp.ClientSession()
         await self._load_extensions()
         if not self.synced:
             await self.tree.sync()
@@ -105,10 +111,13 @@ class AsyncXwingBot(commands.Bot):
         if not os.path.isdir(self.ext_dir):
             self.logger.error(f'Extension directory {self.ext_dir} does not exist.')
             return
+
+        base_folder_name = os.path.basename(self.ext_dir)
+
         for filename in os.listdir(self.ext_dir):
             if filename.endswith('.py') and not filename.startswith('_'):
                 try:
-                    await self.load_extension(f'{self.ext_dir}.{filename[:-3]}')
+                    await self.load_extension(f'{base_folder_name}.{filename[:-3]}')
                     self.logger.info(f'Loaded extension {filename[:-3]}')
                 except commands.ExtensionError:
                     self.logger.exception(f'Failed to load extension {filename[:-3]}')
@@ -131,8 +140,10 @@ class AsyncXwingBot(commands.Bot):
             await asyncio.sleep(1)
 
     async def close(self) -> None:
+        if self.client and not self.client.closed:
+            await self.client.close()
+            self.client = None
         await super().close()
-        await self.client.close()
 
     def run(self, *args: typing.Any, **kwargs: typing.Any) -> None:
         load_dotenv()

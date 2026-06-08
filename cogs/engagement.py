@@ -49,7 +49,7 @@ DEFENSE_DIE_FACES = [
 class EngagementCog(
     commands.GroupCog, name='engage', description='A cog for handling all Engagement phase commands'
 ):
-    def __init__(self, bot):
+    def __init__(self, bot: commands.Bot):
         self.bot = bot
         self.logger = logging.getLogger(self.__class__.__name__)
 
@@ -67,9 +67,9 @@ class EngagementCog(
         await interaction.response.send_message(result_str)
 
 
-async def setup(bot):
+async def setup(bot: commands.Bot):
     await bot.add_cog(EngagementCog(bot))
 
 
-async def teardown(bot):
-    bot.logger.info('EngagementCog extension unloaded!')
+async def teardown(bot: commands.Bot):
+    bot.logger.info('EngagementCog extension unloaded!')  # type: ignore

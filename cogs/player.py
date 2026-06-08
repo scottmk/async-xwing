@@ -10,7 +10,7 @@ from game.state import get_game_state, get_player_stats, update_game_state
 
 
 class PlayerCog(commands.GroupCog, name='player'):
-    def __init__(self, bot):
+    def __init__(self, bot: commands.Bot):
         self.bot = bot
         self.logger = logging.getLogger(self.__class__.__name__)
 
@@ -137,9 +137,17 @@ class PlayerCog(commands.GroupCog, name='player'):
             )  # FIXME there seems to be an extra newline
             ship.damage_cards = new_dmg_cards
 
-        # TODO tokens
-        # TODO conditions
-        # TODO upgrades
+        if tokens:
+            # TODO tokens
+            response_str_builder.append('> - `tokens`: Not yet implemented')
+
+        if conditions:
+            # TODO conditions
+            response_str_builder.append('> - `conditions`: Not yet implemented')
+
+        if upgrades:
+            # TODO upgrades
+            response_str_builder.append('> - `upgrades`: Not yet implemented')
 
         game_state: GameState = get_game_state(interaction.channel)
         game_state.players[player_stats.name].squad[ship_id] = ship
@@ -170,9 +178,9 @@ class PlayerCog(commands.GroupCog, name='player'):
         await interaction.followup.send('Something went wrong!', ephemeral=True)
 
 
-async def setup(bot):
+async def setup(bot: commands.Bot):
     await bot.add_cog(PlayerCog(bot))
 
 
-async def teardown(bot):
-    bot.logger.info('PlayerCog extension unloaded!')
+async def teardown(bot: commands.Bot):
+    bot.logger.info('PlayerCog extension unloaded!')  # type: ignore

@@ -1,0 +1,89 @@
+{
+    "game_id": "axw_test",
+    "game_name": null,
+    "players": {
+        "TestPlayer": {
+            "name": "TestPlayer",
+            "faction": "rebellion",
+            "squad": {
+                "1": {
+                    "id_": "lukeskywalker",
+                    "ship_name": "T-65 X-wing",
+                    "pilot_name": "• Luke Skywalker",
+                    "faction": "rebellion",
+                    "shields": 2,
+                    "damage_cards": [
+                        {
+                            "id_": "wounded_pilot",
+                            "faceup": false
+                        },
+                        {
+                            "id_": "console_fire",
+                            "faceup": true
+                        }
+                    ],
+                    "force_charges": 1,
+                    "std_charges": null,
+                    "energy_charges": null,
+                    "tokens": {
+                        "focus": 2,
+                        "stress": 1
+                    },
+                    "target_lock": null,
+                    "conditions": [
+                        {
+                            "id_": "marked_for_elimination"
+                        }
+                    ],
+                    "upgrades": [
+                        {
+                            "id_": "attackspeed"
+                        },
+                        {
+                            "id_": "instinctiveaim"
+                        },
+                        {
+                            "id_": "protontorpedoes"
+                        },
+                        {
+                            "id_": "r2d2"
+                        }
+                    ]
+                },
+                "2": {
+                    "id_": "jekporkins",
+                    "ship_name": "T-65 X-wing",
+                    "pilot_name": "• Jek Porkins",
+                    "faction": "rebellion",
+                    "shields": 0,
+                    "damage_cards": [
+                        {
+                            "id_": "panicked_pilot",
+                            "faceup": false
+                        }
+                    ],
+                    "force_charges": null,
+                    "std_charges": null,
+                    "energy_charges": null,
+                    "tokens": {
+                        "focus": 1,
+                        "lock": 1
+                    },
+                    "target_lock": null,
+                    "conditions": [],
+                    "upgrades": [
+                        {
+                            "id_": "advprotontorpedoes"
+                        },
+                        {
+                            "id_": "r5d8"
+                        },
+                        {
+                            "id_": "unstablesublightengines"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

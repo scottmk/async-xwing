@@ -56,7 +56,8 @@ Follow the instructions [here](https://discordpy.readthedocs.io/en/stable/discor
 In your `.env` file, under `TOKEN`, add the following:
 
 ```
-GAME_STATE_PATH='data/gamestates'
+GAME_STATE_PATH='<FULL_WORKSPACE_PATH>/data/gamestates'
+CATALOG_ROOT_PATH='<FULL_WORKSPACE_PATH>/resources'
 GAME_NUMBER='1'
 EMOJI_SERVER_ID='<YOUR_TEST_SERVER_ID>'
 ```
