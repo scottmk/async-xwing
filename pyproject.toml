@@ -17,6 +17,7 @@ dev = [
     "pytest",
     "pytest-bdd",
     "pytest-asyncio",
+    "pytest-dotenv",
     "pre-commit"
 ]
 
@@ -100,3 +101,7 @@ docstring-code-line-length = "dynamic"
 
 [tool.pytest.ini_options]
 pythonpath = ["."]
+env_override_existing = true
+env_files = [
+    ".env"
+]
