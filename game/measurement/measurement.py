@@ -1,7 +1,8 @@
 from dataclasses import dataclass
 from enum import Enum
 
-from game.measurement import Distance
+
+type Distance = float
 
 
 @dataclass(kw_only=True, frozen=True)
