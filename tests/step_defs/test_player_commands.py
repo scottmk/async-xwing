@@ -30,6 +30,7 @@ def bot_is_ready(bot: commands.Bot) -> None:
 
 @given(parsers.cfparse('I am a player "{username}" with two ships "{ship1_num}" and "{ship2_num}"'))
 def setup_two_ships_player(
+    request: pytest.FixtureRequest,
     username: str,
     ship1_num: int,
     ship2_num: int,
@@ -45,6 +46,11 @@ def setup_two_ships_player(
     squad = get_squad_data_for_player(username, 'axw_test_1player_2ships.json')
     context['expected_ship1'] = squad[ship1_num]
     context['expected_ship2'] = squad[ship2_num]
+
+    def delete_file():
+        dest_filepath.unlink(missing_ok=True)
+
+    request.addfinalizer(delete_file)
 
 
 @when(parsers.cfparse('I execute the "/player stats" command for "{username}"'))
