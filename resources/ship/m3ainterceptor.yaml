@@ -1,0 +1,296 @@
+id_: m3ainterceptor
+name: M3-A Interceptor
+size: small
+attacks:
+- arc: front
+  val: 2
+agility_val: 3
+hull_val: 3
+shield_val: 1
+shields_recurring: null
+energy_val: null
+energy_recurring: null
+action_bar:
+- action_name: focus
+  color: white
+  linked_action: null
+- action_name: evade
+  color: white
+  linked_action: null
+- action_name: lock
+  color: white
+  linked_action: null
+- action_name: barrel_roll
+  color: white
+  linked_action: null
+ship_ability:
+  name: Weapon Hardpoint
+  text: You can equip 1 [Cannon], [Torpedo], or [Missile] upgrade.
+  automations: []
+  is_action: false
+maneuver_dial:
+  bank_left:
+    1: blue
+    2: white
+    3: white
+  bank_right:
+    1: blue
+    2: white
+    3: white
+  koiogran_turn:
+    3: red
+    5: red
+  straight:
+    2: blue
+    3: blue
+    4: white
+    5: white
+  turn_left:
+    1: white
+    2: white
+  turn_right:
+    1: white
+    2: white
+pilots:
+  scumandvillainy:
+    cartelspacer:
+      id_: cartelspacer
+      amg_cost: null
+      xwa_cost: 6
+      xwa_restricted_count: 3
+      name: Cartel Spacer
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 1
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability: null
+      flavor_text: MandalMotors' M3-A “Scyk” Interceptor is purchased in large quantities
+        by the Hutt Cartel and the Car'das smugglers due to its low cost and customizability.
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        illicit: 1
+        modification: 1
+      xwa_loadout_val: 0
+    g4rgorvm:
+      id_: g4rgorvm
+      amg_cost: null
+      xwa_cost: 7
+      xwa_restricted_count: null
+      name: • G4R-G0R V/M
+      unique: true
+      limit: 1
+      subtitle: Tilted Droid
+      initiative: 0
+      faction: scumandvillainy
+      is_droid: true
+      pilot_ability:
+        name: null
+        text: After you defend, each other ship at range 0 suffers 1 [Critical Hit]
+          damage.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Droid
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        modification: 1
+      xwa_loadout_val: 7
+    genesisred:
+      id_: genesisred
+      amg_cost: null
+      xwa_cost: 9
+      xwa_restricted_count: null
+      name: • Genesis Red
+      unique: true
+      limit: 1
+      subtitle: Tansarii Point Crime Lord
+      initiative: 4
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After you acquire a lock, you must remove all of your focus and evade
+          tokens. Then, gain the same number of focus and evade tokens that the locked
+          ship has.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        illicit: 1
+        modification: 1
+        talent: 1
+      xwa_loadout_val: 13
+    inaldra:
+      id_: inaldra
+      amg_cost: null
+      xwa_cost: 8
+      xwa_restricted_count: null
+      name: • Inaldra
+      unique: true
+      limit: 1
+      subtitle: Tansarii Point Boss
+      initiative: 2
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you defend or perform an attack, you may suffer 1 [Hit] damage
+          to reroll any number of your dice.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        illicit: 1
+        modification: 1
+      xwa_loadout_val: 10
+    laetinashera:
+      id_: laetinashera
+      amg_cost: null
+      xwa_cost: 9
+      xwa_restricted_count: null
+      name: • Laetin A’shera
+      unique: true
+      limit: 1
+      subtitle: Car’das Enforcer
+      initiative: 3
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After you defend or perform an attack, if the attack missed, gain 1
+          evade token.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        illicit: 1
+        modification: 1
+        talent: 1
+      xwa_loadout_val: 12
+    quinnjast:
+      id_: quinnjast
+      amg_cost: null
+      xwa_cost: 9
+      xwa_restricted_count: null
+      name: • Quinn Jast
+      unique: true
+      limit: 1
+      subtitle: Fortune Seeker
+      initiative: 3
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: At the start of the Engagement Phase, you may gain 1 disarm token to
+          recover 1 [Charge] on 1 of your equipped upgrades.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Bounty Hunter
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        illicit: 1
+        modification: 1
+        talent: 1
+      xwa_loadout_val: 13
+    serissu:
+      id_: serissu
+      amg_cost: null
+      xwa_cost: 10
+      xwa_restricted_count: null
+      name: • Serissu
+      unique: true
+      limit: 1
+      subtitle: Flight Instructor
+      initiative: 5
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While a friendly ship at range 0-1 defends, it may reroll 1 of its dice.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        modification: 1
+        talent: 1
+      xwa_loadout_val: 11
+    sunnybounder:
+      id_: sunnybounder
+      amg_cost: null
+      xwa_cost: 8
+      xwa_restricted_count: null
+      name: • Sunny Bounder
+      unique: true
+      limit: 1
+      subtitle: Incurable Optimist
+      initiative: 1
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you defend or perform an attack, after you roll or reroll your
+          dice, if you have the same result on each of your dice, you may add 1 matching
+          result.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        modification: 1
+      xwa_loadout_val: 12
+    tansariipointveteran:
+      id_: tansariipointveteran
+      amg_cost: null
+      xwa_cost: 8
+      xwa_restricted_count: null
+      name: Tansarii Point Veteran
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 3
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability: null
+      flavor_text: The defeat of Black Sun ace Talonbane Cobra by Car'das smugglers
+        turned the tide of the Battle of Tansarii Point Station. Survivors of the
+        clash are respected throughout the sector.
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        illicit: 1
+        modification: 1
+        talent: 1
+      xwa_loadout_val: 10

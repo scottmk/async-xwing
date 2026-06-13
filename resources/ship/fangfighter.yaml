@@ -1,0 +1,412 @@
+id_: fangfighter
+name: Fang Fighter
+size: small
+attacks:
+- arc: front
+  val: 3
+agility_val: 3
+hull_val: 4
+shield_val: null
+shields_recurring: null
+energy_val: null
+energy_recurring: null
+action_bar:
+- action_name: focus
+  color: white
+  linked_action: null
+- action_name: lock
+  color: white
+  linked_action: null
+- action_name: barrel_roll
+  color: white
+  linked_action:
+    action_name: focus
+    color: red
+    linked_action: null
+- action_name: boost
+  color: white
+  linked_action:
+    action_name: focus
+    color: red
+    linked_action: null
+ship_ability:
+  name: Concordia Faceoff
+  text: While you defend, if the attack range is 1 and you are in the attacker's [Front
+    Arc], change 1 result to an [Evade] result.
+  automations: []
+  is_action: false
+maneuver_dial:
+  bank_left:
+    2: blue
+    3: white
+  bank_right:
+    2: blue
+    3: white
+  koiogran_turn:
+    4: red
+  straight:
+    2: blue
+    3: blue
+    4: white
+    5: white
+  tallon_roll_left:
+    2: red
+  tallon_roll_right:
+    2: red
+  turn_left:
+    1: white
+    2: blue
+    3: white
+  turn_right:
+    1: white
+    2: blue
+    3: white
+pilots:
+  rebelalliance:
+    bodicavenj:
+      id_: bodicavenj
+      amg_cost: null
+      xwa_cost: 12
+      xwa_restricted_count: null
+      name: • Bodica Venj
+      unique: true
+      limit: 1
+      subtitle: Wrathful Warrior
+      initiative: 4
+      faction: rebelalliance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After another friendly ship defends, if you are not depleted, you may
+          perform a bonus primary attack against the attacker. If you do, after performing
+          that attack, gain 1 deplete token.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Mandalorian
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        modification: 2
+        talent: 2
+        torpedo: 1
+      xwa_loadout_val: 13
+    clanwrenvolunteer:
+      id_: clanwrenvolunteer
+      amg_cost: null
+      xwa_cost: 10
+      xwa_restricted_count: null
+      name: •• Clan Wren Volunteer
+      unique: false
+      limit: 2
+      subtitle: Unlikely Ally
+      initiative: 3
+      faction: rebelalliance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you perform an attack at range 1, if the speed of your revealed
+          maneuver matches that of a friendly ship at range 1, you may reroll 1 attack
+          die.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Mandalorian
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        modification: 2
+        talent: 1
+        torpedo: 1
+      xwa_loadout_val: 10
+    dirkullodin:
+      id_: dirkullodin
+      amg_cost: null
+      xwa_cost: 11
+      xwa_restricted_count: null
+      name: • Dirk Ullodin
+      unique: true
+      limit: 1
+      subtitle: Aspiring Commando
+      initiative: 3
+      faction: rebelalliance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After you fully execute a red maneuver or perform a red action, you
+          may acquire a lock on an enemy ship in your [Front Arc] at range 1.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Mandalorian
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        modification: 2
+        talent: 1
+        torpedo: 1
+      xwa_loadout_val: 13
+    fennrau-fangfighter:
+      id_: fennrau-fangfighter
+      amg_cost: null
+      xwa_cost: 13
+      xwa_restricted_count: null
+      name: • Fenn Rau
+      unique: true
+      limit: 1
+      subtitle: Mandalorian Protector
+      initiative: 6
+      faction: rebelalliance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: Before a friendly ship at range 1-2 engages, if there is an enemy ship
+          in its [Front Arc] at range 1, that friendly ship may remove 1 non-lock
+          red token.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Mandalorian
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        modification: 2
+        talent: 2
+        torpedo: 1
+      xwa_loadout_val: 10
+  scumandvillainy:
+    fennrau:
+      id_: fennrau
+      amg_cost: null
+      xwa_cost: 16
+      xwa_restricted_count: null
+      name: • Fenn Rau
+      unique: true
+      limit: 1
+      subtitle: Skull Leader
+      initiative: 6
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you defend or perform an attack, if the attack range is 1, you
+          may roll 1 additional die.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Mandalorian
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        modification: 2
+        talent: 2
+        torpedo: 1
+      xwa_loadout_val: 12
+    joyrekkoff:
+      id_: joyrekkoff
+      amg_cost: null
+      xwa_cost: 11
+      xwa_restricted_count: null
+      name: • Joy Rekkoff
+      unique: true
+      limit: 1
+      subtitle: Skull Squadron Ace
+      initiative: 4
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you perform an attack, you may spend 1 [Charge] from an equipped
+          [Torpedo] upgrade. If you do, the defender rolls 1 fewer defense die.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Mandalorian
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        modification: 2
+        talent: 1
+        torpedo: 1
+      xwa_loadout_val: 10
+    kadsolus:
+      id_: kadsolus
+      amg_cost: null
+      xwa_cost: 11
+      xwa_restricted_count: null
+      name: • Kad Solus
+      unique: true
+      limit: 1
+      subtitle: Skilled Commando
+      initiative: 4
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After you fully execute a red maneuver, gain 2 focus tokens.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Mandalorian
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        modification: 2
+        talent: 1
+        torpedo: 1
+      xwa_loadout_val: 11
+    mandalorianroyalguard:
+      id_: mandalorianroyalguard
+      amg_cost: null
+      xwa_cost: 12
+      xwa_restricted_count: null
+      name: •• Mandalorian Royal Guard
+      unique: false
+      limit: 2
+      subtitle: Selfless Protector
+      initiative: 4
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While a friendly non-small ship defends, if you are in the attack arc,
+          you may gain 1 deplete and 1 strain token. If you do, the defender may change
+          1 result to an [Evade] result.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Mandalorian
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        modification: 2
+        talent: 1
+        torpedo: 1
+      xwa_loadout_val: 15
+    oldteroch:
+      id_: oldteroch
+      amg_cost: null
+      xwa_cost: 12
+      xwa_restricted_count: null
+      name: • Old Teroch
+      unique: true
+      limit: 1
+      subtitle: Mandalorian Mentor
+      initiative: 5
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: At the start of the Engagement Phase, you may choose 1 enemy ship at
+          range 1. If you do and you are in its [Front Arc], it removes all of its
+          green tokens.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Mandalorian
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        modification: 2
+        talent: 1
+        torpedo: 1
+      xwa_loadout_val: 8
+    skullsquadronpilot:
+      id_: skullsquadronpilot
+      amg_cost: null
+      xwa_cost: 11
+      xwa_restricted_count: null
+      name: Skull Squadron Pilot
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 4
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability: null
+      flavor_text: The aces of Skull Squadron favor an aggressive approach, using
+        their craft's pivot wing technology to achieve unmatched agility in the pursuit
+        of their quarry.
+      charges: null
+      keywords:
+      - Mandalorian
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        modification: 2
+        talent: 1
+        torpedo: 1
+      xwa_loadout_val: 10
+    torphun:
+      id_: torphun
+      amg_cost: null
+      xwa_cost: 11
+      xwa_restricted_count: null
+      name: • Tor Phun
+      unique: true
+      limit: 1
+      subtitle: Direct Pressure
+      initiative: 3
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After you perform an attack, if the defender was destroyed, you may
+          perform an action, even while stressed. Then you may gain 2 strain tokens
+          to perform a bonus attack.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Mandalorian
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        modification: 2
+        talent: 1
+        torpedo: 1
+      xwa_loadout_val: 8
+    zealousrecruit:
+      id_: zealousrecruit
+      amg_cost: null
+      xwa_cost: 10
+      xwa_restricted_count: null
+      name: Zealous Recruit
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 1
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability: null
+      flavor_text: Mandalorian Fang fighter pilots must master the Concordia Faceoff
+        maneuver, leveraging their ships' narrow attack profile to execute deadly
+        head-on charges.
+      charges: null
+      keywords:
+      - Mandalorian
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        modification: 2
+        torpedo: 1
+      xwa_loadout_val: 10

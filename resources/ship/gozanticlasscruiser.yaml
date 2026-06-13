@@ -1,0 +1,109 @@
+id_: gozanticlasscruiser
+name: Gozanti-class Cruiser
+size: huge
+attacks:
+- arc: front
+  val: 3
+agility_val: 0
+hull_val: 11
+shield_val: 5
+shields_recurring: 1
+energy_val: 3
+energy_recurring: 1
+action_bar:
+- action_name: focus
+  color: white
+  linked_action: null
+- action_name: lock
+  color: white
+  linked_action: null
+- action_name: coordinate
+  color: white
+  linked_action: null
+- action_name: reinforce
+  color: white
+  linked_action: null
+- action_name: jam
+  color: white
+  linked_action: null
+ship_ability:
+  name: Docking Clamps
+  text: You can dock up to 4 small ships.
+  automations: []
+  is_action: false
+maneuver_dial:
+  bank_left:
+    0: red
+    1: white
+    2: red
+  bank_right:
+    0: red
+    1: white
+    2: red
+  stationary:
+    0: red
+  straight:
+    1: blue
+    2: blue
+    3: blue
+    4: red
+pilots:
+  firstorder:
+    firstordersympathizers:
+      id_: firstordersympathizers
+      amg_cost: null
+      xwa_cost: 25
+      xwa_restricted_count: null
+      name: First Order Sympathizers
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 7
+      faction: firstorder
+      is_droid: false
+      pilot_ability: null
+      flavor_text: The First Order's swift rise to power rests upon ruthless innovation.
+        However, sympathizers often repurpose Imperial designs, like the venerable
+        Gozanti-class cruiser, in surveillance and patrol operations.
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        cargo: 2
+        command: 1
+        crew: 2
+        gunner: 1
+        hardpoint: 1
+        team: 1
+      xwa_loadout_val: 40
+  galacticempire:
+    outerrimgarrison:
+      id_: outerrimgarrison
+      amg_cost: null
+      xwa_cost: 26
+      xwa_restricted_count: null
+      name: Outer Rim Garrison
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 7
+      faction: galacticempire
+      is_droid: false
+      pilot_ability: null
+      flavor_text: Capable of carrying TIE fighters and operating independently for
+        long periods of time, the Gozanti-class cruiser is a common sight in the skies
+        of downtrodden worlds across the Outer Rim.
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        cargo: 2
+        command: 1
+        crew: 2
+        gunner: 1
+        hardpoint: 1
+        team: 1
+        title: 1
+      xwa_loadout_val: 40

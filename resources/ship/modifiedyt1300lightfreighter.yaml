@@ -1,0 +1,227 @@
+id_: modifiedyt1300lightfreighter
+name: Modified YT-1300 Light Freighter
+size: large
+attacks:
+- arc: double_turret
+  val: 3
+agility_val: 1
+hull_val: 8
+shield_val: 5
+shields_recurring: null
+energy_val: null
+energy_recurring: null
+action_bar:
+- action_name: focus
+  color: white
+  linked_action: null
+- action_name: lock
+  color: white
+  linked_action: null
+- action_name: boost
+  color: red
+  linked_action: null
+- action_name: rotate
+  color: white
+  linked_action: null
+ship_ability: null
+maneuver_dial:
+  bank_left:
+    1: white
+    2: blue
+    3: white
+  bank_right:
+    1: white
+    2: blue
+    3: white
+  koiogran_turn:
+    4: red
+  segnors_loop_left:
+    3: red
+  segnors_loop_right:
+    3: red
+  straight:
+    1: blue
+    2: blue
+    3: blue
+    4: white
+  turn_left:
+    2: white
+    3: white
+  turn_right:
+    2: white
+    3: white
+pilots:
+  rebelalliance:
+    chewbacca:
+      id_: chewbacca
+      amg_cost: null
+      xwa_cost: 16
+      xwa_restricted_count: null
+      name: • Chewbacca
+      unique: true
+      limit: 1
+      subtitle: The Mighty
+      initiative: 4
+      faction: rebelalliance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: Before you would be dealt a faceup damage card, you may spend 1 [Charge]
+          to be dealt the card facedown instead.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges:
+        standard:
+          limit: 1
+          recurring_val: 1
+      keywords:
+      - Freighter
+      - YT-1300
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 3
+        gunner: 1
+        illicit: 1
+        missile: 1
+        modification: 2
+        talent: 1
+        title: 1
+      xwa_loadout_val: 15
+    hansolo-modifiedyt1300lightfreighter:
+      id_: hansolo-modifiedyt1300lightfreighter
+      amg_cost: null
+      xwa_cost: 19
+      xwa_restricted_count: null
+      name: • Han Solo
+      unique: true
+      limit: 1
+      subtitle: Scoundrel for Hire
+      initiative: 6
+      faction: rebelalliance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After you roll dice, if you are at range 0-1 of an obstacle, you may
+          reroll all of your dice. This does not count as rerolling for the purpose
+          of other effects.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Freighter
+      - YT-1300
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 3
+        gunner: 1
+        illicit: 1
+        missile: 1
+        modification: 2
+        talent: 2
+        title: 1
+      xwa_loadout_val: 18
+    landocalrissian-modifiedyt1300lightfreighter:
+      id_: landocalrissian-modifiedyt1300lightfreighter
+      amg_cost: null
+      xwa_cost: 18
+      xwa_restricted_count: null
+      name: • Lando Calrissian
+      unique: true
+      limit: 1
+      subtitle: General of the Alliance
+      initiative: 5
+      faction: rebelalliance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After you fully execute a blue maneuver, you may choose a friendly ship
+          at range 0-3. That ship may perform an action.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Freighter
+      - YT-1300
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 3
+        gunner: 1
+        illicit: 1
+        missile: 1
+        modification: 2
+        talent: 1
+        title: 1
+      xwa_loadout_val: 16
+    leiaorgana:
+      id_: leiaorgana
+      amg_cost: null
+      xwa_cost: 18
+      xwa_restricted_count: null
+      name: • Leia Organa
+      unique: true
+      limit: 1
+      subtitle: There Is Another
+      initiative: 5
+      faction: rebelalliance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After a friendly ship fully executes a red maneuver, if it is at range
+          0-3, you may spend 1 [Force]. If you do, that ship gains 1 focus token or
+          recovers 1 [Force].
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges:
+        force:
+          limit: 1
+          recurring_val: 1
+      keywords:
+      - Freighter
+      - Light Side
+      - YT-1300
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 3
+        force_power: 1
+        gunner: 1
+        illicit: 1
+        missile: 1
+        modification: 2
+        title: 1
+      xwa_loadout_val: 16
+    outerrimsmuggler:
+      id_: outerrimsmuggler
+      amg_cost: null
+      xwa_cost: 16
+      xwa_restricted_count: null
+      name: Outer Rim Smuggler
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 1
+      faction: rebelalliance
+      is_droid: false
+      pilot_ability: null
+      flavor_text: Known for its durability and modular design, the YT-1300 is one
+        of the most popular, widely used, and extensively customized freighters in
+        the galaxy.
+      charges: null
+      keywords:
+      - Freighter
+      - YT-1300
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 2
+        illicit: 1
+        missile: 1
+        modification: 2
+      xwa_loadout_val: 13

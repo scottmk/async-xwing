@@ -1,0 +1,276 @@
+id_: nabooroyaln1starfighter
+name: Naboo Royal N-1 Starfighter
+size: small
+attacks:
+- arc: front
+  val: 2
+agility_val: 2
+hull_val: 3
+shield_val: 2
+shields_recurring: null
+energy_val: null
+energy_recurring: null
+action_bar:
+- action_name: focus
+  color: white
+  linked_action: null
+- action_name: lock
+  color: white
+  linked_action: null
+- action_name: barrel_roll
+  color: white
+  linked_action: null
+- action_name: boost
+  color: white
+  linked_action: null
+ship_ability:
+  name: Full Throttle
+  text: After you fully execute a speed 3-5 maneuver, you may perform an [Evade] action.
+  automations: []
+  is_action: false
+maneuver_dial:
+  bank_left:
+    1: white
+    2: blue
+    3: blue
+  bank_right:
+    1: white
+    2: blue
+    3: blue
+  straight:
+    1: white
+    2: blue
+    3: blue
+    4: white
+    5: white
+  tallon_roll_left:
+    3: red
+  tallon_roll_right:
+    3: red
+  turn_left:
+    2: white
+    3: white
+  turn_right:
+    2: white
+    3: white
+pilots:
+  galacticrepublic:
+    anakinskywalker-nabooroyaln1starfighter:
+      id_: anakinskywalker-nabooroyaln1starfighter
+      amg_cost: null
+      xwa_cost: 9
+      xwa_restricted_count: null
+      name: • Anakin Skywalker
+      unique: true
+      limit: 1
+      subtitle: Hero of Naboo
+      initiative: 4
+      faction: galacticrepublic
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: Before you reveal your maneuver, you may spend 1 [Force] to barrel roll
+          (this is not an action).
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges:
+        force:
+          limit: 1
+          recurring_val: 1
+      keywords:
+      - Light Side
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        astromech: 1
+        force_power: 1
+        modification: 1
+        sensor: 1
+        talent: 1
+        tech: 1
+        torpedo: 1
+      xwa_loadout_val: 9
+    bravoflightofficer:
+      id_: bravoflightofficer
+      amg_cost: null
+      xwa_cost: 7
+      xwa_restricted_count: null
+      name: Bravo Flight Officer
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 2
+      faction: galacticrepublic
+      is_droid: false
+      pilot_ability: null
+      flavor_text: The volunteer pilots of the Royal Naboo Security Force are dedicated
+        to protecting the people and ideals of their homeworld, and trust their Queen
+        to send them into battle only when all other options have failed.
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        astromech: 1
+        modification: 1
+        sensor: 1
+        talent: 1
+        tech: 1
+        torpedo: 1
+      xwa_loadout_val: 3
+    dineeellberger:
+      id_: dineeellberger
+      amg_cost: null
+      xwa_cost: 10
+      xwa_restricted_count: null
+      name: • Dineé Ellberger
+      unique: true
+      limit: 1
+      subtitle: Bravo Five
+      initiative: 3
+      faction: galacticrepublic
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you defend or perform an attack, if the speed of your revealed
+          maneuver is the same as the enemy ship's, that ship's dice cannot be modified.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        astromech: 1
+        modification: 1
+        sensor: 1
+        talent: 1
+        tech: 1
+        torpedo: 1
+      xwa_loadout_val: 16
+    gavynsykes:
+      id_: gavynsykes
+      amg_cost: null
+      xwa_cost: 9
+      xwa_restricted_count: null
+      name: • Gavyn Sykes
+      unique: true
+      limit: 1
+      subtitle: Bravo Three
+      initiative: 3
+      faction: galacticrepublic
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you defend or perform an attack, if the speed of your revealed
+          maneuver is greater than the enemy ship's, you may reroll your blank results.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        astromech: 1
+        modification: 1
+        sensor: 1
+        talent: 1
+        tech: 1
+        torpedo: 1
+      xwa_loadout_val: 13
+    naboohandmaiden:
+      id_: naboohandmaiden
+      amg_cost: null
+      xwa_cost: 8
+      xwa_restricted_count: null
+      name: •• Naboo Handmaiden
+      unique: false
+      limit: 2
+      subtitle: Regal Ruse
+      initiative: 1
+      faction: galacticrepublic
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: 'Setup: After placing forces, assign the Decoyed condition to 1 friendly
+          ship other than Naboo Handmaiden.'
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        astromech: 1
+        modification: 1
+        sensor: 1
+        talent: 1
+        tech: 1
+        torpedo: 1
+      xwa_loadout_val: 4
+    padmeamidala:
+      id_: padmeamidala
+      amg_cost: null
+      xwa_cost: 10
+      xwa_restricted_count: null
+      name: • Padmé Amidala
+      unique: true
+      limit: 1
+      subtitle: Aggressive Negotiator
+      initiative: 4
+      faction: galacticrepublic
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While an enemy ship in your [Front Arc] defends or performs an attack,
+          that ship can modify only 1 [Focus] result (other results can still be modified).
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        astromech: 1
+        modification: 1
+        sensor: 1
+        talent: 1
+        tech: 1
+        torpedo: 1
+      xwa_loadout_val: 13
+    ricolie:
+      id_: ricolie
+      amg_cost: null
+      xwa_cost: 11
+      xwa_restricted_count: null
+      name: • Ric Olié
+      unique: true
+      limit: 1
+      subtitle: Bravo Leader
+      initiative: 5
+      faction: galacticrepublic
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you defend or perform a primary attack, if the speed of your revealed
+          maneuver is higher than the enemy ship's, roll 1 additional die.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        astromech: 1
+        modification: 1
+        sensor: 1
+        talent: 2
+        tech: 1
+        torpedo: 1
+      xwa_loadout_val: 16

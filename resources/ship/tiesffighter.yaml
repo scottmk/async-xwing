@@ -1,0 +1,263 @@
+id_: tiesffighter
+name: TIE/sf Fighter
+size: small
+attacks:
+- arc: front
+  val: 2
+- arc: single_turret
+  val: 2
+agility_val: 2
+hull_val: 3
+shield_val: 3
+shields_recurring: null
+energy_val: null
+energy_recurring: null
+action_bar:
+- action_name: focus
+  color: white
+  linked_action:
+    action_name: rotate
+    color: white
+    linked_action: null
+- action_name: evade
+  color: white
+  linked_action:
+    action_name: rotate
+    color: white
+    linked_action: null
+- action_name: lock
+  color: white
+  linked_action:
+    action_name: rotate
+    color: white
+    linked_action: null
+- action_name: barrel_roll
+  color: white
+  linked_action:
+    action_name: rotate
+    color: white
+    linked_action: null
+ship_ability:
+  name: Heavy Weapon Turret
+  text: You can rotate your [Single Turret Arc] indicator only to your [Front Arc]
+    or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile]
+    upgrades as [Single Turret Arc].
+  automations: []
+  is_action: false
+maneuver_dial:
+  bank_left:
+    1: blue
+    2: blue
+    3: white
+  bank_right:
+    1: blue
+    2: blue
+    3: white
+  segnors_loop_left:
+    3: red
+  segnors_loop_right:
+    3: red
+  straight:
+    1: blue
+    2: blue
+    3: blue
+    4: white
+    5: white
+  turn_left:
+    1: red
+    2: white
+    3: white
+  turn_right:
+    1: red
+    2: white
+    3: white
+pilots:
+  firstorder:
+    backdraft:
+      id_: backdraft
+      amg_cost: null
+      xwa_cost: 11
+      xwa_restricted_count: null
+      name: • “Backdraft”
+      unique: true
+      limit: 1
+      subtitle: Fiery Fanatic
+      initiative: 4
+      faction: firstorder
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you perform a [Single Turret Arc] primary attack, if the defender
+          is in your [Rear Arc], roll 1 additional die.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        gunner: 1
+        missile: 1
+        modification: 2
+        sensor: 1
+        talent: 1
+        tech: 1
+      xwa_loadout_val: 15
+    captainphasma:
+      id_: captainphasma
+      amg_cost: null
+      xwa_cost: 10
+      xwa_restricted_count: null
+      name: • Captain Phasma
+      unique: true
+      limit: 1
+      subtitle: Scyre Survivor
+      initiative: 4
+      faction: firstorder
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you defend, after the Neutralize Results step, another friendly
+          ship at range 0-1 must suffer 1 [Hit]/[Critical Hit] damage to cancel 1
+          matching result.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        gunner: 1
+        missile: 1
+        modification: 1
+        sensor: 1
+        talent: 1
+        tech: 1
+      xwa_loadout_val: 15
+    lieutenantlehuse:
+      id_: lieutenantlehuse
+      amg_cost: null
+      xwa_cost: 12
+      xwa_restricted_count: null
+      name: • Lieutenant LeHuse
+      unique: true
+      limit: 1
+      subtitle: Unflinching Executioner
+      initiative: 5
+      faction: firstorder
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you perform an attack, you may spend another friendly ship's lock
+          on the defender to reroll any number of your results.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        gunner: 1
+        missile: 1
+        modification: 2
+        sensor: 1
+        talent: 1
+        tech: 1
+      xwa_loadout_val: 20
+    omegasquadronexpert:
+      id_: omegasquadronexpert
+      amg_cost: null
+      xwa_cost: 11
+      xwa_restricted_count: null
+      name: Omega Squadron Expert
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 3
+      faction: firstorder
+      is_droid: false
+      pilot_ability: null
+      flavor_text: The TIE/sf is a versatile starfighter that carries specialized
+        armament and experimental systems for long-range operations by First Order
+        Special Forces.
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        gunner: 1
+        missile: 1
+        modification: 1
+        sensor: 1
+        talent: 1
+        tech: 1
+      xwa_loadout_val: 19
+    quickdraw:
+      id_: quickdraw
+      amg_cost: null
+      xwa_cost: 14
+      xwa_restricted_count: null
+      name: • “Quickdraw”
+      unique: true
+      limit: 1
+      subtitle: Defiant Duelist
+      initiative: 6
+      faction: firstorder
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After you lose a shield, you may spend 1 [Charge]. If you do, you may
+          perform a bonus primary attack.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges:
+        standard:
+          limit: 1
+          recurring_val: 1
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        gunner: 1
+        missile: 1
+        modification: 2
+        sensor: 1
+        talent: 2
+        tech: 1
+      xwa_loadout_val: 24
+    zetasquadronsurvivor:
+      id_: zetasquadronsurvivor
+      amg_cost: null
+      xwa_cost: 10
+      xwa_restricted_count: null
+      name: Zeta Squadron Survivor
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 2
+      faction: firstorder
+      is_droid: false
+      pilot_ability: null
+      flavor_text: Humiliated by their failure, the remaining pilots from Starkiller
+        Base are eager to prove their worth in pursuit of the Resistance.
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        gunner: 1
+        missile: 1
+        modification: 1
+        sensor: 1
+        tech: 1
+      xwa_loadout_val: 16

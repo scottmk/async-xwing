@@ -1,0 +1,223 @@
+id_: tieskstriker
+name: TIE/sk Striker
+size: small
+attacks:
+- arc: front
+  val: 3
+agility_val: 2
+hull_val: 4
+shield_val: null
+shields_recurring: null
+energy_val: null
+energy_recurring: null
+action_bar:
+- action_name: focus
+  color: white
+  linked_action: null
+- action_name: evade
+  color: white
+  linked_action: null
+- action_name: barrel_roll
+  color: white
+  linked_action: null
+ship_ability:
+  name: Adaptive Ailerons
+  text: Before you reveal your dial, if you are not stressed, you must boost.
+  automations: []
+  is_action: false
+maneuver_dial:
+  bank_left:
+    1: blue
+    2: blue
+    3: white
+  bank_right:
+    1: blue
+    2: blue
+    3: white
+  koiogran_turn:
+    1: red
+  segnors_loop_left:
+    2: red
+  segnors_loop_right:
+    2: red
+  straight:
+    1: blue
+    2: blue
+    3: blue
+  turn_left:
+    1: white
+    2: white
+  turn_right:
+    1: white
+    2: white
+pilots:
+  galacticempire:
+    blacksquadronscout:
+      id_: blacksquadronscout
+      amg_cost: null
+      xwa_cost: 9
+      xwa_restricted_count: null
+      name: Black Squadron Scout
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 3
+      faction: galacticempire
+      is_droid: false
+      pilot_ability: null
+      flavor_text: These heavily armed atmospheric craft employ their specialized
+        moveable wings to gain additional speed and maneuverability.
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        gunner: 1
+        modification: 1
+        payload: 1
+        talent: 1
+      xwa_loadout_val: 10
+    countdown:
+      id_: countdown
+      amg_cost: null
+      xwa_cost: 10
+      xwa_restricted_count: null
+      name: • “Countdown”
+      unique: true
+      limit: 1
+      subtitle: Death Defier
+      initiative: 4
+      faction: galacticempire
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you defend, after the Neutralize Results step, if you are not
+          stressed, you may suffer 1 [Hit] damage and gain 1 stress token. If you
+          do, cancel all dice results.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        gunner: 1
+        payload: 1
+      xwa_loadout_val: 12
+    duchess:
+      id_: duchess
+      amg_cost: null
+      xwa_cost: 11
+      xwa_restricted_count: null
+      name: • “Duchess”
+      unique: true
+      limit: 1
+      subtitle: Urbane Ace
+      initiative: 5
+      faction: galacticempire
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: You may choose not to use your Adaptive Ailerons. You may use your Adaptive
+          Ailerons even while stressed.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        gunner: 1
+        modification: 2
+        payload: 1
+        talent: 1
+      xwa_loadout_val: 19
+    planetarysentinel:
+      id_: planetarysentinel
+      amg_cost: null
+      xwa_cost: 8
+      xwa_restricted_count: null
+      name: Planetary Sentinel
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 1
+      faction: galacticempire
+      is_droid: false
+      pilot_ability: null
+      flavor_text: To protect its many military installations, the Empire requires
+        a swift and vigilant defense force.
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        gunner: 1
+        modification: 1
+        payload: 1
+      xwa_loadout_val: 5
+    puresabacc:
+      id_: puresabacc
+      amg_cost: null
+      xwa_cost: 10
+      xwa_restricted_count: null
+      name: • “Pure Sabacc”
+      unique: true
+      limit: 1
+      subtitle: Confident Gambler
+      initiative: 4
+      faction: galacticempire
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you perform an attack, if you have 1 or fewer damage cards, you
+          may roll 1 additional attack die.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        gunner: 1
+        modification: 1
+        payload: 1
+        talent: 1
+      xwa_loadout_val: 13
+    vagabond:
+      id_: vagabond
+      amg_cost: null
+      xwa_cost: 9
+      xwa_restricted_count: null
+      name: • “Vagabond”
+      unique: true
+      limit: 1
+      subtitle: Destitute Demolitionist
+      initiative: 2
+      faction: galacticempire
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After you fully execute a maneuver using your Adaptive Ailerons, if
+          you are not stressed, you may drop 1 device.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        gunner: 1
+        modification: 1
+        payload: 1
+      xwa_loadout_val: 16

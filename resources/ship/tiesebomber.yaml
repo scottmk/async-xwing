@@ -1,0 +1,288 @@
+id_: tiesebomber
+name: TIE/se Bomber
+size: small
+attacks:
+- arc: front
+  val: 2
+agility_val: 2
+hull_val: 4
+shield_val: 2
+shields_recurring: null
+energy_val: null
+energy_recurring: null
+action_bar:
+- action_name: focus
+  color: white
+  linked_action: null
+- action_name: lock
+  color: white
+  linked_action: null
+- action_name: barrel_roll
+  color: white
+  linked_action:
+    action_name: lock
+    color: red
+    linked_action: null
+- action_name: boost
+  color: red
+  linked_action: null
+- action_name: reload
+  color: white
+  linked_action:
+    action_name: evade
+    color: red
+    linked_action: null
+ship_ability:
+  name: Pursuit Thrusters
+  text: During the System Phase, you may perform a [Boost] action.
+  automations: []
+  is_action: false
+maneuver_dial:
+  bank_left:
+    1: white
+    2: white
+    3: white
+  bank_right:
+    1: white
+    2: white
+    3: white
+  segnors_loop_left:
+    3: red
+  segnors_loop_right:
+    3: red
+  straight:
+    1: blue
+    2: blue
+    3: blue
+    4: white
+  turn_left:
+    1: red
+    2: white
+    3: white
+  turn_right:
+    1: red
+    2: white
+    3: white
+pilots:
+  firstorder:
+    breach:
+      id_: breach
+      amg_cost: null
+      xwa_cost: 11
+      xwa_restricted_count: null
+      name: • “Breach”
+      unique: true
+      limit: 1
+      subtitle: Ordnance Expert
+      initiative: 5
+      faction: firstorder
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After you fully execute a maneuver or perform a [Boost] action, if you
+          moved through an enemy ship, you may acquire a lock on that ship.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        gunner: 1
+        missile: 1
+        modification: 1
+        payload: 2
+        talent: 1
+        tech: 1
+        torpedo: 1
+      xwa_loadout_val: 19
+    dread:
+      id_: dread
+      amg_cost: null
+      xwa_cost: 9
+      xwa_restricted_count: null
+      name: • “Dread”
+      unique: true
+      limit: 1
+      subtitle: Devotee of Devastation
+      initiative: 3
+      faction: firstorder
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After you reload, each ship in your [Bullseye Arc] gains 1 deplete token.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        gunner: 1
+        missile: 2
+        modification: 1
+        payload: 2
+        talent: 1
+        tech: 1
+      xwa_loadout_val: 9
+    firstordercadet:
+      id_: firstordercadet
+      amg_cost: null
+      xwa_cost: 11
+      xwa_restricted_count: null
+      name: First Order Cadet
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 3
+      faction: firstorder
+      is_droid: false
+      pilot_ability: null
+      flavor_text: The live-fire exercises of the First Order are intended to root
+        out the weak, enforcing the maxim that only the strong survive.
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        gunner: 1
+        missile: 1
+        modification: 1
+        payload: 2
+        tech: 1
+        torpedo: 1
+      xwa_loadout_val: 19
+    grudge:
+      id_: grudge
+      amg_cost: null
+      xwa_cost: 10
+      xwa_restricted_count: null
+      name: • “Grudge”
+      unique: true
+      limit: 1
+      subtitle: Hateful Harrier
+      initiative: 2
+      faction: firstorder
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While a friendly bomb or mine at range 0-2 detonates, each time attack
+          dice are rolled to resolve its effect, you may reroll up to 1 of those dice.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        gunner: 1
+        missile: 1
+        modification: 1
+        payload: 2
+        tech: 1
+        torpedo: 1
+      xwa_loadout_val: 15
+    juljerjerrod:
+      id_: juljerjerrod
+      amg_cost: null
+      xwa_cost: 10
+      xwa_restricted_count: null
+      name: • Jul Jerjerrod
+      unique: true
+      limit: 1
+      subtitle: Security Commander
+      initiative: 4
+      faction: firstorder
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After you perform a [Boost] action, you may spend 1 [Charge] to remove
+          1 non-lock red or orange token.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges:
+        standard:
+          limit: 3
+          recurring_val: 0
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        gunner: 1
+        missile: 1
+        modification: 1
+        payload: 2
+        talent: 1
+        tech: 1
+        torpedo: 1
+      xwa_loadout_val: 14
+    scorch-tiesebomber:
+      id_: scorch-tiesebomber
+      amg_cost: null
+      xwa_cost: 10
+      xwa_restricted_count: null
+      name: • “Scorch”
+      unique: true
+      limit: 1
+      subtitle: Jad Bean
+      initiative: 4
+      faction: firstorder
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While a friendly ship at range 0-1 performs a primary attack, it may
+          spend 1 [Hit] result. If it does, after defending, the defender gains 1
+          strain token.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        gunner: 1
+        missile: 2
+        modification: 1
+        payload: 2
+        talent: 1
+        tech: 1
+      xwa_loadout_val: 12
+    sienarjaemustestpilot:
+      id_: sienarjaemustestpilot
+      amg_cost: null
+      xwa_cost: 9
+      xwa_restricted_count: null
+      name: Sienar-Jaemus Test Pilot
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 2
+      faction: firstorder
+      is_droid: false
+      pilot_ability: null
+      flavor_text: Equipped with four laser cannons and advanced systems, the TIE/se
+        bomber is a remarkably maneuverable craft that brings devastating ordnance
+        to bear against any who dare to stand against the First Order.
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        gunner: 1
+        missile: 2
+        modification: 1
+        payload: 2
+        tech: 1
+      xwa_loadout_val: 9

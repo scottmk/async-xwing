@@ -1,0 +1,172 @@
+id_: quadrijettransferspacetug
+name: Quadrijet Transfer Spacetug
+size: small
+attacks:
+- arc: front
+  val: 2
+agility_val: 2
+hull_val: 5
+shield_val: null
+shields_recurring: null
+energy_val: null
+energy_recurring: null
+action_bar:
+- action_name: focus
+  color: white
+  linked_action: null
+- action_name: evade
+  color: red
+  linked_action: null
+- action_name: barrel_roll
+  color: white
+  linked_action: null
+ship_ability:
+  name: Spacetug Tractor Array
+  text: 'Action: Choose a ship in your [Front Arc] at range 1. That ship gains 1 tractor
+    token, or 2 tractor tokens if it is in your [Bullseye Arc] at range 1.'
+  automations: []
+  is_action: true
+maneuver_dial:
+  bank_left:
+    1: white
+    2: blue
+    3: white
+  bank_right:
+    1: white
+    2: blue
+    3: white
+  reverse_bank_left:
+    1: red
+  reverse_bank_right:
+    1: red
+  reverse_straight:
+    2: red
+  segnors_loop_left:
+    2: red
+  segnors_loop_right:
+    2: red
+  straight:
+    1: white
+    2: blue
+    3: blue
+  turn_left:
+    1: white
+    2: white
+  turn_right:
+    1: white
+    2: white
+pilots:
+  scumandvillainy:
+    constablezuvio:
+      id_: constablezuvio
+      amg_cost: null
+      xwa_cost: 10
+      xwa_restricted_count: null
+      name: • Constable Zuvio
+      unique: true
+      limit: 1
+      subtitle: Missing Sheriff of Niima Outpost
+      initiative: 4
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: If you would drop a device, you may launch it using a [1 [Straight]]
+          template instead.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 1
+        illicit: 1
+        modification: 1
+        payload: 1
+        talent: 1
+      xwa_loadout_val: 19
+    jakkugunrunner:
+      id_: jakkugunrunner
+      amg_cost: null
+      xwa_cost: 7
+      xwa_restricted_count: null
+      name: Jakku Gunrunner
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 1
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability: null
+      flavor_text: The Quadrijet transfer spacetug, commonly called a “Quadjumper,”
+        is nimble in space and atmosphere alike, making it popular among both smugglers
+        and explorers.
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 1
+        illicit: 1
+        modification: 1
+      xwa_loadout_val: 4
+    sarcoplank:
+      id_: sarcoplank
+      amg_cost: null
+      xwa_cost: 9
+      xwa_restricted_count: null
+      name: • Sarco Plank
+      unique: true
+      limit: 1
+      subtitle: The Scavenger
+      initiative: 2
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you defend, you may treat your agility value as equal to the speed
+          of the maneuver you executed this round.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Bounty Hunter
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 1
+        illicit: 2
+        modification: 1
+        tech: 1
+      xwa_loadout_val: 14
+    unkarplutt:
+      id_: unkarplutt
+      amg_cost: null
+      xwa_cost: 9
+      xwa_restricted_count: null
+      name: • Unkar Plutt
+      unique: true
+      limit: 1
+      subtitle: Miserly Portion Master
+      initiative: 2
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: At the start of the Engagement Phase, if there are one or more other
+          ships at range 0, you and each other ship at range 0 gain 1 tractor token.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 1
+        illicit: 1
+        modification: 2
+      xwa_loadout_val: 13

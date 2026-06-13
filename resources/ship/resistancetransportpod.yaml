@@ -1,0 +1,165 @@
+id_: resistancetransportpod
+name: Resistance Transport Pod
+size: small
+attacks:
+- arc: front
+  val: 2
+agility_val: 2
+hull_val: 3
+shield_val: 1
+shields_recurring: null
+energy_val: null
+energy_recurring: null
+action_bar:
+- action_name: focus
+  color: white
+  linked_action: null
+- action_name: lock
+  color: red
+  linked_action: null
+- action_name: barrel_roll
+  color: red
+  linked_action: null
+- action_name: jam
+  color: red
+  linked_action: null
+ship_ability: null
+maneuver_dial:
+  bank_left:
+    1: blue
+    2: white
+    3: red
+  bank_right:
+    1: blue
+    2: white
+    3: red
+  koiogran_turn:
+    3: red
+  straight:
+    1: blue
+    2: blue
+    3: white
+    4: red
+  turn_left:
+    1: red
+    2: white
+  turn_right:
+    1: red
+    2: white
+pilots:
+  resistance:
+    bb8:
+      id_: bb8
+      amg_cost: null
+      xwa_cost: 7
+      xwa_restricted_count: null
+      name: • BB-8
+      unique: true
+      limit: 1
+      subtitle: Full of Surprises
+      initiative: 3
+      faction: resistance
+      is_droid: true
+      pilot_ability:
+        name: null
+        text: During the System Phase, you may perform a red [Barrel Roll] or [Boost]
+          action.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Droid
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 1
+        modification: 1
+        tech: 1
+      xwa_loadout_val: 9
+    finn:
+      id_: finn
+      amg_cost: null
+      xwa_cost: 10
+      xwa_restricted_count: null
+      name: • Finn
+      unique: true
+      limit: 1
+      subtitle: Big Deal
+      initiative: 2
+      faction: resistance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you defend or perform an attack, you may add 1 blank result, or
+          you may gain 1 strain token to add 1 focus result instead.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 1
+        modification: 1
+        talent: 1
+        tech: 1
+      xwa_loadout_val: 16
+    rosetico:
+      id_: rosetico
+      amg_cost: null
+      xwa_cost: 8
+      xwa_restricted_count: null
+      name: • Rose Tico
+      unique: true
+      limit: 1
+      subtitle: Earnest Engineer
+      initiative: 3
+      faction: resistance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you defend or perform an attack, you may reroll up to 1 of your
+          results for each other friendly ship in the attack arc.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 1
+        modification: 1
+        talent: 1
+        tech: 1
+      xwa_loadout_val: 14
+    vimoradi:
+      id_: vimoradi
+      amg_cost: null
+      xwa_cost: 6
+      xwa_restricted_count: null
+      name: • Vi Moradi
+      unique: true
+      limit: 1
+      subtitle: Starling
+      initiative: 1
+      faction: resistance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: 'Setup: After placing forces, assign the Compromising Intel condition
+          to 1 enemy ship.'
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 1
+        modification: 1
+        tech: 1
+      xwa_loadout_val: 5

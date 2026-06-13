@@ -1,0 +1,225 @@
+id_: tieadvancedv1
+name: TIE Advanced v1
+size: small
+attacks:
+- arc: front
+  val: 2
+agility_val: 3
+hull_val: 2
+shield_val: 2
+shields_recurring: null
+energy_val: null
+energy_recurring: null
+action_bar:
+- action_name: focus
+  color: white
+  linked_action: null
+- action_name: evade
+  color: white
+  linked_action: null
+- action_name: lock
+  color: white
+  linked_action: null
+- action_name: barrel_roll
+  color: white
+  linked_action:
+    action_name: focus
+    color: red
+    linked_action: null
+- action_name: boost
+  color: white
+  linked_action:
+    action_name: focus
+    color: red
+    linked_action: null
+ship_ability: null
+maneuver_dial:
+  bank_left:
+    1: blue
+    2: white
+    3: white
+  bank_right:
+    1: blue
+    2: white
+    3: white
+  koiogran_turn:
+    4: red
+  straight:
+    2: blue
+    3: blue
+    4: white
+    5: white
+  tallon_roll_left:
+    2: red
+  tallon_roll_right:
+    2: red
+  turn_left:
+    1: blue
+    2: white
+    3: white
+  turn_right:
+    1: blue
+    2: white
+    3: white
+pilots:
+  galacticempire:
+    baronoftheempire:
+      id_: baronoftheempire
+      amg_cost: null
+      xwa_cost: 9
+      xwa_restricted_count: null
+      name: Baron of the Empire
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 3
+      faction: galacticempire
+      is_droid: false
+      pilot_ability: null
+      flavor_text: Sienar Fleet System's TIE Advanced v1 is a groundbreaking starfighter
+        design, featuring upgraded engines, a missile launcher, and folding s-foils.
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        missile: 1
+        modification: 1
+        sensor: 1
+        talent: 1
+      xwa_loadout_val: 10
+    fifthbrother:
+      id_: fifthbrother
+      amg_cost: null
+      xwa_cost: 11
+      xwa_restricted_count: null
+      name: • Fifth Brother
+      unique: true
+      limit: 1
+      subtitle: Ruthless Brute
+      initiative: 4
+      faction: galacticempire
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you perform an attack, after the Neutralize Results step, if the
+          attack hit, you may spend 2 [Force] to add 1 [Critical Hit] result.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges:
+        force:
+          limit: 2
+          recurring_val: 1
+      keywords:
+      - Dark Side
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        force_power: 1
+        missile: 1
+        modification: 1
+        sensor: 1
+      xwa_loadout_val: 12
+    grandinquisitor:
+      id_: grandinquisitor
+      amg_cost: null
+      xwa_cost: 13
+      xwa_restricted_count: null
+      name: • Grand Inquisitor
+      unique: true
+      limit: 1
+      subtitle: Master of the Inquisitorious
+      initiative: 5
+      faction: galacticempire
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you defend at attack range 1, you may spend 1 [Force] to prevent
+          the range 1 bonus. While you perform an attack against a defender at attack
+          range 2-3, you may spend 1 [Force] to apply the range 1 bonus.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges:
+        force:
+          limit: 2
+          recurring_val: 1
+      keywords:
+      - Dark Side
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        force_power: 2
+        missile: 1
+        modification: 1
+        sensor: 1
+      xwa_loadout_val: 15
+    inquisitor:
+      id_: inquisitor
+      amg_cost: null
+      xwa_cost: 10
+      xwa_restricted_count: null
+      name: Inquisitor
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 3
+      faction: galacticempire
+      is_droid: false
+      pilot_ability: null
+      flavor_text: The fearsome Inquisitors are given a great deal of autonomy and
+        access to the Empire's latest technology, like the prototype TIE Advanced
+        v1.
+      charges:
+        force:
+          limit: 1
+          recurring_val: 1
+      keywords:
+      - Dark Side
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        force_power: 1
+        missile: 1
+        modification: 1
+        sensor: 1
+      xwa_loadout_val: 13
+    seventhsister:
+      id_: seventhsister
+      amg_cost: null
+      xwa_cost: 11
+      xwa_restricted_count: null
+      name: • Seventh Sister
+      unique: true
+      limit: 1
+      subtitle: Sadistic Interrogator
+      initiative: 4
+      faction: galacticempire
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you perform a primary attack, before the Neutralize Results step,
+          you may spend 2 [Force] to cancel 1 [Evade] result.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges:
+        force:
+          limit: 2
+          recurring_val: 1
+      keywords:
+      - Dark Side
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        force_power: 1
+        missile: 1
+        modification: 1
+        sensor: 1
+      xwa_loadout_val: 13

@@ -1,0 +1,172 @@
+id_: tiephphantom
+name: TIE/ph Phantom
+size: small
+attacks:
+- arc: front
+  val: 3
+agility_val: 2
+hull_val: 3
+shield_val: 2
+shields_recurring: null
+energy_val: null
+energy_recurring: null
+action_bar:
+- action_name: focus
+  color: white
+  linked_action: null
+- action_name: evade
+  color: white
+  linked_action: null
+- action_name: barrel_roll
+  color: white
+  linked_action: null
+- action_name: cloak
+  color: white
+  linked_action: null
+ship_ability:
+  name: Stygium Array
+  text: After you decloak, you may perform an [Evade] action. At the start of the
+    End Phase, you may spend 1 evade token to gain 1 cloak token.
+  automations: []
+  is_action: false
+maneuver_dial:
+  bank_left:
+    1: white
+    2: blue
+    3: white
+  bank_right:
+    1: white
+    2: blue
+    3: white
+  koiogran_turn:
+    3: red
+    4: red
+  straight:
+    2: blue
+    3: blue
+    4: white
+  turn_left:
+    1: white
+    2: white
+    3: white
+  turn_right:
+    1: white
+    2: white
+    3: white
+pilots:
+  galacticempire:
+    echo:
+      id_: echo
+      amg_cost: null
+      xwa_cost: 13
+      xwa_restricted_count: null
+      name: • “Echo”
+      unique: true
+      limit: 1
+      subtitle: Slippery Trickster
+      initiative: 4
+      faction: galacticempire
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you decloak, you must use the [2 [Bank Left]] or [2 [Bank Right]]
+          template instead of the [2 [Straight]] template.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        gunner: 1
+        modification: 1
+        sensor: 1
+        talent: 1
+        tech: 1
+      xwa_loadout_val: 15
+    imdaartestpilot:
+      id_: imdaartestpilot
+      amg_cost: null
+      xwa_cost: 11
+      xwa_restricted_count: null
+      name: Imdaar Test Pilot
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 3
+      faction: galacticempire
+      is_droid: false
+      pilot_ability: null
+      flavor_text: 'The primary result of a hidden research facility on Imdaar Alpha,
+        the TIE phantom achieves what many thought was impossible: a small starfighter
+        equipped with an advanced cloaking device.'
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        gunner: 1
+        modification: 1
+        sensor: 1
+        tech: 1
+      xwa_loadout_val: 10
+    sigmasquadronace:
+      id_: sigmasquadronace
+      amg_cost: null
+      xwa_cost: 12
+      xwa_restricted_count: null
+      name: Sigma Squadron Ace
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 4
+      faction: galacticempire
+      is_droid: false
+      pilot_ability: null
+      flavor_text: Featuring a hyperdrive and shields, the TIE phantom is also equipped
+        with five laser cannons, giving it substantial firepower for an Imperial fighter.
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        gunner: 1
+        modification: 1
+        sensor: 1
+        talent: 1
+        tech: 1
+      xwa_loadout_val: 11
+    whisper:
+      id_: whisper
+      amg_cost: null
+      xwa_cost: 14
+      xwa_restricted_count: null
+      name: • “Whisper”
+      unique: true
+      limit: 1
+      subtitle: Soft-Spoken Slayer
+      initiative: 5
+      faction: galacticempire
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After you perform an attack that hits, gain 1 evade token.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        gunner: 1
+        modification: 1
+        sensor: 1
+        talent: 1
+        tech: 1
+      xwa_loadout_val: 15

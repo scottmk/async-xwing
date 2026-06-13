@@ -1,0 +1,276 @@
+id_: tievnsilencer
+name: TIE/vn Silencer
+size: small
+attacks:
+- arc: front
+  val: 3
+agility_val: 3
+hull_val: 4
+shield_val: 2
+shields_recurring: null
+energy_val: null
+energy_recurring: null
+action_bar:
+- action_name: focus
+  color: white
+  linked_action: null
+- action_name: lock
+  color: white
+  linked_action: null
+- action_name: barrel_roll
+  color: white
+  linked_action: null
+- action_name: boost
+  color: white
+  linked_action: null
+ship_ability:
+  name: Autothrusters
+  text: After you perform an action, you may perform a red [Barrel Roll] or red [Boost]
+    action.
+  automations: []
+  is_action: false
+maneuver_dial:
+  bank_left:
+    2: blue
+    3: white
+  bank_right:
+    2: blue
+    3: white
+  koiogran_turn:
+    4: red
+  straight:
+    2: blue
+    3: blue
+    4: blue
+    5: blue
+  tallon_roll_left:
+    3: red
+  tallon_roll_right:
+    3: red
+  turn_left:
+    1: white
+    2: blue
+    3: white
+  turn_right:
+    1: white
+    2: blue
+    3: white
+pilots:
+  firstorder:
+    avenger:
+      id_: avenger
+      amg_cost: null
+      xwa_cost: 14
+      xwa_restricted_count: null
+      name: • “Avenger”
+      unique: true
+      limit: 1
+      subtitle: Wrathful Wingmate
+      initiative: 3
+      faction: firstorder
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After another friendly ship is destroyed, you may perform an action,
+          even while stressed.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        configuration: 1
+        missile: 1
+        modification: 1
+        tech: 1
+        torpedo: 1
+      xwa_loadout_val: 17
+    blackout:
+      id_: blackout
+      amg_cost: null
+      xwa_cost: 15
+      xwa_restricted_count: null
+      name: • “Blackout”
+      unique: true
+      limit: 1
+      subtitle: Ill-Fated Test Pilot
+      initiative: 5
+      faction: firstorder
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you perform an attack, if the attack is obstructed by an obstacle,
+          the defender rolls 2 fewer defense dice.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        configuration: 1
+        missile: 1
+        modification: 1
+        talent: 1
+        tech: 1
+        torpedo: 1
+      xwa_loadout_val: 14
+    firstordertestpilot:
+      id_: firstordertestpilot
+      amg_cost: null
+      xwa_cost: 12
+      xwa_restricted_count: null
+      name: First Order Test Pilot
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 4
+      faction: firstorder
+      is_droid: false
+      pilot_ability: null
+      flavor_text: Engineered for incredible speed and precise handling, the TIE Silencer
+        is devastating in the hands of those who can unlock its full potential. Any
+        lesser pilot could easily be overwhelmed and lose control of the nimble craft.
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        configuration: 1
+        missile: 1
+        modification: 1
+        talent: 1
+        tech: 1
+        torpedo: 1
+      xwa_loadout_val: 7
+    kyloren:
+      id_: kyloren
+      amg_cost: null
+      xwa_cost: 16
+      xwa_restricted_count: null
+      name: • Kylo Ren
+      unique: true
+      limit: 1
+      subtitle: Tormented Apprentice
+      initiative: 5
+      faction: firstorder
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After you defend, you may spend 1 [Force] to assign the I'll Show You
+          the Dark Side condition to the attacker.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges:
+        force:
+          limit: 2
+          recurring_val: 1
+      keywords:
+      - Dark Side
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        configuration: 1
+        force_power: 1
+        missile: 1
+        modification: 1
+        tech: 1
+        torpedo: 1
+      xwa_loadout_val: 12
+    recoil:
+      id_: recoil
+      amg_cost: null
+      xwa_cost: 13
+      xwa_restricted_count: null
+      name: • “Recoil”
+      unique: true
+      limit: 1
+      subtitle: Quantity Over Quality
+      initiative: 4
+      faction: firstorder
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you are stressed, you may treat enemy ships in your [Front Arc]
+          at range 0-1 as being in your [Bullseye Arc].
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        configuration: 1
+        missile: 1
+        modification: 1
+        talent: 1
+        tech: 1
+        torpedo: 1
+      xwa_loadout_val: 8
+    rush:
+      id_: rush
+      amg_cost: null
+      xwa_cost: 13
+      xwa_restricted_count: null
+      name: • “Rush”
+      unique: true
+      limit: 1
+      subtitle: Adrenaline Junkie
+      initiative: 2
+      faction: firstorder
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you are damaged, treat your initiative as 6.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        configuration: 1
+        missile: 1
+        modification: 1
+        tech: 1
+        torpedo: 1
+      xwa_loadout_val: 11
+    sienarjaemusengineer:
+      id_: sienarjaemusengineer
+      amg_cost: null
+      xwa_cost: 11
+      xwa_restricted_count: null
+      name: Sienar-Jaemus Engineer
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 1
+      faction: firstorder
+      is_droid: false
+      pilot_ability: null
+      flavor_text: Developed by Sienar-Jaemus Fleet Systems as a successor to the
+        vaunted TIE Defender, the TIE/vn Silencer incorporates bleeding-edge technologies
+        developed at research facilities hidden in the Unknown Regions.
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        configuration: 1
+        missile: 1
+        tech: 1
+        torpedo: 1
+      xwa_loadout_val: 7

@@ -1,0 +1,546 @@
+id_: btla4ywing
+name: BTL-A4 Y-wing
+size: small
+attacks:
+- arc: front
+  val: 2
+agility_val: 1
+hull_val: 6
+shield_val: 2
+shields_recurring: null
+energy_val: null
+energy_recurring: null
+action_bar:
+- action_name: focus
+  color: white
+  linked_action: null
+- action_name: lock
+  color: white
+  linked_action: null
+- action_name: barrel_roll
+  color: red
+  linked_action: null
+- action_name: reload
+  color: red
+  linked_action: null
+ship_ability: null
+maneuver_dial:
+  bank_left:
+    1: blue
+    2: white
+    3: white
+  bank_right:
+    1: blue
+    2: white
+    3: white
+  koiogran_turn:
+    4: red
+  straight:
+    1: blue
+    2: blue
+    3: white
+    4: red
+  turn_left:
+    2: white
+    3: red
+  turn_right:
+    2: white
+    3: red
+pilots:
+  rebelalliance:
+    dutchvander:
+      id_: dutchvander
+      amg_cost: null
+      xwa_cost: 11
+      xwa_restricted_count: null
+      name: • “Dutch” Vander
+      unique: true
+      limit: 1
+      subtitle: Gold Leader
+      initiative: 4
+      faction: rebelalliance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After you perform the [Lock] action, you may choose 1 friendly ship
+          at range 1-3. That ship may acquire a lock on the object you locked, ignoring
+          range restrictions.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Y-wing
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        astromech: 1
+        modification: 1
+        payload: 1
+        talent: 1
+        torpedo: 1
+        turret: 1
+      xwa_loadout_val: 18
+    evaanverlaine:
+      id_: evaanverlaine
+      amg_cost: null
+      xwa_cost: 8
+      xwa_restricted_count: null
+      name: • Evaan Verlaine
+      unique: true
+      limit: 1
+      subtitle: Gold Three
+      initiative: 3
+      faction: rebelalliance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: At the start of the Engagement Phase, you may spend 1 focus token to
+          choose a friendly ship at range 0-1. If you do, that ship rolls 1 additional
+          defense die while defending until the end of the round.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Y-wing
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        astromech: 1
+        modification: 1
+        payload: 1
+        torpedo: 1
+        turret: 1
+      xwa_loadout_val: 7
+    goldsquadronveteran:
+      id_: goldsquadronveteran
+      amg_cost: null
+      xwa_cost: 9
+      xwa_restricted_count: null
+      name: Gold Squadron Veteran
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 3
+      faction: rebelalliance
+      is_droid: false
+      pilot_ability: null
+      flavor_text: Commanded by Jon “Dutch” Vander, Gold Squadron played an instrumental
+        role in the Battles of Scarif and Yavin.
+      charges: null
+      keywords:
+      - Y-wing
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        astromech: 1
+        modification: 1
+        payload: 1
+        talent: 1
+        torpedo: 1
+        turret: 1
+      xwa_loadout_val: 13
+    graysquadronbomber:
+      id_: graysquadronbomber
+      amg_cost: null
+      xwa_cost: 7
+      xwa_restricted_count: null
+      name: Gray Squadron Bomber
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 2
+      faction: rebelalliance
+      is_droid: false
+      pilot_ability: null
+      flavor_text: Long after the Y-wing was phased out by the Galactic Empire, its
+        durability, dependability, and heavy armament help it remain a staple in the
+        Rebel fleet.
+      charges: null
+      keywords:
+      - Y-wing
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        astromech: 1
+        modification: 1
+        payload: 1
+        torpedo: 1
+        turret: 1
+      xwa_loadout_val: 5
+    hortonsalm:
+      id_: hortonsalm
+      amg_cost: null
+      xwa_cost: 9
+      xwa_restricted_count: null
+      name: • Horton Salm
+      unique: true
+      limit: 1
+      subtitle: Gray Leader
+      initiative: 4
+      faction: rebelalliance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you perform an attack, you may reroll 1 attack die for each other
+          friendly ship at range 0-1 of the defender.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Y-wing
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        astromech: 1
+        modification: 1
+        payload: 1
+        talent: 1
+        torpedo: 1
+        turret: 1
+      xwa_loadout_val: 12
+    norrawexley-btla4ywing:
+      id_: norrawexley-btla4ywing
+      amg_cost: null
+      xwa_cost: 12
+      xwa_restricted_count: null
+      name: • Norra Wexley
+      unique: true
+      limit: 1
+      subtitle: Gold Nine
+      initiative: 5
+      faction: rebelalliance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you defend, if there is an enemy ship at range 0-1, add 1 [Evade]
+          result to your dice results.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Y-wing
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        astromech: 1
+        modification: 1
+        payload: 1
+        talent: 1
+        torpedo: 1
+        turret: 1
+      xwa_loadout_val: 20
+    popskrail:
+      id_: popskrail
+      amg_cost: null
+      xwa_cost: 9
+      xwa_restricted_count: null
+      name: • “Pops” Krail
+      unique: true
+      limit: 1
+      subtitle: Gold Five
+      initiative: 3
+      faction: rebelalliance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After you fully execute a white maneuver, you may choose a friendly
+          ship at range 0-1. If you do, it may perform a [Focus] action.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Y-wing
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        astromech: 1
+        modification: 1
+        payload: 1
+        torpedo: 1
+        turret: 1
+      xwa_loadout_val: 11
+  scumandvillainy:
+    amaxinewarrior:
+      id_: amaxinewarrior
+      amg_cost: null
+      xwa_cost: 10
+      xwa_restricted_count: null
+      name: Amaxine Warrior
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 3
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability: null
+      flavor_text: Decades after the Battle of Endor, former Imperials remain active
+        in the New Republic. Many have joined paramilitary organizations, such as
+        the Amaxine Warriors, that appropriate martial traditions and cultures to
+        spread the hateful ideology of the First Order amongst those most vulnerable
+        to it.
+      charges: null
+      keywords:
+      - Y-wing
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        astromech: 1
+        modification: 1
+        payload: 1
+        talent: 1
+        torpedo: 1
+        turret: 1
+      xwa_loadout_val: 16
+    arlizhadrassian:
+      id_: arlizhadrassian
+      amg_cost: null
+      xwa_cost: 10
+      xwa_restricted_count: null
+      name: • Arliz Hadrassian
+      unique: true
+      limit: 1
+      subtitle: Crimson Blade
+      initiative: 4
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you perform a [Front Arc] attack, if you are damaged, you may
+          change 1 of your [Focus] results to a [Critical Hit] result. While you defend,
+          if you are damaged, before the Modify Defense Dice step, you must change
+          1 of your [Focus] results to a blank result.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Y-wing
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        astromech: 1
+        modification: 1
+        payload: 1
+        talent: 1
+        torpedo: 1
+        turret: 1
+      xwa_loadout_val: 14
+    crymorahgoon:
+      id_: crymorahgoon
+      amg_cost: null
+      xwa_cost: 7
+      xwa_restricted_count: null
+      name: Crymorah Goon
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 1
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability: null
+      flavor_text: Though far from nimble, the Y-wing's heavy hull, substantial shielding,
+        and turret-mounted cannons make it an excellent patrol craft.
+      charges: null
+      keywords:
+      - Y-wing
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        astromech: 1
+        illicit: 1
+        missile: 1
+        modification: 1
+        payload: 1
+        turret: 1
+      xwa_loadout_val: 5
+    drearenthal:
+      id_: drearenthal
+      amg_cost: null
+      xwa_cost: 10
+      xwa_restricted_count: null
+      name: • Drea Renthal
+      unique: true
+      limit: 1
+      subtitle: Pirate Lord
+      initiative: 4
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While a friendly non-limited ship performs an attack, if the defender
+          is in your firing arc, the attacker may reroll 1 attack die.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Y-wing
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        astromech: 1
+        illicit: 1
+        missile: 1
+        modification: 1
+        payload: 1
+        talent: 1
+        turret: 1
+      xwa_loadout_val: 10
+    hiredgun:
+      id_: hiredgun
+      amg_cost: null
+      xwa_cost: 9
+      xwa_restricted_count: null
+      name: Hired Gun
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 2
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability: null
+      flavor_text: Just the mention of Imperial credits can bring a host of less-than-trustworthy
+        individuals to your side.
+      charges: null
+      keywords:
+      - Y-wing
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        astromech: 1
+        illicit: 1
+        missile: 1
+        modification: 1
+        payload: 1
+        turret: 1
+      xwa_loadout_val: 12
+    jinatasecurityofficer:
+      id_: jinatasecurityofficer
+      amg_cost: null
+      xwa_cost: 8
+      xwa_restricted_count: null
+      name: Jinata Security Officer
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 2
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability: null
+      flavor_text: Headquartered on the former Imperial stronghold of Vardos, Jinata
+        Security continues its reconstruction efforts on the devastated planet, even
+        while collaborating with the First Order's rearmament program.
+      charges: null
+      keywords:
+      - Y-wing
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        astromech: 1
+        modification: 1
+        payload: 1
+        torpedo: 1
+        turret: 1
+      xwa_loadout_val: 8
+    kavil:
+      id_: kavil
+      amg_cost: null
+      xwa_cost: 11
+      xwa_restricted_count: null
+      name: • Kavil
+      unique: true
+      limit: 1
+      subtitle: Callous Corsair
+      initiative: 5
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you perform a non-[Front Arc] attack, roll 1 additional attack
+          die.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Y-wing
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        astromech: 1
+        illicit: 1
+        missile: 1
+        modification: 1
+        payload: 1
+        talent: 1
+        turret: 1
+      xwa_loadout_val: 17
+    leemakai:
+      id_: leemakai
+      amg_cost: null
+      xwa_cost: 11
+      xwa_restricted_count: null
+      name: • Leema Kai
+      unique: true
+      limit: 1
+      subtitle: Opportunity Knocks
+      initiative: 5
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: Before you engage, if you are not in any enemy ship's [Front Arc], you
+          may acquire a lock on an enemy ship in your full front arc.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Y-wing
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        astromech: 1
+        modification: 1
+        payload: 1
+        talent: 1
+        torpedo: 1
+        turret: 1
+      xwa_loadout_val: 21
+    padric:
+      id_: padric
+      amg_cost: null
+      xwa_cost: 8
+      xwa_restricted_count: null
+      name: • Padric
+      unique: true
+      limit: 1
+      subtitle: Napkin Bomber
+      initiative: 3
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After a friendly device that you have locked detonates, each enemy ship
+          at range 0-1 of that device gains 1 strain token.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Y-wing
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        astromech: 1
+        modification: 1
+        payload: 1
+        talent: 1
+        torpedo: 1
+        turret: 1
+      xwa_loadout_val: 8

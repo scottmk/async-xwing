@@ -1,0 +1,121 @@
+id_: yt2400lightfreighter
+name: YT-2400 Light Freighter
+size: large
+attacks:
+- arc: double_turret
+  val: 3
+agility_val: 2
+hull_val: 6
+shield_val: 4
+shields_recurring: null
+energy: null
+action_bar:
+- action_name: focus
+  color: white
+  linked_action: null
+- action_name: lock
+  color: white
+  linked_action: null
+- action_name: barrel_roll
+  color: red
+  linked_action: null
+- action_name: rotate
+  color: white
+  linked_action: null
+ship_ability:
+  name: Sensor Blindspot
+  text: While you perform a primary attack at attack range 0-1, do not apply the range
+    0-1 bonus and roll 1 fewer attack die.
+  automations: []
+  is_action: false
+maneuver_dial:
+  turn_left:
+    1: white
+    2: white
+    3: white
+  bank_left:
+    1: blue
+    2: white
+    3: white
+  straight:
+    1: blue
+    2: blue
+    3: white
+    4: white
+  bank_right:
+    1: blue
+    2: white
+    3: white
+  turn_right:
+    1: white
+    2: white
+    3: white
+  koiogran_turn:
+    4: red
+pilots:
+  rebelalliance:
+    leebo-swz103-rebelalliance:
+      id_: leebo-swz103-rebelalliance
+      amg_cost: null
+      xwa_cost: 16
+      xwa_restricted_count: null
+      name: • “Leebo”
+      unique: true
+      subtitle: Wisdom of Ages
+      initiative: 3
+      faction: rebelalliance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After you defend or perform an attack, if you spent a calculate token,
+          gain 1 calculate token.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Freighter
+      - Droid
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 1
+        gunner: 1
+        illicit: 2
+        missile: 1
+        modification: 1
+        talent: 1
+        title: 1
+      xwa_loadout_val: 10
+    dashrendar-swz103-rebelalliance:
+      id_: dashrendar-swz103-rebelalliance
+      amg_cost: null
+      xwa_cost: 18
+      xwa_restricted_count: null
+      name: • Dash Rendar
+      unique: true
+      subtitle: Freighter for Hire
+      initiative: 5
+      faction: rebelalliance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: During the Engagement Phase, you ignore the effects of obstacles that
+          you are overlapping.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Freighter
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 1
+        gunner: 1
+        illicit: 2
+        missile: 1
+        modification: 1
+        talent: 1
+        title: 1
+      xwa_loadout_val: 24

@@ -1,0 +1,219 @@
+id_: nantexclassstarfighter
+name: Nantex-class Starfighter
+size: small
+attacks:
+- arc: bullseye
+  val: 3
+- arc: single_turret
+  val: 2
+agility_val: 3
+hull_val: 4
+shield_val: null
+shields_recurring: null
+energy_val: null
+energy_recurring: null
+action_bar:
+- action_name: focus
+  color: white
+  linked_action: null
+- action_name: evade
+  color: white
+  linked_action: null
+ship_ability:
+  name: Pinpoint Tractor Array
+  text: You cannot rotate your [Single Turret Arc] to your [Rear Arc]. After you fully
+    execute a maneuver, you may gain 1 tractor token to perform a [Rotate Arc] action.
+  automations: []
+  is_action: false
+maneuver_dial:
+  bank_left:
+    1: blue
+    2: blue
+    3: blue
+  bank_right:
+    1: blue
+    2: blue
+    3: blue
+  koiogran_turn:
+    5: red
+  segnors_loop_left:
+    3: red
+  segnors_loop_right:
+    3: red
+  straight:
+    2: blue
+    3: blue
+    4: white
+    5: white
+  turn_left:
+    1: white
+    2: white
+    3: white
+  turn_right:
+    1: white
+    2: white
+    3: white
+pilots:
+  separatistalliance:
+    berwerkret:
+      id_: berwerkret
+      amg_cost: null
+      xwa_cost: 9
+      xwa_restricted_count: null
+      name: • Berwer Kret
+      unique: true
+      limit: 1
+      subtitle: Hive Guard Captain
+      initiative: 5
+      faction: separatistalliance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After you perform an attack that hits, each friendly ship with [Calculate]
+          on its action bar and a lock on the defender may perform a red [Calculate]
+          action.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        configuration: 1
+        modification: 2
+        talent: 2
+      xwa_loadout_val: 9
+    chertek:
+      id_: chertek
+      amg_cost: null
+      xwa_cost: 10
+      xwa_restricted_count: null
+      name: • Chertek
+      unique: true
+      limit: 1
+      subtitle: Opportunistic Ace
+      initiative: 4
+      faction: separatistalliance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you perform a primary attack, if the defender is tractored, you
+          may reroll up to 2 attack dice.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        configuration: 1
+        modification: 2
+        talent: 2
+      xwa_loadout_val: 14
+    gorgol:
+      id_: gorgol
+      amg_cost: null
+      xwa_cost: 9
+      xwa_restricted_count: null
+      name: • Gorgol
+      unique: true
+      limit: 1
+      subtitle: Handy Engineer
+      initiative: 2
+      faction: separatistalliance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: During the System Phase, you may gain 1 disarm token and choose a friendly
+          ship at range 1-2. If you do, it gains 1 tractor token, then repairs 1 of
+          its faceup Ship trait damage cards.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        configuration: 1
+        modification: 2
+        talent: 1
+      xwa_loadout_val: 11
+    petranakiarenaace:
+      id_: petranakiarenaace
+      amg_cost: null
+      xwa_cost: 10
+      xwa_restricted_count: null
+      name: Petranaki Arena Ace
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 4
+      faction: separatistalliance
+      is_droid: false
+      pilot_ability: null
+      flavor_text: The Petranaki Arena is a massive edifice on Geonosis that was a
+        key site in the first battle of the Clone Wars.
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        configuration: 1
+        modification: 2
+        talent: 1
+      xwa_loadout_val: 8
+    stalgasinhiveguard:
+      id_: stalgasinhiveguard
+      amg_cost: null
+      xwa_cost: 9
+      xwa_restricted_count: null
+      name: Stalgasin Hive Guard
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 3
+      faction: separatistalliance
+      is_droid: false
+      pilot_ability: null
+      flavor_text: Designed for the unique physiology of Geonosian pilots, Nantex-class
+        starfighters are capable of maneuvers that would rip most ships—and pilots—apart.
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        configuration: 1
+        modification: 2
+        talent: 1
+      xwa_loadout_val: 5
+    sunfac:
+      id_: sunfac
+      amg_cost: null
+      xwa_cost: 13
+      xwa_restricted_count: null
+      name: • Sun Fac
+      unique: true
+      limit: 1
+      subtitle: Archduke’s Enforcer
+      initiative: 6
+      faction: separatistalliance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you perform a primary attack, if the defender is tractored, roll
+          1 additional attack die.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        configuration: 1
+        modification: 2
+        talent: 3
+      xwa_loadout_val: 17

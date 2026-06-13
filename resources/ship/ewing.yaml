@@ -1,0 +1,187 @@
+id_: ewing
+name: E-wing
+size: small
+attacks:
+- arc: front
+  val: 3
+agility_val: 3
+hull_val: 3
+shield_val: 3
+shields_recurring: null
+energy_val: null
+energy_recurring: null
+action_bar:
+- action_name: focus
+  color: white
+  linked_action: null
+- action_name: evade
+  color: white
+  linked_action: null
+- action_name: lock
+  color: white
+  linked_action: null
+- action_name: barrel_roll
+  color: white
+  linked_action:
+    action_name: lock
+    color: red
+    linked_action: null
+- action_name: boost
+  color: white
+  linked_action:
+    action_name: lock
+    color: red
+    linked_action: null
+ship_ability:
+  name: Experimental Scanners
+  text: You can acquire locks beyond range 3. You cannot acquire locks at range 1.
+  automations: []
+  is_action: false
+maneuver_dial:
+  bank_left:
+    1: blue
+    2: white
+    3: white
+  bank_right:
+    1: blue
+    2: white
+    3: white
+  koiogran_turn:
+    4: red
+  segnors_loop_left:
+    3: red
+  segnors_loop_right:
+    3: red
+  straight:
+    1: blue
+    2: blue
+    3: blue
+    4: blue
+    5: white
+  turn_left:
+    1: red
+    2: white
+    3: white
+  turn_right:
+    1: red
+    2: white
+    3: white
+pilots:
+  rebelalliance:
+    corranhorn:
+      id_: corranhorn
+      amg_cost: null
+      xwa_cost: 14
+      xwa_restricted_count: null
+      name: • Corran Horn
+      unique: true
+      limit: 1
+      subtitle: Tenacious Investigator
+      initiative: 5
+      faction: rebelalliance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: At initiative 0, you may perform a bonus primary attack against an enemy
+          ship in your [Bullseye Arc]. If you do, at the start of the next Planning
+          Phase, gain 1 disarm token.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        astromech: 1
+        modification: 1
+        sensor: 1
+        talent: 2
+        tech: 1
+        torpedo: 1
+      xwa_loadout_val: 14
+    gavindarklighter:
+      id_: gavindarklighter
+      amg_cost: null
+      xwa_cost: 15
+      xwa_restricted_count: null
+      name: • Gavin Darklighter
+      unique: true
+      limit: 1
+      subtitle: Bold Wingman
+      initiative: 4
+      faction: rebelalliance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While a friendly ship performs an attack, if the defender is in your
+          [Front Arc], the attacker may change 1 [Hit] result to a [Critical Hit]
+          result.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        astromech: 1
+        modification: 1
+        sensor: 1
+        talent: 1
+        tech: 1
+        torpedo: 1
+      xwa_loadout_val: 20
+    knavesquadronescort:
+      id_: knavesquadronescort
+      amg_cost: null
+      xwa_cost: 12
+      xwa_restricted_count: null
+      name: Knave Squadron Escort
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 2
+      faction: rebelalliance
+      is_droid: false
+      pilot_ability: null
+      flavor_text: Designed to combine the best features of the X-wing series with
+        the A-wing series, the E-wing boasts superior firepower, speed, and maneuverability.
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        astromech: 1
+        modification: 1
+        sensor: 1
+        tech: 1
+        torpedo: 1
+      xwa_loadout_val: 8
+    roguesquadronescort:
+      id_: roguesquadronescort
+      amg_cost: null
+      xwa_cost: 14
+      xwa_restricted_count: null
+      name: Rogue Squadron Escort
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 4
+      faction: rebelalliance
+      is_droid: false
+      pilot_ability: null
+      flavor_text: The elite pilots of Rogue Squadron are among the Rebellion's very
+        best.
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        astromech: 1
+        modification: 1
+        sensor: 1
+        talent: 1
+        tech: 1
+        torpedo: 1
+      xwa_loadout_val: 17

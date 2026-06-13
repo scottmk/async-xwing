@@ -1,0 +1,250 @@
+id_: modifiedtielnfighter
+name: Modified TIE/ln Fighter
+size: small
+attacks:
+- arc: front
+  val: 2
+agility_val: 3
+hull_val: 3
+shield_val: null
+shields_recurring: null
+energy_val: null
+energy_recurring: null
+action_bar:
+- action_name: focus
+  color: white
+  linked_action: null
+- action_name: evade
+  color: white
+  linked_action: null
+- action_name: barrel_roll
+  color: white
+  linked_action: null
+ship_ability:
+  name: Notched Stabilizers
+  text: While you move, you ignore asteroids.
+  automations: []
+  is_action: false
+maneuver_dial:
+  bank_left:
+    2: blue
+    3: white
+  bank_right:
+    2: blue
+    3: white
+  koiogran_turn:
+    3: red
+  straight:
+    2: blue
+    3: blue
+    4: white
+    5: red
+  turn_left:
+    1: white
+    2: white
+    3: white
+  turn_right:
+    1: white
+    2: white
+    3: white
+pilots:
+  scumandvillainy:
+    ahhav:
+      id_: ahhav
+      amg_cost: null
+      xwa_cost: 8
+      xwa_restricted_count: null
+      name: • Ahhav
+      unique: true
+      limit: 1
+      subtitle: Vengeful Survivor
+      initiative: 3
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you defend or perform an attack, if the enemy ship is a larger
+          size than you, roll 1 additional die.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        modification: 2
+        talent: 1
+      xwa_loadout_val: 11
+    captainseevor:
+      id_: captainseevor
+      amg_cost: null
+      xwa_cost: 8
+      xwa_restricted_count: null
+      name: • Captain Seevor
+      unique: true
+      limit: 1
+      subtitle: Noisy Nuisance
+      initiative: 3
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you defend or perform an attack, before attack dice are rolled,
+          if you are not in the enemy ship's [Bullseye Arc], you may spend 1 [Charge].
+          If you do, the enemy ship gains 1 jam token.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges:
+        standard:
+          limit: 1
+          recurring_val: 1
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        modification: 2
+        talent: 1
+      xwa_loadout_val: 8
+    foremanproach:
+      id_: foremanproach
+      amg_cost: null
+      xwa_cost: 8
+      xwa_restricted_count: null
+      name: • Foreman Proach
+      unique: true
+      limit: 1
+      subtitle: Slave Driver
+      initiative: 4
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: Before you engage, you may choose 1 enemy ship in your [Bullseye Arc]
+          at range 1-2 and gain 1 disarm token. If you do, that ship gains 1 tractor
+          token.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        illicit: 1
+        modification: 2
+        talent: 1
+      xwa_loadout_val: 11
+    lapin:
+      id_: lapin
+      amg_cost: null
+      xwa_cost: 8
+      xwa_restricted_count: null
+      name: • Lapin
+      unique: true
+      limit: 1
+      subtitle: Stickler for Details
+      initiative: 3
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you defend or perform an attack, if the enemy ship is stressed,
+          that ship's dice cannot be modified.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        modification: 2
+        talent: 1
+      xwa_loadout_val: 9
+    miningguildsentry:
+      id_: miningguildsentry
+      amg_cost: null
+      xwa_cost: 5
+      xwa_restricted_count: null
+      name: Mining Guild Sentry
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 1
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability: null
+      flavor_text: As part of its arrangement with the Empire, the Mining Guild receives
+        modified TIE/ln Fighters to protect its operations. These craft have solar
+        panels removed from their stabilizers for improved visibility, and feature
+        more extensive life support systems for the benefit of their corporate pilots.
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        modification: 2
+      xwa_loadout_val: 1
+    miningguildsurveyor:
+      id_: miningguildsurveyor
+      amg_cost: null
+      xwa_cost: 6
+      xwa_restricted_count: null
+      name: Mining Guild Surveyor
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 2
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability: null
+      flavor_text: With Imperial construction projects consuming raw materials at
+        an unprecedented rate, the Mining Guild ruthlessly exploits newly discovered
+        deposits of doonium ore on worlds such as Batonn, Lothal, and Umbara.
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        modification: 2
+      xwa_loadout_val: 6
+    overseeryushyn:
+      id_: overseeryushyn
+      amg_cost: null
+      xwa_cost: 6
+      xwa_restricted_count: null
+      name: • Overseer Yushyn
+      unique: true
+      limit: 1
+      subtitle: Overbearing Boss
+      initiative: 2
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: Before a friendly ship at range 1 would gain a disarm token, if that
+          ship is not stressed, you may spend 1 [Charge]. If you do, that ship gains
+          1 stress token instead.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges:
+        standard:
+          limit: 1
+          recurring_val: 1
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        illicit: 1
+        modification: 2
+      xwa_loadout_val: 5

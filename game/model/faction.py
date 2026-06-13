@@ -2,10 +2,10 @@ from enum import StrEnum
 
 
 class Faction(StrEnum):
-    REBEL_ALLIANCE = 'rebellion'
-    GALACTIC_EMPIRE = 'empire'
-    SCUM_AND_VILLAINY = 'scum'
+    REBEL_ALLIANCE = 'rebelalliance'
+    GALACTIC_EMPIRE = 'galacticempire'
+    SCUM_AND_VILLAINY = 'scumandvillainy'
     RESISTANCE = 'resistance'
-    FIRST_ORDER = 'first_order'
-    GALACTIC_REPUBLIC = 'republic'
-    SEPARATIST_ALLIANCE = 'separatists'
+    FIRST_ORDER = 'firstorder'
+    GALACTIC_REPUBLIC = 'galacticrepublic'
+    SEPARATIST_ALLIANCE = 'separatistalliance'

@@ -1,0 +1,170 @@
+id_: tieagaggressor
+name: TIE/ag Aggressor
+size: small
+attacks:
+- arc: front
+  val: 2
+agility_val: 2
+hull_val: 4
+shield_val: 1
+shields_recurring: null
+energy_val: null
+energy_recurring: null
+action_bar:
+- action_name: focus
+  color: white
+  linked_action: null
+- action_name: lock
+  color: white
+  linked_action: null
+- action_name: barrel_roll
+  color: white
+  linked_action:
+    action_name: evade
+    color: red
+    linked_action: null
+ship_ability: null
+maneuver_dial:
+  bank_left:
+    1: white
+    2: blue
+    3: white
+  bank_right:
+    1: white
+    2: blue
+    3: white
+  koiogran_turn:
+    4: red
+  straight:
+    1: blue
+    2: blue
+    3: blue
+    4: white
+  turn_left:
+    2: white
+    3: white
+  turn_right:
+    2: white
+    3: white
+pilots:
+  galacticempire:
+    doubleedge:
+      id_: doubleedge
+      amg_cost: null
+      xwa_cost: 9
+      xwa_restricted_count: null
+      name: • “Double Edge”
+      unique: true
+      limit: 1
+      subtitle: Contingency Planner
+      initiative: 2
+      faction: galacticempire
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After you perform a [Turret] or [Missile] attack that misses, you may
+          perform a bonus attack using a different weapon.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        gunner: 1
+        missile: 2
+        modification: 1
+        sensor: 1
+        turret: 1
+      xwa_loadout_val: 17
+    lieutenantkestal:
+      id_: lieutenantkestal
+      amg_cost: null
+      xwa_cost: 9
+      xwa_restricted_count: null
+      name: • Lieutenant Kestal
+      unique: true
+      limit: 1
+      subtitle: Innate Deadeye
+      initiative: 4
+      faction: galacticempire
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you perform an attack, after the defender rolls defense dice,
+          you may spend 1 focus token to cancel all of the defender's blank/[Focus]
+          results.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        gunner: 1
+        missile: 2
+        modification: 1
+        sensor: 1
+        talent: 1
+        turret: 1
+      xwa_loadout_val: 15
+    onyxsquadronscout:
+      id_: onyxsquadronscout
+      amg_cost: null
+      xwa_cost: 8
+      xwa_restricted_count: null
+      name: Onyx Squadron Scout
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 3
+      faction: galacticempire
+      is_droid: false
+      pilot_ability: null
+      flavor_text: Designed for extended engagements, the TIE/ag is flown primarily
+        by elite pilots trained to leverage both its unique weapons loadout and its
+        maneuverability to full effect.
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        gunner: 1
+        missile: 2
+        modification: 1
+        sensor: 1
+        talent: 1
+        turret: 1
+      xwa_loadout_val: 9
+    sienarspecialist:
+      id_: sienarspecialist
+      amg_cost: null
+      xwa_cost: 7
+      xwa_restricted_count: null
+      name: Sienar Specialist
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 2
+      faction: galacticempire
+      is_droid: false
+      pilot_ability: null
+      flavor_text: During the development of the TIE aggressor, Sienar Fleet Systems
+        valued performance and versatility over raw cost efficiency.
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        gunner: 1
+        missile: 2
+        modification: 1
+        sensor: 1
+        turret: 1
+      xwa_loadout_val: 6

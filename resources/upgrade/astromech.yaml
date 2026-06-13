@@ -24,13 +24,7 @@ r2d2:
       recurring_val: 0
   special_attacks: null
   bonus_attacks: null
-  action_bar:
-  - action_name: lock
-    color: white
-    linked_action:
-      action_name: boost
-      color: red
-      linked_action: null
+  action_bar: null
   ship_stat_modifiers: null
   deployable_remote: null
   restrictions: null

@@ -1,0 +1,287 @@
+id_: vultureclassdroidfighter
+name: Vulture-class Droid Fighter
+size: small
+attacks:
+- arc: front
+  val: 2
+agility_val: 2
+hull_val: 3
+shield_val: null
+shields_recurring: null
+energy_val: null
+energy_recurring: null
+action_bar:
+- action_name: calculate
+  color: white
+  linked_action: null
+- action_name: lock
+  color: white
+  linked_action: null
+- action_name: barrel_roll
+  color: white
+  linked_action:
+    action_name: calculate
+    color: red
+    linked_action: null
+ship_ability:
+  name: Networked Calculations
+  text: While you defend or perform an attack, you may spend 1 calculate token from
+    a friendly ship at range 0-1 to change 1 [Focus] result to an [Evade] or [Hit]
+    result.
+  automations: []
+  is_action: false
+maneuver_dial:
+  bank_left:
+    2: white
+    3: red
+  bank_right:
+    2: white
+    3: red
+  koiogran_turn:
+    1: red
+  straight:
+    2: blue
+    3: blue
+    4: blue
+    5: white
+  tallon_roll_left:
+    2: red
+  tallon_roll_right:
+    2: red
+  turn_left:
+    1: white
+    2: blue
+    3: white
+  turn_right:
+    1: white
+    2: blue
+    3: white
+pilots:
+  separatistalliance:
+    dfs081:
+      id_: dfs081
+      amg_cost: null
+      xwa_cost: 6
+      xwa_restricted_count: null
+      name: • DFS-081
+      unique: true
+      limit: 1
+      subtitle: Preservation Programming
+      initiative: 3
+      faction: separatistalliance
+      is_droid: true
+      pilot_ability:
+        name: null
+        text: While a friendly ship at range 0-1 defends, it may spend 1 calculate
+          token to change all [Critical Hit] results to [Hit] results.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Droid
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        configuration: 1
+        missile: 1
+        modification: 1
+      xwa_loadout_val: 7
+    dfs311:
+      id_: dfs311
+      amg_cost: null
+      xwa_cost: 6
+      xwa_restricted_count: null
+      name: • DFS-311
+      unique: true
+      limit: 1
+      subtitle: Scouting Drone
+      initiative: 1
+      faction: separatistalliance
+      is_droid: true
+      pilot_ability:
+        name: null
+        text: At the start of the Engagement Phase, you may transfer 1 of your calculate
+          tokens to another friendly ship at range 0-3.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Droid
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        configuration: 1
+        missile: 1
+        modification: 1
+      xwa_loadout_val: 6
+    haorchallprototype:
+      id_: haorchallprototype
+      amg_cost: null
+      xwa_cost: 6
+      xwa_restricted_count: null
+      name: •• Haor Chall Prototype
+      unique: false
+      limit: 2
+      subtitle: Xi Char Offering
+      initiative: 1
+      faction: separatistalliance
+      is_droid: true
+      pilot_ability:
+        name: null
+        text: After an enemy ship in your [Bullseye Arc] at range 0-2 declares another
+          friendly ship as the defender, you may perform a [Calculate] or [Lock] action.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Droid
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        configuration: 1
+        missile: 1
+        modification: 1
+      xwa_loadout_val: 7
+    kelrodoaiholdout:
+      id_: kelrodoaiholdout
+      amg_cost: null
+      xwa_cost: 6
+      xwa_restricted_count: null
+      name: ••• Kelrodo-Ai Holdout
+      unique: false
+      limit: 3
+      subtitle: Separatist Stalwart
+      initiative: 1
+      faction: separatistalliance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After you are destroyed, you may transfer each of your locks and green
+          tokens to another friendly Kelrodo-Ai Holdout at range 0-3.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        modification: 2
+      xwa_loadout_val: 10
+    precisehunter:
+      id_: precisehunter
+      amg_cost: null
+      xwa_cost: 6
+      xwa_restricted_count: null
+      name: ••• Precise Hunter
+      unique: false
+      limit: 3
+      subtitle: Pinpoint Protocols
+      initiative: 3
+      faction: separatistalliance
+      is_droid: true
+      pilot_ability:
+        name: null
+        text: While you perform an attack, if the defender is in your [Bullseye Arc],
+          you may reroll 1 blank result.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Droid
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        cannon: 1
+        configuration: 1
+        modification: 1
+      xwa_loadout_val: 5
+    separatistdrone:
+      id_: separatistdrone
+      amg_cost: null
+      xwa_cost: 6
+      xwa_restricted_count: null
+      name: Separatist Drone
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 3
+      faction: separatistalliance
+      is_droid: true
+      pilot_ability: null
+      flavor_text: As the Clone Wars escalate, the Separatist Alliance continues to
+        develop the technology of droid starfighters, as well as the tactical droids
+        that command them.
+      charges: null
+      keywords:
+      - Droid
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        configuration: 1
+        missile: 1
+        modification: 1
+      xwa_loadout_val: 6
+    theironassembler:
+      id_: theironassembler
+      amg_cost: null
+      xwa_cost: 6
+      xwa_restricted_count: null
+      name: • The Iron Assembler
+      unique: true
+      limit: 1
+      subtitle: Scintilla Scavenger
+      initiative: 1
+      faction: separatistalliance
+      is_droid: true
+      pilot_ability:
+        name: null
+        text: After a friendly ship at range 0-1 skips its execute maneuver step,
+          you may spend 1 [Charge]. If you do, if there is an asteroid or debris cloud
+          at range 0 of it, that ship may repair 1 damage.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges:
+        standard:
+          limit: 3
+          recurring_val: 0
+      keywords:
+      - Droid
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        configuration: 1
+        missile: 1
+        modification: 2
+      xwa_loadout_val: 4
+    tradefederationdrone:
+      id_: tradefederationdrone
+      amg_cost: null
+      xwa_cost: 5
+      xwa_restricted_count: null
+      name: Trade Federation Drone
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 1
+      faction: separatistalliance
+      is_droid: true
+      pilot_ability: null
+      flavor_text: The Trade Federation deployed countless Vulture Droids at the Battle
+        of Naboo, and continues to use these inexpensive starfighters in the Clone
+        Wars.
+      charges: null
+      keywords:
+      - Droid
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        configuration: 1
+        missile: 1
+        modification: 1
+      xwa_loadout_val: 3

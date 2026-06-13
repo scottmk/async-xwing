@@ -1,0 +1,458 @@
+id_: firesprayclasspatrolcraft
+name: Firespray-class Patrol Craft
+size: medium
+attacks:
+- arc: front
+  val: 3
+- arc: rear
+  val: 3
+agility_val: 2
+hull_val: 6
+shield_val: 4
+shields_recurring: null
+energy_val: null
+energy_recurring: null
+action_bar:
+- action_name: focus
+  color: white
+  linked_action: null
+- action_name: lock
+  color: white
+  linked_action: null
+- action_name: reinforce
+  color: red
+  linked_action: null
+- action_name: boost
+  color: white
+  linked_action: null
+ship_ability: null
+maneuver_dial:
+  bank_left:
+    1: blue
+    2: white
+    3: white
+  bank_right:
+    1: blue
+    2: white
+    3: white
+  koiogran_turn:
+    4: red
+  straight:
+    1: blue
+    2: blue
+    3: blue
+    4: white
+  tallon_roll_left:
+    3: red
+  tallon_roll_right:
+    3: red
+  turn_left:
+    1: white
+    2: white
+  turn_right:
+    1: white
+    2: white
+pilots:
+  scumandvillainy:
+    bobafett:
+      id_: bobafett
+      amg_cost: null
+      xwa_cost: 21
+      xwa_restricted_count: null
+      name: • Boba Fett
+      unique: true
+      limit: 1
+      subtitle: Notorious Bounty Hunter
+      initiative: 5
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you defend or perform an attack, you may reroll 1 of your dice
+          for each enemy ship at range 0-1.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Bounty Hunter
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        cannon: 1
+        crew: 1
+        illicit: 1
+        missile: 1
+        modification: 2
+        payload: 1
+        talent: 1
+        title: 1
+      xwa_loadout_val: 20
+    bountyhunter:
+      id_: bountyhunter
+      amg_cost: null
+      xwa_cost: 14
+      xwa_restricted_count: null
+      name: Bounty Hunter
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 2
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability: null
+      flavor_text: The Firespray-class patrol craft is infamous for its association
+        with the deadly bounty hunters Jango Fett and Boba Fett, who packed their
+        craft with countless deadly armaments.
+      charges: null
+      keywords:
+      - Bounty Hunter
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        cannon: 1
+        crew: 1
+        illicit: 1
+        missile: 1
+        modification: 1
+        payload: 1
+      xwa_loadout_val: 6
+    emonazzameen:
+      id_: emonazzameen
+      amg_cost: null
+      xwa_cost: 17
+      xwa_restricted_count: null
+      name: • Emon Azzameen
+      unique: true
+      limit: 1
+      subtitle: Shipping Magnate
+      initiative: 4
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: If you would drop a device using a [1 [Straight]] template, you may
+          use the [3 [Turn Left]], [3 [Straight]], or [3 [Turn Right]] template instead.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        cannon: 1
+        crew: 1
+        illicit: 1
+        missile: 1
+        modification: 1
+        payload: 1
+        talent: 1
+        title: 1
+      xwa_loadout_val: 16
+    hondoohnaka:
+      id_: hondoohnaka
+      amg_cost: null
+      xwa_cost: 16
+      xwa_restricted_count: null
+      name: • Hondo Ohnaka
+      unique: true
+      limit: 1
+      subtitle: I Smell Profit!
+      initiative: 1
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: 'Action: Choose 2 non-huge ships at range 0-3 of you that are not friendly
+          to each other. Each chosen ship may perform an action that is on your action
+          bar, even while stressed, in the order of your choice. Then, gain 1 calculate
+          token.'
+        automations: []
+        is_action: true
+      flavor_text: null
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        cannon: 1
+        crew: 1
+        illicit: 1
+        missile: 1
+        modification: 1
+        payload: 1
+        title: 1
+      xwa_loadout_val: 12
+    kathscarlet:
+      id_: kathscarlet
+      amg_cost: null
+      xwa_cost: 15
+      xwa_restricted_count: null
+      name: • Kath Scarlet
+      unique: true
+      limit: 1
+      subtitle: Captain of the Binayre Pirates
+      initiative: 4
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you perform a primary attack, if there is at least 1 friendly
+          non-limited ship at range 0 of the defender, roll 1 additional attack die.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        cannon: 1
+        crew: 1
+        illicit: 1
+        missile: 1
+        modification: 1
+        payload: 1
+        talent: 1
+        title: 1
+      xwa_loadout_val: 12
+    koshkafrost:
+      id_: koshkafrost
+      amg_cost: null
+      xwa_cost: 16
+      xwa_restricted_count: null
+      name: • Koshka Frost
+      unique: true
+      limit: 1
+      subtitle: Icy Professional
+      initiative: 3
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you defend or perform an attack, if the enemy ship is stressed,
+          you may reroll 1 of your dice.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Bounty Hunter
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        cannon: 1
+        crew: 1
+        illicit: 1
+        missile: 1
+        modification: 1
+        payload: 1
+        talent: 1
+        title: 1
+      xwa_loadout_val: 18
+    krassistrelix:
+      id_: krassistrelix
+      amg_cost: null
+      xwa_cost: 16
+      xwa_restricted_count: null
+      name: • Krassis Trelix
+      unique: true
+      limit: 1
+      subtitle: Imperial Deserter
+      initiative: 3
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: You can perform [Front Arc] special attacks from your [Rear Arc]. While
+          you perform a special attack, you may reroll 1 attack die.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        cannon: 1
+        crew: 1
+        illicit: 1
+        missile: 1
+        modification: 1
+        payload: 1
+        talent: 1
+      xwa_loadout_val: 15
+  separatistalliance:
+    aurrasing:
+      id_: aurrasing
+      amg_cost: null
+      xwa_cost: 17
+      xwa_restricted_count: null
+      name: • Aurra Sing
+      unique: true
+      limit: 1
+      subtitle: Bane of the Jedi
+      initiative: 4
+      faction: separatistalliance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: Before you engage, you may spend 1 [Force] to choose 2 enemy ships at
+          range 0-1. Transfer any number of orange and red tokens between those two
+          ships.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges:
+        force:
+          limit: 1
+          recurring_val: 1
+      keywords:
+      - Bounty Hunter
+      - Dark Side
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        cannon: 1
+        crew: 1
+        force_power: 1
+        illicit: 1
+        missile: 1
+        modification: 1
+        payload: 1
+        title: 1
+      xwa_loadout_val: 10
+    bobafett-firesprayclasspatrolcraft:
+      id_: bobafett-firesprayclasspatrolcraft
+      amg_cost: null
+      xwa_cost: 16
+      xwa_restricted_count: null
+      name: • Boba Fett
+      unique: true
+      limit: 1
+      subtitle: Survivor
+      initiative: 3
+      faction: separatistalliance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you defend, if there are no other friendly ships at range 0-2,
+          you may change 1 of your blank results to a [Focus] result.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Bounty Hunter
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        cannon: 1
+        crew: 1
+        illicit: 1
+        missile: 1
+        modification: 1
+        payload: 1
+        title: 1
+      xwa_loadout_val: 9
+    jangofett:
+      id_: jangofett
+      amg_cost: null
+      xwa_cost: 19
+      xwa_restricted_count: null
+      name: • Jango Fett
+      unique: true
+      limit: 1
+      subtitle: Simple Man
+      initiative: 6
+      faction: separatistalliance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you defend or perform a primary attack, if the difficulty of your
+          revealed maneuver is less than that of the enemy ship's, you may change
+          1 of the enemy ship's [Focus] results to a blank result.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Bounty Hunter
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        cannon: 1
+        crew: 1
+        illicit: 1
+        missile: 1
+        modification: 1
+        payload: 1
+        talent: 1
+        title: 1
+      xwa_loadout_val: 20
+    separatistracketeer:
+      id_: separatistracketeer
+      amg_cost: null
+      xwa_cost: 15
+      xwa_restricted_count: null
+      name: Separatist Racketeer
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 2
+      faction: separatistalliance
+      is_droid: false
+      pilot_ability: null
+      flavor_text: Emboldened by the bitter stalemate of the Outer Rim Sieges, mercenary
+        groups across the galaxy take the opportunity to profit from the ongoing war.
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        cannon: 1
+        crew: 1
+        illicit: 1
+        missile: 1
+        modification: 1
+        payload: 1
+      xwa_loadout_val: 8
+    zamwesell:
+      id_: zamwesell
+      amg_cost: null
+      xwa_cost: 18
+      xwa_restricted_count: null
+      name: • Zam Wesell
+      unique: true
+      limit: 1
+      subtitle: Clawdite Changeling
+      initiative: 5
+      faction: separatistalliance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: 'Setup: Lose 2 [Charge]. During the System Phase, you may assign 1 of
+          your secret conditions to yourself facedown: “You Should Thank Me” or “You''d
+          Better Mean Business”'
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges:
+        standard:
+          limit: 4
+          recurring_val: 0
+      keywords:
+      - Bounty Hunter
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        cannon: 1
+        crew: 1
+        illicit: 1
+        missile: 1
+        modification: 1
+        payload: 1
+        talent: 1
+        title: 1
+      xwa_loadout_val: 12

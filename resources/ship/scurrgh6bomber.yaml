@@ -1,0 +1,144 @@
+id_: scurrgh6bomber
+name: Scurrg H-6 bomber
+size: medium
+attacks:
+- arc: front
+  val: 3
+agility_val: 1
+hull_val: 6
+shield_val: 4
+shields_recurring: null
+energy_val: null
+energy_recurring: null
+action_bar:
+- action_name: focus
+  color: white
+  linked_action: null
+- action_name: lock
+  color: white
+  linked_action: null
+- action_name: barrel_roll
+  color: red
+  linked_action: null
+ship_ability: null
+maneuver_dial:
+  bank_left:
+    1: blue
+    2: white
+    3: white
+  bank_right:
+    1: blue
+    2: white
+    3: white
+  straight:
+    1: blue
+    2: blue
+    3: white
+    4: red
+  tallon_roll_left:
+    3: red
+  tallon_roll_right:
+    3: red
+  turn_left:
+    2: white
+    3: red
+  turn_right:
+    2: white
+    3: red
+pilots:
+  scumandvillainy:
+    captainnym:
+      id_: captainnym
+      amg_cost: null
+      xwa_cost: 14
+      xwa_restricted_count: null
+      name: • Captain Nym
+      unique: true
+      limit: 1
+      subtitle: Captain of the Lok Revenants
+      initiative: 5
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: Before a friendly bomb or mine would detonate, you may spend 1 [Charge]
+          to prevent it from detonating. While you defend against an attack obstructed
+          by a bomb or mine, roll 1 additional defense die.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges:
+        standard:
+          limit: 1
+          recurring_val: 1
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 1
+        gunner: 1
+        modification: 1
+        payload: 2
+        talent: 1
+        title: 1
+        turret: 1
+      xwa_loadout_val: 22
+    lokrevenant:
+      id_: lokrevenant
+      amg_cost: null
+      xwa_cost: 12
+      xwa_restricted_count: null
+      name: Lok Revenant
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 2
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability: null
+      flavor_text: The Nubian Design Collective crafted the Scurrg H-6 Bomber with
+        combat versatility in mind, arming it with powerful shields and a bristling
+        array of destructive weaponry.
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 1
+        gunner: 1
+        modification: 1
+        payload: 2
+        turret: 1
+      xwa_loadout_val: 11
+    solsixxa:
+      id_: solsixxa
+      amg_cost: null
+      xwa_cost: 12
+      xwa_restricted_count: null
+      name: • Sol Sixxa
+      unique: true
+      limit: 1
+      subtitle: Cunning Commander
+      initiative: 3
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: If you would drop a device using a [1 [Straight]] template, you may
+          drop it using any other speed 1 template instead.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 1
+        gunner: 1
+        illicit: 1
+        modification: 1
+        payload: 2
+        talent: 1
+        turret: 1
+      xwa_loadout_val: 16

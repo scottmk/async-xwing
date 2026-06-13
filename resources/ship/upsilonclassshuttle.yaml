@@ -1,0 +1,249 @@
+id_: upsilonclassshuttle
+name: Upsilon-class command shuttle
+size: large
+attacks:
+- arc: front
+  val: 4
+agility_val: 1
+hull_val: 6
+shield_val: 6
+shields_recurring: null
+energy_val: null
+energy_recurring: null
+action_bar:
+- action_name: focus
+  color: white
+  linked_action: null
+- action_name: lock
+  color: white
+  linked_action: null
+- action_name: reinforce
+  color: white
+  linked_action: null
+- action_name: coordinate
+  color: white
+  linked_action: null
+- action_name: jam
+  color: white
+  linked_action: null
+ship_ability:
+  name: Linked Battery
+  text: While you perform a [Cannon] attack, roll 1 additional die.
+  automations: []
+  is_action: false
+maneuver_dial:
+  bank_left:
+    1: white
+    2: blue
+    3: white
+  bank_right:
+    1: white
+    2: blue
+    3: white
+  stationary:
+    0: red
+  straight:
+    1: blue
+    2: blue
+    3: white
+  turn_left:
+    1: red
+    2: white
+    3: red
+  turn_right:
+    1: red
+    2: white
+    3: red
+pilots:
+  firstorder:
+    captaincardinal:
+      id_: captaincardinal
+      amg_cost: null
+      xwa_cost: 16
+      xwa_restricted_count: null
+      name: • Captain Cardinal
+      unique: true
+      limit: 1
+      subtitle: Principled Instructor
+      initiative: 4
+      faction: firstorder
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While a friendly ship at range 1-2 with lower initiative than you defends
+          or performs an attack, if you have at least 1 [Charge], that ship may reroll
+          1 [Focus] result. After an enemy ship at range 0-3 is destroyed, lose 1
+          [Charge].
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges:
+        standard:
+          limit: 2
+          recurring_val: 0
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        cannon: 1
+        crew: 3
+        modification: 1
+        sensor: 1
+        talent: 1
+        tech: 2
+      xwa_loadout_val: 19
+    lieutenantdormitz:
+      id_: lieutenantdormitz
+      amg_cost: null
+      xwa_cost: 17
+      xwa_restricted_count: null
+      name: • Lieutenant Dormitz
+      unique: true
+      limit: 1
+      subtitle: Hypercomms Specialist
+      initiative: 2
+      faction: firstorder
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: 'Setup: After you are placed, other friendly ships can be placed anywhere
+          in the play area at range 0-2 of you.'
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        cannon: 1
+        crew: 3
+        modification: 1
+        sensor: 1
+        tech: 2
+      xwa_loadout_val: 22
+    lieutenanttavson:
+      id_: lieutenanttavson
+      amg_cost: null
+      xwa_cost: 16
+      xwa_restricted_count: null
+      name: • Lieutenant Tavson
+      unique: true
+      limit: 1
+      subtitle: Obedient Shuttle Pilot
+      initiative: 3
+      faction: firstorder
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After you suffer damage, you may spend 1 [Charge] to perform an action.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges:
+        standard:
+          limit: 2
+          recurring_val: 1
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        cannon: 1
+        crew: 3
+        modification: 1
+        sensor: 1
+        tech: 2
+      xwa_loadout_val: 17
+    majorstridan:
+      id_: majorstridan
+      amg_cost: null
+      xwa_cost: 17
+      xwa_restricted_count: null
+      name: • Major Stridan
+      unique: true
+      limit: 1
+      subtitle: Stentorian Commander
+      initiative: 4
+      faction: firstorder
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you coordinate or resolve the effect of one of your upgrades,
+          you may treat friendly ships at range 2-3 as being at range 0 or range 1.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        cannon: 1
+        crew: 3
+        modification: 1
+        sensor: 1
+        talent: 1
+        tech: 2
+      xwa_loadout_val: 25
+    pettyofficerthanisson:
+      id_: pettyofficerthanisson
+      amg_cost: null
+      xwa_cost: 15
+      xwa_restricted_count: null
+      name: • Petty Officer Thanisson
+      unique: true
+      limit: 1
+      subtitle: Alert Flight Controller
+      initiative: 1
+      faction: firstorder
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: During the Activation or Engagement Phase, after a ship in your [Front
+          Arc] at range 0-2 gains 1 stress token, you may spend 1 [Charge]. If you
+          do, that ship gains 1 tractor token.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges:
+        standard:
+          limit: 1
+          recurring_val: 1
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        cannon: 1
+        crew: 3
+        modification: 1
+        sensor: 1
+        tech: 2
+      xwa_loadout_val: 15
+    starkillerbasepilot:
+      id_: starkillerbasepilot
+      amg_cost: null
+      xwa_cost: 15
+      xwa_restricted_count: null
+      name: Starkiller Base Pilot
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 2
+      faction: firstorder
+      is_droid: false
+      pilot_ability: null
+      flavor_text: The Upsilon-class command shuttle serves as a base of operations
+        for many of the First Order's senior officers and agents. Its powerful sensors
+        and communications equipment allow them to orchestrate the spread of terror
+        across the galaxy.
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        cannon: 1
+        crew: 3
+        modification: 1
+        sensor: 1
+        tech: 2
+      xwa_loadout_val: 18

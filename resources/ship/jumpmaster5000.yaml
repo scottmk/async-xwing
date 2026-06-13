@@ -1,0 +1,224 @@
+id_: jumpmaster5000
+name: JumpMaster 5000
+size: large
+attacks:
+- arc: single_turret
+  val: 2
+agility_val: 2
+hull_val: 6
+shield_val: 3
+shields_recurring: null
+energy_val: null
+energy_recurring: null
+action_bar:
+- action_name: focus
+  color: white
+  linked_action:
+    action_name: rotate
+    color: red
+    linked_action: null
+- action_name: lock
+  color: white
+  linked_action:
+    action_name: rotate
+    color: red
+    linked_action: null
+- action_name: barrel_roll
+  color: red
+  linked_action: null
+ship_ability: null
+maneuver_dial:
+  bank_left:
+    1: blue
+    2: blue
+    3: blue
+  bank_right:
+    1: white
+    2: white
+    3: white
+  koiogran_turn:
+    4: red
+  segnors_loop_left:
+    3: red
+  straight:
+    1: blue
+    2: blue
+    3: blue
+    4: white
+  turn_left:
+    1: white
+    2: white
+  turn_right:
+    1: red
+    2: red
+pilots:
+  scumandvillainy:
+    contractedscout:
+      id_: contractedscout
+      amg_cost: null
+      xwa_cost: 10
+      xwa_restricted_count: 2
+      name: Contracted Scout
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 2
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability: null
+      flavor_text: Built for long-distance reconnaissance and plotting new standard
+        routes, the lightly armed JumpMaster 5000 is often extensively retrofitted
+        with custom upgrades.
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        cannon: 1
+        crew: 1
+        gunner: 1
+        illicit: 1
+        modification: 1
+      xwa_loadout_val: 8
+    dengar:
+      id_: dengar
+      amg_cost: null
+      xwa_cost: 16
+      xwa_restricted_count: null
+      name: • Dengar
+      unique: true
+      limit: 1
+      subtitle: Vengeful Corellian
+      initiative: 6
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After you defend, if the attacker is in your [Front Arc], you may spend
+          1 [Charge] to perform a bonus attack against the attacker.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges:
+        standard:
+          limit: 1
+          recurring_val: 1
+      keywords:
+      - Bounty Hunter
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        cannon: 1
+        crew: 1
+        gunner: 1
+        illicit: 1
+        modification: 1
+        talent: 1
+        title: 1
+        torpedo: 1
+      xwa_loadout_val: 18
+    manaroo:
+      id_: manaroo
+      amg_cost: null
+      xwa_cost: 12
+      xwa_restricted_count: null
+      name: • Manaroo
+      unique: true
+      limit: 1
+      subtitle: Graceful Aruzan
+      initiative: 3
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: At the start of the Engagement Phase, you may choose a friendly ship
+          at range 0-1. If you do, transfer all green tokens assigned to you to that
+          ship.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Bounty Hunter
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        cannon: 1
+        crew: 1
+        gunner: 1
+        illicit: 1
+        modification: 1
+        talent: 1
+        title: 1
+        torpedo: 1
+      xwa_loadout_val: 13
+    nomlumb:
+      id_: nomlumb
+      amg_cost: null
+      xwa_cost: 11
+      xwa_restricted_count: null
+      name: • Nom Lumb
+      unique: true
+      limit: 1
+      subtitle: On the Run
+      initiative: 1
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After you become the defender, if the attacker is not in your [Single
+          Turret Arc], you must rotate your [Single Turret Arc] indicator to a standard
+          arc the attacker is in.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Bounty Hunter
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        cannon: 1
+        crew: 1
+        gunner: 1
+        illicit: 1
+        modification: 1
+        torpedo: 1
+      xwa_loadout_val: 13
+    teltrevura:
+      id_: teltrevura
+      amg_cost: null
+      xwa_cost: 13
+      xwa_restricted_count: null
+      name: • Tel Trevura
+      unique: true
+      limit: 1
+      subtitle: Escape Artist
+      initiative: 4
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: If you would be destroyed, you may spend 1 [Charge]. If you do, discard
+          all of your damage cards, suffer 5 [Hit] damage, and place yourself in reserves
+          instead. At the start of the next Planning Phase, place yourself within
+          range 1 of your player edge.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges:
+        standard:
+          limit: 1
+          recurring_val: 0
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        cannon: 1
+        crew: 1
+        gunner: 1
+        illicit: 1
+        modification: 1
+        talent: 1
+        torpedo: 1
+      xwa_loadout_val: 21

@@ -1,4 +1,3 @@
----
 id_: t65xwing
 name: T-65 X-wing
 size: small
@@ -8,6 +7,9 @@ attacks:
 agility_val: 2
 hull_val: 4
 shield_val: 2
+shields_recurring: null
+energy_val: null
+energy_recurring: null
 action_bar:
 - action_name: focus
   color: white
@@ -20,11 +22,6 @@ action_bar:
   linked_action: null
 ship_ability: null
 maneuver_dial:
-  straight:
-    1: blue
-    2: blue
-    3: white
-    4: white
   bank_left:
     1: blue
     2: blue
@@ -33,110 +30,465 @@ maneuver_dial:
     1: blue
     2: blue
     3: white
+  koiogran_turn:
+    4: red
+  straight:
+    1: blue
+    2: blue
+    3: white
+    4: white
+  tallon_roll_left:
+    3: red
+  tallon_roll_right:
+    3: red
   turn_left:
     2: white
     3: white
   turn_right:
     2: white
     3: white
-  koiogran_turn:
-    4: red
-  tallon_roll_left:
-    3: red
-  tallon_roll_right:
-    3: red
 pilots:
-  jekporkins:
-    id_: jekporkins
-    amg_cost: null
-    xwa_cost: 10
-    xwa_restricted_count: null
-    name: • Jek Porkins
-    unique: true
-    subtitle: Red Six
-    initiative: 5
-    faction: rebellion
-    is_droid: false
-    pilot_ability:
-      text: 'After you receive a stress token, you may roll 1 attack die to remove
-        it. On a :hit: result, suffer 1 :hit: damage.'
-      automations:
-      - AFTER_STRESS
-      - ROLL_ATK_DIE:1
-      - REMOVE_STRESS:1
-      - ON_HIT_SUFFER_HIT:1
-      is_action: false
-    flavor_text: null
-    charges: null
-    keywords:
-    - X-wing
-    amg_upgrade_bar: null
-    amg_loadout_val: null
-    xwa_upgrade_bar:
-      talent: 1
-      astromech: 1
-      modification: 1
-      torpedo: 1
-      configuration: 1
-    xwa_loadout_val: 8
-  lukeskywalker:
-    id_: lukeskywalker
-    amg_cost: null
-    xwa_cost: 14
-    xwa_restricted_count: null
-    name: • Luke Skywalker
-    unique: true
-    subtitle: Red Five
-    initiative: 5
-    faction: rebellion
-    is_droid: false
-    pilot_ability:
-      text: 'After you become the defender (before dice are rolled), you may recover
-        1 :force-charge:'
-      automations:
-      - BEFORE_DICE:DEFENDING
-      - RECOVER_FORCE_CHARGE:1
-      is_action: false
-    flavor_text: null
-    charges:
-      force:
-        limit: 2
-        recurring_val: 1
-    keywords:
-    - X-wing
-    - Light Side
-    amg_upgrade_bar: null
-    amg_loadout_val: null
-    xwa_upgrade_bar:
-      force_power: 2
-      astromech: 1
-      modification: 1
-      torpedo: 1
-      configuration: 1
-    xwa_loadout_val: 10
-  redsquadronveteran:
-    id_: redsquadronveteran
-    amg_cost: null
-    xwa_cost: 10
-    xwa_restricted_count: null
-    name: Red Squadron Veteran
-    unique: false
-    subtitle: null
-    initiative: 3
-    faction: rebellion
-    is_droid: false
-    pilot_ability: null
-    flavor_text: Created as an elite starfighter squad, Red Squadron includes some
-      of the best pilots in the Rebel Alliance.
-    charges: null
-    keywords:
-    - X-wing
-    amg_upgrade_bar: null
-    amg_loadout_val: null
-    xwa_upgrade_bar:
-      talent: 1
-      astromech: 1
-      modification: 1
-      torpedo: 1
-      configuration: 1
-    xwa_loadout_val: 10
+  rebelalliance:
+    biggsdarklighter:
+      id_: biggsdarklighter
+      amg_cost: null
+      xwa_cost: 10
+      xwa_restricted_count: null
+      name: • Biggs Darklighter
+      unique: true
+      limit: 1
+      subtitle: Red Three
+      initiative: 3
+      faction: rebelalliance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While another friendly ship at range 0-1 defends, before the Neutralize
+          Results step, if you are in the attack arc, you may suffer 1 [Hit] or [Critical
+          Hit] damage to cancel 1 matching result.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - X-wing
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        astromech: 1
+        configuration: 1
+        modification: 1
+        torpedo: 1
+      xwa_loadout_val: 7
+    bluesquadronescort:
+      id_: bluesquadronescort
+      amg_cost: null
+      xwa_cost: 9
+      xwa_restricted_count: null
+      name: Blue Squadron Escort
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 2
+      faction: rebelalliance
+      is_droid: false
+      pilot_ability: null
+      flavor_text: Designed by Incom Corporation, the T-65 X-wing quickly proved to
+        be one of the most effective and versatile military vehicles in the galaxy
+        and a boon to the Rebellion.
+      charges: null
+      keywords:
+      - X-wing
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        astromech: 1
+        configuration: 1
+        modification: 1
+        torpedo: 1
+      xwa_loadout_val: 3
+    cavernangelszealot:
+      id_: cavernangelszealot
+      amg_cost: null
+      xwa_cost: 10
+      xwa_restricted_count: null
+      name: Cavern Angels Zealot
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 1
+      faction: rebelalliance
+      is_droid: false
+      pilot_ability: null
+      flavor_text: Unlike most Rebel cells, Saw Gerrera's partisans are willing to
+        use extreme methods to undermine the Galactic Empire's objectives in brutal
+        battles that raged from Geonosis to Jedha.
+      charges: null
+      keywords:
+      - Partisan
+      - X-wing
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        astromech: 1
+        configuration: 1
+        illicit: 1
+        missile: 1
+        modification: 1
+      xwa_loadout_val: 10
+    corranhorn-t65xwing:
+      id_: corranhorn-t65xwing
+      amg_cost: null
+      xwa_cost: 13
+      xwa_restricted_count: null
+      name: • Corran Horn
+      unique: true
+      limit: 1
+      subtitle: Rogue Nine
+      initiative: 5
+      faction: rebelalliance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After you declare the defender of an attack, if you have a lock on the
+          defender, a friendly ship may transfer their lock token from you to the
+          defender.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - X-wing
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        astromech: 1
+        configuration: 1
+        modification: 1
+        talent: 1
+        torpedo: 1
+      xwa_loadout_val: 18
+    edriotwotubes:
+      id_: edriotwotubes
+      amg_cost: null
+      xwa_cost: 10
+      xwa_restricted_count: null
+      name: • Edrio Two Tubes
+      unique: true
+      limit: 1
+      subtitle: Cavern Angels Veteran
+      initiative: 2
+      faction: rebelalliance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: Before you activate, if you are focused, you may perform an action.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Partisan
+      - X-wing
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        astromech: 1
+        configuration: 1
+        illicit: 1
+        missile: 1
+        modification: 1
+      xwa_loadout_val: 11
+    garvendreis-t65xwing:
+      id_: garvendreis-t65xwing
+      amg_cost: null
+      xwa_cost: 11
+      xwa_restricted_count: null
+      name: • Garven Dreis
+      unique: true
+      limit: 1
+      subtitle: Red Leader
+      initiative: 4
+      faction: rebelalliance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After you spend a focus token, you may choose 1 friendly ship at range
+          1-3. That ship gains 1 focus token.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - X-wing
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        astromech: 1
+        configuration: 1
+        modification: 1
+        talent: 1
+        torpedo: 1
+      xwa_loadout_val: 9
+    jekporkins:
+      id_: jekporkins
+      amg_cost: null
+      xwa_cost: 10
+      xwa_restricted_count: null
+      name: • Jek Porkins
+      unique: true
+      limit: 1
+      subtitle: Red Six
+      initiative: 4
+      faction: rebelalliance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After you receive a stress token, you may roll 1 attack die to remove
+          it. On a [Hit] result, suffer 1 [Hit] damage.
+        automations:
+        - AFTER_STRESS
+        - ROLL_ATK_DIE:1
+        - REMOVE_STRESS:1
+        - ON_HIT_SUFFER_HIT:1
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - X-wing
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        astromech: 1
+        configuration: 1
+        modification: 1
+        talent: 1
+        torpedo: 1
+      xwa_loadout_val: 8
+    kullbeesperado:
+      id_: kullbeesperado
+      amg_cost: null
+      xwa_cost: 11
+      xwa_restricted_count: null
+      name: • Kullbee Sperado
+      unique: true
+      limit: 1
+      subtitle: Enigmatic Gunslinger
+      initiative: 4
+      faction: rebelalliance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After you perform a [Barrel Roll] or [Boost] action, you may flip your
+          equipped [Configuration] upgrade card.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Partisan
+      - X-wing
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        astromech: 1
+        configuration: 1
+        illicit: 1
+        missile: 1
+        modification: 1
+        talent: 1
+      xwa_loadout_val: 14
+    leevantenza:
+      id_: leevantenza
+      amg_cost: null
+      xwa_cost: 10
+      xwa_restricted_count: null
+      name: • Leevan Tenza
+      unique: true
+      limit: 1
+      subtitle: Rebel Alliance Defector
+      initiative: 3
+      faction: rebelalliance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After you perform a [Barrel Roll] or [Boost] action, you may perform
+          a red [Evade] action.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Partisan
+      - X-wing
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        astromech: 1
+        configuration: 1
+        illicit: 1
+        missile: 1
+        modification: 1
+        talent: 1
+      xwa_loadout_val: 10
+    lukeskywalker:
+      id_: lukeskywalker
+      amg_cost: null
+      xwa_cost: 14
+      xwa_restricted_count: null
+      name: • Luke Skywalker
+      unique: true
+      limit: 1
+      subtitle: Red Five
+      initiative: 5
+      faction: rebelalliance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After you become the defender (before dice are rolled), you may recover
+          1 [Force].
+        automations:
+        - BEFORE_DICE:DEFENDING
+        - RECOVER_FORCE_CHARGE:1
+        is_action: false
+      flavor_text: null
+      charges:
+        force:
+          limit: 2
+          recurring_val: 1
+      keywords:
+      - Light Side
+      - X-wing
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        astromech: 1
+        configuration: 1
+        force_power: 2
+        modification: 1
+        torpedo: 1
+      xwa_loadout_val: 10
+    redsquadronveteran:
+      id_: redsquadronveteran
+      amg_cost: null
+      xwa_cost: 10
+      xwa_restricted_count: null
+      name: Red Squadron Veteran
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 3
+      faction: rebelalliance
+      is_droid: false
+      pilot_ability: null
+      flavor_text: Created as an elite starfighter squad, Red Squadron includes some
+        of the best pilots in the Rebel Alliance.
+      charges: null
+      keywords:
+      - X-wing
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        astromech: 1
+        configuration: 1
+        modification: 1
+        talent: 1
+        torpedo: 1
+      xwa_loadout_val: 10
+    thanekyrell:
+      id_: thanekyrell
+      amg_cost: null
+      xwa_cost: 11
+      xwa_restricted_count: null
+      name: • Thane Kyrell
+      unique: true
+      limit: 1
+      subtitle: Corona Four
+      initiative: 5
+      faction: rebelalliance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you perform an attack, you may spend 1 [Focus], [Hit], or [Critical
+          Hit] result to look at the defender's facedown damage cards, choose 1, and
+          expose it.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - X-wing
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        astromech: 1
+        configuration: 1
+        modification: 1
+        talent: 1
+        torpedo: 1
+      xwa_loadout_val: 8
+    wedgeantilles:
+      id_: wedgeantilles
+      amg_cost: null
+      xwa_cost: 14
+      xwa_restricted_count: null
+      name: • Wedge Antilles
+      unique: true
+      limit: 1
+      subtitle: Red Two
+      initiative: 6
+      faction: rebelalliance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you perform an attack, the defender rolls 1 fewer defense die.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - X-wing
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        astromech: 1
+        configuration: 1
+        modification: 1
+        talent: 1
+        torpedo: 1
+      xwa_loadout_val: 13
+    wesjanson:
+      id_: wesjanson
+      amg_cost: null
+      xwa_cost: 12
+      xwa_restricted_count: null
+      name: • Wes Janson
+      unique: true
+      limit: 1
+      subtitle: Wisecracking Wingman
+      initiative: 5
+      faction: rebelalliance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After you perform an attack, you may spend 1 [Charge] to assign the
+          defender 1 jam token. After you defend, you may spend 1 [Charge] to assign
+          the attacker 1 jam token.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges:
+        standard:
+          limit: 1
+          recurring_val: 1
+      keywords:
+      - X-wing
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        astromech: 1
+        configuration: 1
+        modification: 1
+        talent: 1
+        torpedo: 1
+      xwa_loadout_val: 13

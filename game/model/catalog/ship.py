@@ -42,7 +42,8 @@ class ShipSize(StrEnum):
 
 class PilotCard(Card, kw_only=True, frozen=True):
     name: str
-    unique: bool
+    is_unique: bool
+    limit: int | None = None
     subtitle: str | None = None
     initiative: int
     faction: Faction
@@ -85,8 +86,16 @@ class ShipAttr(msgspec.Struct, kw_only=True, frozen=True):
     attacks: list[Attack]
     agility_val: int
     hull_val: int
-    shield_val: int
+    shield_val: int | None = None
+    shields_recurring: int | None = None
+    energy_val: int | None = None
+    energy_recurring: int | None = None
     action_bar: list[Action]
     ship_ability: Ability | None = None
-    maneuver_dial: dict[ManeuverBearing, dict[ManeuverSpeed, ManeuverDifficulty]]
-    pilots: dict[str, PilotCard]
+    maneuver_dial: dict[ManeuverBearing, dict[ManeuverSpeed, ManeuverDifficulty]] | None
+    pilots: Annotated[
+        dict[str, dict[str, PilotCard]],
+        msgspec.Meta(
+            description='Since ships can have pilots in different factions, the catalog file should bucket each pilot by faction for ease of lookup'
+        ),
+    ]

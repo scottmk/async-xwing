@@ -1,0 +1,45 @@
+id_: syliureclasshyperspacering
+name: Syliure-class Hyperspace Ring
+size: small
+attacks: []
+agility_val: 1
+hull_val: 1
+shield_val: 2
+shields_recurring: null
+energy_val: null
+energy_recurring: null
+action_bar: []
+ship_ability:
+  name: Hyperspace Docking Ring
+  text: 1 Delta-7 Aethersprite, Eta-2 Actis, or Nimbus-class V-wing can dock with
+    you. While a ship is docked with you, you gain that ships initiative and are assigned
+    that ship's dial. While you execute a maneuver, reduce its speed to 1. Before
+    you execute an advanced maneuver, execute a white stationary maneuver [Stationary]
+    instead, then you may rotate 90° or 180°. While no ship is docked with you, you
+    are not assigned a maneuver dial and do not activate or engage.
+  automations: []
+  is_action: false
+maneuver_dial: {}
+pilots:
+  galacticrepublic:
+    transgalmegcontrollink:
+      id_: transgalmegcontrollink
+      amg_cost: null
+      xwa_cost: 1
+      xwa_restricted_count: null
+      name: TransGalMeg Control Link
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 0
+      faction: galacticrepublic
+      is_droid: false
+      pilot_ability: null
+      flavor_text: null
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        hyperdrive: 1
+      xwa_loadout_val: 5
