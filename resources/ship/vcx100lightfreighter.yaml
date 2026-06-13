@@ -1,0 +1,263 @@
+id_: vcx100lightfreighter
+name: VCX-100 Light Freighter
+size: large
+attacks:
+- arc: front
+  val: 4
+agility_val: 0
+hull_val: 10
+shield_val: 4
+shields_recurring: null
+energy_val: null
+energy_recurring: null
+action_bar:
+- action_name: focus
+  color: white
+  linked_action: null
+- action_name: lock
+  color: white
+  linked_action: null
+- action_name: reinforce
+  color: white
+  linked_action: null
+ship_ability:
+  name: Tail Gun
+  text: While you have a docked ship, you have a primary [Rear Arc] weapon with an
+    attack value equal to your docked ship's primary [Front Arc] attack value.
+  automations: []
+  is_action: false
+maneuver_dial:
+  bank_left:
+    1: white
+    2: blue
+    3: white
+  bank_right:
+    1: white
+    2: blue
+    3: white
+  koiogran_turn:
+    4: red
+  straight:
+    1: blue
+    2: blue
+    3: white
+    4: white
+  turn_left:
+    1: red
+    2: white
+    3: red
+  turn_right:
+    1: red
+    2: white
+    3: red
+pilots:
+  rebelalliance:
+    alexsandrkallus:
+      id_: alexsandrkallus
+      amg_cost: null
+      xwa_cost: 17
+      xwa_restricted_count: null
+      name: • Alexsandr Kallus
+      unique: true
+      limit: 1
+      subtitle: Fulcrum
+      initiative: 4
+      faction: rebelalliance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you defend, if the attacker modified any attack dice, you may
+          roll 1 additional defense die.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Freighter
+      - Spectre
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 2
+        gunner: 1
+        modification: 1
+        sensor: 1
+        talent: 1
+        title: 1
+        torpedo: 1
+        turret: 1
+      xwa_loadout_val: 14
+    chopper:
+      id_: chopper
+      amg_cost: null
+      xwa_cost: 16
+      xwa_restricted_count: null
+      name: • “Chopper”
+      unique: true
+      limit: 1
+      subtitle: Spectre-3
+      initiative: 2
+      faction: rebelalliance
+      is_droid: true
+      pilot_ability:
+        name: null
+        text: At the start of the Engagement Phase, each enemy ship at range 0 gains
+          2 jam tokens.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Droid
+      - Freighter
+      - Spectre
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 2
+        gunner: 1
+        modification: 1
+        sensor: 1
+        title: 1
+        torpedo: 1
+        turret: 1
+      xwa_loadout_val: 12
+    herasyndulla-legendsandrelics:
+      id_: herasyndulla-legendsandrelics
+      amg_cost: null
+      xwa_cost: 18
+      xwa_restricted_count: null
+      name: • Hera Syndulla
+      unique: true
+      limit: 1
+      subtitle: New Republic General
+      initiative: 6
+      faction: rebelalliance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After you fully execute a red maneuver, you may coordinate a friendly
+          ship at range 1-3.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Freighter
+      - Spectre
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 2
+        gunner: 1
+        modification: 1
+        sensor: 1
+        talent: 2
+        title: 1
+        torpedo: 1
+        turret: 1
+      xwa_loadout_val: 20
+    herasyndulla-vcx100lightfreighter:
+      id_: herasyndulla-vcx100lightfreighter
+      amg_cost: null
+      xwa_cost: 17
+      xwa_restricted_count: null
+      name: • Hera Syndulla
+      unique: true
+      limit: 1
+      subtitle: Spectre-2
+      initiative: 5
+      faction: rebelalliance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After you reveal a red or blue maneuver, you may set your dial to another
+          maneuver of the same difficulty.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Freighter
+      - Spectre
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 2
+        gunner: 1
+        modification: 1
+        sensor: 1
+        talent: 2
+        title: 1
+        torpedo: 1
+        turret: 1
+      xwa_loadout_val: 19
+    kananjarrus:
+      id_: kananjarrus
+      amg_cost: null
+      xwa_cost: 18
+      xwa_restricted_count: null
+      name: • Kanan Jarrus
+      unique: true
+      limit: 1
+      subtitle: Spectre-1
+      initiative: 3
+      faction: rebelalliance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While a friendly ship in your firing arc defends, you may spend 1 [Force].
+          If you do, the attacker rolls 1 fewer attack die.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges:
+        force:
+          limit: 2
+          recurring_val: 1
+      keywords:
+      - Freighter
+      - Jedi
+      - Light Side
+      - Spectre
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 2
+        force_power: 1
+        gunner: 1
+        modification: 1
+        sensor: 1
+        title: 1
+        torpedo: 1
+        turret: 1
+      xwa_loadout_val: 20
+    lothalrebel:
+      id_: lothalrebel
+      amg_cost: null
+      xwa_cost: 15
+      xwa_restricted_count: null
+      name: Lothal Rebel
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 2
+      faction: rebelalliance
+      is_droid: false
+      pilot_ability: null
+      flavor_text: Another successful Corellian Engineering Corporation freighter
+        design, the VCX-100 is larger than the ubiquitous YT-series, boasting more
+        living space and customizability.
+      charges: null
+      keywords:
+      - Freighter
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 2
+        gunner: 1
+        modification: 1
+        sensor: 1
+        torpedo: 1
+        turret: 1
+      xwa_loadout_val: 9

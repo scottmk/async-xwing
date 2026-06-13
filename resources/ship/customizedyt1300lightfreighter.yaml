@@ -1,0 +1,182 @@
+id_: customizedyt1300lightfreighter
+name: Customized YT-1300 Light Freighter
+size: large
+attacks:
+- arc: double_turret
+  val: 2
+agility_val: 1
+hull_val: 8
+shield_val: 3
+shields_recurring: null
+energy_val: null
+energy_recurring: null
+action_bar:
+- action_name: focus
+  color: white
+  linked_action: null
+- action_name: lock
+  color: white
+  linked_action: null
+- action_name: boost
+  color: red
+  linked_action: null
+- action_name: rotate
+  color: white
+  linked_action: null
+ship_ability: null
+maneuver_dial:
+  bank_left:
+    1: blue
+    2: white
+    3: white
+  bank_right:
+    1: blue
+    2: white
+    3: white
+  koiogran_turn:
+    4: red
+  segnors_loop_left:
+    3: red
+  segnors_loop_right:
+    3: red
+  straight:
+    1: blue
+    2: blue
+    3: blue
+    4: white
+  turn_left:
+    2: white
+    3: white
+  turn_right:
+    2: white
+    3: white
+pilots:
+  scumandvillainy:
+    freightercaptain:
+      id_: freightercaptain
+      amg_cost: null
+      xwa_cost: 11
+      xwa_restricted_count: 1
+      name: Freighter Captain
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 1
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability: null
+      flavor_text: Many spacers make a living traveling the Outer Rim, where the difference
+        between smuggler and legitimate merchant is often murky. On the outskirts
+        of civilization, buyers are rarely so discerning to ask where merchandise
+        came from, at least as long as the price is low enough.
+      charges: null
+      keywords:
+      - Freighter
+      - YT-1300
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 2
+        gunner: 1
+        illicit: 1
+        modification: 2
+      xwa_loadout_val: 9
+    hansolo:
+      id_: hansolo
+      amg_cost: null
+      xwa_cost: 14
+      xwa_restricted_count: null
+      name: • Han Solo
+      unique: true
+      limit: 1
+      subtitle: The Corellian Kid
+      initiative: 6
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you defend or perform a primary attack, if the attack is obstructed
+          by an obstacle, you may roll 1 additional die.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Freighter
+      - YT-1300
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 2
+        gunner: 1
+        illicit: 1
+        modification: 2
+        talent: 2
+        title: 1
+      xwa_loadout_val: 16
+    l337:
+      id_: l337
+      amg_cost: null
+      xwa_cost: 12
+      xwa_restricted_count: null
+      name: • L3-37
+      unique: true
+      limit: 1
+      subtitle: Droid Revolutionary
+      initiative: 2
+      faction: scumandvillainy
+      is_droid: true
+      pilot_ability:
+        name: null
+        text: If you are not shielded, decrease the difficulty of your bank ([Bank
+          Left] and [Bank Right]) maneuvers.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Droid
+      - Freighter
+      - YT-1300
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 2
+        gunner: 1
+        illicit: 1
+        modification: 2
+        title: 1
+      xwa_loadout_val: 15
+    landocalrissian:
+      id_: landocalrissian
+      amg_cost: null
+      xwa_cost: 13
+      xwa_restricted_count: null
+      name: • Lando Calrissian
+      unique: true
+      limit: 1
+      subtitle: Smooth-talking Gambler
+      initiative: 4
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After you roll dice, if you are not stressed, you may gain 1 stress
+          token to reroll all of your blank results.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Freighter
+      - YT-1300
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 2
+        gunner: 1
+        illicit: 1
+        modification: 2
+        talent: 1
+        title: 1
+      xwa_loadout_val: 16

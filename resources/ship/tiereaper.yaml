@@ -1,0 +1,167 @@
+id_: tiereaper
+name: TIE Reaper
+size: medium
+attacks:
+- arc: front
+  val: 3
+agility_val: 1
+hull_val: 6
+shield_val: 2
+shields_recurring: null
+energy_val: null
+energy_recurring: null
+action_bar:
+- action_name: focus
+  color: white
+  linked_action: null
+- action_name: evade
+  color: white
+  linked_action: null
+- action_name: coordinate
+  color: red
+  linked_action: null
+- action_name: jam
+  color: white
+  linked_action: null
+ship_ability:
+  name: Controlled Ailerons
+  text: Before you reveal your dial, if you are not stressed, you may boost.
+  automations: []
+  is_action: false
+maneuver_dial:
+  bank_left:
+    1: blue
+    2: white
+    3: white
+  bank_right:
+    1: blue
+    2: white
+    3: white
+  segnors_loop_left:
+    1: red
+  segnors_loop_right:
+    1: red
+  stationary:
+    0: red
+  straight:
+    1: blue
+    2: blue
+    3: blue
+  turn_left:
+    1: red
+    2: red
+  turn_right:
+    1: red
+    2: red
+pilots:
+  galacticempire:
+    captainferoph:
+      id_: captainferoph
+      amg_cost: null
+      xwa_cost: 11
+      xwa_restricted_count: null
+      name: • Captain Feroph
+      unique: true
+      limit: 1
+      subtitle: Imperial Courier
+      initiative: 3
+      faction: galacticempire
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you defend, if the attacker does not have any green tokens, you
+          may change 1 of your blank or [Focus] results to an [Evade] result.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 2
+        modification: 1
+      xwa_loadout_val: 13
+    majorvermeil:
+      id_: majorvermeil
+      amg_cost: null
+      xwa_cost: 12
+      xwa_restricted_count: null
+      name: • Major Vermeil
+      unique: true
+      limit: 1
+      subtitle: Veteran of Scarif
+      initiative: 4
+      faction: galacticempire
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you perform an attack, if the defender does not have any green
+          tokens, you may change 1 of your blank or [Focus] results to a [Hit] result.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 2
+        modification: 1
+        talent: 1
+      xwa_loadout_val: 15
+    scarifbasepilot:
+      id_: scarifbasepilot
+      amg_cost: null
+      xwa_cost: 11
+      xwa_restricted_count: null
+      name: Scarif Base Pilot
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 1
+      faction: galacticempire
+      is_droid: false
+      pilot_ability: null
+      flavor_text: The TIE reaper was designed to ferry elite troops to flashpoints
+        on the battlefield, notably carrying Director Krennic's dreaded death troopers
+        at the Battle of Scarif.
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 2
+        modification: 1
+      xwa_loadout_val: 14
+    vizier:
+      id_: vizier
+      amg_cost: null
+      xwa_cost: 10
+      xwa_restricted_count: null
+      name: • “Vizier”
+      unique: true
+      limit: 1
+      subtitle: Ruthless Tactician
+      initiative: 2
+      faction: galacticempire
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After you move using your Controlled Ailerons ship ability, you may
+          perform a [Coordinate] action. If you do, skip your Perform Action step.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 2
+        modification: 1
+      xwa_loadout_val: 9

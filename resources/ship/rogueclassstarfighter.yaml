@@ -1,0 +1,435 @@
+id_: rogueclassstarfighter
+name: Rogue-class Starfighter
+size: small
+attacks:
+- arc: front
+  val: 2
+agility_val: 2
+hull_val: 5
+shield_val: 2
+shields_recurring: null
+energy_val: null
+energy_recurring: null
+action_bar:
+- action_name: focus
+  color: white
+  linked_action:
+    action_name: boost
+    color: red
+    linked_action: null
+- action_name: focus
+  color: white
+  linked_action:
+    action_name: barrel_roll
+    color: red
+    linked_action: null
+- action_name: evade
+  color: white
+  linked_action:
+    action_name: barrel_roll
+    color: red
+    linked_action: null
+- action_name: lock
+  color: white
+  linked_action: null
+- action_name: boost
+  color: red
+  linked_action: null
+ship_ability:
+  name: Dead to Rights
+  text: While you perform an attack, if the defender is in your [Bullseye Arc], defense
+    dice cannot be modified using green tokens.
+  automations: []
+  is_action: false
+maneuver_dial:
+  bank_left:
+    1: blue
+    2: blue
+    3: white
+  bank_right:
+    1: blue
+    2: blue
+    3: white
+  koiogran_turn:
+    5: red
+  straight:
+    2: blue
+    3: blue
+    4: blue
+    5: white
+  tallon_roll_left:
+    2: red
+  tallon_roll_right:
+    2: red
+  turn_left:
+    1: white
+    2: white
+    3: red
+  turn_right:
+    1: white
+    2: white
+    3: red
+pilots:
+  scumandvillainy:
+    cadbane:
+      id_: cadbane
+      amg_cost: null
+      xwa_cost: 12
+      xwa_restricted_count: null
+      name: • Cad Bane
+      unique: true
+      limit: 1
+      subtitle: Infamous Bounty Hunter
+      initiative: 4
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After you perform an attack that hits, you may spend 2 [Charge] to transfer
+          1 of your non-lock red or orange tokens to the defender.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges:
+        standard:
+          limit: 2
+          recurring_val: 1
+      keywords:
+      - Bounty Hunter
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        cannon: 2
+        illicit: 1
+        missile: 1
+        modification: 2
+        talent: 1
+        title: 1
+      xwa_loadout_val: 20
+    durge:
+      id_: durge
+      amg_cost: null
+      xwa_cost: 11
+      xwa_restricted_count: null
+      name: • Durge
+      unique: true
+      limit: 1
+      subtitle: Hard to Kill
+      initiative: 5
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you defend, after the Neutralize Results step, if there are more
+          [Hit]/[Critical Hit] results than your active [Shield], you may change 1
+          [Hit] result to a [Critical Hit] and cancel 1 [Hit] result.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Bounty Hunter
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        cannon: 2
+        illicit: 2
+        modification: 2
+        talent: 1
+      xwa_loadout_val: 13
+    nomlumb-rogueclassstarfighter:
+      id_: nomlumb-rogueclassstarfighter
+      amg_cost: null
+      xwa_cost: 10
+      xwa_restricted_count: null
+      name: • Nom Lumb
+      unique: true
+      limit: 1
+      subtitle: Laughing Bandit
+      initiative: 1
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: At the start of the Engagement Phase, you may choose 1 enemy ship in
+          your [Front Arc]. If you do, treat your initiative as equal to that ship's
+          until the end of the round.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Bounty Hunter
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        cannon: 2
+        illicit: 1
+        modification: 2
+      xwa_loadout_val: 12
+    outerrimhunter:
+      id_: outerrimhunter
+      amg_cost: null
+      xwa_cost: 9
+      xwa_restricted_count: null
+      name: Outer Rim Hunter
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 3
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability: null
+      flavor_text: Due to its association with Cad Bane, the Rogue-class Starfighterhas
+        found its way into the hands of other bounty hunters, especially those who
+        operate in the lawless Outer Rim.
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        cannon: 2
+        illicit: 1
+        modification: 2
+      xwa_loadout_val: 7
+    viktorhel-rogueclassstarfighter:
+      id_: viktorhel-rogueclassstarfighter
+      amg_cost: null
+      xwa_cost: 10
+      xwa_restricted_count: null
+      name: • Viktor Hel
+      unique: true
+      limit: 1
+      subtitle: Storied Bounty Hunter
+      initiative: 4
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After you defend, if you did not roll exactly 2 defense dice, the attacker
+          gains 1 stress token.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Bounty Hunter
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        cannon: 2
+        illicit: 1
+        modification: 2
+        talent: 1
+      xwa_loadout_val: 11
+  separatistalliance:
+    cadbane-separatistalliance:
+      id_: cadbane-separatistalliance
+      amg_cost: null
+      xwa_cost: 11
+      xwa_restricted_count: null
+      name: • Cad Bane
+      unique: true
+      limit: 1
+      subtitle: Needs No Introduction
+      initiative: 4
+      faction: separatistalliance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: During the Engagement Phase, after another ship at range 0-3 is destroyed,
+          you may spend 1 [Charge] to perform an action, even while stressed.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges:
+        standard:
+          limit: 1
+          recurring_val: 1
+      keywords:
+      - Bounty Hunter
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        cannon: 2
+        illicit: 1
+        missile: 1
+        modification: 2
+        talent: 1
+        title: 1
+      xwa_loadout_val: 11
+    durge-separatistalliance:
+      id_: durge-separatistalliance
+      amg_cost: null
+      xwa_cost: 12
+      xwa_restricted_count: null
+      name: • Durge
+      unique: true
+      limit: 1
+      subtitle: On His Own Time
+      initiative: 5
+      faction: separatistalliance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: When you would be destroyed, you may spend 1 [Charge] to reveal all
+          of your facedown damage cards. If you do, discard each Direct Hit! and each
+          of your damage cards with the Pilot trait, then repair all of your faceup
+          damage cards.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges:
+        standard:
+          limit: 1
+          recurring_val: 0
+      keywords:
+      - Bounty Hunter
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        cannon: 2
+        illicit: 2
+        modification: 2
+        talent: 1
+      xwa_loadout_val: 13
+    ig101:
+      id_: ig101
+      amg_cost: null
+      xwa_cost: 10
+      xwa_restricted_count: null
+      name: • IG-101
+      unique: true
+      limit: 1
+      subtitle: Tenacious Bodyguard
+      initiative: 4
+      faction: separatistalliance
+      is_droid: true
+      pilot_ability:
+        name: null
+        text: At the start of the System Phase, you may repair 1 faceup damage card.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Droid
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        cannon: 2
+        modification: 2
+        talent: 1
+      xwa_loadout_val: 12
+    ig102:
+      id_: ig102
+      amg_cost: null
+      xwa_cost: 10
+      xwa_restricted_count: null
+      name: • IG-102
+      unique: true
+      limit: 1
+      subtitle: Dueling Droid
+      initiative: 4
+      faction: separatistalliance
+      is_droid: true
+      pilot_ability:
+        name: null
+        text: While you defend, if the attacker's initiative is equal to or greater
+          than yours, you may change 1 blank result to a [Focus] result.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Droid
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        cannon: 2
+        modification: 2
+        talent: 1
+      xwa_loadout_val: 11
+    ig111:
+      id_: ig111
+      amg_cost: null
+      xwa_cost: 9
+      xwa_restricted_count: null
+      name: • IG-111
+      unique: true
+      limit: 1
+      subtitle: One Eye
+      initiative: 1
+      faction: separatistalliance
+      is_droid: true
+      pilot_ability:
+        name: null
+        text: After you perform an attack that missed, you may choose 1 enemy ship
+          in your [Bullseye Arc] and gain 1 deplete token. If you do, that ship suffers
+          1 [Hit] damage.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Droid
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        cannon: 2
+        modification: 2
+      xwa_loadout_val: 7
+    magnaguardexecutioner:
+      id_: magnaguardexecutioner
+      amg_cost: null
+      xwa_cost: 9
+      xwa_restricted_count: null
+      name: MagnaGuard Executioner
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 3
+      faction: separatistalliance
+      is_droid: true
+      pilot_ability: null
+      flavor_text: In addition to guarding Separatist leaders, MagneGuard droids are
+        sometimes dispatched in swift Rogue-class Starfighters to eliminate their
+        enemies.
+      charges: null
+      keywords:
+      - Droid
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        cannon: 2
+        modification: 2
+      xwa_loadout_val: 8
+    magnaguardprotector:
+      id_: magnaguardprotector
+      amg_cost: null
+      xwa_cost: 10
+      xwa_restricted_count: null
+      name: •• MagnaGuard Protector
+      unique: false
+      limit: 2
+      subtitle: Implacable Escort
+      initiative: 4
+      faction: separatistalliance
+      is_droid: true
+      pilot_ability:
+        name: null
+        text: After placing forces, assign the Guarded condition to 1 friendly ship
+          other than MagnaGuard Protector.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Droid
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        cannon: 2
+        modification: 2
+        talent: 1
+      xwa_loadout_val: 10

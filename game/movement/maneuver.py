@@ -32,3 +32,4 @@ class ManeuverDifficulty(StrEnum):
     BLUE = auto()
     WHITE = auto()
     RED = auto()
+    PURPLE = auto()

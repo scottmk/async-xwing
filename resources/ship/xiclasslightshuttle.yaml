@@ -1,0 +1,193 @@
+id_: xiclasslightshuttle
+name: Xi-class Light Shuttle
+size: medium
+attacks:
+- arc: front
+  val: 2
+agility_val: 2
+hull_val: 5
+shield_val: 2
+shields_recurring: null
+energy_val: null
+energy_recurring: null
+action_bar:
+- action_name: focus
+  color: white
+  linked_action: null
+- action_name: lock
+  color: red
+  linked_action: null
+- action_name: coordinate
+  color: red
+  linked_action: null
+- action_name: jam
+  color: white
+  linked_action: null
+ship_ability: null
+maneuver_dial:
+  bank_left:
+    1: blue
+    2: blue
+    3: white
+  bank_right:
+    1: blue
+    2: blue
+    3: white
+  stationary:
+    0: red
+  straight:
+    1: blue
+    2: blue
+    3: white
+    4: white
+  turn_left:
+    2: white
+    3: red
+  turn_right:
+    2: white
+    3: red
+pilots:
+  firstorder:
+    agentterex:
+      id_: agentterex
+      amg_cost: null
+      xwa_cost: 9
+      xwa_restricted_count: null
+      name: • Agent Terex
+      unique: true
+      limit: 1
+      subtitle: Devious Provocateur
+      initiative: 3
+      faction: firstorder
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: 'Setup: After placing forces, choose any number of your equipped [Illicit]
+          upgrades and equip them to friendly TIE/fo or TIE/sf fighters. Each ship
+          can be assigned only 1 [Illicit] this way. End of Game: Return all [Illicit]
+          upgrades to their original ships.'
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 2
+        illicit: 3
+        modification: 1
+        tech: 2
+      xwa_loadout_val: 12
+    agenttierny:
+      id_: agenttierny
+      amg_cost: null
+      xwa_cost: 12
+      xwa_restricted_count: null
+      name: • Agent Tierny
+      unique: true
+      limit: 1
+      subtitle: Persuasive Recruiter
+      initiative: 3
+      faction: firstorder
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: 'Setup: After placing forces, you must assign the Broken Trust condition
+          to an enemy ship.'
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 2
+        modification: 1
+        talent: 1
+        tech: 2
+      xwa_loadout_val: 18
+    commandermalarus-xiclasslightshuttle:
+      id_: commandermalarus-xiclasslightshuttle
+      amg_cost: null
+      xwa_cost: 10
+      xwa_restricted_count: null
+      name: • Commander Malarus
+      unique: true
+      limit: 1
+      subtitle: Vindictive Taskmaster
+      initiative: 5
+      faction: firstorder
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While a friendly ship at range 0-2 performs a primary attack, before
+          the Modify Dice step, if it has 1 or more blank results, that ship must
+          gain 1 strain token to reroll 1 blank result, if able.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 2
+        modification: 1
+        talent: 1
+        tech: 2
+      xwa_loadout_val: 10
+    firstordercourier:
+      id_: firstordercourier
+      amg_cost: null
+      xwa_cost: 9
+      xwa_restricted_count: null
+      name: First Order Courier
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 2
+      faction: firstorder
+      is_droid: false
+      pilot_ability: null
+      flavor_text: The First Order lurks in many bases hidden in shadowy corners of
+        the galaxy, slowly spreading its insidious influence.
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 2
+        modification: 1
+        tech: 2
+      xwa_loadout_val: 13
+    gideonhask-xiclasslightshuttle:
+      id_: gideonhask-xiclasslightshuttle
+      amg_cost: null
+      xwa_cost: 9
+      xwa_restricted_count: null
+      name: • Gideon Hask
+      unique: true
+      limit: 1
+      subtitle: Merciless Hard-Liner
+      initiative: 4
+      faction: firstorder
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you or a friendly small ship at range 0-2 performs a primary attack
+          against a damaged defender, if the attacker rolled 2 or fewer attack dice,
+          it may gain 1 strain token to roll 1 additional attack die.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 2
+        modification: 1
+        tech: 2
+      xwa_loadout_val: 8

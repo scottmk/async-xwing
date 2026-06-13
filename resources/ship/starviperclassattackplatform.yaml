@@ -1,0 +1,249 @@
+id_: starviperclassattackplatform
+name: StarViper-class Attack Platform
+size: small
+attacks:
+- arc: front
+  val: 3
+agility_val: 3
+hull_val: 4
+shield_val: 1
+shields_recurring: null
+energy_val: null
+energy_recurring: null
+action_bar:
+- action_name: focus
+  color: white
+  linked_action: null
+- action_name: lock
+  color: white
+  linked_action: null
+- action_name: barrel_roll
+  color: white
+  linked_action:
+    action_name: focus
+    color: red
+    linked_action: null
+- action_name: boost
+  color: white
+  linked_action:
+    action_name: focus
+    color: red
+    linked_action: null
+ship_ability:
+  name: Microthrusters
+  text: While you perform a barrel roll, you must use the [Bank Left] or [Bank Right]
+    template instead of the [Straight] template.
+  automations: []
+  is_action: false
+maneuver_dial:
+  bank_left:
+    1: blue
+    2: blue
+    3: white
+  bank_right:
+    1: blue
+    2: blue
+    3: white
+  segnors_loop_left:
+    3: red
+  segnors_loop_right:
+    3: red
+  straight:
+    1: blue
+    2: blue
+    3: blue
+    4: white
+  turn_left:
+    1: white
+    2: white
+  turn_right:
+    1: white
+    2: white
+pilots:
+  scumandvillainy:
+    blacksunassassin:
+      id_: blacksunassassin
+      amg_cost: null
+      xwa_cost: 11
+      xwa_restricted_count: null
+      name: Black Sun Assassin
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 3
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability: null
+      flavor_text: Although assassinations can be handled with a shot in the dark
+        or a dire substance added to a drink, a flaming shuttle tumbling from the
+        sky sends a special kind of message.
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        illicit: 1
+        modification: 1
+        sensor: 1
+        talent: 1
+        tech: 1
+        torpedo: 1
+      xwa_loadout_val: 11
+    blacksunenforcer:
+      id_: blacksunenforcer
+      amg_cost: null
+      xwa_cost: 10
+      xwa_restricted_count: null
+      name: Black Sun Enforcer
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 2
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability: null
+      flavor_text: Prince Xizor himself collaborated with MandalMotors to design the
+        StarViper-class attack platform, one of the most formidable starfighters in
+        the galaxy.
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        illicit: 1
+        modification: 1
+        sensor: 1
+        tech: 1
+        torpedo: 1
+      xwa_loadout_val: 9
+    dalanoberos-starviperclassattackplatform:
+      id_: dalanoberos-starviperclassattackplatform
+      amg_cost: null
+      xwa_cost: 10
+      xwa_restricted_count: null
+      name: • Dalan Oberos
+      unique: true
+      limit: 1
+      subtitle: Elite Bounty Hunter
+      initiative: 4
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After you fully execute a maneuver, you may gain 1 stress token to rotate
+          your ship 90°.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Bounty Hunter
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        illicit: 1
+        modification: 1
+        sensor: 1
+        talent: 1
+        tech: 1
+        torpedo: 1
+      xwa_loadout_val: 10
+    guri:
+      id_: guri
+      amg_cost: null
+      xwa_cost: 13
+      xwa_restricted_count: null
+      name: • Guri
+      unique: true
+      limit: 1
+      subtitle: Prince Xizor’s Bodyguard
+      initiative: 5
+      faction: scumandvillainy
+      is_droid: true
+      pilot_ability:
+        name: null
+        text: At the start of the Engagement Phase, if there is at least 1 enemy ship
+          at range 0-1, you may gain 1 focus token.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Droid
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        illicit: 1
+        modification: 1
+        sensor: 1
+        talent: 1
+        tech: 1
+        title: 1
+        torpedo: 1
+      xwa_loadout_val: 11
+    princexizor:
+      id_: princexizor
+      amg_cost: null
+      xwa_cost: 12
+      xwa_restricted_count: null
+      name: • Prince Xizor
+      unique: true
+      limit: 1
+      subtitle: Black Sun Kingpin
+      initiative: 4
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you defend, after the Neutralize Results step, another friendly
+          ship at range 0-1 and in the attack arc may suffer 1 [Hit] or [Critical
+          Hit] damage. If it does, cancel 1 matching result.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        illicit: 1
+        modification: 1
+        sensor: 1
+        talent: 1
+        tech: 1
+        title: 1
+        torpedo: 1
+      xwa_loadout_val: 14
+    thweek-legendsandrelics:
+      id_: thweek-legendsandrelics
+      amg_cost: null
+      xwa_cost: 12
+      xwa_restricted_count: null
+      name: • Thweek
+      unique: true
+      limit: 1
+      subtitle: Versatile Spy
+      initiative: 4
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: During the System Phase, you may gain a tractor token. At the start
+          of the Engagement Phase, you may gain a deplete token to remove a tractor
+          token.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Bounty Hunter
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        illicit: 1
+        modification: 1
+        sensor: 1
+        talent: 1
+        tech: 1
+        torpedo: 1
+      xwa_loadout_val: 11

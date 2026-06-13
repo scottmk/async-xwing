@@ -1,0 +1,214 @@
+id_: tierbheavy
+name: TIE/rb Heavy
+size: medium
+attacks:
+- arc: single_turret
+  val: 2
+agility_val: 1
+hull_val: 8
+shield_val: null
+shields_recurring: null
+energy_val: null
+energy_recurring: null
+action_bar:
+- action_name: focus
+  color: white
+  linked_action: null
+- action_name: reinforce
+  color: white
+  linked_action: null
+- action_name: lock
+  color: white
+  linked_action: null
+- action_name: barrel_roll
+  color: red
+  linked_action: null
+- action_name: rotate
+  color: white
+  linked_action:
+    action_name: calculate
+    color: red
+    linked_action: null
+ship_ability:
+  name: Rotating Cannons
+  text: You can rotate your [Single Turret Arc] indicator only to your [Front Arc]
+    or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Cannon]
+    upgrades as [Single Turret Arc].
+  automations: []
+  is_action: false
+maneuver_dial:
+  bank_left:
+    1: white
+    2: blue
+    3: white
+  bank_right:
+    1: white
+    2: blue
+    3: white
+  straight:
+    1: blue
+    2: blue
+    3: white
+    4: white
+  tallon_roll_left:
+    3: red
+  tallon_roll_right:
+    3: red
+  turn_left:
+    1: red
+    2: white
+    3: red
+  turn_right:
+    1: red
+    2: white
+    3: red
+pilots:
+  galacticempire:
+    caridaacademycadet:
+      id_: caridaacademycadet
+      amg_cost: null
+      xwa_cost: 9
+      xwa_restricted_count: null
+      name: Carida Academy Cadet
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 1
+      faction: galacticempire
+      is_droid: false
+      pilot_ability: null
+      flavor_text: At Carida Academy, Imperial Navy cadets are taught to be ruthless
+        and loyal, prioritizing victory over the lives of their comrades.
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        cannon: 2
+        configuration: 1
+        gunner: 1
+        modification: 1
+      xwa_loadout_val: 8
+    flightleaderubbel:
+      id_: flightleaderubbel
+      amg_cost: null
+      xwa_cost: 12
+      xwa_restricted_count: null
+      name: • Flight Leader Ubbel
+      unique: true
+      limit: 1
+      subtitle: Onyx Leader
+      initiative: 5
+      faction: galacticempire
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After a friendly ship at range 0-2 defends, if it was dealt a damage
+          card, you may perform a bonus attack against the attacker.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        cannon: 2
+        configuration: 1
+        gunner: 1
+        modification: 1
+        talent: 1
+      xwa_loadout_val: 13
+    lyttandree:
+      id_: lyttandree
+      amg_cost: null
+      xwa_cost: 10
+      xwa_restricted_count: null
+      name: • Lyttan Dree
+      unique: true
+      limit: 1
+      subtitle: Onyx 2
+      initiative: 3
+      faction: galacticempire
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While a friendly ship at range 0-2 performs an attack, if you are in
+          the defender's [Left Arc] or [Right Arc], the attacker may reroll 1 attack
+          die.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        cannon: 2
+        configuration: 1
+        gunner: 1
+        modification: 1
+      xwa_loadout_val: 13
+    onyxsquadronsentry:
+      id_: onyxsquadronsentry
+      amg_cost: null
+      xwa_cost: 10
+      xwa_restricted_count: null
+      name: Onyx Squadron Sentry
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 3
+      faction: galacticempire
+      is_droid: false
+      pilot_ability: null
+      flavor_text: The TIE/rb heavy, sometimes called the “brute”, is designed for
+        operational flexibility. Its heavy armor and capacity to house an integrated
+        MGK-300 droid co-pilot make it an excellent patrol craft.
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        cannon: 2
+        configuration: 1
+        gunner: 1
+        modification: 1
+        talent: 1
+      xwa_loadout_val: 11
+    rampage:
+      id_: rampage
+      amg_cost: null
+      xwa_cost: 10
+      xwa_restricted_count: null
+      name: • “Rampage”
+      unique: true
+      limit: 1
+      subtitle: Implacable Pursuer
+      initiative: 4
+      faction: galacticempire
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After you execute a speed 3-4 maneuver, you may choose a ship in your
+          [Single Turret Arc] at range 0-1. That ship gains 1 strain token, or 2 strain
+          tokens if you are damaged.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        cannon: 2
+        configuration: 1
+        gunner: 1
+        modification: 1
+        talent: 1
+      xwa_loadout_val: 15

@@ -4,7 +4,8 @@ from typing import Annotated
 import msgspec
 
 
-class Ability(msgspec.Struct):
+class Ability(msgspec.Struct, kw_only=True):
+    name: str | None = None
     text: str
     automations: list[str]
     is_action: bool
@@ -70,14 +71,13 @@ class SpecialAttack(Attack, kw_only=True):
         ),
     ] = None
     is_ordnance: bool
-    text: str
+    text: str | None = None
     automations: list[str]
 
 
 class ChargeType(StrEnum):
     STANDARD = auto()
     FORCE = auto()
-    ENERGY = auto()
 
 
 class ChargeValues(msgspec.Struct):

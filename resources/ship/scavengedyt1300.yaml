@@ -1,0 +1,262 @@
+id_: scavengedyt1300
+name: Scavenged YT-1300
+size: large
+attacks:
+- arc: double_turret
+  val: 3
+agility_val: 1
+hull_val: 8
+shield_val: 3
+shields_recurring: null
+energy_val: null
+energy_recurring: null
+action_bar:
+- action_name: focus
+  color: white
+  linked_action: null
+- action_name: lock
+  color: white
+  linked_action: null
+- action_name: boost
+  color: red
+  linked_action: null
+- action_name: rotate
+  color: red
+  linked_action: null
+ship_ability: null
+maneuver_dial:
+  bank_left:
+    1: white
+    2: blue
+    3: white
+  bank_right:
+    1: white
+    2: blue
+    3: white
+  segnors_loop_left:
+    3: red
+  segnors_loop_right:
+    3: red
+  straight:
+    1: blue
+    2: blue
+    3: white
+    4: red
+  turn_left:
+    2: white
+    3: white
+  turn_right:
+    2: white
+    3: white
+pilots:
+  resistance:
+    chewbacca-scavengedyt1300:
+      id_: chewbacca-scavengedyt1300
+      amg_cost: null
+      xwa_cost: 16
+      xwa_restricted_count: null
+      name: • Chewbacca
+      unique: true
+      limit: 1
+      subtitle: Loyal Companion
+      initiative: 4
+      faction: resistance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After a friendly ship at range 0-3 is destroyed, before that ship is
+          removed, you may perform an action. Then you may perform a bonus attack.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Freighter
+      - YT-1300
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 3
+        gunner: 1
+        illicit: 2
+        missile: 1
+        modification: 1
+        talent: 1
+        title: 1
+      xwa_loadout_val: 14
+    hansolo-scavengedyt1300:
+      id_: hansolo-scavengedyt1300
+      amg_cost: null
+      xwa_cost: 18
+      xwa_restricted_count: null
+      name: • Han Solo
+      unique: true
+      limit: 1
+      subtitle: Jaded Smuggler
+      initiative: 6
+      faction: resistance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: 'Setup: You can be placed anywhere in the play area beyond range 3 of
+          enemy ships.'
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Freighter
+      - YT-1300
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 3
+        gunner: 1
+        illicit: 2
+        missile: 1
+        modification: 1
+        talent: 1
+        title: 1
+      xwa_loadout_val: 19
+    landocalrissian-scavengedyt1300:
+      id_: landocalrissian-scavengedyt1300
+      amg_cost: null
+      xwa_cost: 17
+      xwa_restricted_count: null
+      name: • Lando Calrissian
+      unique: true
+      limit: 1
+      subtitle: Old General
+      initiative: 5
+      faction: resistance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After you fully execute a red maneuver or perform a red action, you
+          may spend any number of [Charge] to choose that many friendly ships at range
+          0-2. The chosen ships may perform an action, even while stressed.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges:
+        standard:
+          limit: 3
+          recurring_val: 1
+      keywords:
+      - Freighter
+      - YT-1300
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 3
+        gunner: 1
+        illicit: 2
+        missile: 1
+        modification: 1
+        talent: 1
+        title: 1
+      xwa_loadout_val: 17
+    poedameron-scavengedyt1300:
+      id_: poedameron-scavengedyt1300
+      amg_cost: null
+      xwa_cost: 20
+      xwa_restricted_count: null
+      name: • Poe Dameron
+      unique: true
+      limit: 1
+      subtitle: A Difficult Man
+      initiative: 6
+      faction: resistance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: Before you execute a maneuver, you may spend 1 [Charge]. If you do,
+          ignore obstacles during that maneuver. After you fully execute a maneuver,
+          you may spend 2 [Charge] to perform a white [Boost] or red [Barrel Roll]
+          action. Then if you performed a red [Barrel Roll] action, expose 1 damage
+          card, if able.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges:
+        standard:
+          limit: 2
+          recurring_val: 1
+      keywords:
+      - Freighter
+      - YT-1300
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 3
+        gunner: 1
+        illicit: 2
+        missile: 1
+        modification: 1
+        talent: 2
+        title: 1
+      xwa_loadout_val: 24
+    resistancesympathizer:
+      id_: resistancesympathizer
+      amg_cost: null
+      xwa_cost: 15
+      xwa_restricted_count: null
+      name: Resistance Sympathizer
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 2
+      faction: resistance
+      is_droid: false
+      pilot_ability: null
+      flavor_text: After witnessing the Hosnian Cataclysm, some spacers willingly
+        aided the Resistance with whatever ships they had.
+      charges: null
+      keywords:
+      - Freighter
+      - YT-1300
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 2
+        modification: 1
+      xwa_loadout_val: 16
+    rey:
+      id_: rey
+      amg_cost: null
+      xwa_cost: 19
+      xwa_restricted_count: null
+      name: • Rey
+      unique: true
+      limit: 1
+      subtitle: Resourceful Scavenger
+      initiative: 5
+      faction: resistance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you defend or perform an attack, if the enemy ship is in your
+          [Front Arc], you may spend 1 [Force] to change 1 of your blank results to
+          an [Evade] or [Hit] result.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges:
+        force:
+          limit: 2
+          recurring_val: 1
+      keywords:
+      - Freighter
+      - Light Side
+      - YT-1300
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 3
+        force_power: 2
+        gunner: 1
+        illicit: 2
+        missile: 1
+        modification: 1
+        title: 1
+      xwa_loadout_val: 23

@@ -1,0 +1,112 @@
+id_: cr90corelliancorvette
+name: CR90 Corellian Corvette
+size: huge
+attacks:
+- arc: left
+  val: 4
+- arc: right
+  val: 4
+agility_val: 0
+hull_val: 18
+shield_val: 7
+shields_recurring: 2
+energy_val: 7
+energy_recurring: 2
+action_bar:
+- action_name: focus
+  color: white
+  linked_action: null
+- action_name: reinforce
+  color: white
+  linked_action: null
+- action_name: lock
+  color: white
+  linked_action: null
+- action_name: coordinate
+  color: red
+  linked_action: null
+- action_name: jam
+  color: white
+  linked_action: null
+ship_ability:
+  name: Broadside Batteries
+  text: You can acquire locks and perform primary attacks at range 1-4.
+  automations: []
+  is_action: false
+maneuver_dial:
+  bank_left:
+    0: red
+    1: white
+    2: blue
+    3: red
+  bank_right:
+    0: red
+    1: white
+    2: blue
+    3: red
+  stationary:
+    0: red
+  straight:
+    1: white
+    2: blue
+    3: blue
+    4: red
+    5: red
+pilots:
+  galacticrepublic:
+    republicjudiciary:
+      id_: republicjudiciary
+      amg_cost: null
+      xwa_cost: 35
+      xwa_restricted_count: null
+      name: Republic Judiciary
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 8
+      faction: galacticrepublic
+      is_droid: false
+      pilot_ability: null
+      flavor_text: The Galactic Republic uses small, swift warships such as the CR90
+        corvette to respond rapidly to Separatist incursions across the galaxy.
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        cargo: 1
+        command: 1
+        crew: 2
+        gunner: 1
+        hardpoint: 2
+        team: 2
+      xwa_loadout_val: 40
+  rebelalliance:
+    alderaanianguard:
+      id_: alderaanianguard
+      amg_cost: null
+      xwa_cost: 36
+      xwa_restricted_count: null
+      name: Alderaanian Guard
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 8
+      faction: rebelalliance
+      is_droid: false
+      pilot_ability: null
+      flavor_text: A craft used since before the Clone Wars, the CR90 corvette is
+        favored by the Royal House of Alderaan for its versatility.
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        cargo: 1
+        command: 1
+        crew: 2
+        gunner: 1
+        hardpoint: 2
+        team: 2
+        title: 1
+      xwa_loadout_val: 40

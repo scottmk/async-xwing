@@ -1,0 +1,268 @@
+id_: mg100starfortress
+name: MG-100 StarFortress
+size: large
+attacks:
+- arc: front
+  val: 3
+- arc: double_turret
+  val: 2
+agility_val: 1
+hull_val: 9
+shield_val: 3
+shields_recurring: null
+energy_val: null
+energy_recurring: null
+action_bar:
+- action_name: focus
+  color: white
+  linked_action: null
+- action_name: lock
+  color: white
+  linked_action: null
+- action_name: rotate
+  color: white
+  linked_action: null
+- action_name: reload
+  color: white
+  linked_action: null
+ship_ability: null
+maneuver_dial:
+  bank_left:
+    1: blue
+    2: white
+    3: red
+  bank_right:
+    1: blue
+    2: white
+    3: red
+  stationary:
+    0: red
+  straight:
+    1: blue
+    2: blue
+    3: white
+  turn_left:
+    1: red
+    2: white
+  turn_right:
+    1: red
+    2: white
+pilots:
+  resistance:
+    benteene:
+      id_: benteene
+      amg_cost: null
+      xwa_cost: 15
+      xwa_restricted_count: null
+      name: • Ben Teene
+      unique: true
+      limit: 1
+      subtitle: Crimson Bolide
+      initiative: 3
+      faction: resistance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After you perform an attack, if the defender is in your [Single Turret
+          Arc], assign the Rattled condition to the defender.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 1
+        gunner: 2
+        modification: 1
+        payload: 2
+        sensor: 1
+        tech: 1
+      xwa_loadout_val: 20
+    cat:
+      id_: cat
+      amg_cost: null
+      xwa_cost: 15
+      xwa_restricted_count: null
+      name: • Cat
+      unique: true
+      limit: 1
+      subtitle: Cobalt Wasp
+      initiative: 1
+      faction: resistance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you perform a primary attack, if the defender is at range 0-1
+          of at least 1 friendly device, roll 1 additional die.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 1
+        gunner: 2
+        modification: 1
+        payload: 2
+        tech: 1
+      xwa_loadout_val: 22
+    cobaltsquadronbomber:
+      id_: cobaltsquadronbomber
+      amg_cost: null
+      xwa_cost: 15
+      xwa_restricted_count: null
+      name: Cobalt Squadron Bomber
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 1
+      faction: resistance
+      is_droid: false
+      pilot_ability: null
+      flavor_text: Whether the ordnance silos of their StarFortresses are loaded with
+        proton bombs or relief supplies, the heroic crews of Cobalt Squadron dedicate
+        their lives to making a difference in the galaxy.
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 1
+        gunner: 2
+        modification: 1
+        payload: 2
+        tech: 1
+      xwa_loadout_val: 20
+    edonkappehl:
+      id_: edonkappehl
+      amg_cost: null
+      xwa_cost: 16
+      xwa_restricted_count: null
+      name: • Edon Kappehl
+      unique: true
+      limit: 1
+      subtitle: Crimson Hailstorm
+      initiative: 3
+      faction: resistance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After you fully execute a blue or white maneuver, if you have not dropped
+          or launched a device this round, you may drop 1 device.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 1
+        gunner: 2
+        modification: 1
+        payload: 2
+        sensor: 2
+        tech: 1
+      xwa_loadout_val: 24
+    finchdallow:
+      id_: finchdallow
+      amg_cost: null
+      xwa_cost: 15
+      xwa_restricted_count: null
+      name: • Finch Dallow
+      unique: true
+      limit: 1
+      subtitle: Cobalt Hammer
+      initiative: 4
+      faction: resistance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: Before you would drop a bomb, you may place it in the play area touching
+          you instead.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 1
+        gunner: 2
+        modification: 1
+        payload: 2
+        sensor: 1
+        talent: 1
+        tech: 1
+      xwa_loadout_val: 18
+    paigetico:
+      id_: paigetico
+      amg_cost: null
+      xwa_cost: 16
+      xwa_restricted_count: null
+      name: • Paige Tico
+      unique: true
+      limit: 1
+      subtitle: Hero
+      initiative: 5
+      faction: resistance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After you drop a device, you may spend 1 [Charge] to drop an additional
+          device.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges:
+        standard:
+          limit: 1
+          recurring_val: 1
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 1
+        gunner: 2
+        modification: 2
+        payload: 2
+        sensor: 1
+        talent: 1
+        tech: 1
+      xwa_loadout_val: 24
+    vennie:
+      id_: vennie
+      amg_cost: null
+      xwa_cost: 17
+      xwa_restricted_count: null
+      name: • Vennie
+      unique: true
+      limit: 1
+      subtitle: Crimson Cutter
+      initiative: 2
+      faction: resistance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you defend, if the attacker is in a friendly ship's [Single Turret
+          Arc], you may add 1 [Focus] result to your roll.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 1
+        gunner: 2
+        modification: 1
+        payload: 2
+        sensor: 1
+        tech: 1
+      xwa_loadout_val: 28

@@ -1,0 +1,286 @@
+id_: v19torrentstarfighter
+name: V-19 Torrent Starfighter
+size: small
+attacks:
+- arc: front
+  val: 2
+agility_val: 2
+hull_val: 5
+shield_val: null
+shields_recurring: null
+energy_val: null
+energy_recurring: null
+action_bar:
+- action_name: focus
+  color: white
+  linked_action: null
+- action_name: evade
+  color: white
+  linked_action: null
+- action_name: lock
+  color: white
+  linked_action: null
+- action_name: barrel_roll
+  color: white
+  linked_action:
+    action_name: evade
+    color: red
+    linked_action: null
+ship_ability: null
+maneuver_dial:
+  bank_left:
+    1: blue
+    2: white
+    3: red
+  bank_right:
+    1: blue
+    2: white
+    3: red
+  koiogran_turn:
+    3: red
+  straight:
+    1: blue
+    2: blue
+    3: blue
+    4: white
+  tallon_roll_left:
+    2: red
+  tallon_roll_right:
+    2: red
+  turn_left:
+    1: red
+    2: white
+  turn_right:
+    1: red
+    2: white
+pilots:
+  galacticrepublic:
+    axe:
+      id_: axe
+      amg_cost: null
+      xwa_cost: 7
+      xwa_restricted_count: null
+      name: • “Axe”
+      unique: true
+      limit: 1
+      subtitle: Blue Two
+      initiative: 3
+      faction: galacticrepublic
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After you defend or perform an attack, you may choose a friendly ship
+          at range 1-2 in your [Left Arc] or [Right Arc]. If you do, transfer 1 green
+          token to that ship.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Clone
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        missile: 1
+        modification: 2
+        talent: 1
+      xwa_loadout_val: 7
+    bluesquadronprotector:
+      id_: bluesquadronprotector
+      amg_cost: null
+      xwa_cost: 9
+      xwa_restricted_count: null
+      name: Blue Squadron Protector
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 3
+      faction: galacticrepublic
+      is_droid: false
+      pilot_ability: null
+      flavor_text: Blue Squadron's elite clone pilots are trained to fly their V-19s
+        in conjunction with Jedi and often support famous commanders such as Anakin
+        Skywalker and Ahsoka Tano.
+      charges: null
+      keywords:
+      - Clone
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        missile: 2
+        modification: 2
+        talent: 1
+      xwa_loadout_val: 12
+    goldsquadrontrooper:
+      id_: goldsquadrontrooper
+      amg_cost: null
+      xwa_cost: 6
+      xwa_restricted_count: null
+      name: Gold Squadron Trooper
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 2
+      faction: galacticrepublic
+      is_droid: false
+      pilot_ability: null
+      flavor_text: The V-19 Torrent starfighter was designed to be a light escort
+        to nimble Delta-7 interceptors flown by Jedi Knights, and has a unique flight
+        profile to reflect this role.
+      charges: null
+      keywords:
+      - Clone
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        missile: 1
+        modification: 2
+        talent: 1
+      xwa_loadout_val: 2
+    kickback:
+      id_: kickback
+      amg_cost: null
+      xwa_cost: 7
+      xwa_restricted_count: null
+      name: • “Kickback”
+      unique: true
+      limit: 1
+      subtitle: Blue Four
+      initiative: 4
+      faction: galacticrepublic
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After you perform a [Barrel Roll] action, you may perform a red [Lock]
+          action.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Clone
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        missile: 1
+        modification: 2
+        talent: 1
+      xwa_loadout_val: 7
+    oddball:
+      id_: oddball
+      amg_cost: null
+      xwa_cost: 9
+      xwa_restricted_count: null
+      name: • “Odd Ball”
+      unique: true
+      limit: 1
+      subtitle: CC-2237
+      initiative: 5
+      faction: galacticrepublic
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After you fully execute a red maneuver or perform a red action, if there
+          is an enemy ship in your [Bullseye Arc], you may acquire a lock on that
+          ship.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Clone
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        missile: 1
+        modification: 2
+        talent: 1
+      xwa_loadout_val: 16
+    slammer:
+      id_: slammer
+      amg_cost: null
+      xwa_cost: 7
+      xwa_restricted_count: null
+      name: • “Slammer”
+      unique: true
+      limit: 1
+      subtitle: Blue Three
+      initiative: 1
+      faction: galacticrepublic
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After you fully execute a maneuver, you may spend 2 [Charge] to peform
+          a [SLAM] action, even while stressed.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges:
+        standard:
+          limit: 2
+          recurring_val: 1
+      keywords:
+      - Clone
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        missile: 1
+        modification: 2
+      xwa_loadout_val: 7
+    swoop:
+      id_: swoop
+      amg_cost: null
+      xwa_cost: 8
+      xwa_restricted_count: null
+      name: • “Swoop”
+      unique: true
+      limit: 1
+      subtitle: Blue Six
+      initiative: 3
+      faction: galacticrepublic
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After a friendly small or medium ship fully executes a speed 3-4 maneuver,
+          if it is at range 0-1, it may perform a red [Boost] action.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Clone
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        missile: 1
+        modification: 2
+        talent: 1
+      xwa_loadout_val: 12
+    tucker:
+      id_: tucker
+      amg_cost: null
+      xwa_cost: 9
+      xwa_restricted_count: null
+      name: • “Tucker”
+      unique: true
+      limit: 1
+      subtitle: Blue Five
+      initiative: 2
+      faction: galacticrepublic
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After a friendly ship at range 1-2 performs an attack against an enemy
+          ship in your [Front Arc], you may perform a [Focus] action.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Clone
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        missile: 2
+        modification: 2
+      xwa_loadout_val: 8

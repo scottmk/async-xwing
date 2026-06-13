@@ -1,0 +1,237 @@
+id_: tiesabomber
+name: TIE/sa Bomber
+size: small
+attacks:
+- arc: front
+  val: 2
+agility_val: 2
+hull_val: 6
+shield_val: null
+shields_recurring: null
+energy_val: null
+energy_recurring: null
+action_bar:
+- action_name: focus
+  color: white
+  linked_action: null
+- action_name: lock
+  color: white
+  linked_action: null
+- action_name: barrel_roll
+  color: white
+  linked_action:
+    action_name: lock
+    color: red
+    linked_action: null
+- action_name: reload
+  color: red
+  linked_action: null
+ship_ability:
+  name: Nimble Bomber
+  text: If you would drop a device using a [Straight] template, you may use a [Bank
+    Left] or [Bank Right] template of the same speed instead.
+  automations: []
+  is_action: false
+maneuver_dial:
+  bank_left:
+    1: white
+    2: blue
+    3: white
+  bank_right:
+    1: white
+    2: blue
+    3: white
+  koiogran_turn:
+    3: red
+    5: red
+  straight:
+    1: blue
+    2: blue
+    3: blue
+    4: white
+  turn_left:
+    2: white
+    3: white
+  turn_right:
+    2: white
+    3: white
+pilots:
+  galacticempire:
+    captainjonus:
+      id_: captainjonus
+      amg_cost: null
+      xwa_cost: 10
+      xwa_restricted_count: null
+      name: • Captain Jonus
+      unique: true
+      limit: 1
+      subtitle: Disciplined Instructor
+      initiative: 4
+      faction: galacticempire
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While a friendly ship at range 0-1 performs a [Torpedo] or [Missile]
+          attack, that ship may reroll up to 2 attack dice.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        missile: 1
+        modification: 1
+        payload: 2
+        talent: 1
+        torpedo: 1
+      xwa_loadout_val: 10
+    deathfire:
+      id_: deathfire
+      amg_cost: null
+      xwa_cost: 9
+      xwa_restricted_count: null
+      name: • “Deathfire”
+      unique: true
+      limit: 1
+      subtitle: Unflinching Diehard
+      initiative: 2
+      faction: galacticempire
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After you are destroyed, before you are removed, you may perform an
+          attack and drop or launch 1 device.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        missile: 1
+        modification: 1
+        payload: 2
+        torpedo: 1
+      xwa_loadout_val: 13
+    gammasquadronace:
+      id_: gammasquadronace
+      amg_cost: null
+      xwa_cost: 10
+      xwa_restricted_count: null
+      name: Gamma Squadron Ace
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 3
+      faction: galacticempire
+      is_droid: false
+      pilot_ability: null
+      flavor_text: Though it sacrifices a degree of speed and maneuverability compared
+        to a TIE/ln, the TIE bomber's increased payload can carry enough firepower
+        to destroy virtually any enemy target.
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        missile: 1
+        modification: 1
+        payload: 2
+        talent: 1
+        torpedo: 1
+      xwa_loadout_val: 16
+    majorrhymer:
+      id_: majorrhymer
+      amg_cost: null
+      xwa_cost: 10
+      xwa_restricted_count: null
+      name: • Major Rhymer
+      unique: true
+      limit: 1
+      subtitle: Scimitar Leader
+      initiative: 4
+      faction: galacticempire
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you perform a [Torpedo] or [Missile] attack, you may increase
+          or decrease the range requirement by 1, to a limit of 0-3.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        missile: 1
+        modification: 1
+        payload: 2
+        talent: 1
+        torpedo: 1
+      xwa_loadout_val: 13
+    scimitarsquadronpilot:
+      id_: scimitarsquadronpilot
+      amg_cost: null
+      xwa_cost: 8
+      xwa_restricted_count: null
+      name: Scimitar Squadron Pilot
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 2
+      faction: galacticempire
+      is_droid: false
+      pilot_ability: null
+      flavor_text: The TIE/sa is exceptionally nimble for a bomber, allowing it to
+        pinpoint its target while avoiding excessive collateral damage to the surrounding
+        area.
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        missile: 1
+        modification: 1
+        payload: 2
+        torpedo: 1
+      xwa_loadout_val: 8
+    tomaxbren:
+      id_: tomaxbren
+      amg_cost: null
+      xwa_cost: 10
+      xwa_restricted_count: null
+      name: • Tomax Bren
+      unique: true
+      limit: 1
+      subtitle: Brash Maverick
+      initiative: 5
+      faction: galacticempire
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After you perform a [Reload] action, you may recover 1 [Charge] token
+          on 1 of your equipped [Talent] upgrade cards.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        missile: 1
+        modification: 1
+        payload: 2
+        talent: 1
+        torpedo: 1
+      xwa_loadout_val: 13

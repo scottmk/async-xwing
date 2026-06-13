@@ -1,0 +1,127 @@
+id_: auzituckgunship
+name: Auzituck Gunship
+size: small
+attacks:
+- arc: full_front
+  val: 3
+agility_val: 1
+hull_val: 6
+shield_val: 2
+shields_recurring: null
+energy_val: null
+energy_recurring: null
+action_bar:
+- action_name: focus
+  color: white
+  linked_action: null
+- action_name: reinforce
+  color: white
+  linked_action: null
+- action_name: barrel_roll
+  color: red
+  linked_action: null
+ship_ability: null
+maneuver_dial:
+  bank_left:
+    1: blue
+    2: white
+    3: white
+  bank_right:
+    1: blue
+    2: white
+    3: white
+  stationary:
+    0: red
+  straight:
+    1: blue
+    2: blue
+    3: blue
+    4: white
+  turn_left:
+    2: white
+    3: white
+  turn_right:
+    2: white
+    3: white
+pilots:
+  rebelalliance:
+    kashyyykdefender:
+      id_: kashyyykdefender
+      amg_cost: null
+      xwa_cost: 11
+      xwa_restricted_count: null
+      name: Kashyyyk Defender
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 1
+      faction: rebelalliance
+      is_droid: false
+      pilot_ability: null
+      flavor_text: Equipped with three wide-range Sureggi twin laser cannons, the
+        Auzituck gunship acts as a powerful deterrent to slaver operations in the
+        Kashyyyk system.
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 1
+        modification: 2
+      xwa_loadout_val: 9
+    lowhhrick:
+      id_: lowhhrick
+      amg_cost: null
+      xwa_cost: 12
+      xwa_restricted_count: null
+      name: • Lowhhrick
+      unique: true
+      limit: 1
+      subtitle: Escaped Gladiator
+      initiative: 3
+      faction: rebelalliance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After a friendly ship at range 0-1 becomes the defender, you may spend
+          1 reinforce token. If you do, that ship gains 1 evade token.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 1
+        modification: 2
+        talent: 1
+      xwa_loadout_val: 13
+    wullffwarro:
+      id_: wullffwarro
+      amg_cost: null
+      xwa_cost: 13
+      xwa_restricted_count: null
+      name: • Wullffwarro
+      unique: true
+      limit: 1
+      subtitle: Wookiee Chief
+      initiative: 4
+      faction: rebelalliance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you perform a primary attack, if you are damaged, you may roll
+          1 additional attack die.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 1
+        modification: 2
+        talent: 1
+      xwa_loadout_val: 14

@@ -1,0 +1,161 @@
+id_: escapecraft
+name: Escape Craft
+size: small
+attacks:
+- arc: front
+  val: 2
+agility_val: 2
+hull_val: 2
+shield_val: 2
+shields_recurring: null
+energy_val: null
+energy_recurring: null
+action_bar:
+- action_name: focus
+  color: white
+  linked_action: null
+- action_name: barrel_roll
+  color: white
+  linked_action: null
+- action_name: coordinate
+  color: red
+  linked_action: null
+ship_ability:
+  name: Rigged Energy Cells
+  text: During the System Phase, if you are not docked, lose 1 [Charge]. At the end
+    of the Activation Phase, if you have 0 [Charge], you are destroyed. Before you
+    are removed, each ship at range 0-1 suffers 1 [Critical Hit] damage.
+  automations: []
+  is_action: false
+maneuver_dial:
+  bank_left:
+    1: blue
+    2: white
+    3: white
+  bank_right:
+    1: blue
+    2: white
+    3: white
+  koiogran_turn:
+    3: red
+  stationary:
+    0: red
+  straight:
+    1: blue
+    2: blue
+    3: white
+  turn_left:
+    2: red
+  turn_right:
+    2: red
+pilots:
+  scumandvillainy:
+    autopilotdrone:
+      id_: autopilotdrone
+      amg_cost: null
+      xwa_cost: 3
+      xwa_restricted_count: null
+      name: • Autopilot Drone
+      unique: true
+      limit: 1
+      subtitle: Set to Blow
+      initiative: 1
+      faction: scumandvillainy
+      is_droid: true
+      pilot_ability: null
+      flavor_text: Sometimes, manufacturer's warnings are made to be broken.
+      charges:
+        standard:
+          limit: 3
+          recurring_val: 0
+      keywords:
+      - Droid
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar: {}
+      xwa_loadout_val: 0
+    l337-escapecraft:
+      id_: l337-escapecraft
+      amg_cost: null
+      xwa_cost: 7
+      xwa_restricted_count: null
+      name: • L3-37
+      unique: true
+      limit: 1
+      subtitle: Droid Revolutionary
+      initiative: 2
+      faction: scumandvillainy
+      is_droid: true
+      pilot_ability:
+        name: null
+        text: If you are not shielded, decrease the difficulty of your bank ([Bank
+          Left] and [Bank Right]) maneuvers.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Droid
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 1
+        illicit: 1
+        modification: 1
+      xwa_loadout_val: 10
+    landocalrissian-escapecraft:
+      id_: landocalrissian-escapecraft
+      amg_cost: null
+      xwa_cost: 7
+      xwa_restricted_count: null
+      name: • Lando Calrissian
+      unique: true
+      limit: 1
+      subtitle: Smooth-talking Gambler
+      initiative: 4
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After you roll dice, if you are not stressed, you may gain 1 stress
+          token to reroll all of your blank results.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 1
+        illicit: 1
+        modification: 1
+        talent: 1
+      xwa_loadout_val: 9
+    outerrimpioneer:
+      id_: outerrimpioneer
+      amg_cost: null
+      xwa_cost: 7
+      xwa_restricted_count: null
+      name: • Outer Rim Pioneer
+      unique: true
+      limit: 1
+      subtitle: Skillful Outlaw
+      initiative: 3
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: Friendly ships at range 0-1 can perform attacks at range 0 of obstacles.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 1
+        illicit: 1
+        modification: 1
+      xwa_loadout_val: 9

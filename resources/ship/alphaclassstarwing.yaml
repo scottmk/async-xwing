@@ -1,0 +1,160 @@
+id_: alphaclassstarwing
+name: Alpha-class Star Wing
+size: small
+attacks:
+- arc: front
+  val: 2
+agility_val: 2
+hull_val: 4
+shield_val: 3
+shields_recurring: null
+energy_val: null
+energy_recurring: null
+action_bar:
+- action_name: focus
+  color: white
+  linked_action: null
+- action_name: lock
+  color: white
+  linked_action: null
+- action_name: slam
+  color: white
+  linked_action: null
+- action_name: reload
+  color: white
+  linked_action: null
+ship_ability: null
+maneuver_dial:
+  bank_left:
+    1: white
+    2: blue
+    3: white
+  bank_right:
+    1: white
+    2: blue
+    3: white
+  straight:
+    1: blue
+    2: blue
+    3: white
+    4: red
+  turn_left:
+    2: white
+    3: white
+  turn_right:
+    2: white
+    3: white
+pilots:
+  galacticempire:
+    lieutenantkarsabi:
+      id_: lieutenantkarsabi
+      amg_cost: null
+      xwa_cost: 10
+      xwa_restricted_count: null
+      name: • Lieutenant Karsabi
+      unique: true
+      limit: 1
+      subtitle: Brash Noble
+      initiative: 3
+      faction: galacticempire
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After you gain a disarm token, if you are not stressed, you may gain
+          1 stress token to remove 1 disarm token.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        configuration: 1
+        missile: 1
+        modification: 2
+        sensor: 1
+        talent: 1
+      xwa_loadout_val: 15
+    majorvynder:
+      id_: majorvynder
+      amg_cost: null
+      xwa_cost: 11
+      xwa_restricted_count: null
+      name: • Major Vynder
+      unique: true
+      limit: 1
+      subtitle: Pragmatic Survivor
+      initiative: 4
+      faction: galacticempire
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you defend, if you are disarmed, roll 1 additional defense die.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        configuration: 1
+        missile: 1
+        modification: 2
+        sensor: 1
+        talent: 1
+      xwa_loadout_val: 19
+    nusquadronpilot:
+      id_: nusquadronpilot
+      amg_cost: null
+      xwa_cost: 9
+      xwa_restricted_count: null
+      name: Nu Squadron Pilot
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 2
+      faction: galacticempire
+      is_droid: false
+      pilot_ability: null
+      flavor_text: With a design inspired by other Cygnus Spaceworks vessels, the
+        Alpha-class star wing is a versatile craft assigned to Imperial Navy specialist
+        units that need a starfighter they can outfit for multiple roles.
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        configuration: 1
+        missile: 1
+        modification: 2
+        sensor: 1
+      xwa_loadout_val: 9
+    rhosquadronpilot:
+      id_: rhosquadronpilot
+      amg_cost: null
+      xwa_cost: 11
+      xwa_restricted_count: null
+      name: Rho Squadron Pilot
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 3
+      faction: galacticempire
+      is_droid: false
+      pilot_ability: null
+      flavor_text: The elite pilots of Rho Squadron instill terror in the Rebellion,
+        using both the Xg-1 assault configuration and Os-1 arsenal loadout of the
+        Alpha-class star wing to devastating effect.
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        configuration: 1
+        missile: 1
+        modification: 2
+        sensor: 1
+        talent: 1
+      xwa_loadout_val: 19

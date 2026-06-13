@@ -1,0 +1,207 @@
+id_: resistancetransport
+name: Resistance Transport
+size: small
+attacks:
+- arc: front
+  val: 2
+agility_val: 1
+hull_val: 5
+shield_val: 3
+shields_recurring: null
+energy_val: null
+energy_recurring: null
+action_bar:
+- action_name: focus
+  color: white
+  linked_action: null
+- action_name: lock
+  color: white
+  linked_action: null
+- action_name: coordinate
+  color: red
+  linked_action: null
+- action_name: jam
+  color: red
+  linked_action: null
+ship_ability: null
+maneuver_dial:
+  bank_left:
+    1: blue
+    2: white
+    3: red
+  bank_right:
+    1: blue
+    2: white
+    3: red
+  reverse_bank_left:
+    1: red
+  reverse_bank_right:
+    1: red
+  stationary:
+    0: red
+  straight:
+    1: blue
+    2: blue
+    3: white
+    4: red
+  turn_left:
+    1: red
+    2: white
+  turn_right:
+    1: red
+    2: white
+pilots:
+  resistance:
+    covanell:
+      id_: covanell
+      amg_cost: null
+      xwa_cost: 11
+      xwa_restricted_count: null
+      name: • Cova Nell
+      unique: true
+      limit: 1
+      subtitle: Evacuation Escort
+      initiative: 4
+      faction: resistance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you defend or perform a primary attack, if your revealed maneuver
+          is red, roll 1 additional die.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        astromech: 1
+        cannon: 2
+        crew: 2
+        modification: 1
+        talent: 1
+        tech: 1
+        torpedo: 1
+      xwa_loadout_val: 13
+    logisticsdivisionpilot:
+      id_: logisticsdivisionpilot
+      amg_cost: null
+      xwa_cost: 10
+      xwa_restricted_count: null
+      name: Logistics Division Pilot
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 1
+      faction: resistance
+      is_droid: false
+      pilot_ability: null
+      flavor_text: Without the support of the New Republic, members of the Resistance
+        often pull double duty as transport pilots or mechanics, putting their skills
+        and technical knowledge to use in the fight against the First Order.
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        astromech: 2
+        cannon: 1
+        crew: 2
+        modification: 1
+        tech: 1
+        torpedo: 1
+      xwa_loadout_val: 19
+    nodinchavdri:
+      id_: nodinchavdri
+      amg_cost: null
+      xwa_cost: 9
+      xwa_restricted_count: null
+      name: • Nodin Chavdri
+      unique: true
+      limit: 1
+      subtitle: Insubordinate Insurgent
+      initiative: 2
+      faction: resistance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After you coordinate or are coordinated, if you have 2 or fewer stress
+          tokens, you may perform 1 action on your action bar as a red action, even
+          if you are stressed.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        astromech: 1
+        cannon: 1
+        crew: 2
+        modification: 1
+        tech: 1
+        torpedo: 1
+      xwa_loadout_val: 12
+    pammichnerrogoode:
+      id_: pammichnerrogoode
+      amg_cost: null
+      xwa_cost: 11
+      xwa_restricted_count: null
+      name: • Pammich Nerro Goode
+      unique: true
+      limit: 1
+      subtitle: D’Qar Dispatcher
+      initiative: 3
+      faction: resistance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you have 2 or fewer stress tokens, you may execute red maneuvers
+          even while stressed.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        astromech: 1
+        cannon: 2
+        crew: 2
+        modification: 1
+        tech: 1
+        torpedo: 1
+      xwa_loadout_val: 22
+    takajamoreesa:
+      id_: takajamoreesa
+      amg_cost: null
+      xwa_cost: 8
+      xwa_restricted_count: null
+      name: • Taka Jamoreesa
+      unique: true
+      limit: 1
+      subtitle: Snograth Enthusiast
+      initiative: 2
+      faction: resistance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After you jam, you must assign 1 jam token to another ship at range
+          0-1 of the jammed ship, if able.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        astromech: 1
+        crew: 2
+        modification: 1
+        tech: 1
+        torpedo: 1
+      xwa_loadout_val: 6

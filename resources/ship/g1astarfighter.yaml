@@ -1,0 +1,146 @@
+id_: g1astarfighter
+name: G-1A Starfighter
+size: medium
+attacks:
+- arc: front
+  val: 3
+agility_val: 1
+hull_val: 5
+shield_val: 4
+shields_recurring: null
+energy_val: null
+energy_recurring: null
+action_bar:
+- action_name: focus
+  color: white
+  linked_action: null
+- action_name: lock
+  color: white
+  linked_action: null
+- action_name: jam
+  color: white
+  linked_action: null
+ship_ability: null
+maneuver_dial:
+  bank_left:
+    1: blue
+    2: white
+    3: red
+  bank_right:
+    1: blue
+    2: white
+    3: red
+  koiogran_turn:
+    2: red
+    4: red
+  stationary:
+    0: red
+  straight:
+    1: blue
+    2: blue
+    3: white
+    4: red
+  turn_left:
+    1: red
+    2: white
+  turn_right:
+    1: red
+    2: white
+pilots:
+  scumandvillainy:
+    4lom:
+      id_: 4lom
+      amg_cost: null
+      xwa_cost: 12
+      xwa_restricted_count: null
+      name: • 4-LOM
+      unique: true
+      limit: 1
+      subtitle: Reprogrammed Protocol Droid
+      initiative: 3
+      faction: scumandvillainy
+      is_droid: true
+      pilot_ability:
+        name: null
+        text: After you fully execute a red maneuver, gain 1 calculate token. At the
+          start of the End Phase, you may choose 1 ship at range 0-1. If you do, transfer
+          1 of your stress tokens to that ship.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Bounty Hunter
+      - Droid
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 1
+        illicit: 1
+        missile: 1
+        modification: 1
+        sensor: 1
+        talent: 1
+        title: 1
+      xwa_loadout_val: 13
+    gandfindsman:
+      id_: gandfindsman
+      amg_cost: null
+      xwa_cost: 10
+      xwa_restricted_count: null
+      name: Gand Findsman
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 1
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability: null
+      flavor_text: The legendary Findsmen of Gand worship the enshrouding mists of
+        their home planet, using signs, augurs, and mystical rituals to track their
+        quarry.
+      charges: null
+      keywords:
+      - Bounty Hunter
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 1
+        illicit: 1
+        missile: 1
+        modification: 1
+        sensor: 1
+      xwa_loadout_val: 8
+    zuckuss:
+      id_: zuckuss
+      amg_cost: null
+      xwa_cost: 11
+      xwa_restricted_count: null
+      name: • Zuckuss
+      unique: true
+      limit: 1
+      subtitle: Meditative Gand
+      initiative: 3
+      faction: scumandvillainy
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you perform a primary attack, you may roll 1 additional attack
+          die. If you do, the defender rolls 1 additional defense die.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Bounty Hunter
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 1
+        illicit: 1
+        missile: 1
+        modification: 1
+        sensor: 1
+        talent: 1
+        title: 1
+      xwa_loadout_val: 11

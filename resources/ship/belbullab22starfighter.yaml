@@ -1,0 +1,193 @@
+id_: belbullab22starfighter
+name: Belbullab-22 Starfighter
+size: small
+attacks:
+- arc: front
+  val: 3
+agility_val: 2
+hull_val: 3
+shield_val: 2
+shields_recurring: null
+energy_val: null
+energy_recurring: null
+action_bar:
+- action_name: focus
+  color: white
+  linked_action: null
+- action_name: lock
+  color: white
+  linked_action: null
+- action_name: barrel_roll
+  color: white
+  linked_action:
+    action_name: focus
+    color: red
+    linked_action: null
+- action_name: boost
+  color: white
+  linked_action:
+    action_name: focus
+    color: red
+    linked_action: null
+ship_ability: null
+maneuver_dial:
+  bank_left:
+    1: white
+    2: blue
+    3: white
+  bank_right:
+    1: white
+    2: blue
+    3: white
+  segnors_loop_left:
+    3: red
+  segnors_loop_right:
+    3: red
+  straight:
+    2: blue
+    3: blue
+    4: white
+    5: white
+  turn_left:
+    1: white
+    2: white
+    3: red
+  turn_right:
+    1: white
+    2: white
+    3: red
+pilots:
+  separatistalliance:
+    captainsear:
+      id_: captainsear
+      amg_cost: null
+      xwa_cost: 10
+      xwa_restricted_count: null
+      name: • Captain Sear
+      unique: true
+      limit: 1
+      subtitle: Kage Infiltrator
+      initiative: 2
+      faction: separatistalliance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While a friendly ship at range 0-3 performs a primary attack, if the
+          defender is in its [Bullseye Arc], before the Neutralize Results step, the
+          friendly ship may spend 1 calculate token to cancel 1 [Evade] result.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        modification: 2
+        tactical_relay: 1
+      xwa_loadout_val: 11
+    feethanottrawautopilot:
+      id_: feethanottrawautopilot
+      amg_cost: null
+      xwa_cost: 9
+      xwa_restricted_count: null
+      name: Feethan Ottraw Autopilot
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 1
+      faction: separatistalliance
+      is_droid: true
+      pilot_ability: null
+      flavor_text: Unlike the more disposable fighters it also built for the Separatists,
+        Feethan Ottraw Scalable Assemblies designed the Belbullab-22 with a solid
+        mix of firepower, durability, and speed.
+      charges: null
+      keywords:
+      - Droid
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        modification: 2
+        tactical_relay: 1
+      xwa_loadout_val: 10
+    generalgrievous:
+      id_: generalgrievous
+      amg_cost: null
+      xwa_cost: 13
+      xwa_restricted_count: null
+      name: • General Grievous
+      unique: true
+      limit: 1
+      subtitle: Ambitious Cyborg
+      initiative: 4
+      faction: separatistalliance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you perform a primary attack, if you are not in the defender's
+          firing arc, you may reroll up to 2 attack dice.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        modification: 2
+        talent: 1
+        title: 1
+      xwa_loadout_val: 20
+    skakoanace:
+      id_: skakoanace
+      amg_cost: null
+      xwa_cost: 10
+      xwa_restricted_count: null
+      name: Skakoan Ace
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 3
+      faction: separatistalliance
+      is_droid: false
+      pilot_ability: null
+      flavor_text: With its powerful engines, devastating triple laser cannons, and
+        high customizability, the Belbullab-22 is the chosen craft of several elite
+        Separatist Alliance pilots, including the infamous General Grievous.
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        modification: 2
+        talent: 1
+      xwa_loadout_val: 14
+    wattambor:
+      id_: wattambor
+      amg_cost: null
+      xwa_cost: 10
+      xwa_restricted_count: null
+      name: • Wat Tambor
+      unique: true
+      limit: 1
+      subtitle: Techno Union Foreman
+      initiative: 3
+      faction: separatistalliance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you perform a primary attack, you may reroll 1 attack die for
+          each calculating friendly ship at range 1 of the defender.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        modification: 2
+        tactical_relay: 1
+        talent: 1
+      xwa_loadout_val: 14

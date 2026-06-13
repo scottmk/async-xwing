@@ -1,0 +1,264 @@
+id_: tiewiwhispermodifiedinterceptor
+name: TIE/wi Whisper Modified Interceptor
+size: small
+attacks:
+- arc: bullseye
+  val: 3
+- arc: single_turret
+  val: 2
+agility_val: 2
+hull_val: 3
+shield_val: 2
+shields_recurring: null
+energy_val: null
+energy_recurring: null
+action_bar:
+- action_name: focus
+  color: white
+  linked_action:
+    action_name: rotate
+    color: white
+    linked_action: null
+- action_name: evade
+  color: white
+  linked_action: null
+- action_name: lock
+  color: white
+  linked_action: null
+- action_name: barrel_roll
+  color: white
+  linked_action:
+    action_name: rotate
+    color: white
+    linked_action: null
+- action_name: boost
+  color: white
+  linked_action:
+    action_name: rotate
+    color: white
+    linked_action: null
+ship_ability:
+  name: Heavy Weapon Turret
+  text: You can rotate your [Single Turret Arc] indicator only to your [Front Arc]
+    or [Rear Arc]. You must treat the [Front Arc] requirement of your equipped [Missile]
+    upgrades as [Single Turret Arc].
+  automations: []
+  is_action: false
+maneuver_dial:
+  bank_left:
+    2: blue
+    3: blue
+  bank_right:
+    2: blue
+    3: blue
+  koiogran_turn:
+    4: red
+    5: red
+  segnors_loop_left:
+    3: red
+  segnors_loop_right:
+    3: red
+  straight:
+    2: blue
+    3: blue
+    4: blue
+    5: blue
+  turn_left:
+    1: white
+    2: white
+    3: white
+  turn_right:
+    1: white
+    2: white
+    3: white
+pilots:
+  firstorder:
+    709thlegionace:
+      id_: 709thlegionace
+      amg_cost: null
+      xwa_cost: 10
+      xwa_restricted_count: null
+      name: 709th Legion Ace
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 4
+      faction: firstorder
+      is_droid: false
+      pilot_ability: null
+      flavor_text: Commanded by Supreme Leader Kylo Ren, the 709th Legion fights without
+        mercy or remorse to crush the Resistance and bring the galaxy under the First
+        Order's dominion.
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        configuration: 1
+        gunner: 1
+        missile: 1
+        modification: 1
+        talent: 1
+        tech: 2
+      xwa_loadout_val: 8
+    kyloren-tiewiwhispermodifiedinterceptor:
+      id_: kyloren-tiewiwhispermodifiedinterceptor
+      amg_cost: null
+      xwa_cost: 14
+      xwa_restricted_count: null
+      name: • Kylo Ren
+      unique: true
+      limit: 1
+      subtitle: Supreme Leader of the First Order
+      initiative: 5
+      faction: firstorder
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: Before an enemy ship in your [Bullseye Arc] is dealt a facedown damage
+          card, you may spend 1 [Force]. If you do, that damage card is dealt faceup
+          instead.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges:
+        force:
+          limit: 3
+          recurring_val: 1
+      keywords:
+      - Dark Side
+      - Light Side
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        configuration: 1
+        force_power: 2
+        missile: 1
+        modification: 1
+        tech: 2
+      xwa_loadout_val: 12
+    nightfall:
+      id_: nightfall
+      amg_cost: null
+      xwa_cost: 11
+      xwa_restricted_count: null
+      name: • “Nightfall”
+      unique: true
+      limit: 1
+      subtitle: 709th Legion Veteran
+      initiative: 4
+      faction: firstorder
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After you fully execute a maneuver or perform a [Boost] action, each
+          ship you moved through gains 2 jam tokens.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        configuration: 1
+        gunner: 1
+        missile: 1
+        modification: 1
+        talent: 1
+        tech: 2
+      xwa_loadout_val: 11
+    redfuryzealot:
+      id_: redfuryzealot
+      amg_cost: null
+      xwa_cost: 8
+      xwa_restricted_count: null
+      name: Red Fury Zealot
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 2
+      faction: firstorder
+      is_droid: false
+      pilot_ability: null
+      flavor_text: Also called Red Fury, the 709th Legion is charged by Supreme Leader
+        Kylo Ren with rooting out dissenters at Black Spire Outpost.
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        gunner: 1
+        missile: 1
+        modification: 1
+        tech: 2
+      xwa_loadout_val: 5
+    whirlwind:
+      id_: whirlwind
+      amg_cost: null
+      xwa_cost: 11
+      xwa_restricted_count: null
+      name: • “Whirlwind”
+      unique: true
+      limit: 1
+      subtitle: Reap What You Sow
+      initiative: 3
+      faction: firstorder
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: Before you engage, you may remove any number of jam tokens, then you
+          may gain 1 focus token for each enemy ship that has you in its [Front Arc].
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        configuration: 1
+        gunner: 1
+        missile: 1
+        modification: 1
+        talent: 1
+        tech: 2
+      xwa_loadout_val: 13
+    wrath:
+      id_: wrath
+      amg_cost: null
+      xwa_cost: 12
+      xwa_restricted_count: null
+      name: • “Wrath”
+      unique: true
+      limit: 1
+      subtitle: Herald of Destruction
+      initiative: 5
+      faction: firstorder
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After you perform a [Bullseye Arc] attack, if you have 1 or more non-lock
+          red or orange tokens, you may perform a bonus attack against a different
+          target.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - TIE
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        cannon: 1
+        configuration: 1
+        gunner: 1
+        modification: 1
+        talent: 1
+        tech: 2
+      xwa_loadout_val: 14

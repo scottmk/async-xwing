@@ -1,0 +1,185 @@
+id_: attackshuttle
+name: Attack Shuttle
+size: small
+attacks:
+- arc: front
+  val: 3
+agility_val: 2
+hull_val: 3
+shield_val: 1
+shields_recurring: null
+energy_val: null
+energy_recurring: null
+action_bar:
+- action_name: focus
+  color: white
+  linked_action: null
+- action_name: evade
+  color: white
+  linked_action: null
+- action_name: barrel_roll
+  color: white
+  linked_action:
+    action_name: evade
+    color: red
+    linked_action: null
+ship_ability:
+  name: Locked and Loaded
+  text: While you are docked, after your carrier ship performs a primary [Front Arc]
+    or [Turret] attack, it may perform a bonus primary [Rear Arc] attack.
+  automations: []
+  is_action: false
+maneuver_dial:
+  bank_left:
+    1: blue
+    2: white
+    3: white
+  bank_right:
+    1: blue
+    2: white
+    3: white
+  koiogran_turn:
+    4: red
+  straight:
+    1: blue
+    2: blue
+    3: white
+    4: white
+  turn_left:
+    1: red
+    2: white
+    3: red
+  turn_right:
+    1: red
+    2: white
+    3: red
+pilots:
+  rebelalliance:
+    ezrabridger:
+      id_: ezrabridger
+      amg_cost: null
+      xwa_cost: 9
+      xwa_restricted_count: null
+      name: • Ezra Bridger
+      unique: true
+      limit: 1
+      subtitle: Spectre-6
+      initiative: 3
+      faction: rebelalliance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you defend or perform an attack, if you are stressed, you may
+          spend 1 [Force] to change up to 2 of your [Focus] results to [Evade] or
+          [Hit] results.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges:
+        force:
+          limit: 1
+          recurring_val: 1
+      keywords:
+      - Light Side
+      - Spectre
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 1
+        force_power: 1
+        modification: 1
+        title: 1
+        turret: 1
+      xwa_loadout_val: 8
+    herasyndulla:
+      id_: herasyndulla
+      amg_cost: null
+      xwa_cost: 10
+      xwa_restricted_count: null
+      name: • Hera Syndulla
+      unique: true
+      limit: 1
+      subtitle: Spectre-2
+      initiative: 5
+      faction: rebelalliance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After you reveal a red or blue maneuver, you may set your dial to another
+          maneuver of the same difficulty.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Spectre
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 1
+        modification: 1
+        talent: 2
+        title: 1
+        turret: 1
+      xwa_loadout_val: 15
+    sabinewren:
+      id_: sabinewren
+      amg_cost: null
+      xwa_cost: 10
+      xwa_restricted_count: null
+      name: • Sabine Wren
+      unique: true
+      limit: 1
+      subtitle: Spectre-5
+      initiative: 3
+      faction: rebelalliance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: Before you activate, you may perform a [Barrel Roll] or [Boost] action.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Mandalorian
+      - Spectre
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 1
+        modification: 1
+        talent: 1
+        title: 1
+        turret: 1
+      xwa_loadout_val: 13
+    zeborrelios:
+      id_: zeborrelios
+      amg_cost: null
+      xwa_cost: 8
+      xwa_restricted_count: null
+      name: • “Zeb” Orrelios
+      unique: true
+      limit: 1
+      subtitle: Spectre-4
+      initiative: 2
+      faction: rebelalliance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you defend, [Critical Hit] results are neutralized before [Hit]
+          results.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Spectre
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 1
+        modification: 1
+        title: 1
+        turret: 1
+      xwa_loadout_val: 6

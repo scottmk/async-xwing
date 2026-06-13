@@ -1,0 +1,342 @@
+id_: clonez95headhunter
+name: Clone Z-95 Headhunter
+size: small
+attacks:
+- arc: front
+  val: 2
+agility_val: 2
+hull_val: 2
+shield_val: 2
+shields_recurring: null
+energy_val: null
+energy_recurring: null
+action_bar:
+- action_name: focus
+  color: white
+  linked_action: null
+- action_name: lock
+  color: white
+  linked_action: null
+- action_name: barrel_roll
+  color: red
+  linked_action: null
+ship_ability:
+  name: Versatile Frame
+  text: You can equip 1 [Torpedo] or [Missile] upgrade. While your revealed maneuver
+    is blue, add white [Boost] to your action bar.
+  automations: []
+  is_action: false
+maneuver_dial:
+  bank_left:
+    1: white
+    2: blue
+    3: white
+  bank_right:
+    1: white
+    2: blue
+    3: white
+  koiogran_turn:
+    3: red
+    4: red
+  straight:
+    1: blue
+    2: blue
+    3: blue
+    4: white
+  turn_left:
+    2: white
+    3: white
+  turn_right:
+    2: white
+    3: white
+pilots:
+  galacticrepublic:
+    7thskycorpspilot:
+      id_: 7thskycorpspilot
+      amg_cost: null
+      xwa_cost: 7
+      xwa_restricted_count: null
+      name: 7th Sky Corps Pilot
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 2
+      faction: galacticrepublic
+      is_droid: false
+      pilot_ability: null
+      flavor_text: ''
+      charges: null
+      keywords:
+      - Clone
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        modification: 1
+        sensor: 1
+      xwa_loadout_val: 10
+    boost:
+      id_: boost
+      amg_cost: null
+      xwa_cost: 8
+      xwa_restricted_count: null
+      name: • “Boost”
+      unique: true
+      limit: 1
+      subtitle: CT-4860
+      initiative: 3
+      faction: galacticrepublic
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: At the start of the Engagement Phase, if there is a friendly ship at
+          range 0-1 whose revealed maneuver is blue, you may perform a [Boost] action.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Clone
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        modification: 1
+        sensor: 1
+        talent: 1
+      xwa_loadout_val: 12
+    drift:
+      id_: drift
+      amg_cost: null
+      xwa_cost: 8
+      xwa_restricted_count: null
+      name: • “Drift”
+      unique: true
+      limit: 1
+      subtitle: CT-1020
+      initiative: 3
+      faction: galacticrepublic
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While a friendly ship at range 0-1 performs an attack, if you have exactly
+          1 non-lock red token or exactly 1 orange token, that ship may reroll 1 attack
+          die.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Clone
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        modification: 1
+        sensor: 1
+        talent: 1
+      xwa_loadout_val: 13
+    hawk-clonez95headhunter:
+      id_: hawk-clonez95headhunter
+      amg_cost: null
+      xwa_cost: 8
+      xwa_restricted_count: null
+      name: • “Hawk”
+      unique: true
+      limit: 1
+      subtitle: Valkyrie 2929
+      initiative: 4
+      faction: galacticrepublic
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: At the start of the end phase, each friendly ship at range 0-1 that
+          has a revealed maneuver of speed 3-5 may gain 1 strain token to perform
+          a [Barrel Roll] or [Boost] action.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Clone
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        modification: 1
+        sensor: 1
+        talent: 1
+      xwa_loadout_val: 12
+    killer:
+      id_: killer
+      amg_cost: null
+      xwa_cost: 7
+      xwa_restricted_count: null
+      name: • “Killer”
+      unique: true
+      limit: 1
+      subtitle: Dependable Closer
+      initiative: 2
+      faction: galacticrepublic
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you perform an attack, if the defender has 2 or fewer hull remaining,
+          you may roll 1 additional attack die. If you do, gain 1 deplete token after
+          rolling attack dice.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Clone
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        modification: 1
+        sensor: 1
+      xwa_loadout_val: 6
+    knack:
+      id_: knack
+      amg_cost: null
+      xwa_cost: 8
+      xwa_restricted_count: null
+      name: • “Knack”
+      unique: true
+      limit: 1
+      subtitle: Incautious Instructor
+      initiative: 5
+      faction: galacticrepublic
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: 'After you are destroyed, you may choose a friendly non-limited ship
+          and assign 1 of your equipped [Talent] upgrades to it. End of Game: Return
+          all [Talent] upgrades to their original ships.'
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Clone
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        modification: 1
+        sensor: 1
+        talent: 2
+      xwa_loadout_val: 13
+    reapersquadronscout:
+      id_: reapersquadronscout
+      amg_cost: null
+      xwa_cost: 8
+      xwa_restricted_count: null
+      name: Reaper Squadron Scout
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 3
+      faction: galacticrepublic
+      is_droid: false
+      pilot_ability: null
+      flavor_text: Despite the Clone Z-95's unglamorous reputation, Reaper Squadron
+        has become legendary for their skill with this fighter in far-flung engagements,
+        such as the skirmish over Castilon.
+      charges: null
+      keywords:
+      - Clone
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        modification: 1
+        sensor: 1
+        talent: 1
+      xwa_loadout_val: 11
+    slider:
+      id_: slider
+      amg_cost: null
+      xwa_cost: 7
+      xwa_restricted_count: null
+      name: • “Slider”
+      unique: true
+      limit: 1
+      subtitle: Evasive Aviator
+      initiative: 4
+      faction: galacticrepublic
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: When you reveal a [2 [Bank Left]] or [2 [Bank Right]] maneuver, you
+          may spend 2 [Charge] to execute it as a sideslip.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges:
+        standard:
+          limit: 2
+          recurring_val: 1
+      keywords:
+      - Clone
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        modification: 1
+        sensor: 1
+        talent: 1
+      xwa_loadout_val: 6
+    stub:
+      id_: stub
+      amg_cost: null
+      xwa_cost: 8
+      xwa_restricted_count: null
+      name: • “Stub”
+      unique: true
+      limit: 1
+      subtitle: Scrappy Flier
+      initiative: 3
+      faction: galacticrepublic
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you defend, if the speed of your revealed maneuver is even, roll
+          1 additional defende die. While you perform a primary attack, if the speed
+          of your revealed maneuver is odd, roll 1 additional attack die.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Clone
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        modification: 1
+        sensor: 1
+        talent: 1
+      xwa_loadout_val: 11
+    warthog-clonez95headhunter:
+      id_: warthog-clonez95headhunter
+      amg_cost: null
+      xwa_cost: 9
+      xwa_restricted_count: null
+      name: • “Warthog”
+      unique: true
+      limit: 1
+      subtitle: Veteran of Kadavo
+      initiative: 3
+      faction: galacticrepublic
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: After you or a friendly non-limited ship at range 0-2 are destroyed
+          during the Engagement Phase, that ship is not removed until the end of that
+          phase.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Clone
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        modification: 1
+        sensor: 1
+        talent: 1
+      xwa_loadout_val: 21

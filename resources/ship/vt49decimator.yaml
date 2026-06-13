@@ -1,0 +1,179 @@
+id_: vt49decimator
+name: VT-49 Decimator
+size: large
+attacks:
+- arc: double_turret
+  val: 3
+agility_val: 0
+hull_val: 12
+shield_val: 4
+shields_recurring: null
+energy_val: null
+energy_recurring: null
+action_bar:
+- action_name: focus
+  color: white
+  linked_action: null
+- action_name: lock
+  color: white
+  linked_action: null
+- action_name: reinforce
+  color: white
+  linked_action: null
+- action_name: rotate
+  color: white
+  linked_action: null
+- action_name: coordinate
+  color: red
+  linked_action: null
+ship_ability: null
+maneuver_dial:
+  bank_left:
+    1: blue
+    2: white
+    3: white
+  bank_right:
+    1: blue
+    2: white
+    3: white
+  straight:
+    1: blue
+    2: blue
+    3: white
+    4: white
+  turn_left:
+    1: red
+    2: white
+    3: white
+  turn_right:
+    1: red
+    2: white
+    3: white
+pilots:
+  galacticempire:
+    captainoicunn:
+      id_: captainoicunn
+      amg_cost: null
+      xwa_cost: 16
+      xwa_restricted_count: null
+      name: • Captain Oicunn
+      unique: true
+      limit: 1
+      subtitle: Inspired Tactician
+      initiative: 3
+      faction: galacticempire
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you perform an attack at attack range 0, treat it as an attack
+          at attack range 1.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 2
+        gunner: 2
+        modification: 1
+        payload: 1
+        talent: 1
+        title: 1
+        torpedo: 1
+      xwa_loadout_val: 14
+    mornakee:
+      id_: mornakee
+      amg_cost: null
+      xwa_cost: 17
+      xwa_restricted_count: null
+      name: • Morna Kee
+      unique: true
+      limit: 1
+      subtitle: Determined Attaché
+      initiative: 4
+      faction: galacticempire
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: During the End Phase, you may spend 1 [Charge] to flip 1 of your reinforce
+          tokens to your other full arc instead of removing it.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges:
+        standard:
+          limit: 3
+          recurring_val: 0
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 2
+        gunner: 2
+        modification: 1
+        payload: 1
+        talent: 1
+        title: 1
+        torpedo: 1
+      xwa_loadout_val: 16
+    patrolleader:
+      id_: patrolleader
+      amg_cost: null
+      xwa_cost: 16
+      xwa_restricted_count: null
+      name: Patrol Leader
+      unique: false
+      limit: 0
+      subtitle: null
+      initiative: 2
+      faction: galacticempire
+      is_droid: false
+      pilot_ability: null
+      flavor_text: To be granted command of a VT-49 Decimator is seen as a significant
+        promotion for a middling officer of the Imperial Navy.
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 2
+        gunner: 2
+        modification: 1
+        payload: 1
+        torpedo: 1
+      xwa_loadout_val: 9
+    rearadmiralchiraneau:
+      id_: rearadmiralchiraneau
+      amg_cost: null
+      xwa_cost: 19
+      xwa_restricted_count: null
+      name: • Rear Admiral Chiraneau
+      unique: true
+      limit: 1
+      subtitle: Advisor to Admiral Piett
+      initiative: 5
+      faction: galacticempire
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you perform an attack, if you are reinforced and the defender
+          is in the [Full Front Arc] or [Full Rear Arc] matching your reinforce token,
+          you may change 1 of your [Focus] results to a [Critical Hit] result.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords: []
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        crew: 2
+        gunner: 2
+        modification: 1
+        payload: 1
+        talent: 1
+        title: 1
+        torpedo: 1
+      xwa_loadout_val: 27

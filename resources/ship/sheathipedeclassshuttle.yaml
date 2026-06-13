@@ -1,0 +1,183 @@
+id_: sheathipedeclassshuttle
+name: Sheathipede-class Shuttle
+size: small
+attacks:
+- arc: front
+  val: 2
+- arc: rear
+  val: 2
+agility_val: 2
+hull_val: 4
+shield_val: 1
+shields_recurring: null
+energy_val: null
+energy_recurring: null
+action_bar:
+- action_name: focus
+  color: white
+  linked_action: null
+- action_name: coordinate
+  color: white
+  linked_action: null
+ship_ability:
+  name: Comms Shuttle
+  text: While you are docked, your carrier ship gains [Coordinate]. Before your carrier
+    ship activates, it may perform a [Coordinate] action.
+  automations: []
+  is_action: false
+maneuver_dial:
+  bank_left:
+    1: white
+    2: blue
+    3: white
+  bank_right:
+    1: white
+    2: blue
+    3: white
+  koiogran_turn:
+    3: red
+  reverse_straight:
+    1: red
+  straight:
+    1: blue
+    2: blue
+    3: blue
+    4: red
+  turn_left:
+    2: white
+    3: red
+  turn_right:
+    2: white
+    3: red
+pilots:
+  rebelalliance:
+    ap5:
+      id_: ap5
+      amg_cost: null
+      xwa_cost: 8
+      xwa_restricted_count: null
+      name: • AP-5
+      unique: true
+      limit: 1
+      subtitle: Escaped Analyst Droid
+      initiative: 1
+      faction: rebelalliance
+      is_droid: true
+      pilot_ability:
+        name: null
+        text: While you coordinate, if you chose a ship with exactly 1 stress token,
+          it can perform actions.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Droid
+      - Spectre
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        astromech: 1
+        crew: 1
+        modification: 1
+        title: 1
+      xwa_loadout_val: 6
+    ezrabridger-sheathipedeclassshuttle:
+      id_: ezrabridger-sheathipedeclassshuttle
+      amg_cost: null
+      xwa_cost: 9
+      xwa_restricted_count: null
+      name: • Ezra Bridger
+      unique: true
+      limit: 1
+      subtitle: Spectre-6
+      initiative: 3
+      faction: rebelalliance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you defend or perform an attack, if you are stressed, you may
+          spend 1 [Force] to change up to 2 of your [Focus] results to [Evade]/[Hit]
+          results.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges:
+        force:
+          limit: 1
+          recurring_val: 1
+      keywords:
+      - Light Side
+      - Spectre
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        astromech: 1
+        crew: 1
+        force_power: 1
+        modification: 1
+        title: 1
+      xwa_loadout_val: 9
+    fennrau-sheathipedeclassshuttle:
+      id_: fennrau-sheathipedeclassshuttle
+      amg_cost: null
+      xwa_cost: 11
+      xwa_restricted_count: null
+      name: • Fenn Rau
+      unique: true
+      limit: 1
+      subtitle: Reluctant Rebel
+      initiative: 6
+      faction: rebelalliance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: Before an enemy ship in your firing arc engages, if you are not stressed,
+          you may gain 1 stress token. If you do, that ship cannot spend tokens to
+          modify dice while it performs an attack during this phase.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Mandalorian
+      - Spectre
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        astromech: 1
+        crew: 1
+        modification: 1
+        talent: 1
+        title: 1
+      xwa_loadout_val: 10
+    zeborrelios-sheathipedeclassshuttle:
+      id_: zeborrelios-sheathipedeclassshuttle
+      amg_cost: null
+      xwa_cost: 7
+      xwa_restricted_count: null
+      name: • “Zeb” Orrelios
+      unique: true
+      limit: 1
+      subtitle: Spectre-4
+      initiative: 2
+      faction: rebelalliance
+      is_droid: false
+      pilot_ability:
+        name: null
+        text: While you defend, [Critical Hit] results are neutralized before [Hit]
+          results.
+        automations: []
+        is_action: false
+      flavor_text: null
+      charges: null
+      keywords:
+      - Spectre
+      amg_upgrade_bar: null
+      amg_loadout_val: null
+      xwa_upgrade_bar:
+        astromech: 1
+        crew: 1
+        modification: 1
+        title: 1
+      xwa_loadout_val: 4
