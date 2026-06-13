@@ -1,23 +1,114 @@
----
-panicked_pilot:
-  id_: panicked_pilot
-  name: Panicked Pilot
-  type: pilot
-  text: 'Gain 2 stress tokens.
-
-    Then repair this card.'
-  automations:
-  - REPAIR
-  - GAIN_STRESS:2
+blinded_pilot:
+  id_: blinded_pilot
+  name: Blinded Pilot
+  type_: pilot
+  text: 'While you perform an attack, you can modify your dice only by spending [Force]
+    for their default effect. **Action**: Repair this card.'
+  count: 2
+  automations: null
 console_fire:
   id_: console_fire
   name: Console Fire
-  type: ship
-  text: 'Before you engage, roll 1 attack die. On a :hit: result, suffer 1 :hit: damage.
-
+  type_: ship
+  text: 'Before you engage, roll 1 attack die. On a [Hit] result, suffer 1 [Hit] damage.
     **Action**: Repair this card.'
+  count: 2
   automations:
   - ON_HIT_SUFFER_HIT:1
   - ROLL_ATK_DIE:1
   - REPAIR_ACTION
   - BEFORE_ENGAGE
+damaged_engine:
+  id_: damaged_engine
+  name: Damaged Engine
+  type_: ship
+  text: Increase the difficulty of you turn maneuvers ([Turn Left] and [Turn Right]).
+  count: 2
+  automations: null
+damaged_sensor_array:
+  id_: damaged_sensor_array
+  name: Damaged Sensor Array
+  type_: ship
+  text: 'You cannot perform any actions except the [Focus] action and actions from
+    damage cards. **Action**: Repair this card.'
+  count: 2
+  automations: null
+direct_hit:
+  id_: direct_hit
+  name: Direct Hit!
+  type_: ship
+  text: Suffer 1 [Hit] damage. Then repair this card.
+  count: 5
+  automations: null
+disabled_power_regulator:
+  id_: disabled_power_regulator
+  name: Disabled Power Regulator
+  type_: ship
+  text: Before you engage, gain 1 ion token. After you execute an ion maneuver, repair
+    this card.
+  count: 2
+  automations: null
+fuel_leak:
+  id_: fuel_leak
+  name: Fuel Leak
+  type_: ship
+  text: 'After you suffer 1 [Critical Hit] damage, suffer 1 [Hit] damage and repair
+    this card. **Action**: Repair this card.'
+  count: 4
+  automations: null
+hull_breach:
+  id_: hull_breach
+  name: Hull Breach
+  type_: ship
+  text: 'Before you would suffer 1 or more [Hit] damage, suffer that much [Critical
+    Hit] damage instead. **Action**: Repair this card.'
+  count: 2
+  automations: null
+loose_stabilizer:
+  id_: loose_stabilizer
+  name: Loose Stabilizer
+  type_: ship
+  text: 'After you execute a non-straight maneuver ([Straight]), suffer 1 [Hit] damage
+    and repair this card. **Action**: Repair this card.'
+  count: 2
+  automations: null
+panicked_pilot:
+  id_: panicked_pilot
+  name: Panicked Pilot
+  type_: pilot
+  text: Gain 2 stress tokens. Then repair this card.
+  count: 2
+  automations:
+  - REPAIR
+  - GAIN_STRESS:2
+structural_damage:
+  id_: structural_damage
+  name: Structural Damage
+  type_: ship
+  text: While you defend, roll 1 fewer defense die.
+  count: 2
+  automations: null
+stunned_pilot:
+  id_: stunned_pilot
+  name: Stunned Pilot
+  type_: pilot
+  text: After you execute a maneuver, if you moved through or overlapped an obstacle,
+    suffer 1 [Hit] damage.
+  count: 2
+  automations: null
+weapons_failure:
+  id_: weapons_failure
+  name: Weapons Failure
+  type_: ship
+  text: 'While you perform an attack, roll 1 fewer attack die. **Action**: Repair this
+    card.'
+  count: 2
+  automations: null
+wounded_pilot:
+  id_: wounded_pilot
+  name: Wounded Pilot
+  type_: pilot
+  text: 'After you perform an action, roll 1 attack die. On a [Hit] or [Critical Hit]
+    result, gain 1 stress token. **Action**: Repair this card.'
+  count: 2
+  automations: null
