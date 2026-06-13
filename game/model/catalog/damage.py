@@ -11,6 +11,7 @@ class DamageCardType(StrEnum):
 class DamageCard(msgspec.Struct, kw_only=True, frozen=True):
     id_: str
     name: str
-    type: DamageCardType
+    type_: DamageCardType
     text: str
+    count: int
     automations: list[str] | None = None
