@@ -1,0 +1,509 @@
+babufrik:
+  id_: babufrik
+  amg_cost: null
+  xwa_cost: 5
+  xwa_restricted_count: null
+  type_: illicit
+  slots:
+  - illicit
+  name: • Babu Frik
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: Before you would gain a non-lock red or orange token, you may spend 1 [Charge]
+      to place it on this card instead. During the System Phase, if there are 1 or
+      more tokens on this card, you must spend 1 [Charge]. If you cannot, remove those
+      tokens and gain matching tokens.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 3
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+cloakingdevice:
+  id_: cloakingdevice
+  amg_cost: null
+  xwa_cost: 8
+  xwa_restricted_count: null
+  type_: illicit
+  slots:
+  - illicit
+  name: • Cloaking Device
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: 'Action: Spend 1 [Charge] to perform a [Cloak] action. At the start of the
+      Planning Phase, roll 1 attack die. On a [Focus] result, decloak or discard your
+      cloak token.'
+    automations: []
+    is_action: true
+  flavor_text: null
+  charges:
+    standard:
+      limit: 2
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+coaxiumhyperfuel:
+  id_: coaxiumhyperfuel
+  amg_cost: null
+  xwa_cost: 2
+  xwa_restricted_count: null
+  type_: illicit
+  slots:
+  - illicit
+  name: Coaxium Hyperfuel
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: You can perform the [SLAM] action even while stressed. If you do, you suffer
+      1 [Critical Hit] damage unless you expose 1 of your damage cards. After you
+      partially execute a maneuver, you may expose 1 of your damage cards or suffer
+      1 [Critical Hit] damage to perform a [SLAM] action.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+contrabandcybernetics:
+  id_: contrabandcybernetics
+  amg_cost: null
+  xwa_cost: 4
+  xwa_restricted_count: null
+  type_: illicit
+  slots:
+  - illicit
+  name: Contraband Cybernetics
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: Before you activate, you may spend 1 [Charge]. If you do, until the end
+      of the round, you can perform actions and execute red maneuvers, even while
+      stressed. This card's [Charge] cannot be recovered.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 1
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+deadmansswitch:
+  id_: deadmansswitch
+  amg_cost: null
+  xwa_cost: 2
+  xwa_restricted_count: null
+  type_: illicit
+  slots:
+  - illicit
+  name: Deadman's Switch
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: After you are destroyed, each other ship at range 0-1 suffers 1 [Hit] damage.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+falsetranspondercodes:
+  id_: falsetranspondercodes
+  amg_cost: null
+  xwa_cost: 5
+  xwa_restricted_count: 3
+  type_: illicit
+  slots:
+  - illicit
+  name: False Transponder Codes
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: After you acquire a lock on an object or an object acquires a lock on you,
+      if you have 1 active [Charge], lose 1 [Charge] and jam that object, ignoring
+      range restrictions.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 1
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+feedbackarray:
+  id_: feedbackarray
+  amg_cost: null
+  xwa_cost: 4
+  xwa_restricted_count: null
+  type_: illicit
+  slots:
+  - illicit
+  name: Feedback Array
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: Before you engage, you may gain 1 ion token and 1 disarm token. If you do,
+      each ship at range 0 suffers 1 [Hit] damage.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+hotshottailblaster:
+  id_: hotshottailblaster
+  amg_cost: null
+  xwa_cost: 1
+  xwa_restricted_count: null
+  type_: illicit
+  slots:
+  - illicit
+  name: Hotshot Tail Blaster
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: 'This attack can be performed at range 0. Attack: Spend 1 [Charge].'
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 2
+      recurring_val: 0
+  special_attacks:
+  - arc: rear
+    val: 2
+    range:
+    - 0
+    - 1
+    requirement: []
+    is_ordnance: true
+    text: 'This attack can be performed at range 0. Attack: Spend 1 [Charge].'
+    automations: []
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+inertialdampeners:
+  id_: inertialdampeners
+  amg_cost: null
+  xwa_cost: 8
+  xwa_restricted_count: null
+  type_: illicit
+  slots:
+  - illicit
+  name: Inertial Dampeners
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: Before you would execute a maneuver, you may spend 1 shield. If you do,
+      execute a white [0 [Stationary]] instead of the maneuver you revealed, then
+      gain 1 stress token.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+overtunedmodulators:
+  id_: overtunedmodulators
+  amg_cost: null
+  xwa_cost: 3
+  xwa_restricted_count: null
+  type_: illicit
+  slots:
+  - illicit
+  name: Overtuned Modulators
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: During the System Phase, if you are not stressed, you may spend 1 [Charge]
+      to gain 3 calculate tokens. During the End Phase, if your [Charge] is inactive,
+      for each green token you remove, gain 1 strain token.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 1
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+quickreleaselocks:
+  id_: quickreleaselocks
+  amg_cost: null
+  xwa_cost: 5
+  xwa_restricted_count: null
+  type_: illicit
+  slots:
+  - illicit
+  name: • Quick-Release Locks
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: During the System Phase, you may spend 1 [Charge] to drop 1 cargo crate
+      drift in your [Rear Arc] at range 0. It cannot overlap a ship this way.. This
+      card's [Charge] cannot be recovered.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 2
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+riggedcargochute:
+  id_: riggedcargochute
+  amg_cost: null
+  xwa_cost: 2
+  xwa_restricted_count: null
+  type_: illicit
+  slots:
+  - illicit
+  name: Rigged Cargo Chute
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: 'Action: Spend 1 [Charge]. Drop 1 loose cargo using the [1 [Straight]] template.'
+    automations: []
+    is_action: true
+  flavor_text: null
+  charges:
+    standard:
+      limit: 1
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+saboteursmap:
+  id_: saboteursmap
+  amg_cost: null
+  xwa_cost: 3
+  xwa_restricted_count: null
+  type_: illicit
+  slots:
+  - illicit
+  name: • Saboteur's Map
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: At the end of Setup, you may spend up to 1 [Charge] from each of your equipped
+      Mine upgrades to place the corresponding device in the play area beyond range
+      2 of any enemy ship, strategic marker, or other device.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+scannerbaffler:
+  id_: scannerbaffler
+  amg_cost: null
+  xwa_cost: 8
+  xwa_restricted_count: null
+  type_: illicit
+  slots:
+  - illicit
+  name: • Scanner Baffler
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: At the end of Setup, you may choose any number of other friendly, non-huge
+      ships in your deployment area at range 0-1. If you do, place those ships anywhere
+      in the same deployment area.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+trackingfob:
+  id_: trackingfob
+  amg_cost: null
+  xwa_cost: 3
+  xwa_restricted_count: null
+  type_: illicit
+  slots:
+  - illicit
+  name: ••• Tracking Fob
+  unique: false
+  limit: 3
+  ability:
+    name: null
+    text: 'Setup: After placing forces, choose an opponent: they assign the Marked
+      for Elimination condition to 1 of their ships. They must assign it to a limited
+      ship, if able. You ignore range restrictions while acquiring locks on the ship
+      with the Marked for Elimination condition.'
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null

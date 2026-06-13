@@ -1,0 +1,1190 @@
+alpha3bbesh:
+  id_: alpha3bbesh
+  amg_cost: null
+  xwa_cost: 1
+  xwa_restricted_count: null
+  type_: configuration
+  slots:
+  - configuration
+  name: Alpha-3B “Besh”
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While you perform a primary attack, you may spend your lock on the defender
+      to change 1 of your blank or [Focus] results to a [Hit] result. Add [Device]
+      slot.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+alpha3eesk:
+  id_: alpha3eesk
+  amg_cost: null
+  xwa_cost: 0
+  xwa_restricted_count: null
+  type_: configuration
+  slots:
+  - configuration
+  name: Alpha-3E “Esk”
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While you perform a primary attack, before rolling attack dice, you may
+      spend 2 [Charge]. If you do, your [Critical Hit] results inflict ion tokens
+      instead of damage.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 2
+      recurring_val: 1
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+calibratedlasertargeting:
+  id_: calibratedlasertargeting
+  amg_cost: null
+  xwa_cost: 0
+  xwa_restricted_count: null
+  type_: configuration
+  slots:
+  - configuration
+  name: Calibrated Laser Targeting
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While you perform a primary attack, if the defender is in your [Bullseye
+      Arc], add 1 [Focus] result.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+corsairrefit:
+  id_: corsairrefit
+  amg_cost: null
+  xwa_cost: 6
+  xwa_restricted_count: null
+  type_: configuration
+  slots:
+  - configuration
+  name: •• Corsair Refit
+  unique: false
+  limit: 2
+  ability:
+    name: null
+    text: 'Add [Cannon], [Turret], and [Missile] slots. Bonus Attack: Spend 1 [Energy]
+      to perform a [Cannon], [Turret], or [Missile] attack.'
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers:
+    energy: 1
+    hull: 2
+    shields: -2
+  bonus_slots:
+    cannon: 1
+    missile: 1
+    turret: 1
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+enhancedjammingsuite:
+  id_: enhancedjammingsuite
+  amg_cost: null
+  xwa_cost: 0
+  xwa_restricted_count: null
+  type_: configuration
+  slots:
+  - configuration
+  name: Enhanced Jamming Suite
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While you jam, you can choose yourself or another friendly ship. While you
+      defend, if the attacker has no green tokens or there is a jammed ship in the
+      attack arc, you may roll 1 additional defense die.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: focus
+    color: white
+    linked_action:
+      action_name: jam
+      color: white
+      linked_action: null
+  - action_name: barrel_roll
+    color: white
+    linked_action:
+      action_name: jam
+      color: white
+      linked_action: null
+  - action_name: boost
+    color: white
+    linked_action:
+      action_name: jam
+      color: white
+      linked_action: null
+  - action_name: jam
+    color: white
+    linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+grapplingstruts:
+  id_: grapplingstruts
+  amg_cost: null
+  xwa_cost: 0
+  xwa_restricted_count: null
+  type_: configuration
+  slots:
+  - configuration
+  name: Grappling Struts (Closed)
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: 'Setup: Equip this side faceup. After you execute a maneuver, if you overlap
+      an asteroid or debris cloud and there are 1 or fewer other friendly ships at
+      range 0 of that obstacle, you may flip this card. If you do, you do not suffer
+      the effects of overlapping the asteroid or debris cloud.'
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: grapplingstruts-rev
+  setup_automations: null
+grapplingstruts-rev:
+  id_: grapplingstruts-rev
+  amg_cost: null
+  xwa_cost: 0
+  xwa_restricted_count: null
+  type_: configuration
+  slots:
+  - configuration
+  name: Grappling Struts (Closed)
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: 'Setup: Equip this side faceup. After you execute a maneuver, if you overlap
+      an asteroid or debris cloud and there are 1 or fewer other friendly ships at
+      range 0 of that obstacle, you may flip this card. If you do, you do not suffer
+      the effects of overlapping the asteroid or debris cloud.'
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: grapplingstruts
+  setup_automations: null
+graviticwell-legendsandrelics:
+  id_: graviticwell-legendsandrelics
+  amg_cost: null
+  xwa_cost: 5
+  xwa_restricted_count: null
+  type_: configuration
+  slots:
+  - configuration
+  name: Gravitic Well
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: At the start of the Engagement Phase, if you are tractored, each other small
+      ship at range 0-1 gains 1 strain token. Replace any instance of 'if the defender
+      is tractored' in your pilot ability with 'if you are tractored'.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+integratedsfoils:
+  id_: integratedsfoils
+  amg_cost: null
+  xwa_cost: 0
+  xwa_restricted_count: null
+  type_: configuration
+  slots:
+  - configuration
+  name: Integrated S-foils (Closed)
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While you perform a primary attack, if the defender is not in your [Bullseye
+      Arc], roll 1 fewer attack die. Before you activate, you may flip this card.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: barrel_roll
+    color: white
+    linked_action: null
+  - action_name: focus
+    color: white
+    linked_action:
+      action_name: barrel_roll
+      color: red
+      linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: integratedsfoils-rev
+  setup_automations: null
+integratedsfoils-rev:
+  id_: integratedsfoils-rev
+  amg_cost: null
+  xwa_cost: 0
+  xwa_restricted_count: null
+  type_: configuration
+  slots:
+  - configuration
+  name: Integrated S-foils (Closed)
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While you perform a primary attack, if the defender is not in your [Bullseye
+      Arc], roll 1 fewer attack die. Before you activate, you may flip this card.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: barrel_roll
+    color: white
+    linked_action: null
+  - action_name: focus
+    color: white
+    linked_action:
+      action_name: barrel_roll
+      color: red
+      linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: integratedsfoils
+  setup_automations: null
+interceptbooster:
+  id_: interceptbooster
+  amg_cost: null
+  xwa_cost: 0
+  xwa_restricted_count: null
+  type_: configuration
+  slots:
+  - configuration
+  name: Intercept Booster (Attached)
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: 'Setup: Equip this side faceup. During the System Phase, gain 1 disarm token
+      unless you flip this card. At the end of the End Phase, if you have no active
+      [Charge], flip this card.'
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 3
+      recurring_val: -1
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: slam
+    color: white
+    linked_action:
+      action_name: lock
+      color: red
+      linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: interceptbooster-rev
+  setup_automations: null
+interceptbooster-rev:
+  id_: interceptbooster-rev
+  amg_cost: null
+  xwa_cost: 0
+  xwa_restricted_count: null
+  type_: configuration
+  slots:
+  - configuration
+  name: Intercept Booster (Attached)
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: 'Setup: Equip this side faceup. During the System Phase, gain 1 disarm token
+      unless you flip this card. At the end of the End Phase, if you have no active
+      [Charge], flip this card.'
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 3
+      recurring_val: -1
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: slam
+    color: white
+    linked_action:
+      action_name: lock
+      color: red
+      linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: interceptbooster
+  setup_automations: null
+landingstruts:
+  id_: landingstruts
+  amg_cost: null
+  xwa_cost: 0
+  xwa_restricted_count: null
+  type_: configuration
+  slots:
+  - configuration
+  name: Landing Struts (Closed)
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: 'Setup: Equip this side faceup. After you execute a maneuver, if you overlap
+      an asteroid or debris cloud and there are 1 or fewer other friendly ships at
+      range 0 of that obstacle, you may flip this card. If you do, you do not suffer
+      the effects of overlapping the asteroid or debris cloud.'
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: landingstruts-rev
+  setup_automations: null
+landingstruts-rev:
+  id_: landingstruts-rev
+  amg_cost: null
+  xwa_cost: 0
+  xwa_restricted_count: null
+  type_: configuration
+  slots:
+  - configuration
+  name: Landing Struts (Closed)
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: 'Setup: Equip this side faceup. After you execute a maneuver, if you overlap
+      an asteroid or debris cloud and there are 1 or fewer other friendly ships at
+      range 0 of that obstacle, you may flip this card. If you do, you do not suffer
+      the effects of overlapping the asteroid or debris cloud.'
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: landingstruts
+  setup_automations: null
+maneuverassistmgk300:
+  id_: maneuverassistmgk300
+  amg_cost: null
+  xwa_cost: 0
+  xwa_restricted_count: null
+  type_: configuration
+  slots:
+  - configuration
+  name: Maneuver-Assist MGK-300
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: Reduce the difficulty of your speed 3 straight ([Straight]) and bank ([Bank
+      Left] or [Bank Right]) maneuvers.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: calculate
+    color: white
+    linked_action: null
+  - action_name: barrel_roll
+    color: white
+    linked_action:
+      action_name: calculate
+      color: red
+      linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+os1arsenalloadout:
+  id_: os1arsenalloadout
+  amg_cost: null
+  xwa_cost: 0
+  xwa_restricted_count: null
+  type_: configuration
+  slots:
+  - configuration
+  name: Os-1 Arsenal Loadout
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While you have exactly 1 disarm token, you can still perform [Torpedo] and
+      [Missile] attacks against targets you have locked. If you do, you cannot spend
+      your lock during the attack. Add [Torpedo] and [Missile] slots.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots:
+    missile: 1
+    torpedo: 1
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+pivotwing:
+  id_: pivotwing
+  amg_cost: null
+  xwa_cost: 0
+  xwa_restricted_count: null
+  type_: configuration
+  slots:
+  - configuration
+  name: Pivot Wing (Closed)
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While you defend, roll 1 fewer defense die. After you execute a [0 [Stationary]]
+      maneuver, you may rotate your ship 90° or 180°. Before you activate, you may
+      flip this card.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: pivotwing-rev
+  setup_automations: null
+pivotwing-rev:
+  id_: pivotwing-rev
+  amg_cost: null
+  xwa_cost: 0
+  xwa_restricted_count: null
+  type_: configuration
+  slots:
+  - configuration
+  name: Pivot Wing (Closed)
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While you defend, roll 1 fewer defense die. After you execute a [0 [Stationary]]
+      maneuver, you may rotate your ship 90° or 180°. Before you activate, you may
+      flip this card.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: pivotwing
+  setup_automations: null
+repulsorliftstabilizers:
+  id_: repulsorliftstabilizers
+  amg_cost: null
+  xwa_cost: 0
+  xwa_restricted_count: null
+  type_: configuration
+  slots:
+  - configuration
+  name: Repulsorlift Stabilizers (Inactive)
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: 'Setup: Equip this side faceup. Reduce the difficulty of your straight ([Straight])
+      maneuvers. After you fully execute a maneuver, you may flip this card.'
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: repulsorliftstabilizers-rev
+  setup_automations: null
+repulsorliftstabilizers-rev:
+  id_: repulsorliftstabilizers-rev
+  amg_cost: null
+  xwa_cost: 0
+  xwa_restricted_count: null
+  type_: configuration
+  slots:
+  - configuration
+  name: Repulsorlift Stabilizers (Inactive)
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: 'Setup: Equip this side faceup. Reduce the difficulty of your straight ([Straight])
+      maneuvers. After you fully execute a maneuver, you may flip this card.'
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: repulsorliftstabilizers
+  setup_automations: null
+sensitivecontrols:
+  id_: sensitivecontrols
+  amg_cost: null
+  xwa_cost: 0
+  xwa_restricted_count: null
+  type_: configuration
+  slots:
+  - configuration
+  name: Sensitive Controls
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: 'Replace your Autothrusters ship ability with the following:'
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+servomotorsfoils:
+  id_: servomotorsfoils
+  amg_cost: null
+  xwa_cost: 0
+  xwa_restricted_count: null
+  type_: configuration
+  slots:
+  - configuration
+  name: Servomotor S-foils (Closed)
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While you perform a primary attack, roll 1 fewer attack die. Before you
+      activate, you may flip this card.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: boost
+    color: white
+    linked_action: null
+  - action_name: focus
+    color: white
+    linked_action:
+      action_name: boost
+      color: red
+      linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: servomotorsfoils-rev
+  setup_automations: null
+servomotorsfoils-rev:
+  id_: servomotorsfoils-rev
+  amg_cost: null
+  xwa_cost: 0
+  xwa_restricted_count: null
+  type_: configuration
+  slots:
+  - configuration
+  name: Servomotor S-foils (Closed)
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While you perform a primary attack, roll 1 fewer attack die. Before you
+      activate, you may flip this card.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: boost
+    color: white
+    linked_action: null
+  - action_name: focus
+    color: white
+    linked_action:
+      action_name: boost
+      color: red
+      linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: servomotorsfoils
+  setup_automations: null
+stabilizedsfoils:
+  id_: stabilizedsfoils
+  amg_cost: null
+  xwa_cost: 0
+  xwa_restricted_count: null
+  type_: configuration
+  slots:
+  - configuration
+  name: Stabilized S-foils (Closed)
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: Before you activate, if you are not critically damaged, you may flip this
+      card.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: barrel_roll
+    color: white
+    linked_action:
+      action_name: evade
+      color: red
+      linked_action: null
+  - action_name: reload
+    color: red
+    linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: stabilizedsfoils-rev
+  setup_automations: null
+stabilizedsfoils-rev:
+  id_: stabilizedsfoils-rev
+  amg_cost: null
+  xwa_cost: 0
+  xwa_restricted_count: null
+  type_: configuration
+  slots:
+  - configuration
+  name: Stabilized S-foils (Closed)
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: Before you activate, if you are not critically damaged, you may flip this
+      card.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: barrel_roll
+    color: white
+    linked_action:
+      action_name: evade
+      color: red
+      linked_action: null
+  - action_name: reload
+    color: red
+    linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: stabilizedsfoils
+  setup_automations: null
+swivelwing:
+  id_: swivelwing
+  amg_cost: null
+  xwa_cost: 0
+  xwa_restricted_count: null
+  type_: configuration
+  slots:
+  - configuration
+  name: Swivel Wing (Down)
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: After you execute a [0 [Stationary]] maneuver, you may rotate your ship
+      90° or 180°. If you do, you must flip this card.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: swivelwing-rev
+  setup_automations: null
+swivelwing-rev:
+  id_: swivelwing-rev
+  amg_cost: null
+  xwa_cost: 0
+  xwa_restricted_count: null
+  type_: configuration
+  slots:
+  - configuration
+  name: Swivel Wing (Down)
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: After you execute a [0 [Stationary]] maneuver, you may rotate your ship
+      90° or 180°. If you do, you must flip this card.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: swivelwing
+  setup_automations: null
+targetassistmgk300:
+  id_: targetassistmgk300
+  amg_cost: null
+  xwa_cost: 0
+  xwa_restricted_count: null
+  type_: configuration
+  slots:
+  - configuration
+  name: Target-Assist MGK-300
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: Before you engage, if you have no green tokens and you are not stressed,
+      gain 1 calculate token for each enemy ship at range 2-3 in your firing arc,
+      to a maximum of 2.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: calculate
+    color: white
+    linked_action: null
+  - action_name: rotate
+    color: white
+    linked_action:
+      action_name: calculate
+      color: white
+      linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+tiedefenderelite:
+  id_: tiedefenderelite
+  amg_cost: null
+  xwa_cost: 0
+  xwa_restricted_count: null
+  type_: configuration
+  slots:
+  - configuration
+  name: TIE Defender Elite
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: 'Decrease the difficulty of your turn [[Turn Left] or [Turn Right]] maneuvers.
+      Increase the difficulty of your Koiogran Turn [[Koiogran Turn]] maneuvers. Replace
+      your Full Throttle ship ability with the following:'
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+vectoredcannonsrz1:
+  id_: vectoredcannonsrz1
+  amg_cost: null
+  xwa_cost: 0
+  xwa_restricted_count: null
+  type_: configuration
+  slots:
+  - configuration
+  name: Vectored Cannons (RZ-1)
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: 'Gain a [Single Turret Arc] indicator. Treat the arc requirement of your
+      [Front Arc] primary attack as [Single Turret Arc]. Replace your Vectored Thrusters
+      ship ability with the following:'
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks:
+  - arc: single_turret
+    val: 2
+    range:
+    - 1
+    - 2
+    - 3
+    requirement: []
+    is_ordnance: false
+    text: 'Gain a [Single Turret Arc] indicator. Treat the arc requirement of your
+      [Front Arc] primary attack as [Single Turret Arc]. Replace your Vectored Thrusters
+      ship ability with the following:'
+    automations: []
+  huge_ship_bonus_attacks: null
+  replacement_arc: single_turret
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+wartimeloadout:
+  id_: wartimeloadout
+  amg_cost: null
+  xwa_cost: 0
+  xwa_restricted_count: null
+  type_: configuration
+  slots:
+  - configuration
+  name: Wartime Loadout
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: 'Gain 1 [Torpedo] slot and 1 [Missile] slot. Replace your ship ability with
+      the following:'
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: lock
+    color: white
+    linked_action: null
+  - action_name: reload
+    color: white
+    linked_action: null
+  ship_stat_modifiers:
+    shields: 2
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+wingedreversal-legendsandrelics:
+  id_: wingedreversal-legendsandrelics
+  amg_cost: null
+  xwa_cost: 0
+  xwa_restricted_count: null
+  type_: configuration
+  slots:
+  - configuration
+  name: Winged Reversal
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: After you reveal a turn ([Turn Left] or [Turn Right]) maneuver, you may
+      spend 1 [Charge], gain 1 strain token, and increase its difficulty. If you do,
+      perform that maneuver as a Tallon Roll ([Tallon Roll Left] or [Tallon Roll Right])
+      maneuver in the same direction instead.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 2
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+xg1assaultconfiguration:
+  id_: xg1assaultconfiguration
+  amg_cost: null
+  xwa_cost: 0
+  xwa_restricted_count: null
+  type_: configuration
+  slots:
+  - configuration
+  name: Xg-1 Assault Configuration
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While you have exactly 1 disarm token, you can still perform [Cannon] attacks.
+      While you perform a [Cannon] attack while disarmed, roll a maximum of 3 attack
+      dice. Add [Cannon] slot.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots:
+    cannon: 1
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null

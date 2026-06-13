@@ -1,0 +1,521 @@
+battlemeditation:
+  id_: battlemeditation
+  amg_cost: null
+  xwa_cost: 6
+  xwa_restricted_count: 3
+  type_: force_power
+  slots:
+  - force_power
+  name: Battle Meditation
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: You cannot coordinate limited ships. While you perform a purple [Coordinate]
+      action, you may coordinate 1 additional friendly non-limited ship of the same
+      type. Both ships must perform the same action.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: coordinate
+    color: purple
+    linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+brilliantevasion:
+  id_: brilliantevasion
+  amg_cost: null
+  xwa_cost: 2
+  xwa_restricted_count: null
+  type_: force_power
+  slots:
+  - force_power
+  name: Brilliant Evasion
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While you defend, if you are not in the attacker's [Bullseye Arc], you may
+      spend 1 [Force] to change 2 of your [Focus] results to [Evade] results.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+compassion:
+  id_: compassion
+  amg_cost: null
+  xwa_cost: 1
+  xwa_restricted_count: null
+  type_: force_power
+  slots:
+  - force_power
+  name: Compassion
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: Before another friendly ship at range 0-2 would be dealt a faceup Pilot
+      or Crew damage card, you may spend 1 [Force]. If you do, that damage card is
+      discarded instead, and you are dealt 1 facedown damage card. Then, if you have
+      2 or more damage cards, recover 2 [Force].
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+extrememaneuvers:
+  id_: extrememaneuvers
+  amg_cost: null
+  xwa_cost: 3
+  xwa_restricted_count: null
+  type_: force_power
+  slots:
+  - force_power
+  name: Extreme Maneuvers
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While you perform a [Boost] action, you may spend 1 [Force] to use the turn
+      ([Turn Left] or [Turn Right]) template instead.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+foresight:
+  id_: foresight
+  amg_cost: null
+  xwa_cost: 6
+  xwa_restricted_count: null
+  type_: force_power
+  slots:
+  - force_power
+  name: Foresight
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: 'After an enemy ship executes a maneuver, you may spend 1 [Force] to perform
+      this attack against it as a bonus attack. Attack: You may change 1 [Focus] result
+      to a [Hit] result; your dice cannot be modified otherwise.'
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks:
+  - arc: bullseye
+    val: 2
+    range:
+    - 1
+    - 2
+    - 3
+    requirement: []
+    is_ordnance: true
+    text: 'After an enemy ship executes a maneuver, you may spend 1 [Force] to perform
+      this attack against it as a bonus attack. Attack: You may change 1 [Focus] result
+      to a [Hit] result; your dice cannot be modified otherwise.'
+    automations: []
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+hate:
+  id_: hate
+  amg_cost: null
+  xwa_cost: 4
+  xwa_restricted_count: null
+  type_: force_power
+  slots:
+  - force_power
+  name: Hate
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: After you suffer 1 or more damage, recover that many [Force].
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+heightenedperception:
+  id_: heightenedperception
+  amg_cost: null
+  xwa_cost: 5
+  xwa_restricted_count: null
+  type_: force_power
+  slots:
+  - force_power
+  name: Heightened Perception
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: At the start of the Engagement Phase, you may spend 1 [Force]. If you do,
+      engage at initiative 7 instead of your standard initiative value this phase.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+instinctiveaim:
+  id_: instinctiveaim
+  amg_cost: null
+  xwa_cost: 2
+  xwa_restricted_count: null
+  type_: force_power
+  slots:
+  - force_power
+  name: Instinctive Aim
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While you perform a special attack, you may spend 1 [Force] to ignore the
+      [Focus] or [Lock] requirement.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+malice:
+  id_: malice
+  amg_cost: null
+  xwa_cost: 5
+  xwa_restricted_count: null
+  type_: force_power
+  slots:
+  - force_power
+  name: Malice
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While you perform an attack, you may spend 1 [Force] to change 1 [Focus]
+      or [Hit] result to a [Critical Hit] result. If you do, after you perform that
+      attack, if the defender was dealt 1 or more faceup Pilot or Crew damage cards,
+      recover 2 [Force].
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+patience:
+  id_: patience
+  amg_cost: null
+  xwa_cost: 2
+  xwa_restricted_count: null
+  type_: force_power
+  slots:
+  - force_power
+  name: Patience
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: At the start of the Engagement Phase, if there is an enemy ship in your
+      [Front Arc], you may gain 1 deplete token to recover 1 [Force].
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+precognitivereflexes:
+  id_: precognitivereflexes
+  amg_cost: null
+  xwa_cost: 8
+  xwa_restricted_count: null
+  type_: force_power
+  slots:
+  - force_power
+  name: Precognitive Reflexes
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: After you reveal your dial, you may spend 1 [Force] to perform a [Barrel
+      Roll] or [Boost] action. Then, if you performed an action you do not have on
+      your action bar, gain 1 strain token. If you do, you cannot perform another
+      action during your activation.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+predictiveshot:
+  id_: predictiveshot
+  amg_cost: null
+  xwa_cost: 1
+  xwa_restricted_count: null
+  type_: force_power
+  slots:
+  - force_power
+  name: Predictive Shot
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: After you declare an attack, if the defender is in your [Bullseye Arc],
+      you may spend 1 [Force]. If you do, during the Roll Defense Dice step, the defender
+      cannot roll more defense dice than the number of your [Hit]/[Critical Hit] results.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+roilinganger-legendsandrelics:
+  id_: roilinganger-legendsandrelics
+  amg_cost: null
+  xwa_cost: 2
+  xwa_restricted_count: null
+  type_: force_power
+  slots:
+  - force_power
+  name: Roiling Anger
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: At the start of the Engagement Phase, if you are in an enemy ship's [Front
+      Arc], you may gain 1 strain token to recover 1 [Force].
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+sense:
+  id_: sense
+  amg_cost: null
+  xwa_cost: 7
+  xwa_restricted_count: 1
+  type_: force_power
+  slots:
+  - force_power
+  name: Sense
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: During the System Phase, you may choose 1 ship at range 0-1 and look at
+      its dial. If you spend 1 [Force], you may choose a ship at range 0-3 instead.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+shatteringshot:
+  id_: shatteringshot
+  amg_cost: null
+  xwa_cost: 3
+  xwa_restricted_count: null
+  type_: force_power
+  slots:
+  - force_power
+  name: Shattering Shot
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While you perform an attack, if the attack is obstructed by an obstacle
+      or the defender is at range 0 of an obstacle, you may spend 1 [Force] to add
+      1 [Focus] result.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+supernaturalreflexes:
+  id_: supernaturalreflexes
+  amg_cost: null
+  xwa_cost: 50
+  xwa_restricted_count: null
+  type_: force_power
+  slots:
+  - force_power
+  name: Supernatural Reflexes
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: Before you activate, you may spend 1 [Force] to perform a [Barrel Roll]
+      or [Boost] action. Then, if you performed an action you do not have on your
+      action bar, suffer 1 [Hit] damage.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null

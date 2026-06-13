@@ -1,0 +1,338 @@
+autoblasters:
+  id_: autoblasters
+  amg_cost: null
+  xwa_cost: 7
+  xwa_restricted_count: 2
+  type_: cannon
+  slots:
+  - cannon
+  name: Autoblasters
+  unique: false
+  limit: null
+  ability: null
+  flavor_text: null
+  charges: null
+  special_attacks:
+  - arc: front
+    val: 2
+    range:
+    - 1
+    - 2
+    requirement: []
+    is_ordnance: false
+    text: 'Attack: If the defender is in your [Bullseye Arc], roll 1 additional die.
+      During the Neutralize Results step, if you are not in the defender''s [Front
+      Arc], [Evade] results do not cancel [Critical Hit] results.'
+    automations: []
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+heavylasercannon:
+  id_: heavylasercannon
+  amg_cost: null
+  xwa_cost: 5
+  xwa_restricted_count: null
+  type_: cannon
+  slots:
+  - cannon
+  name: Heavy Laser Cannon
+  unique: false
+  limit: null
+  ability: null
+  flavor_text: null
+  charges: null
+  special_attacks:
+  - arc: bullseye
+    val: 4
+    range:
+    - 2
+    - 3
+    requirement: []
+    is_ordnance: false
+    text: 'Attack: After the Modify Attack Dice step, change all [Critical Hit] results
+      to [Hit] results.'
+    automations: []
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+ioncannon:
+  id_: ioncannon
+  amg_cost: null
+  xwa_cost: 6
+  xwa_restricted_count: null
+  type_: cannon
+  slots:
+  - cannon
+  name: Ion Cannon
+  unique: false
+  limit: null
+  ability: null
+  flavor_text: null
+  charges: null
+  special_attacks:
+  - arc: front
+    val: 3
+    range:
+    - 1
+    - 2
+    - 3
+    requirement: []
+    is_ordnance: false
+    text: 'Attack: If this attack hits, spend 1 [Hit] or [Critical Hit] result to
+      cause the defender to suffer 1 [Hit] damage. All remaining [Hit]/[Critical Hit]
+      results inflict ion tokens instead of damage.'
+    automations: []
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+jammingbeam:
+  id_: jammingbeam
+  amg_cost: null
+  xwa_cost: 1
+  xwa_restricted_count: null
+  type_: cannon
+  slots:
+  - cannon
+  name: Jamming Beam
+  unique: false
+  limit: null
+  ability: null
+  flavor_text: null
+  charges: null
+  special_attacks:
+  - arc: front
+    val: 3
+    range:
+    - 1
+    - 2
+    requirement: []
+    is_ordnance: false
+    text: 'Attack: If this attack hits, all [Hit]/[Critical Hit] results inflict jam
+      tokens instead of damage.'
+    automations: []
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+precisiontunedcannons-legendsandrelics:
+  id_: precisiontunedcannons-legendsandrelics
+  amg_cost: null
+  xwa_cost: 3
+  xwa_restricted_count: null
+  type_: cannon
+  slots:
+  - cannon
+  name: Precision-Tuned Cannons
+  unique: false
+  limit: null
+  ability: null
+  flavor_text: null
+  charges: null
+  special_attacks:
+  - arc: front
+    val: 2
+    range:
+    - 2
+    - 3
+    requirement: []
+    is_ordnance: false
+    text: 'Attack: If the defender is in your [Bullseye Arc], add 1 [Focus] result.'
+    automations: []
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+protoncannons:
+  id_: protoncannons
+  amg_cost: null
+  xwa_cost: 5
+  xwa_restricted_count: null
+  type_: cannon
+  slots:
+  - cannon
+  name: Proton Cannons
+  unique: false
+  limit: null
+  ability: null
+  flavor_text: null
+  charges:
+    standard:
+      limit: 2
+      recurring_val: 1
+  special_attacks:
+  - arc: bullseye
+    val: 4
+    range:
+    - 2
+    - 3
+    requirement: []
+    is_ordnance: false
+    text: 'Attack: Spend 2 [Charge]. Change 1 [Focus] or [Hit] result to a [Critical
+      Hit] result.'
+    automations: []
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+syncedlasercannons:
+  id_: syncedlasercannons
+  amg_cost: null
+  xwa_cost: 8
+  xwa_restricted_count: null
+  type_: cannon
+  slots:
+  - cannon
+  name: Synced Laser Cannons
+  unique: false
+  limit: null
+  ability: null
+  flavor_text: null
+  charges: null
+  special_attacks:
+  - arc: front
+    val: 3
+    range:
+    - 2
+    - 3
+    requirement: []
+    is_ordnance: false
+    text: 'Attack: If you are calculating, the defender does not apply the range bonus.'
+    automations: []
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+tractorbeam:
+  id_: tractorbeam
+  amg_cost: null
+  xwa_cost: 4
+  xwa_restricted_count: null
+  type_: cannon
+  slots:
+  - cannon
+  name: Tractor Beam
+  unique: false
+  limit: null
+  ability: null
+  flavor_text: null
+  charges: null
+  special_attacks:
+  - arc: front
+    val: 3
+    range:
+    - 1
+    - 2
+    - 3
+    requirement: []
+    is_ordnance: false
+    text: 'Attack: If this attack hits, all [Hit]/[Critical Hit] results inflict tractor
+      tokens instead of damage.'
+    automations: []
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+underslungblastercannon:
+  id_: underslungblastercannon
+  amg_cost: null
+  xwa_cost: 2
+  xwa_restricted_count: null
+  type_: cannon
+  slots:
+  - cannon
+  name: Underslung Blaster Cannon
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: After an enemy ship executes a maneuver, you may perform this attack against
+      it as a bonus attack. Attack ([Lock]):Your dice can be modified only by spending
+      a lock for the default effect.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks:
+  - arc: single_turret
+    val: 2
+    range:
+    - 1
+    requirement: []
+    is_ordnance: true
+    text: After an enemy ship executes a maneuver, you may perform this attack against
+      it as a bonus attack. Attack ([Lock]):Your dice can be modified only by spending
+      a lock for the default effect.
+    automations: []
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: rotate
+    color: white
+    linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null

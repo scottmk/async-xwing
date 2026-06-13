@@ -1,0 +1,127 @@
+adaptiveshields:
+  id_: adaptiveshields
+  amg_cost: null
+  xwa_cost: 5
+  xwa_restricted_count: null
+  type_: cargo
+  slots:
+  - cargo
+  name: Adaptive Shields
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While another friendly ship at range 0-1 defends, if it is a smaller size
+      than you, you may spend 1 [Shield] or 2 [Energy] to cancel 1 [Hit] or [Critical
+      Hit] result.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+boostedscanners:
+  id_: boostedscanners
+  amg_cost: null
+  xwa_cost: 7
+  xwa_restricted_count: null
+  type_: cargo
+  slots:
+  - cargo
+  name: Boosted Scanners
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While you lock, coordinate, or jam, you may spend up to 3 [Energy] to increase
+      the range at which you can choose an object by 1 per [Energy] spent this way,
+      to a maximum of range 5.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+optimizedpowercore:
+  id_: optimizedpowercore
+  amg_cost: null
+  xwa_cost: 6
+  xwa_restricted_count: null
+  type_: cargo
+  slots:
+  - cargo
+  name: Optimized Power Core
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: After you execute a blue maneuver, recover 1 [Energy].
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+tibannareserves:
+  id_: tibannareserves
+  amg_cost: null
+  xwa_cost: 3
+  xwa_restricted_count: null
+  type_: cargo
+  slots:
+  - cargo
+  name: Tibanna Reserves
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: 'Action: Spend 1 [Charge] to recover 2 [Energy].'
+    automations: []
+    is_action: true
+  flavor_text: null
+  charges:
+    standard:
+      limit: 3
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null

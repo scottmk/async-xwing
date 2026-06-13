@@ -1,0 +1,168 @@
+k2b4:
+  id_: k2b4
+  amg_cost: null
+  xwa_cost: 4
+  xwa_restricted_count: null
+  type_: tactical_relay
+  slots:
+  - tactical_relay
+  name: • K2-B4
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: While a friendly ship at range 0-3 defends, it may spend 1 calculate token.
+      If it does, add 1 [Evade] result unless the attacker chooses to gain 1 strain
+      token.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+kalani:
+  id_: kalani
+  amg_cost: null
+  xwa_cost: 3
+  xwa_restricted_count: null
+  type_: tactical_relay
+  slots:
+  - tactical_relay
+  name: • Kalani
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: After an enemy ship executes a maneuver, if it is in the [Bullseye Arc]
+      of a friendly ship at range 0-3, you may spend 1 [Charge]. If you do, that friendly
+      ship acquires a lock on that enemy ship, then gains 1 stress token.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 3
+      recurring_val: 3
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: calculate
+    color: white
+    linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+kraken:
+  id_: kraken
+  amg_cost: null
+  xwa_cost: 7
+  xwa_restricted_count: null
+  type_: tactical_relay
+  slots:
+  - tactical_relay
+  name: • Kraken
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: During the End Phase, you may choose up to 3 friendly ships at range 0-3.
+      If you do, each of these ships does not remove 1 calculate token.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: calculate
+    color: white
+    linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+ta175:
+  id_: ta175
+  amg_cost: null
+  xwa_cost: 5
+  xwa_restricted_count: null
+  type_: tactical_relay
+  slots:
+  - tactical_relay
+  name: • TA-175
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: After a friendly ship at range 0-3 with [Calculate] on its action bar is
+      destroyed, each friendly ship at range 0-3 with [Calculate] in its action bar
+      gains 1 calculate token.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+tv94:
+  id_: tv94
+  amg_cost: null
+  xwa_cost: 3
+  xwa_restricted_count: null
+  type_: tactical_relay
+  slots:
+  - tactical_relay
+  name: • TV-94
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: While a friendly ship at range 0-3 performs a primary attack against a defender
+      in its [Bullseye Arc], if there are 2 or fewer attack dice, it may spend 1 calculate
+      token to add 1 [Hit] result.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null

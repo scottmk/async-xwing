@@ -1,13 +1,14 @@
----
-advprotontorpedos:
-  id_: advprotontorpedos
+advprotontorpedoes:
+  id_: advprotontorpedoes
   amg_cost: null
   xwa_cost: 7
   xwa_restricted_count: null
-  types:
+  type_: torpedo
+  slots:
   - torpedo
   name: Adv. Proton Torpedoes
   unique: false
+  limit: null
   ability: null
   flavor_text: null
   charges:
@@ -22,25 +23,74 @@ advprotontorpedos:
     requirement:
     - lock
     is_ordnance: true
-    text: 'Attack :lock: Spend 1 :std_charge:. Change 1 :hit: to a :crit: result.'
+    text: 'Attack ([Lock]): Spend 1 [Charge]. Change 1 [Hit] result to a [Critical
+      Hit] result.'
     automations:
     - SPEND_STD_CHARGE:1
     - UPGRADE_HIT:1
-  bonus_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
   action_bar: null
   ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
   deployable_remote: null
   restrictions: null
+  is_reverse: false
+  reverse_side_id: null
   setup_automations: null
-protontorpedos:
-  id_: protontorpedos
+homingtorpedoes:
+  id_: homingtorpedoes
   amg_cost: null
-  xwa_cost: 14
-  xwa_restricted_count: 3
-  types:
+  xwa_cost: 4
+  xwa_restricted_count: 2
+  type_: torpedo
+  slots:
   - torpedo
-  name: Proton Torpedoes
+  name: Homing Torpedoes
   unique: false
+  limit: null
+  ability: null
+  flavor_text: null
+  charges:
+    standard:
+      limit: 2
+      recurring_val: 0
+  special_attacks:
+  - arc: front
+    val: 4
+    range:
+    - 1
+    - 2
+    requirement:
+    - lock
+    is_ordnance: true
+    text: 'Attack ([Lock]): Spend 1 [Charge]. After you declare the defender, the
+      defender may choose to suffer 1 [Critical Hit] damage. If it does, skip the
+      Attack and Defense Dice steps and the attack is treated as hitting.'
+    automations: []
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+iontorpedoes:
+  id_: iontorpedoes
+  amg_cost: null
+  xwa_cost: 5
+  xwa_restricted_count: null
+  type_: torpedo
+  slots:
+  - torpedo
+  name: Ion Torpedoes
+  unique: false
+  limit: null
   ability: null
   flavor_text: null
   charges:
@@ -56,13 +106,138 @@ protontorpedos:
     requirement:
     - lock
     is_ordnance: true
-    text: 'Attack :lock: Spend 1 :std_charge:. Change 1 :hit: to a :crit: result.'
+    text: 'Attack ([Lock]): Spend 1 [Charge]. If this attack hits, spend 1 [Hit] or
+      [Critical Hit] result to cause the defender to suffer 1 [Hit] damage. All remaining
+      [Hit]/[Critical Hit] results inflict ion tokens instead of damage.'
+    automations: []
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+plasmatorpedoes:
+  id_: plasmatorpedoes
+  amg_cost: null
+  xwa_cost: 7
+  xwa_restricted_count: null
+  type_: torpedo
+  slots:
+  - torpedo
+  name: Plasma Torpedoes
+  unique: false
+  limit: null
+  ability: null
+  flavor_text: null
+  charges:
+    standard:
+      limit: 2
+      recurring_val: 0
+  special_attacks:
+  - arc: front
+    val: 3
+    range:
+    - 2
+    - 3
+    requirement:
+    - lock
+    is_ordnance: true
+    text: 'Attack ([Lock]): Spend 1 [Charge]. During the Neutralize Results step,
+      [Critical Hit] results are canceled before [Hit] results. After this attack
+      hits, the defender loses 1 shield.'
+    automations: []
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+protontorpedoes:
+  id_: protontorpedoes
+  amg_cost: null
+  xwa_cost: 14
+  xwa_restricted_count: 3
+  type_: torpedo
+  slots:
+  - torpedo
+  name: Proton Torpedoes
+  unique: false
+  limit: null
+  ability: null
+  flavor_text: null
+  charges:
+    standard:
+      limit: 2
+      recurring_val: 0
+  special_attacks:
+  - arc: front
+    val: 4
+    range:
+    - 2
+    - 3
+    requirement:
+    - lock
+    is_ordnance: true
+    text: 'Attack ([Lock]): Spend 1 [Charge]. Change 1 [Hit] result to a [Critical
+      Hit] result.'
     automations:
     - SPEND_STD_CHARGE:1
     - UPGRADE_HIT:1
-  bonus_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
   action_bar: null
   ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
   deployable_remote: null
   restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+trackingtorpedoes:
+  id_: trackingtorpedoes
+  amg_cost: null
+  xwa_cost: 8
+  xwa_restricted_count: null
+  type_: torpedo
+  slots:
+  - torpedo
+  name: • Tracking Torpedoes
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: During the System Phase, you may spend up to 3 [Charge] to launch that many
+      tracking torpedoes using the [3 [Bank Left]], [4 [Straight]], and [3 [Bank Right]]
+      templates. Each device must use a seperate template. Then each device may acquire
+      a lock on an object you have locked, ignoring range restrictions. This card's
+      [Charge] cannot be recovered.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 3
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
   setup_automations: null

@@ -1,0 +1,889 @@
+ablativeplating:
+  id_: ablativeplating
+  amg_cost: null
+  xwa_cost: 2
+  xwa_restricted_count: null
+  type_: modification
+  slots:
+  - modification
+  name: Ablative Plating
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: Before you would suffer damage from an obstacle or from a friendly bomb
+      detonating, you may spend 1 [Charge]. If you do, prevent 1 damage.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 2
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+advancedslam:
+  id_: advancedslam
+  amg_cost: null
+  xwa_cost: 3
+  xwa_restricted_count: null
+  type_: modification
+  slots:
+  - modification
+  name: Advanced SLAM
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: After you perform a [SLAM] action, if you fully executed the maneuver, you
+      may perform a white action on your action bar, treating that action as red.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+afterburners:
+  id_: afterburners
+  amg_cost: null
+  xwa_cost: 8
+  xwa_restricted_count: null
+  type_: modification
+  slots:
+  - modification
+  name: Afterburners
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: After you fully execute a speed 3-5 maneuver, you may spend 1 [Charge] to
+      perform a [Boost] action, even while stressed.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 2
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+angleddeflectors:
+  id_: angleddeflectors
+  amg_cost: null
+  xwa_cost: 1
+  xwa_restricted_count: null
+  type_: modification
+  slots:
+  - modification
+  name: Angled Deflectors
+  unique: false
+  limit: null
+  ability: null
+  flavor_text: Starfighter shields often have manual overrides that allow them to
+    be angled for increased front or rear protection. However, doing so leaves the
+    ship exposed if the pilot's situational awareness falters.
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: reinforce
+    color: white
+    linked_action: null
+  ship_stat_modifiers:
+    shields: -1
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+automatedloaders-legendsandrelics:
+  id_: automatedloaders-legendsandrelics
+  amg_cost: null
+  xwa_cost: 1
+  xwa_restricted_count: null
+  type_: modification
+  slots:
+  - modification
+  name: Automated Loaders
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: After you perform a primary attack, you may spend 1 [Charge] to perform
+      a [Reload] action.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 1
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+beskarreinforcedplating:
+  id_: beskarreinforcedplating
+  amg_cost: null
+  xwa_cost: 6
+  xwa_restricted_count: null
+  type_: modification
+  slots:
+  - modification
+  name: Beskar Reinforced Plating
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While you defend, if the attacker is in your [Front Arc], before you would
+      be dealt a faceup damage card, you may spend 1 [Charge] to be dealt that card
+      facedown instead, or spend 2 [Charge] to discard it instead.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 2
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+burnoutthrusters:
+  id_: burnoutthrusters
+  amg_cost: null
+  xwa_cost: 5
+  xwa_restricted_count: null
+  type_: modification
+  slots:
+  - modification
+  name: Burnout Thrusters
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: After you perform a [SLAM] action, lose 1 [Charge]. Then you may gain 1
+      deplete token to remove 1 disarm token. If your [Charge] is inactive, you cannot
+      perform the [SLAM] action.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 1
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: slam
+    color: white
+    linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+delayedfuses:
+  id_: delayedfuses
+  amg_cost: null
+  xwa_cost: 2
+  xwa_restricted_count: null
+  type_: modification
+  slots:
+  - modification
+  name: Delayed Fuses
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: After you drop, launch, or place a bomb or mine, you may place 1 fuse marker
+      on that device.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+dropseatbay:
+  id_: dropseatbay
+  amg_cost: null
+  xwa_cost: 0
+  xwa_restricted_count: null
+  type_: modification
+  slots:
+  - modification
+  name: Drop-Seat bay
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: If you would drop a [Crew] remote using a straight [[Straight]] template,
+      you may use a bank [[Bank Left] or [Bank Right]] template of the same speed
+      instead and can align that template's middle line with the hashmark on your
+      ship's left or right side instead of your rear guides. Remove [Device] slot.
+      Add 2 [Crew] slots.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots:
+    crew: 2
+    payload: -1
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+electronicbaffle:
+  id_: electronicbaffle
+  amg_cost: null
+  xwa_cost: 2
+  xwa_restricted_count: null
+  type_: modification
+  slots:
+  - modification
+  name: Electronic Baffle
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: During the End Phase, you may suffer 1 [Hit] damage to remove 1 red token.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+engineupgrade:
+  id_: engineupgrade
+  amg_cost: null
+  xwa_cost: 3
+  xwa_restricted_count: null
+  type_: modification
+  slots:
+  - modification
+  name: Engine Upgrade
+  unique: false
+  limit: null
+  ability: null
+  flavor_text: Large military forces such as the Galactic Empire have standardized
+    engines, but individual pilots and small organizations often replace the power
+    couplings, add thrusters, or use high-performance fuel to get extra push out of
+    their engines.
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: boost
+    color: white
+    linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+hullupgrade:
+  id_: hullupgrade
+  amg_cost: null
+  xwa_cost: 9
+  xwa_restricted_count: null
+  type_: modification
+  slots:
+  - modification
+  name: Hull Upgrade
+  unique: false
+  limit: null
+  ability: null
+  flavor_text: For those who cannot afford an enhanced shield generator, bolting additional
+    plates onto the hull of a ship can serve as an adequate substitute.
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers:
+    hull: 1
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+imperviumplating:
+  id_: imperviumplating
+  amg_cost: null
+  xwa_cost: 2
+  xwa_restricted_count: null
+  type_: modification
+  slots:
+  - modification
+  name: Impervium Plating
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: Before you would be dealt a faceup Ship damage card, you may spend 1 [Charge]
+      to discard it instead.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 2
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+independentcalculations:
+  id_: independentcalculations
+  amg_cost: null
+  xwa_cost: 1
+  xwa_restricted_count: null
+  type_: modification
+  slots:
+  - modification
+  name: Independent Calculations
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: 'Replace your Networked Calculations ship ability with the following: Independent
+      Calculations: While you perform a white [Calculate] action, you may treat it
+      as red to gain 1 additional calculate token. Other ships cannot spend your calculate
+      tokens using the Networked Calculations ship ability.'
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+mandalorianoptics:
+  id_: mandalorianoptics
+  amg_cost: null
+  xwa_cost: 3
+  xwa_restricted_count: null
+  type_: modification
+  slots:
+  - modification
+  name: Mandalorian Optics
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: During the System Phase, you may spend 1 [Charge] to acquire a lock on an
+      object in your [Front Arc]. While you perform a primary attack, if you have
+      a lock on the defender, ignore obstacles beyond range 0 obstructing the attack.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 2
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+munitionsfailsafe:
+  id_: munitionsfailsafe
+  amg_cost: null
+  xwa_cost: 1
+  xwa_restricted_count: null
+  type_: modification
+  slots:
+  - modification
+  name: Munitions Failsafe
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While you perform a [Torpedo] or [Missile] attack, after rolling attack
+      dice, you may cancel all dice results to recover 1 [Charge] you spent as a cost
+      for the attack.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+overdrivethruster:
+  id_: overdrivethruster
+  amg_cost: null
+  xwa_cost: 5
+  xwa_restricted_count: null
+  type_: modification
+  slots:
+  - modification
+  name: • Overdrive Thruster
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: While you perform a red [Boost], [Barrel Roll], or [SLAM] action, you must
+      use a template of 1 speed higher, if able.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+precisionionengines:
+  id_: precisionionengines
+  amg_cost: null
+  xwa_cost: 1
+  xwa_restricted_count: null
+  type_: modification
+  slots:
+  - modification
+  name: Precision Ion Engines
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: Before you execute a speed 1-3 Koiogran Turn ([Koiogran Turn]) maneuver,
+      you may spend 1 [Charge] to execute that maneuver as a Segnor's Loop ([Segnor's
+      Loop Left] or [Segnor's Loop Right]) maneuver instead.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 2
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+retrofittedautothrusters-legendsandrelics:
+  id_: retrofittedautothrusters-legendsandrelics
+  amg_cost: null
+  xwa_cost: 6
+  xwa_restricted_count: null
+  type_: modification
+  slots:
+  - modification
+  name: Retrofitted Autothrusters
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: After you fully execute a speed 3 turn ([Turn Left] or [Turn Right]), bank
+      ([Bank Left] or [Bank Right]), Tallon Roll ([Tallon Roll Left] or [Tallon Roll
+      Right]), or Segnor's Loop ([Segnor's Loop Left] or [Segnor's Loop Right]) maneuver,
+      you may spend 1 [Charge] to perform a [Barrel Roll] action, even while stressed.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 2
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+shieldupgrade:
+  id_: shieldupgrade
+  amg_cost: null
+  xwa_cost: 10
+  xwa_restricted_count: null
+  type_: modification
+  slots:
+  - modification
+  name: Shield Upgrade
+  unique: false
+  limit: null
+  ability: null
+  flavor_text: Deflector shields are a substantial line of defense on most starships
+    beyond the lightest fighters. While enhancing a ship's shield capacity can be
+    costly, all but the most confident or reckless pilots see the value in this sort
+    of investment.
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers:
+    shields: 1
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+sparepartscanisters:
+  id_: sparepartscanisters
+  amg_cost: null
+  xwa_cost: 3
+  xwa_restricted_count: null
+  type_: modification
+  slots:
+  - modification
+  name: Spare Parts Canisters
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: 'Action: Spend 1 [Charge] to recover 1 charge on one of your equipped [Astromech]
+      upgrades. Action: Spend 1 [Charge] to drop 1 spare parts, then break all locks
+      assigned to you.'
+    automations: []
+    is_action: true
+  flavor_text: null
+  charges:
+    standard:
+      limit: 1
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+staticdischargevanes:
+  id_: staticdischargevanes
+  amg_cost: null
+  xwa_cost: 12
+  xwa_restricted_count: null
+  type_: modification
+  slots:
+  - modification
+  name: Static Discharge Vanes
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: Before you would gain 1 ion or jam token, if you are not stressed, you may
+      choose another ship at range 0-1 and gain 1 stress token. If you do, the chosen
+      ship gains that ion or jam token instead, then you suffer 1 [Hit] damage.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+stealthdevice:
+  id_: stealthdevice
+  amg_cost: null
+  xwa_cost: 8
+  xwa_restricted_count: null
+  type_: modification
+  slots:
+  - modification
+  name: Stealth Device
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While you defend, if your [Charge] is active, roll 1 additional defense
+      die. After you suffer damage, lose 1 [Charge].
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 1
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+synchronizedconsole:
+  id_: synchronizedconsole
+  amg_cost: null
+  xwa_cost: 2
+  xwa_restricted_count: null
+  type_: modification
+  slots:
+  - modification
+  name: Synchronized Console
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: After you perform an attack, you may choose a friendly ship at range 1 or
+      a friendly ship with the Synchronized Console upgrade at range 1-3 and spend
+      a lock you have on the defender. If you do, the friendly ship you chose may
+      acquire a lock on the defender.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+tacticalscrambler:
+  id_: tacticalscrambler
+  amg_cost: null
+  xwa_cost: 2
+  xwa_restricted_count: null
+  type_: modification
+  slots:
+  - modification
+  name: Tactical Scrambler
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While you obstruct an enemy ship's attack, the defender rolls 1 additional
+      defense die.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+targetingcomputer:
+  id_: targetingcomputer
+  amg_cost: null
+  xwa_cost: 1
+  xwa_restricted_count: null
+  type_: modification
+  slots:
+  - modification
+  name: Targeting Computer
+  unique: false
+  limit: null
+  ability: null
+  flavor_text: Targeting computers are standard features on many vessels, especially
+    those designed to deliver ordnance. Some light starfighters and transport craft
+    lack such weapons guidance, though it can be installed as an after-market modification.
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: lock
+    color: white
+    linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+targetingmatrix-legendsandrelics:
+  id_: targetingmatrix-legendsandrelics
+  amg_cost: null
+  xwa_cost: 4
+  xwa_restricted_count: null
+  type_: modification
+  slots:
+  - modification
+  name: Targeting Matrix
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While attacking, at the end of the Neutralize Results step, you may spend
+      1 [Focus] result. If you do, after the attack is resolved, the defender gains
+      1 strain token.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null

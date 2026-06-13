@@ -1,0 +1,195 @@
+advancedsensors:
+  id_: advancedsensors
+  amg_cost: null
+  xwa_cost: 8
+  xwa_restricted_count: null
+  type_: sensor
+  slots:
+  - sensor
+  name: Advanced Sensors
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: After you reveal your dial, you may perform 1 action. If you do, you cannot
+      perform another action during your activation.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+blindspottargeter-legendsandrelics:
+  id_: blindspottargeter-legendsandrelics
+  amg_cost: null
+  xwa_cost: 8
+  xwa_restricted_count: null
+  type_: sensor
+  slots:
+  - sensor
+  name: Blindspot Targeter
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While you perform a primary attack, if you are not in the defender's firing
+      arc, you may change 1 [Focus] result to a [Hit] result.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+collisiondetector:
+  id_: collisiondetector
+  amg_cost: null
+  xwa_cost: 7
+  xwa_restricted_count: null
+  type_: sensor
+  slots:
+  - sensor
+  name: Collision Detector
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While you boost or barrel roll, you can move through and overlap obstacles.
+      After you move through or overlap an obstacle, you may spend 1 [Charge] to ignore
+      its effects until the end of the round.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 2
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+firecontrolsystem:
+  id_: firecontrolsystem
+  amg_cost: null
+  xwa_cost: 2
+  xwa_restricted_count: null
+  type_: sensor
+  slots:
+  - sensor
+  name: Fire-Control System
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While you perform an attack, if you have a lock on the defender, you may
+      reroll 1 attack die. If you do, you cannot spend your lock during this attack.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+passivesensors:
+  id_: passivesensors
+  amg_cost: null
+  xwa_cost: 5
+  xwa_restricted_count: null
+  type_: sensor
+  slots:
+  - sensor
+  name: Passive Sensors
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: 'Action: Spend 1 [Charge]. You can only perform this action in your Perform
+      Action step. While your [Charge] is inactive, you cannot be coordinated. Before
+      you engage, if your [Charge] is inactive, you may perform a [Calculate] or [Lock]
+      action.'
+    automations: []
+    is_action: true
+  flavor_text: null
+  charges:
+    standard:
+      limit: 1
+      recurring_val: 1
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+trajectorysimulator:
+  id_: trajectorysimulator
+  amg_cost: null
+  xwa_cost: 8
+  xwa_restricted_count: 2
+  type_: sensor
+  slots:
+  - sensor
+  name: Trajectory Simulator
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: During the System Phase, if you would drop or launch a bomb, you may launch
+      it using the [5 [Straight]] template instead.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
