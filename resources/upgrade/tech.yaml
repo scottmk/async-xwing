@@ -1,0 +1,421 @@
+advancedoptics:
+  id_: advancedoptics
+  amg_cost: null
+  xwa_cost: 5
+  xwa_restricted_count: null
+  type_: tech
+  slots:
+  - tech
+  name: Advanced Optics
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While you perform an attack, you may spend 1 focus token to change 1 of
+      your blank results to a [Hit] result.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+automatedtargetpriority:
+  id_: automatedtargetpriority
+  amg_cost: null
+  xwa_cost: 1
+  xwa_restricted_count: null
+  type_: tech
+  slots:
+  - tech
+  name: Automated Target Priority
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While you perform an attack, you must choose a defender at the closest valid
+      attack range. After you perform an attack that missed, place 1 calculate token
+      on this card. Before you engage, you may remove 1 calculate token from this
+      card to gain a matching token.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+biohexacryptcodes:
+  id_: biohexacryptcodes
+  amg_cost: null
+  xwa_cost: 2
+  xwa_restricted_count: null
+  type_: tech
+  slots:
+  - tech
+  name: Biohexacrypt Codes
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While you coordinate or jam, if you have a lock on a ship, you may spend
+      that lock to choose that ship, ignoring range restrictions.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+deuteriumpowercells:
+  id_: deuteriumpowercells
+  amg_cost: null
+  xwa_cost: 7
+  xwa_restricted_count: null
+  type_: tech
+  slots:
+  - tech
+  name: Deuterium Power Cells
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: During the System Phase, you may spend 1 [Charge] and gain 1 disarm token
+      to recover 1 shield. Before you would gain 1 non-lock token, if you are not
+      stressed, you may spend 1 [Charge] to gain 1 stress token instead.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 2
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+ferrospherepaint:
+  id_: ferrospherepaint
+  amg_cost: null
+  xwa_cost: 4
+  xwa_restricted_count: null
+  type_: tech
+  slots:
+  - tech
+  name: Ferrosphere Paint
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: After an enemy ship locks you, if you are not in that ship's [Bullseye Arc],
+      that ship gains 1 stress token unless it chooses to break its lock.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+hyperspacetrackingdata:
+  id_: hyperspacetrackingdata
+  amg_cost: null
+  xwa_cost: 15
+  xwa_restricted_count: null
+  type_: tech
+  slots:
+  - tech
+  name: Hyperspace Tracking Data
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: 'Setup: Before placing forces, you may choose a number between 0 and 6.
+      Treat your initiative as the chosen value during Setup. After Setup, assign
+      1 focus or evade token to each friendly ship at range 0-2.'
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+patternanalyzer:
+  id_: patternanalyzer
+  amg_cost: null
+  xwa_cost: 5
+  xwa_restricted_count: null
+  type_: tech
+  slots:
+  - tech
+  name: Pattern Analyzer
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While you fully execute a red maneuver, before the Check Difficulty step,
+      you may perform 1 action.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+primedthrusters:
+  id_: primedthrusters
+  amg_cost: null
+  xwa_cost: 5
+  xwa_restricted_count: null
+  type_: tech
+  slots:
+  - tech
+  name: Primed Thrusters
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While you have 2 or fewer stress tokens, you can perform [Barrel Roll] and
+      [Boost] actions even while stressed.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+sensorbuoysuite:
+  id_: sensorbuoysuite
+  amg_cost: null
+  xwa_cost: 4
+  xwa_restricted_count: null
+  type_: tech
+  slots:
+  - tech
+  name: • Sensor Buoy Suite
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: 'Setup: Before placing forces, place 2 sensor buoy remotes beyond range
+      2 of any edge. Before you engage, you may acquire a lock on a ship at range
+      0-1 of a friendly sensor buoy, ignoring range restrictions.'
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+sensorscramblers:
+  id_: sensorscramblers
+  amg_cost: null
+  xwa_cost: 1
+  xwa_restricted_count: null
+  type_: tech
+  slots:
+  - tech
+  name: Sensor Scramblers
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: 'Setup: Gain 1 cloak token. While you are cloaked, other ships cannot acquire
+      locks on you. During the End Phase, if you are cloaked and there is an enemy
+      ship at range 0-3, you must decloak. If you do and that decloak fails, lose
+      1 cloak token.'
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+targetingrelay-legendsandrelics:
+  id_: targetingrelay-legendsandrelics
+  amg_cost: null
+  xwa_cost: 3
+  xwa_restricted_count: null
+  type_: tech
+  slots:
+  - tech
+  name: Targeting Relay
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: After a friendly ship acquires a lock on an enemy ship at 0-1 of you, you
+      may spend 1 [Charge] and gain 1 stress token. If you do, that friendly ship
+      may gain 1 calculate token.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 2
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+targetingsynchronizer:
+  id_: targetingsynchronizer
+  amg_cost: null
+  xwa_cost: 3
+  xwa_restricted_count: null
+  type_: tech
+  slots:
+  - tech
+  name: Targeting Synchronizer
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While a friendly ship at range 1-2 performs an attack against a target you
+      have locked, that ship ignores the [Lock] attack requirement.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+tsj1atargetingcomputer-legendsandrelics:
+  id_: tsj1atargetingcomputer-legendsandrelics
+  amg_cost: null
+  xwa_cost: 4
+  xwa_restricted_count: null
+  type_: tech
+  slots:
+  - tech
+  name: T-SJ1A Targeting Computer
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While you perform a primary attack, if the defender does not have any green
+      tokens, you may spend 1 [Charge] and 1 [Crit] result. If you do, add 2 [Hit]
+      results.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 1
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null

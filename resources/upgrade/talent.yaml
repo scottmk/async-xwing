@@ -1,0 +1,1395 @@
+backwardstailslide:
+  id_: backwardstailslide
+  amg_cost: null
+  xwa_cost: 1
+  xwa_restricted_count: null
+  type_: talent
+  slots:
+  - talent
+  name: Backwards Tailslide
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While you boost or barrel roll, if your equipped [Configuration] upgrade
+      has the “(Closed)” side faceup, you can move through and overlap obstacles.
+      After you boost or barrel roll through an obstacle, if you are not at range
+      0 of it, gain 1 evade token.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+clantraining:
+  id_: clantraining
+  amg_cost: null
+  xwa_cost: 1
+  xwa_restricted_count: null
+  type_: talent
+  slots:
+  - talent
+  name: Clan Training
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: Before you engage, if you are not focused and there is an enemy ship in
+      your [Front Arc] at range 1, you may spend 1 [Charge] to perform a red [Focus]
+      action. After you perform an attack, if the defender is destroyed, recover 1
+      [Charge].
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 1
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+composure:
+  id_: composure
+  amg_cost: null
+  xwa_cost: 1
+  xwa_restricted_count: null
+  type_: talent
+  slots:
+  - talent
+  name: Composure
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: After you fail an action, if you have no green tokens, you may perform a
+      [Focus] action. If you do, you cannot perform additional actions this round.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+crackshot:
+  id_: crackshot
+  amg_cost: null
+  xwa_cost: 5
+  xwa_restricted_count: null
+  type_: talent
+  slots:
+  - talent
+  name: Crack Shot
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While you perform a primary attack, if the defender is in your [Bullseye
+      Arc], before the Neutralize Results step, you may spend 1 [Charge] to cancel
+      1 [Evade] result.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 1
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+cutthroat:
+  id_: cutthroat
+  amg_cost: null
+  xwa_cost: 2
+  xwa_restricted_count: null
+  type_: talent
+  slots:
+  - talent
+  name: Cutthroat
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: After another friendly ship at range 0-3 is destroyed, if that ship is limited
+      or has the Cutthroat upgrade, you may remove 1 of your orange or red tokens,
+      or recover 1 non-recurring [Charge] on your ship card or one of your equipped
+      upgrade cards.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+daredevil:
+  id_: daredevil
+  amg_cost: null
+  xwa_cost: 4
+  xwa_restricted_count: null
+  type_: talent
+  slots:
+  - talent
+  name: Daredevil
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While you perform a white [Boost] action, you may treat it as red to use
+      the [1 [Turn Left]] or [1 [Turn Right]] template instead.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+deadeyeshot:
+  id_: deadeyeshot
+  amg_cost: null
+  xwa_cost: 1
+  xwa_restricted_count: null
+  type_: talent
+  slots:
+  - talent
+  name: Deadeye Shot
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While you perform a primary attack, if the defender is in your [Bullseye
+      Arc], you may spend 1 [Hit] result or change 1 [Critical Hit] result to a [Hit]
+      result. If you do, the defender exposes 1 of its damage cards.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+debrisgambit:
+  id_: debrisgambit
+  amg_cost: null
+  xwa_cost: 3
+  xwa_restricted_count: null
+  type_: talent
+  slots:
+  - talent
+  name: Debris Gambit
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While you perform a red [Evade] action, if there is an obstacle at range
+      0-1, treat the action as white instead.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: evade
+    color: red
+    linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+dedicated:
+  id_: dedicated
+  amg_cost: null
+  xwa_cost: 2
+  xwa_restricted_count: null
+  type_: talent
+  slots:
+  - talent
+  name: Dedicated
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While another friendly ship in your [Left Arc] or [Right Arc] at range 0-2
+      defends, if it is limited or has the Dedicated upgrade and you are not strained,
+      you may gain 1 strain token. If you do, the defender rerolls 1 of their blank
+      results.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+disciplined:
+  id_: disciplined
+  amg_cost: null
+  xwa_cost: 2
+  xwa_restricted_count: null
+  type_: talent
+  slots:
+  - talent
+  name: Disciplined
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: After another friendly ship at range 0-3 is destroyed, if that ship is limited
+      or has the Disciplined upgrade, you may perform a [Lock] or [Barrel Roll] action.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+elusive:
+  id_: elusive
+  amg_cost: null
+  xwa_cost: 4
+  xwa_restricted_count: null
+  type_: talent
+  slots:
+  - talent
+  name: Elusive
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While you defend, you may spend 1 [Charge] to reroll 1 defense die. After
+      you fully execute a red maneuver, recover 1 [Charge].
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 1
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+enduring:
+  id_: enduring
+  amg_cost: null
+  xwa_cost: 3
+  xwa_restricted_count: null
+  type_: talent
+  slots:
+  - talent
+  name: Enduring
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While you defend, if you are not in the attacker's [Bullseye Arc], [Critical
+      Hit] results are neutralized before [Hit] results. After you suffer [Critical
+      Hit] damage, you may perform a [Calculate] or [Focus] action on your action
+      bar, even while stressed, treating that action as red.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+ensnare:
+  id_: ensnare
+  amg_cost: null
+  xwa_cost: 10
+  xwa_restricted_count: 2
+  type_: talent
+  slots:
+  - talent
+  name: Ensnare
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: At the end of the Activation Phase, if you are tractored, you may choose
+      1 ship in your [Single Turret Arc] arc at range 0-1. Transfer 1 tractor token
+      to it.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+experthandling:
+  id_: experthandling
+  amg_cost: null
+  xwa_cost: 2
+  xwa_restricted_count: null
+  type_: talent
+  slots:
+  - talent
+  name: Expert Handling
+  unique: false
+  limit: null
+  ability: null
+  flavor_text: While heavy fighters can often be coaxed into a barrel roll, seasoned
+    pilots know how to do it without putting undue stress on their craft or leaving
+    themselves open to attack.
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: barrel_roll
+    color: white
+    linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+fanatical:
+  id_: fanatical
+  amg_cost: null
+  xwa_cost: 2
+  xwa_restricted_count: null
+  type_: talent
+  slots:
+  - talent
+  name: Fanatical
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While you perform a primary attack, if you are not shielded, you may change
+      1 [Focus] result to a [Hit] result.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+fearless:
+  id_: fearless
+  amg_cost: null
+  xwa_cost: 3
+  xwa_restricted_count: null
+  type_: talent
+  slots:
+  - talent
+  name: Fearless
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While you perform a [Front Arc] primary attack, if the attack range is 1
+      and you are in the defender's [Front Arc], you may change 1 of your results
+      to a [Hit] result.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+feedbackping:
+  id_: feedbackping
+  amg_cost: null
+  xwa_cost: 1
+  xwa_restricted_count: null
+  type_: talent
+  slots:
+  - talent
+  name: Feedback Ping
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: After a ship executes a maneuver, if it is at range 0-1 of a friendly device,
+      you may acquire a lock on that ship, ignoring range restrictions.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+graviticdeflection:
+  id_: graviticdeflection
+  amg_cost: null
+  xwa_cost: 3
+  xwa_restricted_count: null
+  type_: talent
+  slots:
+  - talent
+  name: Gravitic Deflection
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While you defend, you may reroll 1 defense die for each tractored ship in
+      the attack arc.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+heroic:
+  id_: heroic
+  amg_cost: null
+  xwa_cost: 2
+  xwa_restricted_count: null
+  type_: talent
+  slots:
+  - talent
+  name: Heroic
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While you defend or perform an attack, if you have only blank results and
+      have 2 or more results, you may reroll any number of your dice.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+hopeful:
+  id_: hopeful
+  amg_cost: null
+  xwa_cost: 1
+  xwa_restricted_count: null
+  type_: talent
+  slots:
+  - talent
+  name: Hopeful
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: After another friendly ship at range 0-3 is destroyed, if that ship is limited
+      or has the Hopeful upgrade, you may perform a [Focus] or [Boost] action.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+interloperturn:
+  id_: interloperturn
+  amg_cost: null
+  xwa_cost: 1
+  xwa_restricted_count: null
+  type_: talent
+  slots:
+  - talent
+  name: Interloper Turn
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: Before you execute a speed 1-2 turn ([Turn Left] or [Turn Right]) or speed
+      1-2 Koiogran Turn ([Koiogran Turn]) maneuver, if you are at range 0-1 of an
+      asteroid, structure, or huge ship, you may gain 1 tractor token.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+intimidation:
+  id_: intimidation
+  amg_cost: null
+  xwa_cost: 7
+  xwa_restricted_count: 1
+  type_: talent
+  slots:
+  - talent
+  name: Intimidation
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While an enemy ship at range 0 defends, it rolls 1 fewer defense die.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+ionlimiteroverride:
+  id_: ionlimiteroverride
+  amg_cost: null
+  xwa_cost: 2
+  xwa_restricted_count: null
+  type_: talent
+  slots:
+  - talent
+  name: Ion Limiter Override
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: After you fully execute a red maneuver, you may perform a [Barrel Roll]
+      action, even while stressed. If you do, roll an attack die; on a [Hit] result
+      gain 1 strain token, and on a [Critical Hit] result gain 1 ion token.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+juke:
+  id_: juke
+  amg_cost: null
+  xwa_cost: 7
+  xwa_restricted_count: 2
+  type_: talent
+  slots:
+  - talent
+  name: Juke
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While you perform an attack, if you are evading, you may change 1 of the
+      defender's [Evade] results to a [Focus] result.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+lonewolf:
+  id_: lonewolf
+  amg_cost: null
+  xwa_cost: 3
+  xwa_restricted_count: null
+  type_: talent
+  slots:
+  - talent
+  name: • Lone Wolf
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: While you defend or perform an attack, if there are no other friendly ships
+      at range 0-2, you may spend 1 [Charge] to reroll 1 of your dice.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 1
+      recurring_val: 1
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+margsablclosure:
+  id_: margsablclosure
+  amg_cost: null
+  xwa_cost: 1
+  xwa_restricted_count: null
+  type_: talent
+  slots:
+  - talent
+  name: Marg Sabl Closure
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: After you fully execute a maneuver, if you moved through an obstacle, structure,
+      or huge ship, or if you deployed, you may choose 1 enemy ship in your [Front
+      Arc] at range 1-2. That ship gains 1 strain token.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+marksmanship:
+  id_: marksmanship
+  amg_cost: null
+  xwa_cost: 2
+  xwa_restricted_count: null
+  type_: talent
+  slots:
+  - talent
+  name: Marksmanship
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While you perform an attack, if the defender is in your [Bullseye Arc],
+      you may change 1 [Hit] result to a [Critical Hit] result.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+notorious:
+  id_: notorious
+  amg_cost: null
+  xwa_cost: 6
+  xwa_restricted_count: null
+  type_: talent
+  slots:
+  - talent
+  name: • Notorious
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: After you defend, if the attacker is in your firing arc, you may spend 1
+      [Charge]. If you do, the attacker gains 1 strain token. While you perform an
+      attack, if the defender is strained, you may reroll 1 blank result.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 2
+      recurring_val: 1
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+outmaneuver:
+  id_: outmaneuver
+  amg_cost: null
+  xwa_cost: 9
+  xwa_restricted_count: null
+  type_: talent
+  slots:
+  - talent
+  name: Outmaneuver
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While you perform a [Front Arc] attack, if you are not in the defender's
+      firing arc, the defender rolls 1 fewer defense die.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+partinggift-legendsandrelics:
+  id_: partinggift-legendsandrelics
+  amg_cost: null
+  xwa_cost: 2
+  xwa_restricted_count: null
+  type_: talent
+  slots:
+  - talent
+  name: Parting Gift
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: When you are destroyed, before you are removed, you may spend 1 [Charge]
+      on an equipped [Device] upgrade to drop or launch a bomb using a speed 1 straight
+      or bank ([Bank Left], [Straight], [Bank Right]) template.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+predator:
+  id_: predator
+  amg_cost: null
+  xwa_cost: 3
+  xwa_restricted_count: null
+  type_: talent
+  slots:
+  - talent
+  name: Predator
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While you perform a primary attack, if the defender is in your [Bullseye
+      Arc], you may reroll 1 attack die.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+proudtradition:
+  id_: proudtradition
+  amg_cost: null
+  xwa_cost: 2
+  xwa_restricted_count: null
+  type_: talent
+  slots:
+  - talent
+  name: Proud Tradition
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: 'Setup: Equip this side faceup. While you have 2 or fewer stress tokens,
+      you may perform [Focus] actions even while stressed. After you perform an attack,
+      if you are stressed, the defender may spend 1 focus token or suffer 1 [Critical
+      Hit] damage to flip this card.'
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: proudtradition-rev
+  setup_automations: null
+proudtradition-rev:
+  id_: proudtradition-rev
+  amg_cost: null
+  xwa_cost: 2
+  xwa_restricted_count: null
+  type_: talent
+  slots:
+  - talent
+  name: Proud Tradition
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: 'Setup: Equip this side faceup. While you have 2 or fewer stress tokens,
+      you may perform [Focus] actions even while stressed. After you perform an attack,
+      if you are stressed, the defender may spend 1 focus token or suffer 1 [Critical
+      Hit] damage to flip this card.'
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: proudtradition
+  setup_automations: null
+ruthless:
+  id_: ruthless
+  amg_cost: null
+  xwa_cost: 2
+  xwa_restricted_count: null
+  type_: talent
+  slots:
+  - talent
+  name: Ruthless
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While you perform an attack, you may choose another friendly ship at range
+      0-1 of the defender. If you do, that ship suffers 1 [Hit] damage and you may
+      change 1 of your die results to a [Hit] result.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+saturationsalvo:
+  id_: saturationsalvo
+  amg_cost: null
+  xwa_cost: 6
+  xwa_restricted_count: null
+  type_: talent
+  slots:
+  - talent
+  name: Saturation Salvo
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While you perform a [Torpedo] or [Missile] attack, you may spend 1 [Charge]
+      from that upgrade. If you do, choose two defense dice. The defender must reroll
+      those dice.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+selfless:
+  id_: selfless
+  amg_cost: null
+  xwa_cost: 3
+  xwa_restricted_count: null
+  type_: talent
+  slots:
+  - talent
+  name: Selfless
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While another friendly ship at range 0-1 defends, before the Neutralize
+      Results step, if you are in the attack arc, you may suffer 1 [Critical Hit]
+      damage to cancel 1 [Critical Hit] result.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+snapshot:
+  id_: snapshot
+  amg_cost: null
+  xwa_cost: 7
+  xwa_restricted_count: 3
+  type_: talent
+  slots:
+  - talent
+  name: Snap Shot
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: 'After an enemy ship executes a maneuver, you may perform this attack against
+      it as a bonus attack. Attack: Your dice cannot be modified.'
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks:
+  - arc: front
+    val: 2
+    range:
+    - 2
+    requirement: []
+    is_ordnance: true
+    text: 'After an enemy ship executes a maneuver, you may perform this attack against
+      it as a bonus attack. Attack: Your dice cannot be modified.'
+    automations: []
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+squadleader:
+  id_: squadleader
+  amg_cost: null
+  xwa_cost: 5
+  xwa_restricted_count: null
+  type_: talent
+  slots:
+  - talent
+  name: • Squad Leader
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: While you coordinate, the ship you choose can perform an action only if
+      that action is also on your action bar.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: coordinate
+    color: red
+    linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+starbirdslash:
+  id_: starbirdslash
+  amg_cost: null
+  xwa_cost: 1
+  xwa_restricted_count: null
+  type_: talent
+  slots:
+  - talent
+  name: Starbird Slash
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: After you fully execute a maneuver, you may choose 1 enemy ship you moved
+      through. That ship gains 1 strain token. Then, if you are in that ship's firing
+      arc, you gain 1 strain token.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+swarmtactics:
+  id_: swarmtactics
+  amg_cost: null
+  xwa_cost: 7
+  xwa_restricted_count: 3
+  type_: talent
+  slots:
+  - talent
+  name: Swarm Tactics
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: At the start of the Engagement Phase, you may choose 1 friendly ship at
+      range 1. If you do, that ship treats its initiative as equal to yours until
+      the end of the round.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+tierfonbellyrun:
+  id_: tierfonbellyrun
+  amg_cost: null
+  xwa_cost: 1
+  xwa_restricted_count: null
+  type_: talent
+  slots:
+  - talent
+  name: Tierfon Belly Run
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: You can perform special attacks even while at range 0 of asteroids. While
+      you defend, if you are at range 0 of an obstacle, attack dice cannot be rerolled.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+treacherous:
+  id_: treacherous
+  amg_cost: null
+  xwa_cost: 4
+  xwa_restricted_count: null
+  type_: talent
+  slots:
+  - talent
+  name: Treacherous
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While you defend, you may choose a ship obstructing the attack and spend
+      1 [Charge]. If you do, cancel 1 [Hit] or [Critical Hit] result, and the ship
+      you chose gains 1 strain token. After a ship at range 0-3 is destroyed, recover
+      1 [Charge].
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 1
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+trickshot:
+  id_: trickshot
+  amg_cost: null
+  xwa_cost: 5
+  xwa_restricted_count: null
+  type_: talent
+  slots:
+  - talent
+  name: Trick Shot
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While you perform an attack that is obstructed by an obstacle, roll 1 additional
+      attack die.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null

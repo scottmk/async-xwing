@@ -1,0 +1,1740 @@
+andrasta:
+  id_: andrasta
+  amg_cost: null
+  xwa_cost: 0
+  xwa_restricted_count: null
+  type_: title
+  slots:
+  - title
+  name: • Andrasta
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: Add [Device] slot.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: reload
+    color: white
+    linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots:
+    payload: 1
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+assailer:
+  id_: assailer
+  amg_cost: null
+  xwa_cost: 5
+  xwa_restricted_count: null
+  type_: title
+  slots:
+  - title
+  name: • Assailer
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: Add [Gunner] slot. While you defend, if the attack range is 1, you may roll
+      1 additional defense die.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers:
+    hull: 2
+    shields: -2
+  bonus_slots:
+    gunner: 1
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+b6bladewingprototype:
+  id_: b6bladewingprototype
+  amg_cost: null
+  xwa_cost: 0
+  xwa_restricted_count: null
+  type_: title
+  slots:
+  - title
+  name: • B6 Blade Wing Prototype
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: Add [Gunner] slot.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots:
+    gunner: 1
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+blackone:
+  id_: blackone
+  amg_cost: null
+  xwa_cost: 0
+  xwa_restricted_count: null
+  type_: title
+  slots:
+  - title
+  name: • Black One
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: After you perform a [SLAM] action, lose 1 [Charge]. Then you may gain 1
+      ion token to remove 1 disarm token. If your [Charge] is inactive, you cannot
+      perform the [SLAM] action.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 1
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: slam
+    color: white
+    linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+bloodcrow:
+  id_: bloodcrow
+  amg_cost: null
+  xwa_cost: 8
+  xwa_restricted_count: null
+  type_: title
+  slots:
+  - title
+  name: • Blood Crow
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: Add [Gunner] slot. While you perform an attack at attack range 1-2, you
+      may add 1 [Focus] result.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers:
+    energy: 2
+    shields: -1
+  bonus_slots:
+    gunner: 1
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+brighthope:
+  id_: brighthope
+  amg_cost: null
+  xwa_cost: 5
+  xwa_restricted_count: null
+  type_: title
+  slots:
+  - title
+  name: • Bright Hope
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: You can reinforce only your [Full Front Arc]. While you defend, if you are
+      reinforced and the attacker is in your [Full Front Arc], you may roll 1 additional
+      defense die.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+brokenhorn:
+  id_: brokenhorn
+  amg_cost: null
+  xwa_cost: 4
+  xwa_restricted_count: null
+  type_: title
+  slots:
+  - title
+  name: • Broken Horn
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: Add [Crew] and [Illicit] slots. If you are damaged, reduce the difficulty
+      of your speed 3-5 maneuvers.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots:
+    crew: 1
+    illicit: 1
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+corvus:
+  id_: corvus
+  amg_cost: null
+  xwa_cost: 3
+  xwa_restricted_count: null
+  type_: title
+  slots:
+  - title
+  name: • Corvus
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: You can dock up to 2 small ships. After you perform a [Calculate] action,
+      gain 1 calculate token.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: calculate
+    color: white
+    linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+dauntless:
+  id_: dauntless
+  amg_cost: null
+  xwa_cost: 4
+  xwa_restricted_count: null
+  type_: title
+  slots:
+  - title
+  name: • Dauntless
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: After you partially execute a maneuver, you may perform 1 white action,
+      treating that action as red.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+dodonnaspride:
+  id_: dodonnaspride
+  amg_cost: null
+  xwa_cost: 4
+  xwa_restricted_count: null
+  type_: title
+  slots:
+  - title
+  name: • Dodonna's Pride
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: Add [Team] and [Cargo] slots.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: evade
+    color: white
+    linked_action:
+      action_name: coordinate
+      color: red
+      linked_action: null
+  - action_name: focus
+    color: white
+    linked_action:
+      action_name: coordinate
+      color: red
+      linked_action: null
+  ship_stat_modifiers:
+    shields: -2
+  bonus_slots:
+    cargo: 1
+    team: 1
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+gauntlet:
+  id_: gauntlet
+  amg_cost: null
+  xwa_cost: 0
+  xwa_restricted_count: null
+  type_: title
+  slots:
+  - title
+  name: • Gauntlet
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: During the System Phase, you may spend 1 [Charge] to repair 1 faceup ship
+      damage card. Add [Crew] slot.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 2
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots:
+    crew: -1
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+ghost:
+  id_: ghost
+  amg_cost: null
+  xwa_cost: 0
+  xwa_restricted_count: null
+  type_: title
+  slots:
+  - title
+  name: • Ghost
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: You can dock 1 attack shuttle or Sheathipede-class shuttle. Your docked
+      ships can deploy only from your rear guides.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+grappler:
+  id_: grappler
+  amg_cost: null
+  xwa_cost: 3
+  xwa_restricted_count: null
+  type_: title
+  slots:
+  - title
+  name: • Grappler
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: While you perform a Drill Beak attack at range 1, if the defender is tractored,
+      treat it as being range 0 instead.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers:
+    hull: 2
+    shields: -1
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+havoc:
+  id_: havoc
+  amg_cost: null
+  xwa_cost: 0
+  xwa_restricted_count: null
+  type_: title
+  slots:
+  - title
+  name: • Havoc
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: Remove [Crew] slot. Add [Sensor] and [Astromech] slots.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots:
+    astromech: 1
+    crew: -1
+    sensor: 1
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+houndstooth:
+  id_: houndstooth
+  amg_cost: null
+  xwa_cost: 6
+  xwa_restricted_count: null
+  type_: title
+  slots:
+  - title
+  name: • Hound's Tooth
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: 1 Z-95-AF4 headhunter can dock with you.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+ig2000:
+  id_: ig2000
+  amg_cost: null
+  xwa_cost: 0
+  xwa_restricted_count: null
+  type_: title
+  slots:
+  - title
+  name: IG-2000
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: You have the pilot ability of each other friendly ship with the IG-2000
+      upgrade.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+impetuous:
+  id_: impetuous
+  amg_cost: null
+  xwa_cost: 4
+  xwa_restricted_count: null
+  type_: title
+  slots:
+  - title
+  name: • Impetuous
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: Add [Crew] slot. After you perform an attack, if the defender was destroyed,
+      you may perform a [Focus] or [Lock] action.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers:
+    energy: 2
+    shields: -2
+  bonus_slots:
+    crew: 1
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+insatiableworrt:
+  id_: insatiableworrt
+  amg_cost: null
+  xwa_cost: 7
+  xwa_restricted_count: null
+  type_: title
+  slots:
+  - title
+  name: • Insatiable Worrt
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: Add [Cargo] slot. During the End Phase, you may recover 1 additional shield
+      or 1 additional [Energy].
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers:
+    energy: -1
+    hull: 3
+    shields: -1
+  bonus_slots:
+    cargo: 1
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+instigator:
+  id_: instigator
+  amg_cost: null
+  xwa_cost: 6
+  xwa_restricted_count: null
+  type_: title
+  slots:
+  - title
+  name: • Instigator
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: Add [Team] slot. While you perform an attack, if the defender has an orange
+      or red token, you may reroll up to 2 attack dice.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots:
+    team: 1
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+jainaslight:
+  id_: jainaslight
+  amg_cost: null
+  xwa_cost: 4
+  xwa_restricted_count: null
+  type_: title
+  slots:
+  - title
+  name: • Jaina's Light
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: While a friendly ship at range 0-2 defends, if the attack is obstructed
+      by an obstacle, you may spend 1 [Energy]. If you do, the defender rolls 1 additional
+      defense die.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers:
+    energy: -1
+    shields: 1
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+kazsfireball:
+  id_: kazsfireball
+  amg_cost: null
+  xwa_cost: 0
+  xwa_restricted_count: null
+  type_: title
+  slots:
+  - title
+  name: • Kaz's Fireball
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: 'Setup: When you resolve Explosion with Wings, you may search the damage
+      deck and choose a damage card with the Ship trait; you are dealt that card instead.
+      Then, shuffle the damage deck. You can perform actions on damage cards even
+      while ionized.'
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+landosmillenniumfalcon:
+  id_: landosmillenniumfalcon
+  amg_cost: null
+  xwa_cost: 0
+  xwa_restricted_count: null
+  type_: title
+  slots:
+  - title
+  name: • Lando's Millennium Falcon
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: 1 Escape Craft may dock with you. While you have an Escape Craft docked,
+      you may treat its shields as if they were on your ship card. While you perform
+      a primary attack against a stressed ship, roll 1 additional attack die.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+liberator:
+  id_: liberator
+  amg_cost: null
+  xwa_cost: 5
+  xwa_restricted_count: null
+  type_: title
+  slots:
+  - title
+  name: • Liberator
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: You can dock up to 2 small ships. After a ship deploys from you, it may
+      perform a [Focus] or [Barrel Roll] action.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers:
+    energy: 1
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+luminous:
+  id_: luminous
+  amg_cost: null
+  xwa_cost: 12
+  xwa_restricted_count: null
+  type_: title
+  slots:
+  - title
+  name: • Luminous
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: 'Setup: You are placed in reserve. At the end of setup, you are placed in
+      the play area at range 0-2 of a friendly ship.'
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers:
+    energy: 2
+    shields: -1
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+marauder:
+  id_: marauder
+  amg_cost: null
+  xwa_cost: 0
+  xwa_restricted_count: null
+  type_: title
+  slots:
+  - title
+  name: • Marauder
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: While you perform a primary [Rear Arc] attack, you may reroll 1 attack die.
+      Add [Gunner] slot.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots:
+    gunner: 1
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+merchantone:
+  id_: merchantone
+  amg_cost: null
+  xwa_cost: 8
+  xwa_restricted_count: null
+  type_: title
+  slots:
+  - title
+  name: • Merchant One
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: 'Add [Turret], [Team], and [Cargo] slots. Bonus Attack: Perform a [Turret]
+      attack.'
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: evade
+    color: red
+    linked_action: null
+  - action_name: coordinate
+    color: white
+    linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots:
+    cargo: 1
+    team: 1
+    turret: 1
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+millenniumfalcon:
+  id_: millenniumfalcon
+  amg_cost: null
+  xwa_cost: 0
+  xwa_restricted_count: null
+  type_: title
+  slots:
+  - title
+  name: • Millennium Falcon
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: While you defend, if you are evading, you may reroll 1 defense die.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: evade
+    color: white
+    linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+misthunter:
+  id_: misthunter
+  amg_cost: null
+  xwa_cost: 0
+  xwa_restricted_count: null
+  type_: title
+  slots:
+  - title
+  name: • Mist Hunter
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: Add [Cannon] slot.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: barrel_roll
+    color: white
+    linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots:
+    cannon: 1
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+moldycrow:
+  id_: moldycrow
+  amg_cost: null
+  xwa_cost: 0
+  xwa_restricted_count: null
+  type_: title
+  slots:
+  - title
+  name: • Moldy Crow
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: Gain a [Front Arc] primary weapon with a value of “3.” During the End Phase,
+      do not remove up to 2 focus tokens.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers:
+    attack: 3
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+nautolansrevenge:
+  id_: nautolansrevenge
+  amg_cost: null
+  xwa_cost: 2
+  xwa_restricted_count: null
+  type_: title
+  slots:
+  - title
+  name: • Nautolan's Revenge
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: Before you engage, you may spend up to 2 calculate tokens. If you do, recover
+      that many [Energy].
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers:
+    energy: 1
+    hull: -2
+    shields: 1
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+neimoidiangrasp:
+  id_: neimoidiangrasp
+  amg_cost: null
+  xwa_cost: 5
+  xwa_restricted_count: null
+  type_: title
+  slots:
+  - title
+  name: • Neimoidian Grasp
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: After you perform an attack, you may perform a red [Evade] action. While
+      you defend, if you are evading, you may roll 1 additional defense die.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers:
+    hull: -2
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+nightbrother:
+  id_: nightbrother
+  amg_cost: null
+  xwa_cost: 0
+  xwa_restricted_count: null
+  type_: title
+  slots:
+  - title
+  name: • Nightbrother
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: After you reveal a non-blue maneuver, if you are stressed, you may spend
+      2 [Charge] to gain 1 focus or evade token. Add [Crew] slot.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 2
+      recurring_val: 1
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots:
+    crew: 1
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+outrider:
+  id_: outrider
+  amg_cost: null
+  xwa_cost: 0
+  xwa_restricted_count: null
+  type_: title
+  slots:
+  - title
+  name: • Outrider
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: While you perform a primary attack at range 3, roll 1 additional attack
+      die. While you perform an attack that is obstructed by an obstacle, you may
+      change one of the defender's [Evade] results to a [Focus] result.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+phantom:
+  id_: phantom
+  amg_cost: null
+  xwa_cost: 0
+  xwa_restricted_count: null
+  type_: title
+  slots:
+  - title
+  name: • Phantom
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: You can dock at range 0-1.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+punishingone:
+  id_: punishingone
+  amg_cost: null
+  xwa_cost: 0
+  xwa_restricted_count: null
+  type_: title
+  slots:
+  - title
+  name: • Punishing One
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: While you perform a primary attack, if the defender is in your [Front Arc],
+      roll 1 additional attack die. Remove [Crew] slot. Add [Astromech] slot.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots:
+    astromech: 1
+    crew: -1
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+quantumstorm:
+  id_: quantumstorm
+  amg_cost: null
+  xwa_cost: 3
+  xwa_restricted_count: null
+  type_: title
+  slots:
+  - title
+  name: • Quantum Storm
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: Add [Team] and [Cargo] slots. After you fully execute a white maneuver,
+      recover 1 [Energy].
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers:
+    energy: 1
+  bonus_slots:
+    cargo: 1
+    team: 1
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+razorcrest:
+  id_: razorcrest
+  amg_cost: null
+  xwa_cost: 0
+  xwa_restricted_count: null
+  type_: title
+  slots:
+  - title
+  name: • Razor Crest
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: 'Setup: Place 1 non-limited [Illicit] upgrade facedown under this card.
+      During the System Phase, you may reveal that [Illicit] upgrade and equip it
+      as if it were equipped at Setup (without paying its points cost).'
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: evade
+    color: white
+    linked_action:
+      action_name: barrel_roll
+      color: red
+      linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+requiem:
+  id_: requiem
+  amg_cost: null
+  xwa_cost: 7
+  xwa_restricted_count: null
+  type_: title
+  slots:
+  - title
+  name: • Requiem
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: After a ship deploys from you, it may acquire a lock on one ship you are
+      locking, ignoring range restrictions.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+reysmillenniumfalcon:
+  id_: reysmillenniumfalcon
+  amg_cost: null
+  xwa_cost: 0
+  xwa_restricted_count: null
+  type_: title
+  slots:
+  - title
+  name: • Rey's Millennium Falcon
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: If you have 2 or fewer stress tokens, you can execute red Segnor's Loop
+      [[Segnor's Loop Left] or [Segnor's Loop Right]] maneuvers and perform [Boost]
+      and [Rotate Arc] actions even while stressed.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+scimitar:
+  id_: scimitar
+  amg_cost: null
+  xwa_cost: 0
+  xwa_restricted_count: null
+  type_: title
+  slots:
+  - title
+  name: • Scimitar
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: 'Setup: After the Place Forces step, you may cloak. After you decloak, you
+      may choose an enemy ship in your [Bullseye Arc]. If you do, it gains 1 jam token.'
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: cloak
+    color: red
+    linked_action: null
+  - action_name: jam
+    color: white
+    linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+shadowcaster:
+  id_: shadowcaster
+  amg_cost: null
+  xwa_cost: 0
+  xwa_restricted_count: null
+  type_: title
+  slots:
+  - title
+  name: • Shadow Caster
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: After you perform an attack that hits, if the defender is in your [Single
+      Turret Arc] and your [Front Arc], the defender gains 1 tractor token.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+slavei:
+  id_: slavei
+  amg_cost: null
+  xwa_cost: 10
+  xwa_restricted_count: null
+  type_: title
+  slots:
+  - title
+  name: • Slave I
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: After you reveal a turn ([Turn Left] or [Turn Right]) or bank ([Bank Left]
+      or [Bank Right]) maneuver, you may set your dial to the maneuver of the same
+      speed and bearing in the other direction. Add [Torpedo] slot.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots:
+    torpedo: 1
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+slavei-swz82:
+  id_: slavei-swz82
+  amg_cost: null
+  xwa_cost: 0
+  xwa_restricted_count: null
+  type_: title
+  slots:
+  - title
+  name: • Slave I
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: While you perform a [Front Arc] attack, if you are in the defender's [Full
+      Rear Arc], you may change 1 [Hit] result to a [Critical Hit] result. Add [Gunner]
+      slot.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots:
+    gunner: 1
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+soullessone:
+  id_: soullessone
+  amg_cost: null
+  xwa_cost: 9
+  xwa_restricted_count: null
+  type_: title
+  slots:
+  - title
+  name: • Soulless One
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: While you defend, if the attacker is outside your firing arc, you may reroll
+      1 defense die.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers:
+    hull: 2
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+st321:
+  id_: st321
+  amg_cost: null
+  xwa_cost: 3
+  xwa_restricted_count: null
+  type_: title
+  slots:
+  - title
+  name: • ST-321
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: After you perform a [Coordinate] action, you may choose an enemy ship at
+      range 0-3 of the ship you coordinated. If you do, acquire a lock on that enemy
+      ship, ignoring range restrictions.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+suppressor:
+  id_: suppressor
+  amg_cost: null
+  xwa_cost: 6
+  xwa_restricted_count: null
+  type_: title
+  slots:
+  - title
+  name: • Suppressor
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: Add [Sensor] slot. After you coordinate a friendly ship, you may spend 1
+      [Energy] to jam an enemy ship at range 0-2 of that ship, ignoring range restrictions.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers:
+    hull: -2
+    shields: 2
+  bonus_slots:
+    sensor: 1
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+tantiveiv:
+  id_: tantiveiv
+  amg_cost: null
+  xwa_cost: 5
+  xwa_restricted_count: null
+  type_: title
+  slots:
+  - title
+  name: • Tantive IV
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: Add 2 [Crew] slots. While you defend, if the attacker is in your [Rear Arc],
+      you may roll 1 additional defense die.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots:
+    crew: 2
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+thunderstrike:
+  id_: thunderstrike
+  amg_cost: null
+  xwa_cost: 4
+  xwa_restricted_count: null
+  type_: title
+  slots:
+  - title
+  name: • Thunderstrike
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: Add [Gunner] slot. While you perform a bonus attack, if you have not attacked
+      the defender this round, you may reroll 1 attack die.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers:
+    hull: 3
+    shields: -3
+  bonus_slots:
+    gunner: 1
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+trident:
+  id_: trident
+  amg_cost: null
+  xwa_cost: 4
+  xwa_restricted_count: null
+  type_: title
+  slots:
+  - title
+  name: • Trident
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: After you overlap a ship or a ship overlaps you, if it is not tractored,
+      you may spend 1 [Energy]. If you do, it gains 3 tractor tokens.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers:
+    energy: 1
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+vector:
+  id_: vector
+  amg_cost: null
+  xwa_cost: 7
+  xwa_restricted_count: null
+  type_: title
+  slots:
+  - title
+  name: • Vector
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: Add [Crew] and [Cargo] slots. After a ship deploys from you, it may perform
+      a [Evade] or [Boost] action.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots:
+    cargo: 1
+    crew: 1
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+virago:
+  id_: virago
+  amg_cost: null
+  xwa_cost: 8
+  xwa_restricted_count: null
+  type_: title
+  slots:
+  - title
+  name: • Virago
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: During the End Phase, you may spend 1 [Charge] to perform a red [Boost]
+      action. Add [Modification] slot.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 2
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers:
+    shields: 1
+  bonus_slots:
+    modification: 1
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+xanadublood:
+  id_: xanadublood
+  amg_cost: null
+  xwa_cost: 0
+  xwa_restricted_count: null
+  type_: title
+  slots:
+  - title
+  name: • Xanadu Blood
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: Add [Crew] and [Device] slots.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: cloak
+    color: red
+    linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots:
+    crew: 1
+    payload: 1
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null

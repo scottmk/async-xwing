@@ -1,266 +1,450 @@
-bb8:
-  id_: bb8
-  amg_cost: null
-  xwa_cost: 5
-  xwa_restricted_count: null
-  type_: astromech
-  slots:
-  - astromech
-  name: • BB-8
-  unique: true
-  limit: 1
-  ability:
-    name: null
-    text: During the System Phase, you may spend 1 [Charge] to perform a [Barrel Roll]
-      or [Boost] action.
-    automations: []
-    is_action: false
-  flavor_text: null
-  charges:
-    standard:
-      limit: 2
-      recurring_val: 0
-  special_attacks: null
-  huge_ship_bonus_attacks: null
-  replacement_arc: null
-  action_bar: null
-  ship_stat_modifiers: null
-  bonus_slots: null
-  bonus_keywords: null
-  deployable_remote: null
-  restrictions: null
-  is_reverse: false
-  reverse_side_id: null
-  setup_automations: null
-bbastromech:
-  id_: bbastromech
-  amg_cost: null
-  xwa_cost: 3
-  xwa_restricted_count: null
-  type_: astromech
-  slots:
-  - astromech
-  name: BB Astromech
-  unique: false
-  limit: null
-  ability:
-    name: null
-    text: During the System Phase, you may spend 1 [Charge] to perform a [Barrel Roll]
-      action.
-    automations: []
-    is_action: false
-  flavor_text: null
-  charges:
-    standard:
-      limit: 2
-      recurring_val: 0
-  special_attacks: null
-  huge_ship_bonus_attacks: null
-  replacement_arc: null
-  action_bar: null
-  ship_stat_modifiers: null
-  bonus_slots: null
-  bonus_keywords: null
-  deployable_remote: null
-  restrictions: null
-  is_reverse: false
-  reverse_side_id: null
-  setup_automations: null
-c110p:
-  id_: c110p
-  amg_cost: null
-  xwa_cost: 10
-  xwa_restricted_count: null
-  type_: astromech
-  slots:
-  - astromech
-  name: • C1-10P
-  unique: true
-  limit: 1
-  ability:
-    name: null
-    text: 'Setup: Equip this side faceup. After you fully execute a maneuver, you
-      may spend 1 [Charge] to perform a red [Evade] action, even while stressed. During
-      the End Phase, if this card has 0 active [Charge], flip it.'
-    automations: []
-    is_action: false
-  flavor_text: null
-  charges:
-    standard:
-      limit: 2
-      recurring_val: 0
-  special_attacks: null
-  huge_ship_bonus_attacks: null
-  replacement_arc: null
-  action_bar: null
-  ship_stat_modifiers: null
-  bonus_slots: null
-  bonus_keywords: null
-  deployable_remote: null
-  restrictions: null
-  is_reverse: false
-  reverse_side_id: c110p-rev
-  setup_automations: null
-c110p-rev:
-  id_: c110p-rev
-  amg_cost: null
-  xwa_cost: 10
-  xwa_restricted_count: null
-  type_: astromech
-  slots:
-  - astromech
-  name: • C1-10P
-  unique: true
-  limit: 1
-  ability:
-    name: null
-    text: 'Setup: Equip this side faceup. After you fully execute a maneuver, you
-      may spend 1 [Charge] to perform a red [Evade] action, even while stressed. During
-      the End Phase, if this card has 0 active [Charge], flip it.'
-    automations: []
-    is_action: false
-  flavor_text: null
-  charges:
-    standard:
-      limit: 2
-      recurring_val: 0
-  special_attacks: null
-  huge_ship_bonus_attacks: null
-  replacement_arc: null
-  action_bar: null
-  ship_stat_modifiers: null
-  bonus_slots: null
-  bonus_keywords: null
-  deployable_remote: null
-  restrictions: null
-  is_reverse: false
-  reverse_side_id: c110p
-  setup_automations: null
-chopper:
-  id_: chopper
-  amg_cost: null
-  xwa_cost: 2
-  xwa_restricted_count: null
-  type_: astromech
-  slots:
-  - astromech
-  name: • “Chopper”
-  unique: true
-  limit: 1
-  ability:
-    name: null
-    text: 'Action: Spend 1 non-recurring [Charge] from another equipped upgrade to
-      recover 1 shield. Action: Spend 2 shields to recover 1 non-recurring [Charge]
-      on an equipped upgrade.'
-    automations: []
-    is_action: true
-  flavor_text: null
-  charges: null
-  special_attacks: null
-  huge_ship_bonus_attacks: null
-  replacement_arc: null
-  action_bar: null
-  ship_stat_modifiers: null
-  bonus_slots: null
-  bonus_keywords: null
-  deployable_remote: null
-  restrictions: null
-  is_reverse: false
-  reverse_side_id: null
-  setup_automations: null
-flightassistastromech-legendsandrelics:
-  id_: flightassistastromech-legendsandrelics
-  amg_cost: null
-  xwa_cost: 3
-  xwa_restricted_count: null
-  type_: astromech
-  slots:
-  - astromech
-  name: Flight-Assist Astromech
-  unique: false
-  limit: null
-  ability:
-    name: null
-    text: While you perform a white [Barrel Roll] or white [Boost] action, you may
-      spend 1 [Charge]. If you do, treat the action as red, and use a speed 2 template
-      while performing the action.
-    automations: []
-    is_action: false
-  flavor_text: null
-  charges:
-    standard:
-      limit: 2
-      recurring_val: 0
-  special_attacks: null
-  huge_ship_bonus_attacks: null
-  replacement_arc: null
-  action_bar: null
-  ship_stat_modifiers: null
-  bonus_slots: null
-  bonus_keywords: null
-  deployable_remote: null
-  restrictions: null
-  is_reverse: false
-  reverse_side_id: null
-  setup_automations: null
-genius:
-  id_: genius
-  amg_cost: null
-  xwa_cost: 0
-  xwa_restricted_count: null
-  type_: astromech
-  slots:
-  - astromech
-  name: • “Genius”
-  unique: true
-  limit: 1
-  ability:
-    name: null
-    text: After you fully execute a maneuver, if you have not dropped or launched
-      a device this round, you may drop 1 bomb.
-    automations: []
-    is_action: false
-  flavor_text: null
-  charges: null
-  special_attacks: null
-  huge_ship_bonus_attacks: null
-  replacement_arc: null
-  action_bar: null
-  ship_stat_modifiers: null
-  bonus_slots: null
-  bonus_keywords: null
-  deployable_remote: null
-  restrictions: null
-  is_reverse: false
-  reverse_side_id: null
-  setup_automations: null
-l4er5:
-  id_: l4er5
+agilegunner:
+  id_: agilegunner
   amg_cost: null
   xwa_cost: 4
   xwa_restricted_count: null
-  type_: astromech
+  type_: gunner
   slots:
-  - astromech
-  name: • L4E-R5
+  - gunner
+  name: Agile Gunner
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: During the End Phase, you may rotate your [Single Turret Arc] indicator.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+ahsokatano:
+  id_: ahsokatano
+  amg_cost: null
+  xwa_cost: 11
+  xwa_restricted_count: null
+  type_: gunner
+  slots:
+  - gunner
+  name: • Ahsoka Tano
   unique: true
   limit: 1
   ability:
     name: null
-    text: At the start of the Engagement Phase, you may transfer 1 calculate token
-      to a friendly ship in your firing arc.
+    text: After you execute a maneuver, you may spend 1 [Force] and choose a friendly
+      ship at range 1-3 in your firing arc. If you do, it may perform a red [Focus]
+      action, even while stressed.
     automations: []
     is_action: false
   flavor_text: null
+  charges:
+    force:
+      limit: 1
+      recurring_val: 1
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+bistan:
+  id_: bistan
+  amg_cost: null
+  xwa_cost: 50
+  xwa_restricted_count: null
+  type_: gunner
+  slots:
+  - gunner
+  name: • Bistan
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: After you perform a primary attack, if you are focused, you may perform
+      a bonus [Single Turret Arc] attack against a ship you have not already attacked
+      this round.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+bobafett-gunner:
+  id_: bobafett-gunner
+  amg_cost: null
+  xwa_cost: 4
+  xwa_restricted_count: null
+  type_: gunner
+  slots:
+  - gunner
+  name: • Boba Fett
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: While you perform an attack, if there are no other ships in the attack arc,
+      you may change 1 of your [Focus] results to a [Hit] result.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+bossk:
+  id_: bossk
+  amg_cost: null
+  xwa_cost: 4
+  xwa_restricted_count: null
+  type_: gunner
+  slots:
+  - gunner
+  name: • Bossk
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: After you perform a primary attack that misses, if you are not stressed,
+      you must receive 1 stress token to perform a bonus primary attack against the
+      same target.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+bt1:
+  id_: bt1
+  amg_cost: null
+  xwa_cost: 1
+  xwa_restricted_count: null
+  type_: gunner
+  slots:
+  - gunner
+  name: • BT-1
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: While you perform an attack, you may change 1 [Hit] result to a [Critical
+      Hit] result for each stress token the defender has.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+clonecaptainrex:
+  id_: clonecaptainrex
+  amg_cost: null
+  xwa_cost: 1
+  xwa_restricted_count: null
+  type_: gunner
+  slots:
+  - gunner
+  name: • Clone Captain Rex
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: While you perform an attack, you may spend 1 [Focus] result. If you do,
+      each friendly ship that has the defender in its [Bullseye Arc] may gain 1 strain
+      to perform a [Focus] action.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+clonecommandercody:
+  id_: clonecommandercody
+  amg_cost: null
+  xwa_cost: 4
+  xwa_restricted_count: null
+  type_: gunner
+  slots:
+  - gunner
+  name: • Clone Commander Cody
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: After you perform an attack that missed, if 1 or more [Hit]/[Critical Hit]
+      results were neutralized, the defender gains 1 strain token.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+dengar:
+  id_: dengar
+  amg_cost: null
+  xwa_cost: 6
+  xwa_restricted_count: null
+  type_: gunner
+  slots:
+  - gunner
+  name: • Dengar
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: After you defend, if the attacker is in your firing arc, you may spend 1
+      [Charge]. If you do, roll 1 attack die unless the attacker chooses to remove
+      1 green token. On a [Hit] or [Critical Hit] result, the attacker suffers 1 [Hit]
+      damage.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 1
+      recurring_val: 1
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+dt798:
+  id_: dt798
+  amg_cost: null
+  xwa_cost: 3
+  xwa_restricted_count: null
+  type_: gunner
+  slots:
+  - gunner
+  name: DT-798
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: At the start of the Engagement Phase, you may choose a friendly ship in
+      your firing arc. If you do, that ship gains 1 strain token. While you perform
+      an attack, you may reroll up to 1 die for each ship in the attack arc with 1
+      or more non-lock red or orange tokens.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+ezrabridger:
+  id_: ezrabridger
+  amg_cost: null
+  xwa_cost: 9
+  xwa_restricted_count: null
+  type_: gunner
+  slots:
+  - gunner
+  name: • Ezra Bridger
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: After you perform a primary attack, you may spend 1 [Force] to perform a
+      bonus [Single Turret Arc] attack from a [Single Turret Arc] you have not attacked
+      from this round. If you do and you are stressed, you may reroll 1 attack die.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    force:
+      limit: 1
+      recurring_val: 1
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+fifthbrother:
+  id_: fifthbrother
+  amg_cost: null
+  xwa_cost: 12
+  xwa_restricted_count: null
+  type_: gunner
+  slots:
+  - gunner
+  name: • Fifth Brother
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: While you perform an attack, you may spend 1 [Force] to change 1 of your
+      [Focus] results to a [Critical Hit] result.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    force:
+      limit: 1
+      recurring_val: 1
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+finn:
+  id_: finn
+  amg_cost: null
+  xwa_cost: 9
+  xwa_restricted_count: null
+  type_: gunner
+  slots:
+  - gunner
+  name: • Finn
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: While you defend or perform a primary attack, if the enemy ship is in your
+      [Front Arc], you may add 1 blank result to your roll (this die can be rerolled
+      or otherwise modified).
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+firstorderordnancetech:
+  id_: firstorderordnancetech
+  amg_cost: null
+  xwa_cost: 2
+  xwa_restricted_count: null
+  type_: gunner
+  slots:
+  - gunner
+  name: First Order Ordnance Tech
+  unique: false
+  limit: null
+  ability: null
+  flavor_text: The First Order trains its pilots and gunners to be fanatically loyal,
+    prioritizing victory even over survival.
   charges: null
   special_attacks: null
   huge_ship_bonus_attacks: null
   replacement_arc: null
   action_bar:
-  - action_name: rotate
+  - action_name: reload
     color: white
     linked_action:
-      action_name: calculate
+      action_name: lock
       color: white
       linked_action: null
   ship_stat_modifiers: null
@@ -271,21 +455,23 @@ l4er5:
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
-m9g8:
-  id_: m9g8
+garsaxon-gunner:
+  id_: garsaxon-gunner
   amg_cost: null
-  xwa_cost: 7
+  xwa_cost: 6
   xwa_restricted_count: null
-  type_: astromech
+  type_: gunner
   slots:
-  - astromech
-  name: • M9-G8
+  - gunner
+  name: • Gar Saxon
   unique: true
   limit: 1
   ability:
     name: null
-    text: While a ship you are locking performs an attack, you may choose 1 attack
-      die. If you do, the attacker rerolls that die.
+    text: While you perform the [Lock] action, you can only choose an object in your
+      [Front Arc] or [Rear Arc]. While you perform a primary attack, if the defender
+      is in your [Front Arc] or [Rear Arc], you may remove 1 orange or red token from
+      the defender to roll 1 additional die, to a maximum of 4.
     automations: []
     is_action: false
   flavor_text: null
@@ -302,21 +488,316 @@ m9g8:
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
-modifiedr4punit-legendsandrelics:
-  id_: modifiedr4punit-legendsandrelics
+greedo:
+  id_: greedo
   amg_cost: null
-  xwa_cost: 5
+  xwa_cost: 2
   xwa_restricted_count: null
-  type_: astromech
+  type_: gunner
   slots:
-  - astromech
-  name: Modified R4-P Unit
+  - gunner
+  name: • Greedo
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: While you perform an attack, you may spend 1 [Charge] to change 1 [Hit]
+      result to a [Critical Hit] result. While you defend, if your [Charge] is active,
+      the attacker may change 1 [Hit] result to a [Critical Hit] result.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 1
+      recurring_val: 1
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+hansolo:
+  id_: hansolo
+  amg_cost: null
+  xwa_cost: 10
+  xwa_restricted_count: null
+  type_: gunner
+  slots:
+  - gunner
+  name: • Han Solo
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: During the Engagement Phase, at initiative 7, you may perform a [Single
+      Turret Arc] attack. You cannot attack from that [Single Turret Arc] again this
+      round.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+hansolo-gunner:
+  id_: hansolo-gunner
+  amg_cost: null
+  xwa_cost: 7
+  xwa_restricted_count: null
+  type_: gunner
+  slots:
+  - gunner
+  name: • Han Solo
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: Before you engage, you may perform a red [Focus] action.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+hotshotgunner:
+  id_: hotshotgunner
+  amg_cost: null
+  xwa_cost: 7
+  xwa_restricted_count: 2
+  type_: gunner
+  slots:
+  - gunner
+  name: Hotshot Gunner
   unique: false
   limit: null
   ability:
     name: null
-    text: Before you execute a red maneuver, you may spend 1 [Charge]. If you do,
-      while you execute that maneuver, reduce its difficulty.
+    text: While you perform a [Single Turret Arc] attack, after the Modify Defense
+      Dice step, the defender removes 1 focus or calculate token.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+lukeskywalker:
+  id_: lukeskywalker
+  amg_cost: null
+  xwa_cost: 12
+  xwa_restricted_count: null
+  type_: gunner
+  slots:
+  - gunner
+  name: • Luke Skywalker
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: At the start of the Engagement Phase, you may spend 1 [Force] and gain 1
+      deplete token to rotate your [Single Turret Arc] indicator.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    force:
+      limit: 1
+      recurring_val: 1
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+migsmayfeld:
+  id_: migsmayfeld
+  amg_cost: null
+  xwa_cost: 3
+  xwa_restricted_count: null
+  type_: gunner
+  slots:
+  - gunner
+  name: • Migs Mayfeld
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: After you perform a [Front Arc] attack, you may perform a [Rear Arc] or
+      [Single Turret Arc] attack as a bonus attack against a different target with
+      1 or more red or orange tokens.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+paigetico:
+  id_: paigetico
+  amg_cost: null
+  xwa_cost: 6
+  xwa_restricted_count: null
+  type_: gunner
+  slots:
+  - gunner
+  name: • Paige Tico
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: After you perform a primary attack, you may drop 1 bomb or rotate your [Single
+      Turret Arc]. After you are destroyed, you may drop 1 bomb.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+rey-gunner:
+  id_: rey-gunner
+  amg_cost: null
+  xwa_cost: 14
+  xwa_restricted_count: null
+  type_: gunner
+  slots:
+  - gunner
+  name: • Rey
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: While you defend or perform an attack, if the enemy ship is in your [Single
+      Turret Arc], you may spend 1 [Force] to change 1 of your blank results to a
+      [Evade] or [Hit] result.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    force:
+      limit: 1
+      recurring_val: 1
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+sabinewren-gunner:
+  id_: sabinewren-gunner
+  amg_cost: null
+  xwa_cost: 1
+  xwa_restricted_count: null
+  type_: gunner
+  slots:
+  - gunner
+  name: • Sabine Wren
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: After you perform a special attack, you may choose a number of friendly
+      ships at range 0-3 of the defender up to the number of damage cards dealt to
+      the defender during that attack. Each chosen ship may remove 1 strain or stress
+      token.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+seventhfleetgunner:
+  id_: seventhfleetgunner
+  amg_cost: null
+  xwa_cost: 9
+  xwa_restricted_count: null
+  type_: gunner
+  slots:
+  - gunner
+  name: Seventh Fleet Gunner
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While another friendly ship performs a primary attack, if the defender is
+      in your firing arc, you may spend 1 [Charge]. If you do, the attacker rolls
+      1 additional die, to a maximum of 4. During the System Phase, you may gain 1
+      disarm token to recover 1 [Charge].
     automations: []
     is_action: false
   flavor_text: null
@@ -336,320 +817,21 @@ modifiedr4punit-legendsandrelics:
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
-q7astromech:
-  id_: q7astromech
-  amg_cost: null
-  xwa_cost: 1
-  xwa_restricted_count: null
-  type_: astromech
-  slots:
-  - astromech
-  name: Q7 Astromech
-  unique: false
-  limit: null
-  ability:
-    name: null
-    text: While you barrel roll or boost, you can move through and overlap obstacles.
-    automations: []
-    is_action: false
-  flavor_text: null
-  charges: null
-  special_attacks: null
-  huge_ship_bonus_attacks: null
-  replacement_arc: null
-  action_bar: null
-  ship_stat_modifiers: null
-  bonus_slots: null
-  bonus_keywords: null
-  deployable_remote: null
-  restrictions: null
-  is_reverse: false
-  reverse_side_id: null
-  setup_automations: null
-r1j5:
-  id_: r1j5
-  amg_cost: null
-  xwa_cost: 5
-  xwa_restricted_count: null
-  type_: astromech
-  slots:
-  - astromech
-  name: • R1-J5
-  unique: true
-  limit: 1
-  ability:
-    name: null
-    text: While you have 2 or fewer stress tokens, you can perform actions on damage
-      cards even while stressed. After you repair a damage card with the Ship trait,
-      you may spend 1 [Charge] to repair that card again.
-    automations: []
-    is_action: false
-  flavor_text: null
-  charges:
-    standard:
-      limit: 3
-      recurring_val: 0
-  special_attacks: null
-  huge_ship_bonus_attacks: null
-  replacement_arc: null
-  action_bar: null
-  ship_stat_modifiers: null
-  bonus_slots: null
-  bonus_keywords: null
-  deployable_remote: null
-  restrictions: null
-  is_reverse: false
-  reverse_side_id: null
-  setup_automations: null
-r2a6:
-  id_: r2a6
-  amg_cost: null
-  xwa_cost: 5
-  xwa_restricted_count: null
-  type_: astromech
-  slots:
-  - astromech
-  name: • R2-A6
-  unique: true
-  limit: 1
-  ability:
-    name: null
-    text: After you reveal your dial, you may set your dial to a maneuver of the same
-      bearing of a speed 1 higher or lower.
-    automations: []
-    is_action: false
-  flavor_text: null
-  charges: null
-  special_attacks: null
-  huge_ship_bonus_attacks: null
-  replacement_arc: null
-  action_bar: null
-  ship_stat_modifiers: null
-  bonus_slots: null
-  bonus_keywords: null
-  deployable_remote: null
-  restrictions: null
-  is_reverse: false
-  reverse_side_id: null
-  setup_automations: null
-r2astromech:
-  id_: r2astromech
-  amg_cost: null
-  xwa_cost: 7
-  xwa_restricted_count: null
-  type_: astromech
-  slots:
-  - astromech
-  name: R2 Astromech
-  unique: false
-  limit: null
-  ability:
-    name: null
-    text: After you reveal your dial, you may spend 1 [Charge] and gain 1 disarm token
-      to recover 1 shield.
-    automations: []
-    is_action: false
-  flavor_text: null
-  charges:
-    standard:
-      limit: 2
-      recurring_val: 0
-  special_attacks: null
-  huge_ship_bonus_attacks: null
-  replacement_arc: null
-  action_bar: null
-  ship_stat_modifiers: null
-  bonus_slots: null
-  bonus_keywords: null
-  deployable_remote: null
-  restrictions: null
-  is_reverse: false
-  reverse_side_id: null
-  setup_automations: null
-r2c4:
-  id_: r2c4
-  amg_cost: null
-  xwa_cost: 3
-  xwa_restricted_count: null
-  type_: astromech
-  slots:
-  - astromech
-  name: • R2-C4
-  unique: true
-  limit: 1
-  ability:
-    name: null
-    text: While you perform an attack, you may spend 1 evade token to change 1 [Focus]
-      result to a [Hit] result.
-    automations: []
-    is_action: false
-  flavor_text: null
-  charges: null
-  special_attacks: null
-  huge_ship_bonus_attacks: null
-  replacement_arc: null
-  action_bar: null
-  ship_stat_modifiers: null
-  bonus_slots: null
-  bonus_keywords: null
-  deployable_remote: null
-  restrictions: null
-  is_reverse: false
-  reverse_side_id: null
-  setup_automations: null
-r2d2:
-  id_: r2d2
-  amg_cost: null
-  xwa_cost: 8
-  xwa_restricted_count: null
-  type_: astromech
-  slots:
-  - astromech
-  name: • R2-D2
-  unique: true
-  limit: 1
-  ability:
-    name: null
-    text: After you reveal your dial, you may spend 1 [Charge] and gain 1 disarm token
-      to recover 1 shield.
-    automations:
-    - AFTER_DIAL_REVEALED
-    - SPEND_STD_CHARGE:1
-    - GAIN_DISARM:1
-    - RECOVER_SHIELD:1
-    is_action: false
-  flavor_text: null
-  charges:
-    standard:
-      limit: 3
-      recurring_val: 0
-  special_attacks: null
-  huge_ship_bonus_attacks: null
-  replacement_arc: null
-  action_bar: null
-  ship_stat_modifiers: null
-  bonus_slots: null
-  bonus_keywords: null
-  deployable_remote: null
-  restrictions: null
-  is_reverse: false
-  reverse_side_id: null
-  setup_automations: null
-r2d2-republic:
-  id_: r2d2-republic
-  amg_cost: null
-  xwa_cost: 8
-  xwa_restricted_count: null
-  type_: astromech
-  slots:
-  - astromech
-  name: • R2-D2
-  unique: true
-  limit: 1
-  ability:
-    name: null
-    text: After you activate, you may spend 1 [Charge] and gain 1 deplete token to
-      repair 1 damage card, recover 1 shield, or remove 1 device at range 0-1.
-    automations: []
-    is_action: false
-  flavor_text: null
-  charges:
-    standard:
-      limit: 2
-      recurring_val: 0
-  special_attacks: null
-  huge_ship_bonus_attacks: null
-  replacement_arc: null
-  action_bar: null
-  ship_stat_modifiers: null
-  bonus_slots: null
-  bonus_keywords: null
-  deployable_remote: null
-  restrictions: null
-  is_reverse: false
-  reverse_side_id: null
-  setup_automations: null
-r2d2-resistance:
-  id_: r2d2-resistance
-  amg_cost: null
-  xwa_cost: 8
-  xwa_restricted_count: null
-  type_: astromech
-  slots:
-  - astromech
-  name: • R2-D2
-  unique: true
-  limit: 1
-  ability:
-    name: null
-    text: During the End Phase, you may spend 1 [Charge] and 1 [Shield] to remove
-      1 red token. During the End Phase, if you have no active [Shield], you may spend
-      2 [Charge] to recover 1 [Shield] and gain 1 deplete token.
-    automations: []
-    is_action: false
-  flavor_text: null
-  charges:
-    standard:
-      limit: 4
-      recurring_val: 0
-  special_attacks: null
-  huge_ship_bonus_attacks: null
-  replacement_arc: null
-  action_bar: null
-  ship_stat_modifiers: null
-  bonus_slots: null
-  bonus_keywords: null
-  deployable_remote: null
-  restrictions: null
-  is_reverse: false
-  reverse_side_id: null
-  setup_automations: null
-r2ha:
-  id_: r2ha
+skilledbombardier:
+  id_: skilledbombardier
   amg_cost: null
   xwa_cost: 2
   xwa_restricted_count: null
-  type_: astromech
+  type_: gunner
   slots:
-  - astromech
-  name: • R2-HA
-  unique: true
-  limit: 1
-  ability:
-    name: null
-    text: While you defend, you may spend your lock on the attacker to reroll any
-      number of your defense dice.
-    automations: []
-    is_action: false
-  flavor_text: null
-  charges: null
-  special_attacks: null
-  huge_ship_bonus_attacks: null
-  replacement_arc: null
-  action_bar: null
-  ship_stat_modifiers: null
-  bonus_slots: null
-  bonus_keywords: null
-  deployable_remote: null
-  restrictions: null
-  is_reverse: false
-  reverse_side_id: null
-  setup_automations: null
-r3astromech:
-  id_: r3astromech
-  amg_cost: null
-  xwa_cost: 3
-  xwa_restricted_count: null
-  type_: astromech
-  slots:
-  - astromech
-  name: R3 Astromech
+  - gunner
+  name: Skilled Bombardier
   unique: false
   limit: null
   ability:
     name: null
-    text: You can maintain up to 2 locks. Each lock must be on a different object.
-      After you perform a [Lock] action, you may acquire a lock.
+    text: If you would drop or launch a device, you may use a template of the same
+      bearing with a speed 1 higher or lower.
     automations: []
     is_action: false
   flavor_text: null
@@ -666,21 +848,23 @@ r3astromech:
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
-r4astromech:
-  id_: r4astromech
+specialforcesgunner:
+  id_: specialforcesgunner
   amg_cost: null
-  xwa_cost: 2
+  xwa_cost: 9
   xwa_restricted_count: null
-  type_: astromech
+  type_: gunner
   slots:
-  - astromech
-  name: R4 Astromech
+  - gunner
+  name: Special Forces Gunner
   unique: false
   limit: null
   ability:
     name: null
-    text: Decrease the difficulty of your speed 1-2 basic maneuvers ([Turn Left],
-      [Bank Left], [Straight], [Bank Right], [Turn Right]).
+    text: While you perform a primary [Front Arc] attack, if your [Single Turret Arc]
+      is in your [Front Arc], you may roll 1 additional attack die. After you perform
+      a primary [Front Arc] attack, if your [Single Turret Arc] is in your [Rear Arc],
+      you may perform a bonus primary [Single Turret Arc] attack.
     automations: []
     is_action: false
   flavor_text: null
@@ -697,124 +881,25 @@ r4astromech:
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
-r4b11:
-  id_: r4b11
+suppressivegunner:
+  id_: suppressivegunner
   amg_cost: null
-  xwa_cost: 3
-  xwa_restricted_count: null
-  type_: astromech
+  xwa_cost: 6
+  xwa_restricted_count: 2
+  type_: gunner
   slots:
-  - astromech
-  name: • R4-B11
-  unique: true
-  limit: 1
-  ability:
-    name: null
-    text: While you perform an attack, you may remove 1 orange or red token from the
-      defender to reroll any number of defense dice.
-    automations: []
-    is_action: false
-  flavor_text: null
-  charges: null
-  special_attacks: null
-  huge_ship_bonus_attacks: null
-  replacement_arc: null
-  action_bar: null
-  ship_stat_modifiers: null
-  bonus_slots: null
-  bonus_keywords: null
-  deployable_remote: null
-  restrictions: null
-  is_reverse: false
-  reverse_side_id: null
-  setup_automations: null
-r4p17:
-  id_: r4p17
-  amg_cost: null
-  xwa_cost: 4
-  xwa_restricted_count: null
-  type_: astromech
-  slots:
-  - astromech
-  name: • R4-P17
-  unique: true
-  limit: 1
-  ability:
-    name: null
-    text: After you fully execute a red maneuver, you may spend 1 [Charge] to perform
-      an action, even while stressed.
-    automations: []
-    is_action: false
-  flavor_text: null
-  charges:
-    standard:
-      limit: 2
-      recurring_val: 0
-  special_attacks: null
-  huge_ship_bonus_attacks: null
-  replacement_arc: null
-  action_bar: null
-  ship_stat_modifiers: null
-  bonus_slots: null
-  bonus_keywords: null
-  deployable_remote: null
-  restrictions: null
-  is_reverse: false
-  reverse_side_id: null
-  setup_automations: null
-r4p44:
-  id_: r4p44
-  amg_cost: null
-  xwa_cost: 2
-  xwa_restricted_count: null
-  type_: astromech
-  slots:
-  - astromech
-  name: • R4-P44
-  unique: true
-  limit: 1
-  ability:
-    name: null
-    text: After you fully execute a red maneuver, if there is an enemy ship in your
-      [Bullseye Arc], gain 1 calculate token.
-    automations: []
-    is_action: false
-  flavor_text: null
-  charges: null
-  special_attacks: null
-  huge_ship_bonus_attacks: null
-  replacement_arc: null
-  action_bar: null
-  ship_stat_modifiers: null
-  bonus_slots: null
-  bonus_keywords: null
-  deployable_remote: null
-  restrictions: null
-  is_reverse: false
-  reverse_side_id: null
-  setup_automations: null
-r4pastromech:
-  id_: r4pastromech
-  amg_cost: null
-  xwa_cost: 3
-  xwa_restricted_count: null
-  type_: astromech
-  slots:
-  - astromech
-  name: R4-P Astromech
+  - gunner
+  name: Suppressive Gunner
   unique: false
   limit: null
   ability:
     name: null
-    text: Before you execute a basic maneuver, you may spend 1 [Charge]. If you do,
-      while you execute that maneuver, reduce its difficulty.
+    text: While you perform an attack, you may spend 1 [Focus] result. If you do,
+      the defender gains 1 deplete token unless it chooses to suffer 1 [Hit] damage.
     automations: []
     is_action: false
   flavor_text: null
-  charges:
-    standard:
-      limit: 2
-      recurring_val: 0
+  charges: null
   special_attacks: null
   huge_ship_bonus_attacks: null
   replacement_arc: null
@@ -827,161 +912,29 @@ r4pastromech:
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
-r5astromech:
-  id_: r5astromech
+tibersaxon:
+  id_: tibersaxon
   amg_cost: null
   xwa_cost: 6
   xwa_restricted_count: null
-  type_: astromech
+  type_: gunner
   slots:
-  - astromech
-  name: R5 Astromech
-  unique: false
-  limit: null
-  ability:
-    name: null
-    text: 'Action: Spend 1 [Charge] to repair 1 facedown damage card. Action: Repair
-      1 faceup Ship damage card.'
-    automations: []
-    is_action: true
-  flavor_text: null
-  charges:
-    standard:
-      limit: 2
-      recurring_val: 0
-  special_attacks: null
-  huge_ship_bonus_attacks: null
-  replacement_arc: null
-  action_bar: null
-  ship_stat_modifiers: null
-  bonus_slots: null
-  bonus_keywords: null
-  deployable_remote: null
-  restrictions: null
-  is_reverse: false
-  reverse_side_id: null
-  setup_automations: null
-r5d8:
-  id_: r5d8
-  amg_cost: null
-  xwa_cost: 7
-  xwa_restricted_count: null
-  type_: astromech
-  slots:
-  - astromech
-  name: • R5-D8
+  - gunner
+  name: • Tiber Saxon
   unique: true
   limit: 1
   ability:
     name: null
-    text: 'Action: Spend 1 [Charge] to repair 1 facedown damage card. Action: Repair
-      1 faceup Ship damage card.'
-    automations: []
-    is_action: true
-  flavor_text: null
-  charges:
-    standard:
-      limit: 3
-      recurring_val: 0
-  special_attacks: null
-  huge_ship_bonus_attacks: null
-  replacement_arc: null
-  action_bar: null
-  ship_stat_modifiers: null
-  bonus_slots: null
-  bonus_keywords: null
-  deployable_remote: null
-  restrictions: null
-  is_reverse: false
-  reverse_side_id: null
-  setup_automations: null
-r5p8:
-  id_: r5p8
-  amg_cost: null
-  xwa_cost: 4
-  xwa_restricted_count: null
-  type_: astromech
-  slots:
-  - astromech
-  name: • R5-P8
-  unique: true
-  limit: 1
-  ability:
-    name: null
-    text: While you perform an attack against a defender in your [Front Arc], you
-      may spend 1 [Charge] to reroll 1 attack die. If the rerolled result is a [Critical
-      Hit] result, suffer 1 [Critical Hit] damage.
-    automations: []
-    is_action: false
-  flavor_text: null
-  charges:
-    standard:
-      limit: 3
-      recurring_val: 0
-  special_attacks: null
-  huge_ship_bonus_attacks: null
-  replacement_arc: null
-  action_bar: null
-  ship_stat_modifiers: null
-  bonus_slots: null
-  bonus_keywords: null
-  deployable_remote: null
-  restrictions: null
-  is_reverse: false
-  reverse_side_id: null
-  setup_automations: null
-r5tk:
-  id_: r5tk
-  amg_cost: null
-  xwa_cost: 0
-  xwa_restricted_count: null
-  type_: astromech
-  slots:
-  - astromech
-  name: • R5-TK
-  unique: true
-  limit: 1
-  ability:
-    name: null
-    text: You can perform attacks against friendly ships.
-    automations: []
-    is_action: false
-  flavor_text: null
-  charges: null
-  special_attacks: null
-  huge_ship_bonus_attacks: null
-  replacement_arc: null
-  action_bar: null
-  ship_stat_modifiers: null
-  bonus_slots: null
-  bonus_keywords: null
-  deployable_remote: null
-  restrictions: null
-  is_reverse: false
-  reverse_side_id: null
-  setup_automations: null
-r5x3:
-  id_: r5x3
-  amg_cost: null
-  xwa_cost: 4
-  xwa_restricted_count: null
-  type_: astromech
-  slots:
-  - astromech
-  name: • R5-X3
-  unique: true
-  limit: 1
-  ability:
-    name: null
-    text: Before you activate or engage, you may spend 1 [Charge] to ignore obstacles
-      until the end of this phase.
+    text: After you perform an attack at attack range 1-2 that hits, if the defender
+      has no faceup damage cards, you may spend 1 or more [Charge]. For each [Charge]
+      you spend, the defender gains 1 strain token.
     automations: []
     is_action: false
   flavor_text: null
   charges:
     standard:
       limit: 2
-      recurring_val: 0
+      recurring_val: 1
   special_attacks: null
   huge_ship_bonus_attacks: null
   replacement_arc: null
@@ -994,121 +947,21 @@ r5x3:
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
-r6d8:
-  id_: r6d8
-  amg_cost: null
-  xwa_cost: 5
-  xwa_restricted_count: null
-  type_: astromech
-  slots:
-  - astromech
-  name: • R6-D8
-  unique: true
-  limit: 1
-  ability:
-    name: null
-    text: While you perform an attack, you may reroll a number of attack dice up to
-      the number of friendly ships at range 0-3 that have the defender in their [Bullseye
-      Arc].
-    automations: []
-    is_action: false
-  flavor_text: null
-  charges: null
-  special_attacks: null
-  huge_ship_bonus_attacks: null
-  replacement_arc: null
-  action_bar: null
-  ship_stat_modifiers: null
-  bonus_slots: null
-  bonus_keywords: null
-  deployable_remote: null
-  restrictions: null
-  is_reverse: false
-  reverse_side_id: null
-  setup_automations: null
-r7a7:
-  id_: r7a7
-  amg_cost: null
-  xwa_cost: 5
-  xwa_restricted_count: null
-  type_: astromech
-  slots:
-  - astromech
-  name: • R7-A7
-  unique: true
-  limit: 1
-  ability:
-    name: null
-    text: While you perform an attack, you may spend 1 [Charge] to change 1 [Hit]
-      result to a [Critical Hit] result.
-    automations: []
-    is_action: false
-  flavor_text: null
-  charges:
-    standard:
-      limit: 3
-      recurring_val: 0
-  special_attacks: null
-  huge_ship_bonus_attacks: null
-  replacement_arc: null
-  action_bar: null
-  ship_stat_modifiers: null
-  bonus_slots: null
-  bonus_keywords: null
-  deployable_remote: null
-  restrictions: null
-  is_reverse: false
-  reverse_side_id: null
-  setup_automations: null
-r7t1-legendsandrelics:
-  id_: r7t1-legendsandrelics
-  amg_cost: null
-  xwa_cost: 5
-  xwa_restricted_count: null
-  type_: astromech
-  slots:
-  - astromech
-  name: • R7-T1
-  unique: true
-  limit: 1
-  ability: null
-  flavor_text: R7-T1, nicknamed Artee, served as Luke Skywalker's in-flight astromech
-    droid when the Jedi Master borrowed an E-wing escort starfighter from the New
-    Republic Defense Force for a brief time during the Black Fleet Crisis.
-  charges: null
-  special_attacks: null
-  huge_ship_bonus_attacks: null
-  replacement_arc: null
-  action_bar:
-  - action_name: lock
-    color: white
-    linked_action:
-      action_name: boost
-      color: red
-      linked_action: null
-  ship_stat_modifiers: null
-  bonus_slots: null
-  bonus_keywords: null
-  deployable_remote: null
-  restrictions: null
-  is_reverse: false
-  reverse_side_id: null
-  setup_automations: null
-unhingedastromech-legendsandrelics:
-  id_: unhingedastromech-legendsandrelics
+ursawren-gunner:
+  id_: ursawren-gunner
   amg_cost: null
   xwa_cost: 3
   xwa_restricted_count: null
-  type_: astromech
+  type_: gunner
   slots:
-  - astromech
-  name: Unhinged Astromech
-  unique: false
-  limit: null
+  - gunner
+  name: • Ursa Wren
+  unique: true
+  limit: 1
   ability:
     name: null
-    text: Decrease the difficulty of your speed 3 basic maneuvers ([Turn Left], [Bank
-      Left], [Straight], [Bank Right], [Turn Right]).
+    text: After you acquire a lock on an enemy unit beyond range 2, if there are no
+      friendly units at range 0-1 of the locked unit, gain 1 calculate token.
     automations: []
     is_action: false
   flavor_text: null
@@ -1125,21 +978,115 @@ unhingedastromech-legendsandrelics:
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
-watchfulastromech:
-  id_: watchfulastromech
+veterantailgunner:
+  id_: veterantailgunner
   amg_cost: null
-  xwa_cost: 2
-  xwa_restricted_count: null
-  type_: astromech
+  xwa_cost: 5
+  xwa_restricted_count: 3
+  type_: gunner
   slots:
-  - astromech
-  name: Watchful Astromech
+  - gunner
+  name: Veteran Tail Gunner
   unique: false
   limit: null
   ability:
     name: null
-    text: After you perform a [Reload] or [Rotate Arc] action, if you are in an enemy
-      ship's firing arc, you may perform a red [Calculate] action.
+    text: After you perform a primary [Front Arc] attack, you may perform a bonus
+      primary [Rear Arc] attack.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+veteranturretgunner:
+  id_: veteranturretgunner
+  amg_cost: null
+  xwa_cost: 6
+  xwa_restricted_count: null
+  type_: gunner
+  slots:
+  - gunner
+  name: Veteran Turret Gunner
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: After you perform a primary attack, you may perform a bonus [Single Turret
+      Arc] attack using a [Single Turret Arc] you did not already attack from this
+      round.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+weaponssystemsofficer:
+  id_: weaponssystemsofficer
+  amg_cost: null
+  xwa_cost: 5
+  xwa_restricted_count: null
+  type_: gunner
+  slots:
+  - gunner
+  name: Weapons Systems Officer
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: After you perform a special attack with the [Lock] requirement, you may
+      acquire a lock on the defender.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+wedgeantilles-legendsandrelics:
+  id_: wedgeantilles-legendsandrelics
+  amg_cost: null
+  xwa_cost: 10
+  xwa_restricted_count: null
+  type_: gunner
+  slots:
+  - gunner
+  name: • Wedge Antilles
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: While you perform a [Single Turret Arc] attack, if you are not in the defender's
+      firing arc, the defender rolls 1 fewer defense die.
     automations: []
     is_action: false
   flavor_text: null

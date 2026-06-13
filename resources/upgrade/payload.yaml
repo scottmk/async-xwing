@@ -1,0 +1,413 @@
+blazerbomb:
+  id_: blazerbomb
+  amg_cost: null
+  xwa_cost: 4
+  xwa_restricted_count: null
+  type_: payload
+  slots:
+  - payload
+  name: Blazer Bomb
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: During the System Phase, you may spend 1 [Charge] to drop a Blazer Bomb
+      using the [1 [Straight]] template.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 1
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+bombletgenerator:
+  id_: bombletgenerator
+  amg_cost: null
+  xwa_cost: 3
+  xwa_restricted_count: null
+  type_: payload
+  slots:
+  - payload
+  name: Bomblet Generator
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: During the System Phase, you may spend 1 [Charge] to drop a Bomblet with
+      the [1 [Straight]] template. At the start of the Activation Phase, you may spend
+      1 shield to recover 2 [Charge].
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 2
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+clustermines:
+  id_: clustermines
+  amg_cost: null
+  xwa_cost: 6
+  xwa_restricted_count: null
+  type_: payload
+  slots:
+  - payload
+  name: Cluster Mines
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: During the System Phase, you may spend 1 [Charge] to drop a Cluster Mine
+      set using the [1 [Straight]] template. This card's [Charge] cannot be recovered.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 1
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+concussionbombs:
+  id_: concussionbombs
+  amg_cost: null
+  xwa_cost: 5
+  xwa_restricted_count: null
+  type_: payload
+  slots:
+  - payload
+  name: Concussion Bombs
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: During the System Phase, if any of this card's [Charge] are inactive, you
+      must spend 1 [Charge] to drop 1 concussion bomb using the [1 [Straight]] template,
+      if able. Otherwise, you may spend 1 [Charge] to drop 1 concussion bomb.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 3
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+connernets:
+  id_: connernets
+  amg_cost: null
+  xwa_cost: 5
+  xwa_restricted_count: null
+  type_: payload
+  slots:
+  - payload
+  name: Conner Nets
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: During the System Phase, you may spend 1 [Charge] to drop a Conner Net using
+      the [1 [Straight]] template. This card's [Charge] cannot be recovered.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 1
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+drk1probedroids:
+  id_: drk1probedroids
+  amg_cost: null
+  xwa_cost: 2
+  xwa_restricted_count: null
+  type_: payload
+  slots:
+  - payload
+  name: • DRK-1 Probe Droids
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: During the End Phase, you may spend 1 [Charge] to drop or launch 1 DRK-1
+      probe droid using a speed 3 template. This card's [Charge] cannot be recovered.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 2
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+electroprotonbomb:
+  id_: electroprotonbomb
+  amg_cost: null
+  xwa_cost: 8
+  xwa_restricted_count: null
+  type_: payload
+  slots:
+  - payload
+  name: • Electro-Proton Bomb
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: During the System Phase, you may spend 1 [Charge] to drop an Electro-Proton
+      Bomb with the [1 [Straight]] template. Then place 1 fuse marker on that device.
+      This card's [Charge] cannot be recovered.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 1
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+ionbombs:
+  id_: ionbombs
+  amg_cost: null
+  xwa_cost: 4
+  xwa_restricted_count: null
+  type_: payload
+  slots:
+  - payload
+  name: Ion Bombs
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: During the System Phase, you may spend 1 [Charge] to drop an Ion Bomb using
+      the [1 [Straight]] template.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 2
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+protonbombs:
+  id_: protonbombs
+  amg_cost: null
+  xwa_cost: 5
+  xwa_restricted_count: null
+  type_: payload
+  slots:
+  - payload
+  name: Proton Bombs
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: During the System Phase, you may spend 1 [Charge] to drop a Proton Bomb
+      using the [1 [Straight]] template.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 2
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+proximitymines:
+  id_: proximitymines
+  amg_cost: null
+  xwa_cost: 9
+  xwa_restricted_count: 3
+  type_: payload
+  slots:
+  - payload
+  name: Proximity Mines
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: During the System Phase, you may spend 1 [Charge] to drop a Proximity Mine
+      using the [1 [Straight]] template. This card's [Charge] cannot be recovered.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 2
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+seismiccharges:
+  id_: seismiccharges
+  amg_cost: null
+  xwa_cost: 3
+  xwa_restricted_count: null
+  type_: payload
+  slots:
+  - payload
+  name: Seismic Charges
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: During the System Phase, you may spend 1 [Charge] to drop a Seismic Charge
+      with the [1 [Straight]] template.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 2
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+thermaldetonators:
+  id_: thermaldetonators
+  amg_cost: null
+  xwa_cost: 6
+  xwa_restricted_count: null
+  type_: payload
+  slots:
+  - payload
+  name: Thermal Detonators
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: During the System Phase, you may spend up to 2 [Charge] to drop that many
+      Thermal Detonators using the [1 [Straight]] or [2 [Straight]] template. Each
+      must be placed using a different template. When you reload this card, recover
+      1 additional [Charge].
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 4
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null

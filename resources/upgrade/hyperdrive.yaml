@@ -1,0 +1,31 @@
+syliure31hyperdrive:
+  id_: syliure31hyperdrive
+  amg_cost: null
+  xwa_cost: 3
+  xwa_restricted_count: null
+  type_: hyperdrive
+  slots:
+  - hyperdrive
+  name: Syliure-31 Hyperdrive
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: 'Setup: You can be placed anywhere in the play area beyond range 1 of obstacles,
+      beyond range 3 of enemy ships, and beyond range 3 of the enemy table edge.'
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null

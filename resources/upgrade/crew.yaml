@@ -1,0 +1,4308 @@
+'000':
+  id_: '000'
+  amg_cost: null
+  xwa_cost: 4
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • 0-0-0
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: At the start of the Engagement Phase, you may choose 1 enemy ship at range
+      0-1. If you do, you gain 1 calculate token unless that ship chooses to gain
+      1 stress token.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+4lom:
+  id_: 4lom
+  amg_cost: null
+  xwa_cost: 5
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • 4-LOM
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: While you perform an attack, after rolling attack dice, you may name a type
+      of green token. If you do, gain 2 ion tokens and, during this attack, the defender
+      cannot spend tokens of the named type.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+aaylasecura:
+  id_: aaylasecura
+  amg_cost: null
+  xwa_cost: 12
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Aayla Secura
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: While an enemy ship in your [Bullseye Arc] performs an attack, if the defender
+      is friendly and at range 0-2, the defender may change 1 blank result to a [Focus]
+      result.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    force:
+      limit: 1
+      recurring_val: 1
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: focus
+    color: white
+    linked_action:
+      action_name: coordinate
+      color: purple
+      linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+admiralsloane:
+  id_: admiralsloane
+  amg_cost: null
+  xwa_cost: 50
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Admiral Sloane
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: After another friendly ship at range 0-3 defends, if it is destroyed, the
+      attacker gains 2 stress tokens. While a friendly ship at range 0-3 performs
+      an attack against a stressed ship, it may reroll 1 attack die.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+agentkallus:
+  id_: agentkallus
+  amg_cost: null
+  xwa_cost: 5
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Agent Kallus
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: 'Setup: After placing forces, assign the Hunted condition to 1 enemy ship.
+      While you perform an attack against the ship with the Hunted condition, you
+      may change 1 of your [Focus] results to a [Hit] result.'
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+agentterex:
+  id_: agentterex
+  amg_cost: null
+  xwa_cost: 7
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Agent Terex
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: 'Setup: Equip this side faceup and place 3 calculate tokens on this card.
+      At the start of the Engagement Phase, you may choose a friendly ship at range
+      0-3 and remove 1 calculate token from this card to have that ship gain a matching
+      token. Then, if there are no calculate tokens on this card, flip it.'
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: agentterex-rev
+  setup_automations: null
+agentterex-rev:
+  id_: agentterex-rev
+  amg_cost: null
+  xwa_cost: 7
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Agent Terex
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: 'Setup: Equip this side faceup and place 3 calculate tokens on this card.
+      At the start of the Engagement Phase, you may choose a friendly ship at range
+      0-3 and remove 1 calculate token from this card to have that ship gain a matching
+      token. Then, if there are no calculate tokens on this card, flip it.'
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: agentterex
+  setup_automations: null
+ahsokatano-crew:
+  id_: ahsokatano-crew
+  amg_cost: null
+  xwa_cost: 10
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Ahsoka Tano
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: After you fully execute a maneuver, you may spend 1 [Force] to choose 1
+      friendly ship in your [Full Rear Arc] at range 1-2. If you do, that ship may
+      perform a red [Focus] action, even while stressed.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    force:
+      limit: 1
+      recurring_val: 1
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+ahsokatano-legendsandrelics:
+  id_: ahsokatano-legendsandrelics
+  amg_cost: null
+  xwa_cost: 10
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Ahsoka Tano
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: Before you activate, you may spend 1 [Force] to ignore obstacles until the
+      end of this phase. If you do, and you move through an obstacle, you may acquire
+      a lock on an enemy ship in your [Front Arc] at range 1.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    force:
+      limit: 1
+      recurring_val: 1
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+amilynholdo:
+  id_: amilynholdo
+  amg_cost: null
+  xwa_cost: 8
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Amilyn Holdo
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: Before you engage, you may choose another friendly ship at range 1-2. You
+      may transfer to that ship 1 token of a type that ship does not have. That ship
+      may transfer 1 token to you of a type you do not have.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+bazemalbus:
+  id_: bazemalbus
+  amg_cost: null
+  xwa_cost: 7
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Baze Malbus
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: While you perform a [Focus] action, you may treat it as red. If you do,
+      gain 1 additional focus token for each enemy ship at range 0-1, to a maximum
+      of 2.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+bobafett:
+  id_: bobafett
+  amg_cost: null
+  xwa_cost: 7
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Boba Fett
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: 'Setup: Start in reserve. At the end of Setup, place yourself at range 0
+      of an obstacle and beyond range 3 of any enemy ship.'
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+bokatankryze:
+  id_: bokatankryze
+  amg_cost: null
+  xwa_cost: 6
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Bo-Katan Kryze
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: While you perform an attack, if you are at range 0-1 of the defender, you
+      may reroll 1 attack die.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+bokatankryze-rebel-scum:
+  id_: bokatankryze-rebel-scum
+  amg_cost: null
+  xwa_cost: 4
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Bo-Katan Kryze
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: After you perform an attack, if the defender was destroyed, each friendly
+      ship at range 0-2 may remove 1 red or orange token.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+c3po:
+  id_: c3po
+  amg_cost: null
+  xwa_cost: 7
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • C-3PO
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: Before rolling defense dice, you may spend 1 calculate token to guess aloud
+      a number 1 or higher. If you do and you roll exactly that many [Evade] results,
+      add 1 [Evade] result. After you perform the [Calculate] action, gain 1 calculate
+      token.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: calculate
+    color: white
+    linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+c3po-crew:
+  id_: c3po-crew
+  amg_cost: null
+  xwa_cost: 7
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • C-3PO
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: While you coordinate, you can choose friendly ships beyond range 2 if they
+      have [Calculate] on their action bar. After you perform the [Calculate] or [Coordinate]
+      action, gain 1 calculate token.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: calculate
+    color: white
+    linked_action: null
+  - action_name: coordinate
+    color: red
+    linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+c3po-republic:
+  id_: c3po-republic
+  amg_cost: null
+  xwa_cost: 6
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • C-3PO
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: While you defend, if you are calculating, you may reroll 1 defense die.
+      After you perform a [Calculate] action, gain 1 calculate token.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: calculate
+    color: white
+    linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+cadbane:
+  id_: cadbane
+  amg_cost: null
+  xwa_cost: 3
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Cad Bane
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: After you drop or launch a device, you may perform a red [Boost] action.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+captainhark:
+  id_: captainhark
+  amg_cost: null
+  xwa_cost: 3
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Captain Hark
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: After you fully execute a red maneuver, if you are not focused, you may
+      spend 1 [Charge] to gain 1 focus token.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 2
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+captainphasma:
+  id_: captainphasma
+  amg_cost: null
+  xwa_cost: 5
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Captain Phasma
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: At the end of the Engagement Phase, each enemy ship at range 0-1 that is
+      not stressed gains 1 stress token.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+captive-legendsandrelics:
+  id_: captive-legendsandrelics
+  amg_cost: null
+  xwa_cost: 8
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Captive
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: After you are declared the defender of an attack, you may spend 1 [Charge]
+      to assign the attacker 1 deplete token.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 1
+      recurring_val: 1
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+cassianandor:
+  id_: cassianandor
+  amg_cost: null
+  xwa_cost: 7
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Cassian Andor
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: During the System Phase, you may choose 1 enemy ship at range 1-2 and guess
+      aloud a bearing and speed, then look at that ship's dial. If the chosen ship's
+      bearing and speed match your guess, you may set your dial to another maneuver.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+chancellorpalpatine:
+  id_: chancellorpalpatine
+  amg_cost: null
+  xwa_cost: 11
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Chancellor Palpatine
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: 'Setup: Equip this side faceup. After you defend, if the attacker is at
+      range 0-2, you may spend 1 [Force]. If you do, the attacker gains 1 stress token.
+      During the End Phase, you may flip this card.'
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    force:
+      limit: 1
+      recurring_val: 1
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: coordinate
+    color: purple
+    linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: chancellorpalpatine-rev
+  setup_automations: null
+chancellorpalpatine-rev:
+  id_: chancellorpalpatine-rev
+  amg_cost: null
+  xwa_cost: 11
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Chancellor Palpatine
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: 'Setup: Equip this side faceup. After you defend, if the attacker is at
+      range 0-2, you may spend 1 [Force]. If you do, the attacker gains 1 stress token.
+      During the End Phase, you may flip this card.'
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    force:
+      limit: 1
+      recurring_val: 1
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: coordinate
+    color: purple
+    linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: chancellorpalpatine
+  setup_automations: null
+chewbacca:
+  id_: chewbacca
+  amg_cost: null
+  xwa_cost: 3
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Chewbacca
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: At the start of the Engagement Phase, you may spend 2 [Charge] to repair
+      1 faceup damage card.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 2
+      recurring_val: 1
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+chewbacca-crew:
+  id_: chewbacca-crew
+  amg_cost: null
+  xwa_cost: 2
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Chewbacca
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: At the start of the End Phase, you may spend 1 focus token to repair 1 of
+      your faceup damage cards.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+chewbacca-crew-swz19:
+  id_: chewbacca-crew-swz19
+  amg_cost: null
+  xwa_cost: 4
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Chewbacca
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: 'Setup: Lose 1 [Charge]. After a friendly ship at range 0-3 is dealt 1 damage
+      card, recover 1 [Charge]. While you perform an attack, you may spend 2 [Charge]
+      to change 1 [Focus] result to a [Critical Hit] result.'
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 2
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+chopper-crew:
+  id_: chopper-crew
+  amg_cost: null
+  xwa_cost: 2
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • “Chopper”
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: During the Perform Action step, you may perform 1 action, even while stressed.
+      After you perform an action while stressed, suffer 1 [Hit] damage unless you
+      expose 1 of your damage cards.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+cienaree:
+  id_: cienaree
+  amg_cost: null
+  xwa_cost: 2
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Ciena Ree
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: After you perform a [Coordinate] action, if the ship you coordinated performed
+      a [Barrel Roll] or [Boost] action, it may gain 1 stress token to rotate 90°.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+cikatrovizago:
+  id_: cikatrovizago
+  amg_cost: null
+  xwa_cost: 1
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Cikatro Vizago
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: 'During the End Phase, you may choose 2 [Illicit] upgrades equipped to friendly
+      ships at range 0-1. If you do, you may exchange these upgrades. End of Game:
+      Return all [Illicit] upgrades to their original ships.'
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+clanwrencommandos:
+  id_: clanwrencommandos
+  amg_cost: null
+  xwa_cost: 8
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Clan Wren Commandos
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: During the System Phase, you may spend 1 [Charge] to drop a Commando Team
+      remote using the [1 [Straight]] template. You can place that device using its
+      front or rear guides. This card's [Charge] cannot be recovered.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 2
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+commandermalarus:
+  id_: commandermalarus
+  amg_cost: null
+  xwa_cost: 2
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Commander Malarus
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: 'Setup: Equip this side faceup. While a friendly non-limited ship at range
+      0-1 performs a primary attack, that ship may reroll 1 blank result. If it does
+      and the attack does not hit, you must flip this card.'
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: commandermalarus-rev
+  setup_automations: null
+commandermalarus-rev:
+  id_: commandermalarus-rev
+  amg_cost: null
+  xwa_cost: 2
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Commander Malarus
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: 'Setup: Equip this side faceup. While a friendly non-limited ship at range
+      0-1 performs a primary attack, that ship may reroll 1 blank result. If it does
+      and the attack does not hit, you must flip this card.'
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: commandermalarus
+  setup_automations: null
+commanderpyre:
+  id_: commanderpyre
+  amg_cost: null
+  xwa_cost: 10
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Commander Pyre
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: 'Setup: After placing forces, choose an enemy ship. It gains 2 stress tokens.
+      While you defend, if the attacker is stressed, you may reroll 1 defense die.'
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+countdooku:
+  id_: countdooku
+  amg_cost: null
+  xwa_cost: 12
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Count Dooku
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: During an attack, before a ship at range 0-2 rolls attack or defense dice,
+      if all of your [Force] are active, you may spend 1 [Force] and name a result.
+      If the roll does not contain the named result, the ship must change 1 die to
+      that result.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    force:
+      limit: 1
+      recurring_val: 1
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+darthvader:
+  id_: darthvader
+  amg_cost: null
+  xwa_cost: 15
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Darth Vader
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: At the start of the Engagement Phase, you may choose 1 ship in your firing
+      arc at range 0-2 and spend 1 [Force]. If you do, that ship suffers 1 [Hit] damage
+      unless it chooses to remove 1 green token.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    force:
+      limit: 1
+      recurring_val: 1
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+deathtroopers:
+  id_: deathtroopers
+  amg_cost: null
+  xwa_cost: 10
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Death Troopers
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: During the Activation Phase, enemy ships at range 0-1 cannot remove stress
+      tokens.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+deathwatchcommandos:
+  id_: deathwatchcommandos
+  amg_cost: null
+  xwa_cost: 8
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Death Watch Commandos
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: During the System Phase, you may spend 1 [Charge] to drop a Commando Team
+      remote using the [1 [Straight]] template. You can place that device using its
+      front or rear guides. This card's [Charge] cannot be recovered.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 2
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+directorkrennic:
+  id_: directorkrennic
+  amg_cost: null
+  xwa_cost: 3
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Director Krennic
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: 'Setup: Before placing forces, assign the Optimized Prototype condition
+      to another friendly ship.'
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: lock
+    color: white
+    linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+emperorpalpatine:
+  id_: emperorpalpatine
+  amg_cost: null
+  xwa_cost: 12
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Emperor Palpatine
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: While another friendly ship defends or performs an attack, you may spend
+      1 [Force] to modify 1 of its dice as though that ship had spent 1 [Force].
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    force:
+      limit: 1
+      recurring_val: 1
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+fennecshand-legendsandrelics:
+  id_: fennecshand-legendsandrelics
+  amg_cost: null
+  xwa_cost: 6
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Fennec Shand
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: After you fully execute a maneuver, or perform a [Barrel Roll] or [Boost]
+      action, you may spend 1 [Charge]. If you do, choose an enemy ship in your [Bullseye
+      Arc]. That ship gains 1 strain token and you may acquire a lock on it.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 2
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+fennrau:
+  id_: fennrau
+  amg_cost: null
+  xwa_cost: 7
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Fenn Rau
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: Before a friendly ship at range 0-2 engages, if its revealed maneuver is
+      1 speed or higher and there is an enemy ship in its [Front Arc] at range 1,
+      that friendly ship may remove 1 non-lock red token.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+fives:
+  id_: fives
+  amg_cost: null
+  xwa_cost: 3
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • “Fives”
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: After you perform an attack that missed, if the defender's initiative is
+      equal to or greater than your initiative, place 1 evade or focus token on this
+      card. Before you engage, you may remove 1 token from this card to gain 1 matching
+      token.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+freelanceslicer:
+  id_: freelanceslicer
+  amg_cost: null
+  xwa_cost: 3
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: Freelance Slicer
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: While you defend, before attack dice are rolled, you may spend a lock you
+      have on the attacker to roll 1 attack die. If you do, the attacker gains 1 jam
+      token. Then, on a [Hit] or [Critical Hit] result, gain 1 jam token.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+ga97:
+  id_: ga97
+  amg_cost: null
+  xwa_cost: 5
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • GA-97
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: 'Setup: Before placing forces, you may spend 3-5 [Charge]. If you do, choose
+      another friendly ship and assign the It''s the Resistance condition to it.'
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 5
+      recurring_val: 1
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: calculate
+    color: white
+    linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+gamutkey:
+  id_: gamutkey
+  amg_cost: null
+  xwa_cost: 5
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Gamut Key
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: At the start of the End Phase, you may spend 2 [Charge] to choose a ship
+      at range 0-1 with 1 or more circular tokens. During the End Phase, circular
+      tokens are not removed from that ship.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 2
+      recurring_val: 1
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+garsaxon:
+  id_: garsaxon
+  amg_cost: null
+  xwa_cost: 6
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Gar Saxon
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: While a friendly ship at range 1-3 with an initiative of 4 or lower performs
+      an attack against a defender you have locked, the attacker may change 1 [Focus]
+      result to a [Hit] result.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+generalgrievous:
+  id_: generalgrievous
+  amg_cost: null
+  xwa_cost: 5
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • General Grievous
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: While you defend, after the Neutralize Results step, if there are 2 or more
+      [Hit]/[Critical Hit] results, you may spend 1 [Charge] to cancel 1 [Hit] or
+      [Critical Hit] result. After a friendly ship is destroyed, recover 1 [Charge].
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 1
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+generalhux:
+  id_: generalhux
+  amg_cost: null
+  xwa_cost: 6
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • General Hux
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: While you perform a white [Coordinate] action, you may treat it as red.
+      If you do, you may coordinate up to 2 additional ships of the same ship type,
+      and each ship you coordinate must perform the same action, treating that action
+      as red.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+ghostcompany:
+  id_: ghostcompany
+  amg_cost: null
+  xwa_cost: 5
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Ghost Company
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: After you perform a primary attack, if you are focused, you may perform
+      a [Single Turret Arc] attack against a ship you have not attacked this round
+      as a bonus attack.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: rotate
+    color: white
+    linked_action:
+      action_name: focus
+      color: red
+      linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+gnkgonkdroid:
+  id_: gnkgonkdroid
+  amg_cost: null
+  xwa_cost: 3
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: GNK “Gonk” Droid
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: 'Setup: Lose 1 [Charge]. Action: Recover 1 [Charge]. Action: Spend 1 [Charge]
+      to recover 1 shield.'
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 1
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+grandinquisitor:
+  id_: grandinquisitor
+  amg_cost: null
+  xwa_cost: 10
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Grand Inquisitor
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: After an enemy ship at range 0-2 reveals its dial, you may spend 1 [Force]
+      to perform 1 white action on your action bar, treating that action as red.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    force:
+      limit: 1
+      recurring_val: 1
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+grandmofftarkin:
+  id_: grandmofftarkin
+  amg_cost: null
+  xwa_cost: 3
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Grand Moff Tarkin
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: During the System Phase, you may spend 2 [Charge]. If you do, each friendly
+      ship may acquire a lock on a ship that you have locked.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 2
+      recurring_val: 1
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+greefkarga:
+  id_: greefkarga
+  amg_cost: null
+  xwa_cost: 5
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Greef Karga
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: You can coordinate allied ships as if they were friendly ships. After you
+      coordinate a ship, it may acquire a lock on an object you have locked.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: coordinate
+    color: red
+    linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+hansolo-crew:
+  id_: hansolo-crew
+  amg_cost: null
+  xwa_cost: 3
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Han Solo
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: After you perform an [Evade] action, gain additional evade tokens equal
+      to the number of enemy ships at range 0-1.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: evade
+    color: red
+    linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+herasyndulla:
+  id_: herasyndulla
+  amg_cost: null
+  xwa_cost: 3
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Hera Syndulla
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: You can execute red maneuvers even while stressed. After you fully execute
+      a red maneuver, if you have 3 or more stress tokens, remove 1 stress token and
+      suffer 1 [Hit] damage.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+hondoohnaka:
+  id_: hondoohnaka
+  amg_cost: null
+  xwa_cost: 7
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Hondo Ohnaka
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: 'Action: Choose 2 ships at range 1-3 of you that are friendly to each other.
+      Coordinate one of the chosen ships, then jam the other, ignoring range restrictions.'
+    automations: []
+    is_action: true
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+ig11:
+  id_: ig11
+  amg_cost: null
+  xwa_cost: 4
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • IG-11
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: 'Setup: Equip this side faceup. Before you would be dealt a faceup damage
+      card, you must place 1 fuse marker on this card and gain 1 calculate token instead.
+      Then, if there are 2 fuse markers on this card, flip it.'
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: calculate
+    color: white
+    linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: ig11-rev
+  setup_automations: null
+ig11-rev:
+  id_: ig11-rev
+  amg_cost: null
+  xwa_cost: 4
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • IG-11
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: 'Setup: Equip this side faceup. Before you would be dealt a faceup damage
+      card, you must place 1 fuse marker on this card and gain 1 calculate token instead.
+      Then, if there are 2 fuse markers on this card, flip it.'
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: calculate
+    color: white
+    linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: ig11
+  setup_automations: null
+ig88d:
+  id_: ig88d
+  amg_cost: null
+  xwa_cost: 3
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • IG-88D
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: You have the pilot ability of each other friendly ship with the IG-2000
+      upgrade. After you perform a [Calculate] action, gain 1 calculate token.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: calculate
+    color: white
+    linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+imperialsupercommandos:
+  id_: imperialsupercommandos
+  amg_cost: null
+  xwa_cost: 8
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Imperial Super Commandos
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: During the System Phase, you may spend 1 [Charge] to drop a Commando Team
+      remote using the [1 [Straight]] template. You can place that device using its
+      front or rear guides. This card's [Charge] cannot be recovered.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 2
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+informant:
+  id_: informant
+  amg_cost: null
+  xwa_cost: 6
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Informant
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: 'Setup: After placing forces, choose 1 enemy ship and assign the Listening
+      Device condition to it.'
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+isbslicer:
+  id_: isbslicer
+  amg_cost: null
+  xwa_cost: 1
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: ISB Slicer
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: During the End Phase, enemy ships at range 1-2 cannot remove jam tokens.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+jabbathehutt:
+  id_: jabbathehutt
+  amg_cost: null
+  xwa_cost: 14
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Jabba the Hutt
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: During the End Phase, you may choose 1 friendly ship at range 0-2 and spend
+      1 [Charge]. If you do, that ship recovers 1 [Charge] on 1 of its equipped [Illicit]
+      upgrades.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 4
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+jangofett:
+  id_: jangofett
+  amg_cost: null
+  xwa_cost: 3
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Jango Fett
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: While you defend or perform an attack, you may spend your lock on the enemy
+      ship to change 1 of the enemy ship's [Focus] results to a blank result.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+jynerso:
+  id_: jynerso
+  amg_cost: null
+  xwa_cost: 6
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Jyn Erso
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: If a friendly ship at range 0-3 would gain a focus token, it may gain 1
+      evade token instead.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+k2so:
+  id_: k2so
+  amg_cost: null
+  xwa_cost: 8
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • K-2SO
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: During the System Phase, you may choose a friendly ship at range 0-3. That
+      ship gains 1 calculate and 1 stress token.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: calculate
+    color: white
+    linked_action: null
+  - action_name: jam
+    color: white
+    linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+kananjarrus:
+  id_: kananjarrus
+  amg_cost: null
+  xwa_cost: 10
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Kanan Jarrus
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: After a friendly ship at range 0-2 fully executes a white maneuver, you
+      may spend 1 [Force] to remove 1 stress token from that ship.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    force:
+      limit: 1
+      recurring_val: 1
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+kaydelconnix:
+  id_: kaydelconnix
+  amg_cost: null
+  xwa_cost: 8
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Kaydel Connix
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: After you reveal your dial, you may set your dial to a basic maneuver of
+      the next higher speed. While you execute that maneuver, increase its difficulty.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+ketsuonyo:
+  id_: ketsuonyo
+  amg_cost: null
+  xwa_cost: 3
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Ketsu Onyo
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: At the start of the End Phase, you may choose 1 enemy ship at range 0-2
+      in your firing arc. If you do, that ship does not remove its tractor tokens.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+kitfisto:
+  id_: kitfisto
+  amg_cost: null
+  xwa_cost: 9
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Kit Fisto
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: At the start of the Engagement Phase, you may choose 1 friendly ship at
+      range 0-1 and spend 1 [Force]. If you do, it may perform a red [Evade] action.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    force:
+      limit: 1
+      recurring_val: 1
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: evade
+    color: purple
+    linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+korkiekryze:
+  id_: korkiekryze
+  amg_cost: null
+  xwa_cost: 5
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Korkie Kryze
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: "After a friendly ship in your [Full Front Arc] at range 1-2 becomes the
+      defender, you may transfer 1 green token to it. \n\nWhile a friendly ship in
+      your [Full Front Arc] at range 1-2 defends, if you obstruct the attack, the
+      defender rolls 1 additional defense die."
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+korrsella:
+  id_: korrsella
+  amg_cost: null
+  xwa_cost: 6
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Korr Sella
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: After you fully execute a blue maneuver, remove all of your stress tokens.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+kuiil:
+  id_: kuiil
+  amg_cost: null
+  xwa_cost: 4
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Kuiil
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: 'Action: Roll 1 attack die for each damage card you have. For each [Hit]
+      result, repair 1 faceup Ship damage card, then for each [Critical Hit] result,
+      repair 1 facedown damage card. For each blank result, remove 1 orange token,
+      then for each [Focus] result, gain 1 focus token.'
+    automations: []
+    is_action: true
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+kyloren:
+  id_: kyloren
+  amg_cost: null
+  xwa_cost: 7
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Kylo Ren
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: 'Action: Choose 1 enemy ship at range 1-3. If you do, spend 1 [Force] to
+      assign the I''ll Show You the Dark Side condition to that ship.'
+    automations: []
+    is_action: true
+  flavor_text: null
+  charges:
+    force:
+      limit: 1
+      recurring_val: 1
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+l337:
+  id_: l337
+  amg_cost: null
+  xwa_cost: 5
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • L3-37
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: 'Setup: Equip this side faceup. While you defend, you may flip this card.
+      If you do, the attacker must reroll all attack dice.'
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: l337-rev
+  setup_automations: null
+l337-rev:
+  id_: l337-rev
+  amg_cost: null
+  xwa_cost: 5
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • L3-37
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: 'Setup: Equip this side faceup. While you defend, you may flip this card.
+      If you do, the attacker must reroll all attack dice.'
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: l337
+  setup_automations: null
+landocalrissian:
+  id_: landocalrissian
+  amg_cost: null
+  xwa_cost: 2
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Lando Calrissian
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: 'Action: Roll 2 defense dice. For each [Focus] result, gain 1 focus token.
+      For each [Evade] result, gain 1 evade token. If both results are blank, the
+      opposing player chooses focus or evade. You gain 1 token of that type.'
+    automations: []
+    is_action: true
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+landocalrissian-crew:
+  id_: landocalrissian-crew
+  amg_cost: null
+  xwa_cost: 7
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Lando Calrissian
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: After you roll dice, you may spend 1 green token to reroll up to 2 of your
+      results.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+larmadacy:
+  id_: larmadacy
+  amg_cost: null
+  xwa_cost: 2
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Larma D'Acy
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: While you have 2 or fewer stress tokens, you can perform [Reinforce], [Coordinate],
+      and [Jam] actions, even while stressed. While you perform a white [Reinforce],
+      [Coordinate], or [Jam] action, if you are stressed, treat that action as red.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+lattsrazzi:
+  id_: lattsrazzi
+  amg_cost: null
+  xwa_cost: 4
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Latts Razzi
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: While you defend, if the attacker is stressed, you may remove 1 stress from
+      the attacker to change 1 of your blank/[Focus] results to an [Evade] result.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+leiaorgana:
+  id_: leiaorgana
+  amg_cost: null
+  xwa_cost: 7
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Leia Organa
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: At the start of the Activation Phase, you may spend 3 [Charge]. During this
+      phase, each friendly ship reduces the difficulty of its red maneuvers.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 3
+      recurring_val: 1
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+leiaorgana-resistance:
+  id_: leiaorgana-resistance
+  amg_cost: null
+  xwa_cost: 10
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Leia Organa
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: After a friendly ship reveals a non-[0 [Stationary]] maneuver, you may spend
+      1 [Force]. If you do, the chosen ship reduces the difficulty of that maneuver.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    force:
+      limit: 1
+      recurring_val: 1
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: coordinate
+    color: purple
+    linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+magvayarro:
+  id_: magvayarro
+  amg_cost: null
+  xwa_cost: 5
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Magva Yarro
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: After you defend, if the attack hit, you may acquire a lock on the attacker.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+mandaloriansupercommandos:
+  id_: mandaloriansupercommandos
+  amg_cost: null
+  xwa_cost: 8
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Mandalorian Super Commandos
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: During the System Phase, you may spend 1 [Charge] to drop a Commando Team
+      remote using the [1 [Straight]] template. You can place that device using its
+      front or rear guides. This card's [Charge] cannot be recovered.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 2
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+maul:
+  id_: maul
+  amg_cost: null
+  xwa_cost: 12
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Maul
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: After you suffer damage, you may gain 1 stress token to recover 1 [Force].
+      You can equip “Dark Side” upgrades.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    force:
+      limit: 1
+      recurring_val: 1
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords:
+  - Dark Side
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+maul-crew:
+  id_: maul-crew
+  amg_cost: null
+  xwa_cost: 10
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Maul
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: Add [Illicit] slot.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    force:
+      limit: 1
+      recurring_val: 1
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: coordinate
+    color: purple
+    linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots:
+    illicit: 1
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+ministertua:
+  id_: ministertua
+  amg_cost: null
+  xwa_cost: 4
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Minister Tua
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: At the start of the Engagement Phase, if you are damaged, you may perform
+      a red [Reinforce] action.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+moffjerjerrod:
+  id_: moffjerjerrod
+  amg_cost: null
+  xwa_cost: 5
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Moff Jerjerrod
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: During the System Phase, you may spend 2 [Charge]. If you do, choose the
+      [1 [Bank Left]], [1 [Straight]], or [1 [Bank Right]] template. Each friendly
+      ship may perform a red [Boost] action using that template.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 2
+      recurring_val: 1
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+niennunb:
+  id_: niennunb
+  amg_cost: null
+  xwa_cost: 4
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Nien Nunb
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: Decrease the difficulty of your bank maneuvers ([Bank Left] and [Bank Right]).
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+niteowlcommandos:
+  id_: niteowlcommandos
+  amg_cost: null
+  xwa_cost: 8
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Nite Owl Commandos
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: During the System Phase, you may spend 1 [Charge] to drop a Commando Team
+      remote using the [1 [Straight]] template. You can place that device using its
+      front or rear guides. This card's [Charge] cannot be recovered.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 2
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+novicetechnician:
+  id_: novicetechnician
+  amg_cost: null
+  xwa_cost: 2
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: Novice Technician
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: At the end of the round, you may roll 1 attack die to repair 1 faceup damage
+      card. Then on a [Hit] result, expose 1 damage card.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+obiwankenobi:
+  id_: obiwankenobi
+  amg_cost: null
+  xwa_cost: 11
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Obi-wan Kenobi
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: After a friendly ship at range 0-2 spends a focus or evade token, you may
+      spend 1 [Force]. If you do, that ship gains 1 focus token.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    force:
+      limit: 1
+      recurring_val: 1
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+pelimotto:
+  id_: pelimotto
+  amg_cost: null
+  xwa_cost: 2
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Peli Motto
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: During the System Phase, you may perform an action on 1 of your damage cards,
+      even while stressed. After you repair a faceup Ship damage card, you may roll
+      1 attack die. On a [Hit] result, repair another faceup Ship damage card. On
+      a [Critical Hit] result, expose 1 damage card.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+perceptivecopilot:
+  id_: perceptivecopilot
+  amg_cost: null
+  xwa_cost: 8
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: Perceptive Copilot
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: After you perform a [Focus] action, gain 1 focus token.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+pettyofficerthanisson:
+  id_: pettyofficerthanisson
+  amg_cost: null
+  xwa_cost: 4
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Petty Officer Thanisson
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: During the Activation or Engagement Phase, after an enemy ship in your [Front
+      Arc] at range 0-1 gains a red or orange token, if you are not stressed, you
+      may gain 1 stress token. If you do, that ship gains 1 additional token of the
+      type that it gained.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+plokoon:
+  id_: plokoon
+  amg_cost: null
+  xwa_cost: 9
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Plo Koon
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: At the start of the End Phase, if you are reinforced, you may choose 1 friendly
+      ship at range 0 or in your [Left Arc] or [Right Arc] at range 1. That ship removes
+      1 deplete or strain token, or repairs 1 faceup damage card.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    force:
+      limit: 1
+      recurring_val: 1
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: reinforce
+    color: purple
+    linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+previzsla:
+  id_: previzsla
+  amg_cost: null
+  xwa_cost: 7
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Pre Vizsla
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: While you perform a [Coordinate] action, you can choose a friendly [Crew]
+      remote instead of another friendly ship. Instead of performing an action, that
+      remote relocates forward using a [1 [Turn Left]], [1 [Turn Right]], or [2 [Straight]]
+      template.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: coordinate
+    color: white
+    linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+primeministeralmec:
+  id_: primeministeralmec
+  amg_cost: null
+  xwa_cost: 7
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Prime Minister Almec
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: 'Setup: Equip this side faceup. After a friendly ship at range 0-2 reveals
+      a white maneuver, if it has no green tokens, it may gain 1 stress token to gain
+      1 calculate token. During the End Phase, if you have 2 or more stress tokens,
+      flip this card. '
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: primeministeralmec-rev
+  setup_automations: null
+primeministeralmec-rev:
+  id_: primeministeralmec-rev
+  amg_cost: null
+  xwa_cost: 7
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Prime Minister Almec
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: 'Setup: Equip this side faceup. After a friendly ship at range 0-2 reveals
+      a white maneuver, if it has no green tokens, it may gain 1 stress token to gain
+      1 calculate token. During the End Phase, if you have 2 or more stress tokens,
+      flip this card. '
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: primeministeralmec
+  setup_automations: null
+protectorategleb:
+  id_: protectorategleb
+  amg_cost: null
+  xwa_cost: 7
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Protectorate Gleb
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: After you coordinate a friendly ship, you may transfer 1 orange or red token
+      to the ship you coordinated.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: coordinate
+    color: red
+    linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+pz4co:
+  id_: pz4co
+  amg_cost: null
+  xwa_cost: 4
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • PZ-4CO
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: At the end of the Activation Phase, you may choose 1 friendly ship at range
+      1-2. If you do, transfer 1 calculate token to that ship. If your revealed maneuver
+      is blue, you may transfer 1 focus token instead.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: calculate
+    color: white
+    linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+qira:
+  id_: qira
+  amg_cost: null
+  xwa_cost: 2
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Qi'ra
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: While you move and perform attacks, you ignore obstacles that you are locking.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+r2d2-crew:
+  id_: r2d2-crew
+  amg_cost: null
+  xwa_cost: 8
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • R2-D2
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: During the End Phase, if you are damaged and not shielded, you may roll
+      1 attack die to recover 1 shield. On a [Hit] result, expose 1 of your damage
+      cards.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+rookkast:
+  id_: rookkast
+  amg_cost: null
+  xwa_cost: 8
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Rook Kast
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: After you perform a red action, you may gain 1 strain token. While you perform
+      an attack, if you are strained, you may change 1 of your blank or [Focus] results
+      to a result.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: lock
+    color: red
+    linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+rosetico:
+  id_: rosetico
+  amg_cost: null
+  xwa_cost: 9
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Rose Tico
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: While you defend or perform an attack, you may spend 1 of your results to
+      acquire a lock on the enemy ship.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+sabinewren:
+  id_: sabinewren
+  amg_cost: null
+  xwa_cost: 6
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Sabine Wren
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: 'Setup: Place 1 ion, 1 jam, 1 stress, and 1 tractor token on this card.
+      After a ship suffers the effect of a friendly bomb, you may remove 1 ion, jam,
+      stress, or tractor token from this card. If you do, that ship gains a matching
+      token.'
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+satinekryze:
+  id_: satinekryze
+  amg_cost: null
+  xwa_cost: 15
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Satine Kryze
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: At the start of the Engagement Phase, you may spend 2 [Charge]. If you do,
+      each friendly ship may choose to gain 1 deplete token and 1 focus tokken or
+      to gain 1 disarm token and 1 evade token.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 2
+      recurring_val: 1
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+savageopress:
+  id_: savageopress
+  amg_cost: null
+  xwa_cost: 10
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Savage Opress
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: After a friendly ship in your [Front Arc] at range 1-2 gains a stress of
+      strain token, you may spend 1 [Force]. If you do, that ship gains 1 focus token.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    force:
+      limit: 1
+      recurring_val: 1
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+sawgerrera:
+  id_: sawgerrera
+  amg_cost: null
+  xwa_cost: 9
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Saw Gerrera
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: While you perform an attack, you may suffer 1 [Hit] damage to change all
+      of your [Focus] results to [Critical Hit] results.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+seasonednavigator:
+  id_: seasonednavigator
+  amg_cost: null
+  xwa_cost: 7
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: Seasoned Navigator
+  unique: false
+  limit: null
+  ability:
+    name: null
+    text: After you reveal your dial, you may set your dial to another non-red maneuver
+      of the same speed. While you execute that maneuver, increase its difficulty.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+seventhsister:
+  id_: seventhsister
+  amg_cost: null
+  xwa_cost: 9
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Seventh Sister
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: If an enemy ship at range 0-1 would gain a stress token, you may spend 1
+      [Force] to have it gain 1 jam or tractor token instead.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    force:
+      limit: 1
+      recurring_val: 1
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+supremeleadersnoke:
+  id_: supremeleadersnoke
+  amg_cost: null
+  xwa_cost: 15
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Supreme Leader Snoke
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: During the System Phase, you may choose any number of enemy ships beyond
+      range 1. If you do, spend that many [Force] to flip each chosen ship's dial
+      faceup.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    force:
+      limit: 1
+      recurring_val: 1
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+tacticalofficer:
+  id_: tacticalofficer
+  amg_cost: null
+  xwa_cost: 3
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: Tactical Officer
+  unique: false
+  limit: null
+  ability: null
+  flavor_text: In the chaos of a starfighter battle, a single order can mean the difference
+    between a victory and a massacre.
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: coordinate
+    color: white
+    linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+talmerrik:
+  id_: talmerrik
+  amg_cost: null
+  xwa_cost: 7
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Tal Merrik
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: 'Setup: Before placing forces, choose 1 enemy ship and assign the False
+      Friend condition to it. Action: If the False Friend condition is not assigned
+      to an enemy ship, assign it to an enemy ship in your [Front Arc] at range 0-2.'
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+thechild:
+  id_: thechild
+  amg_cost: null
+  xwa_cost: 9
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • The Child
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: 'Setup: After placing forces, choose an opponent; they assign the Merciless
+      Pursuit condition to 2 of their ships. Your [Force] lose the recurring icon.
+      After you defend, if you suffer damage during that attack, recover 1 [Force].'
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    force:
+      limit: 2
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+themandalorian:
+  id_: themandalorian
+  amg_cost: null
+  xwa_cost: 3
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • The Mandalorian
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: During the End Phase, if you did not defend this round, recover 1 non-recurring
+      [Force], if able.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: reinforce
+    color: white
+    linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+thrawn-legendsandrelics:
+  id_: thrawn-legendsandrelics
+  amg_cost: null
+  xwa_cost: 6
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Thrawn
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: While you perform a [Jam] or [Coordinate] action, you may spend 1 [Charge]
+      to increase the range requirement for that action by 1. After you perform a
+      [Jam] or [Coordinate] action, you may spend 2 [Charge] to perform a [Jam] or
+      [Coordinate] action, treating it as red.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 2
+      recurring_val: 1
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: jam
+    color: red
+    linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+tobiasbeckett:
+  id_: tobiasbeckett
+  amg_cost: null
+  xwa_cost: 8
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Tobias Beckett
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: 'Setup: After placing forces, you may choose 1 obstacle in the play area.
+      If you do, place it anywhere in the play area beyond range 2 of any board edge
+      or ship and beyond range 1 of other obstacles.'
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+torynfarr:
+  id_: torynfarr
+  amg_cost: null
+  xwa_cost: 4
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Toryn Farr
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: After you coordinate a friendly ship, it may acquire a lock on a ship you
+      are locking, ignoring range restrictions.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: lock
+    color: white
+    linked_action:
+      action_name: coordinate
+      color: red
+      linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+tristanwren:
+  id_: tristanwren
+  amg_cost: null
+  xwa_cost: 1
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Tristan Wren
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: While a friendy unit at range 0-3 performs a [Ordnance] attack, you may
+      spend 1 [Charge]. If you do, the attacker may change 1 [Hit] result to a [Critical
+      Hit] result.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 1
+      recurring_val: 1
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+unkarplutt:
+  id_: unkarplutt
+  amg_cost: null
+  xwa_cost: 1
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Unkar Plutt
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: After you partially execute a maneuver, you may suffer 1 [Hit] damage to
+      perform 1 white action.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+ursawren:
+  id_: ursawren
+  amg_cost: null
+  xwa_cost: 8
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Ursa Wren
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: You can maintain up to 2 locks. Each lock must be on a different object.
+      After a friendly ship at range 0-3 is locked by an enemy ship, you may perform
+      a [Lock] action.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+wolfpack:
+  id_: wolfpack
+  amg_cost: null
+  xwa_cost: 4
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Wolfpack
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: After a friendly ship at range 0-3 defends, if the attacker is in your firing
+      arc, the defender may gain 1 strain token to acquire a lock on the attacker.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+yoda:
+  id_: yoda
+  amg_cost: null
+  xwa_cost: 12
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Yoda
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: After another friendly ship at range 0-2 fully executes a purple maneuver
+      or performs a purple action, you may spend 1 [Force]. If you do, that ship recovers
+      1 [Force].
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    force:
+      limit: 2
+      recurring_val: 1
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: coordinate
+    color: purple
+    linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+zamwesell:
+  id_: zamwesell
+  amg_cost: null
+  xwa_cost: 9
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Zam Wesell
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: 'Setup: Lose 2 [Charge]. During the System Phase, you may assign 1 of your
+      secret conditions to yourself facedown: You Should Thank Me You''d Better Mean
+      Business'
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 2
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+zeborrelios:
+  id_: zeborrelios
+  amg_cost: null
+  xwa_cost: 1
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • “Zeb” Orrelios
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: While you perform an attack at attack range 0, you may spend focus tokens
+      for their default effect to modify results. While defending at attack range
+      0, the attacker may spend focus tokens for their default effect to modify results.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+zoriibliss-legendsandrelics:
+  id_: zoriibliss-legendsandrelics
+  amg_cost: null
+  xwa_cost: 5
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Zorii Bliss
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: After a jammed enemy ship at range 1-2 removes a green token, you may spend
+      1 [Charge] to gain a matching token.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 1
+      recurring_val: 1
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar:
+  - action_name: jam
+    color: white
+    linked_action: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+zuckuss:
+  id_: zuckuss
+  amg_cost: null
+  xwa_cost: 5
+  xwa_restricted_count: null
+  type_: crew
+  slots:
+  - crew
+  name: • Zuckuss
+  unique: true
+  limit: 1
+  ability:
+    name: null
+    text: While you perform an attack, if you are not stressed, you may choose 1 defense
+      die and gain 1 stress token. If you do, the defender must reroll that die.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges: null
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null

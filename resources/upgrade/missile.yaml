@@ -1,0 +1,606 @@
+barragerockets:
+  id_: barragerockets
+  amg_cost: null
+  xwa_cost: 8
+  xwa_restricted_count: 2
+  type_: missile
+  slots:
+  - missile
+  name: Barrage Rockets
+  unique: false
+  limit: null
+  ability: null
+  flavor_text: null
+  charges:
+    standard:
+      limit: 5
+      recurring_val: 0
+  special_attacks:
+  - arc: front
+    val: 3
+    range:
+    - 2
+    - 3
+    requirement:
+    - focus
+    is_ordnance: true
+    text: 'Attack ([Focus]): Spend 1 [Charge]. If the defender is in your [Bullseye
+      Arc], you may spend 1 or more [Charge] to reroll that many attack dice.'
+    automations: []
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+clustermissiles:
+  id_: clustermissiles
+  amg_cost: null
+  xwa_cost: 5
+  xwa_restricted_count: null
+  type_: missile
+  slots:
+  - missile
+  name: Cluster Missiles
+  unique: false
+  limit: null
+  ability: null
+  flavor_text: null
+  charges:
+    standard:
+      limit: 4
+      recurring_val: 0
+  special_attacks:
+  - arc: front
+    val: 3
+    range:
+    - 1
+    - 2
+    requirement:
+    - lock
+    is_ordnance: true
+    text: 'Attack ([Lock]): Spend 1 [Charge]. After this attack, you may perform this
+      attack as a bonus attack against a different target at range 0-1 of the defender,
+      ignoring the [Lock] requirement.'
+    automations: []
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+concussionmissiles:
+  id_: concussionmissiles
+  amg_cost: null
+  xwa_cost: 6
+  xwa_restricted_count: null
+  type_: missile
+  slots:
+  - missile
+  name: Concussion Missiles
+  unique: false
+  limit: null
+  ability: null
+  flavor_text: null
+  charges:
+    standard:
+      limit: 3
+      recurring_val: 0
+  special_attacks:
+  - arc: front
+    val: 3
+    range:
+    - 2
+    - 3
+    requirement:
+    - lock
+    is_ordnance: true
+    text: 'Attack ([Lock]): Spend 1 [Charge]. After this attack hits, each ship at
+      range 0-1 of the defender exposes 1 of its damage cards.'
+    automations: []
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+diamondboronmissiles:
+  id_: diamondboronmissiles
+  amg_cost: null
+  xwa_cost: 5
+  xwa_restricted_count: null
+  type_: missile
+  slots:
+  - missile
+  name: • Diamond-Boron Missiles
+  unique: true
+  limit: 1
+  ability: null
+  flavor_text: null
+  charges:
+    standard:
+      limit: 3
+      recurring_val: 0
+  special_attacks:
+  - arc: front
+    val: 3
+    range:
+    - 2
+    - 3
+    requirement:
+    - lock
+    is_ordnance: true
+    text: 'Attack ([Lock]): Spend 1 [Charge]. After this attack hits, you may spend
+      1 [Charge]. If you do, each ship at range 0-1 of the defender with agility equal
+      to or less than the defender''s rolls 1 attack die and suffers 1 [Hit]/[Critical
+      Hit] damage for each matching result.'
+    automations: []
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+discordmissiles:
+  id_: discordmissiles
+  amg_cost: null
+  xwa_cost: 2
+  xwa_restricted_count: null
+  type_: missile
+  slots:
+  - missile
+  name: ••• Discord Missiles
+  unique: false
+  limit: 3
+  ability:
+    name: null
+    text: At the start of the Engagement Phase, you may spend 1 calculate token and
+      1 [Charge] to launch 1 buzz droid swarm using the [3 [Bank Left]], [3 [Straight]],
+      or [3 [Bank Right]] template. This card's [Charge] cannot be recovered.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 1
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+electrochaffmissiles:
+  id_: electrochaffmissiles
+  amg_cost: null
+  xwa_cost: 10
+  xwa_restricted_count: null
+  type_: missile
+  slots:
+  - missile
+  name: •• Electro-Chaff Missiles
+  unique: false
+  limit: 2
+  ability:
+    name: null
+    text: During the System Phase, you may spend 1 [Charge] from this card to launch
+      1 electro-chaff cloud using the [3 [Bank Left]], [3 [Bank Right]], or [4 [Straight]]
+      template. Then place 1 fuse marker on it. This card's [Charge] cannot be recovered.
+    automations: []
+    is_action: false
+  flavor_text: null
+  charges:
+    standard:
+      limit: 1
+      recurring_val: 0
+  special_attacks: null
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+energyshellcharges:
+  id_: energyshellcharges
+  amg_cost: null
+  xwa_cost: 3
+  xwa_restricted_count: 4
+  type_: missile
+  slots:
+  - missile
+  name: Energy-Shell Charges
+  unique: false
+  limit: null
+  ability: null
+  flavor_text: null
+  charges:
+    standard:
+      limit: 1
+      recurring_val: 0
+  special_attacks:
+  - arc: front
+    val: 3
+    range:
+    - 2
+    - 3
+    requirement:
+    - calculate
+    is_ordnance: true
+    text: 'Attack ([Calculate]): Spend 1 [Charge]. While you perform this attack,
+      you may spend 1 calculate token to change 1 [Focus] result to a [Critical Hit]
+      result. Action: Reload this card.'
+    automations: []
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+homingmissiles:
+  id_: homingmissiles
+  amg_cost: null
+  xwa_cost: 4
+  xwa_restricted_count: 2
+  type_: missile
+  slots:
+  - missile
+  name: Homing Missiles
+  unique: false
+  limit: null
+  ability: null
+  flavor_text: null
+  charges:
+    standard:
+      limit: 2
+      recurring_val: 0
+  special_attacks:
+  - arc: front
+    val: 4
+    range:
+    - 2
+    - 3
+    requirement:
+    - lock
+    is_ordnance: true
+    text: 'Attack ([Lock]): Spend 1 [Charge]. After you declare the defender, the
+      defender may choose to suffer 1 [Hit] damage. If it does, skip the Attack and
+      Defense Dice steps and the attack is treated as hitting.'
+    automations: []
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+ionmissiles:
+  id_: ionmissiles
+  amg_cost: null
+  xwa_cost: 3
+  xwa_restricted_count: null
+  type_: missile
+  slots:
+  - missile
+  name: Ion Missiles
+  unique: false
+  limit: null
+  ability: null
+  flavor_text: null
+  charges:
+    standard:
+      limit: 3
+      recurring_val: 0
+  special_attacks:
+  - arc: front
+    val: 3
+    range:
+    - 2
+    - 3
+    requirement:
+    - lock
+    is_ordnance: true
+    text: 'Attack ([Lock]): Spend 1 [Charge]. If this attack hits, spend 1 [Hit] or
+      [Critical Hit] result to cause the defender to suffer 1 [Hit] damage. All remaining
+      [Hit]/[Critical Hit] results inflict ion tokens instead of damage.'
+    automations: []
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+magpulsewarheads:
+  id_: magpulsewarheads
+  amg_cost: null
+  xwa_cost: 7
+  xwa_restricted_count: null
+  type_: missile
+  slots:
+  - missile
+  name: Mag-Pulse Warheads
+  unique: false
+  limit: null
+  ability: null
+  flavor_text: null
+  charges:
+    standard:
+      limit: 2
+      recurring_val: 0
+  special_attacks:
+  - arc: front
+    val: 3
+    range:
+    - 1
+    - 2
+    - 3
+    requirement:
+    - lock
+    is_ordnance: true
+    text: 'Attack ([Lock]): Spend 1 [Charge]. If this attack hits, the defender suffers
+      1 [Critical Hit] damage and gains 1 deplete and 1 jam token. Then cancel all
+      [Hit]/[Critical Hit] results.'
+    automations: []
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+multimissilepods:
+  id_: multimissilepods
+  amg_cost: null
+  xwa_cost: 3
+  xwa_restricted_count: null
+  type_: missile
+  slots:
+  - missile
+  name: Multi-Missile Pods
+  unique: false
+  limit: null
+  ability: null
+  flavor_text: null
+  charges:
+    standard:
+      limit: 5
+      recurring_val: 0
+  special_attacks:
+  - arc: full_front
+    val: 2
+    range:
+    - 1
+    - 2
+    requirement:
+    - calculate
+    - lock
+    is_ordnance: true
+    text: 'Attack ([Calculate] or [Lock]): Spend 1 [Charge]. If the defender is in
+      your [Front Arc], you may spend 1 [Charge] to roll 1 additional attack die.
+      If the defender is in your [Bullseye Arc], you may spend up to 2 [Charge] to
+      roll that many additional attack dice instead.'
+    automations: []
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+protonrockets:
+  id_: protonrockets
+  amg_cost: null
+  xwa_cost: 7
+  xwa_restricted_count: 3
+  type_: missile
+  slots:
+  - missile
+  name: Proton Rockets
+  unique: false
+  limit: null
+  ability: null
+  flavor_text: null
+  charges:
+    standard:
+      limit: 1
+      recurring_val: 0
+  special_attacks:
+  - arc: bullseye
+    val: 5
+    range:
+    - 1
+    - 2
+    requirement:
+    - focus
+    is_ordnance: true
+    text: 'Attack ([Focus]): Spend 1 [Charge].'
+    automations: []
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+seekermissiles-legendsandrelics:
+  id_: seekermissiles-legendsandrelics
+  amg_cost: null
+  xwa_cost: 10
+  xwa_restricted_count: null
+  type_: missile
+  slots:
+  - missile
+  name: Seeker Missiles
+  unique: false
+  limit: null
+  ability: null
+  flavor_text: null
+  charges:
+    standard:
+      limit: 4
+      recurring_val: 0
+  special_attacks:
+  - arc: front
+    val: 3
+    range:
+    - 2
+    - 3
+    requirement:
+    - lock
+    is_ordnance: true
+    text: 'Attack ([Lock]): Spend 1 [Charge]. During the Modify Attack Dice step,
+      you may spend up to 2 additional [Charge]. Change one [Focus] result to a [Hit]
+      result for each [Charge] spent in this way.'
+    automations: []
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+seekermissiles-swz103:
+  id_: seekermissiles-swz103
+  amg_cost: null
+  xwa_cost: 4
+  xwa_restricted_count: null
+  type_: missile
+  slots:
+  - missile
+  name: Seeker Missiles
+  unique: false
+  limit: null
+  ability: null
+  flavor_text: null
+  charges:
+    standard:
+      limit: 4
+      recurring_val: 0
+  special_attacks:
+  - arc: front
+    val: 3
+    range:
+    - 2
+    - 3
+    requirement:
+    - lock
+    is_ordnance: true
+    text: 'Attack ([Lock]): Spend 1 [Charge]. During the Modify Attack Dice step,
+      you may spend up to 2 additional [Charge]. Change one [Focus] result to a [Hit]
+      result for each [Charge] spent in this way.'
+    automations: []
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
+xx23sthreadtracers:
+  id_: xx23sthreadtracers
+  amg_cost: null
+  xwa_cost: 4
+  xwa_restricted_count: null
+  type_: missile
+  slots:
+  - missile
+  name: •• XX-23 S-Thread Tracers
+  unique: false
+  limit: 2
+  ability: null
+  flavor_text: null
+  charges:
+    standard:
+      limit: 2
+      recurring_val: 0
+  special_attacks:
+  - arc: front
+    val: 3
+    range:
+    - 1
+    - 2
+    - 3
+    requirement:
+    - calculate
+    - focus
+    - lock
+    is_ordnance: true
+    text: 'Attack ([Focus], [Calculate], or [Lock]): Spend 1 [Charge]. If this attack
+      hits, each friendly ship at range 1-3 of the defender may acquire a lock on
+      the defender. Then cancel all dice results.'
+    automations: []
+  huge_ship_bonus_attacks: null
+  replacement_arc: null
+  action_bar: null
+  ship_stat_modifiers: null
+  bonus_slots: null
+  bonus_keywords: null
+  deployable_remote: null
+  restrictions: null
+  is_reverse: false
+  reverse_side_id: null
+  setup_automations: null
