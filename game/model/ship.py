@@ -136,10 +136,10 @@ class Ship(MutableBaseStruct, kw_only=True):
     pilot_name: str
     faction: str
     shields: int
+    energy: int | None = None
     damage_cards: list[DamageCard]
     force_charges: int | None = None
     std_charges: int | None = None
-    energy_charges: int | None = None
     tokens: dict[TokenType, int]
     target_lock: int | None = None
     conditions: list[Condition]
@@ -205,9 +205,13 @@ class Ship(MutableBaseStruct, kw_only=True):
         ship_attr: catalog.ShipAttr | None = self.get_catalog_entry()
         pilot_card: catalog.PilotCard = self.get_pilot_card()
 
-        hull_max, shields_max = '?', '?'
+        hull_max, shields_max, energy_max = '?', '?', '?'
         if ship_attr:
-            hull_max, shields_max = ship_attr.hull_val, ship_attr.shield_val
+            hull_max, shields_max, energy_max = (
+                ship_attr.hull_val,
+                ship_attr.shield_val,
+                ship_attr.energy,
+            )
 
         str_repr: str = (
             f'\t**Catalog ID**: `{self.id_}`\n'
@@ -223,18 +227,18 @@ class Ship(MutableBaseStruct, kw_only=True):
             hull_health = hull_max - self.get_hull_damage()
         str_repr += f'\t{get_emoji("hull")} **Hull Health**: `{hull_health}/{hull_max}`\n'
 
-        force_charge_entry, std_charge_entry, energy_charge_entry = None, None, None
+        if self.energy:
+            str_repr += f'\t{get_emoji("energy")} **Energy**: `{self.energy}/{energy_max}`\n'
+
+        force_charge_entry, std_charge_entry = None, None
         if ship_attr and pilot_card and pilot_card.charges:
             force_charge_entry: ChargeValues | None = pilot_card.charges.get(ChargeType.FORCE)
             std_charge_entry: ChargeValues | None = pilot_card.charges.get(ChargeType.STANDARD)
-            energy_charge_entry: ChargeValues | None = pilot_card.charges.get(ChargeType.ENERGY)
 
         if force_charge_entry and self.force_charges:
             str_repr += f'\t{get_emoji("force_charge")} **Force Charges**: `{self.force_charges}/{force_charge_entry.limit}`\n'
         if std_charge_entry and self.std_charges:
             str_repr += f'\t{get_emoji("std_charge")} **Standard Charges**: `{self.std_charges}/{std_charge_entry.limit}`\n'
-        if energy_charge_entry and self.energy_charges:
-            str_repr += f'\t{get_emoji("energy")} **Energy**: `{self.energy_charges}/{energy_charge_entry.limit}`\n'
 
         str_repr += (
             f'\tTokens:\n{self._str_tokens()}\n'
