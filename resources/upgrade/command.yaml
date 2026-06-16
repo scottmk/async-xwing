@@ -7,7 +7,7 @@ admiralozzel:
   slots:
   - command
   name: • Admiral Ozzel
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -39,7 +39,7 @@ agentoftheempire:
   slots:
   - command
   name: • Agent of the Empire
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -71,7 +71,7 @@ asajjventresscommand:
   slots:
   - command
   name: • Asajj Ventress
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -110,7 +110,7 @@ azmorigan:
   slots:
   - command
   name: • Azmorigan
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -141,7 +141,7 @@ b6bladewingprototype-command:
   slots:
   - command
   name: • B6 Blade Wing Prototype
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -173,7 +173,7 @@ bounty:
   slots:
   - command
   name: Bounty (Hired)
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -206,7 +206,7 @@ bounty-rev:
   slots:
   - command
   name: Bounty (Hired)
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -239,7 +239,7 @@ captainneeda:
   slots:
   - command
   name: • Captain Needa
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -273,7 +273,7 @@ carlistrieekan:
   slots:
   - command
   name: • Carlist Rieekan
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -307,7 +307,7 @@ combatboardingtube:
   slots:
   - command
   name: Combat Boarding Tube
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -341,7 +341,7 @@ dreadnoughthunter:
   slots:
   - command
   name: •• Dreadnought Hunter
-  unique: false
+  is_unique: false
   limit: 2
   ability:
     name: null
@@ -373,7 +373,7 @@ firstorderelite:
   slots:
   - command
   name: • First Order Elite
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -405,7 +405,7 @@ generalgrievouscommand:
   slots:
   - command
   name: • General Grievous
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -438,7 +438,7 @@ hondoohnakacommand:
   slots:
   - command
   name: • Hondo Ohnaka
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -479,7 +479,7 @@ initforthemoneyrebellion:
   slots:
   - command
   name: In It For The Money
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -511,7 +511,7 @@ initforthemoneyrebellion-rev:
   slots:
   - command
   name: In It For The Money
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -543,7 +543,7 @@ jandodonna:
   slots:
   - command
   name: • Jan Dodonna
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -573,7 +573,7 @@ jedicommander:
   slots:
   - command
   name: Jedi Commander
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -605,7 +605,7 @@ jedicommander-rev:
   slots:
   - command
   name: Jedi Commander
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -637,7 +637,7 @@ martuuk:
   slots:
   - command
   name: • Mar Tuuk
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -671,7 +671,7 @@ phoenixsquadron:
   slots:
   - command
   name: • Phoenix Squadron
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -703,7 +703,7 @@ phoenixsquadron-rev:
   slots:
   - command
   name: • Phoenix Squadron
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -735,7 +735,7 @@ raymusantilles:
   slots:
   - command
   name: • Raymus Antilles
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -766,7 +766,7 @@ rifftamson:
   slots:
   - command
   name: • Riff Tamson
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -798,7 +798,7 @@ sabinewren-command:
   slots:
   - command
   name: • Sabine Wren
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -833,7 +833,7 @@ shadowwing:
   slots:
   - command
   name: • Shadow Wing
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -864,7 +864,7 @@ shadowwing-rev:
   slots:
   - command
   name: • Shadow Wing
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -895,7 +895,7 @@ skystrikeacademyclass:
   slots:
   - command
   name: •• Skystrike Academy Class
-  unique: false
+  is_unique: false
   limit: 2
   ability:
     name: null
@@ -927,7 +927,7 @@ skystrikeacademyclass-rev:
   slots:
   - command
   name: •• Skystrike Academy Class
-  unique: false
+  is_unique: false
   limit: 2
   ability:
     name: null
@@ -959,7 +959,7 @@ stalwartcaptain:
   slots:
   - command
   name: • Stalwart Captain
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -989,7 +989,7 @@ strategiccommander:
   slots:
   - command
   name: • Strategic Commander
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -1023,7 +1023,7 @@ veteranwingleader:
   slots:
   - command
   name: Veteran Wing Leader
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -1055,7 +1055,7 @@ zealouscaptain:
   slots:
   - command
   name: • Zealous Captain
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null

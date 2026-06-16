@@ -67,7 +67,7 @@ pilots:
       xwa_cost: 13
       xwa_restricted_count: null
       name: • Adi Gallia
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Shooting Star
       initiative: 5
@@ -102,7 +102,7 @@ pilots:
       xwa_cost: 12
       xwa_restricted_count: null
       name: • Ahsoka Tano
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: “Snips”
       initiative: 3
@@ -136,7 +136,7 @@ pilots:
       xwa_cost: 16
       xwa_restricted_count: null
       name: • Anakin Skywalker
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Hero of the Republic
       initiative: 6
@@ -170,7 +170,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: • Barriss Offee
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Conflicted Padawan
       initiative: 4
@@ -204,7 +204,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: Jedi Knight
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 3
@@ -234,7 +234,7 @@ pilots:
       xwa_cost: 12
       xwa_restricted_count: null
       name: • Luminara Unduli
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Wise Protector
       initiative: 4
@@ -268,7 +268,7 @@ pilots:
       xwa_cost: 13
       xwa_restricted_count: null
       name: • Mace Windu
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Harsh Traditionalist
       initiative: 4
@@ -300,7 +300,7 @@ pilots:
       xwa_cost: 14
       xwa_restricted_count: null
       name: • Obi-Wan Kenobi
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Guardian of the Republic
       initiative: 5
@@ -333,7 +333,7 @@ pilots:
       xwa_cost: 14
       xwa_restricted_count: null
       name: • Plo Koon
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Serene Mentor
       initiative: 5
@@ -367,7 +367,7 @@ pilots:
       xwa_cost: 13
       xwa_restricted_count: null
       name: • Saesee Tiin
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Prophetic Pilot
       initiative: 4

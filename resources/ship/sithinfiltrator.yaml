@@ -57,7 +57,7 @@ pilots:
       xwa_cost: 12
       xwa_restricted_count: null
       name: • 0-66
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Sinister Automaton
       initiative: 3
@@ -90,7 +90,7 @@ pilots:
       xwa_cost: 14
       xwa_restricted_count: null
       name: • Count Dooku
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Darth Tyranus
       initiative: 3
@@ -128,7 +128,7 @@ pilots:
       xwa_cost: 12
       xwa_restricted_count: null
       name: Dark Courier
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 2
@@ -155,7 +155,7 @@ pilots:
       xwa_cost: 17
       xwa_restricted_count: null
       name: • Darth Maul
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Sith Assassin
       initiative: 5

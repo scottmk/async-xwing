@@ -62,7 +62,7 @@ pilots:
       xwa_cost: 14
       xwa_restricted_count: null
       name: •• Guild Bounty Hunter
-      unique: false
+      is_unique: false
       limit: 2
       subtitle: Blaster for Hire
       initiative: 3
@@ -93,7 +93,7 @@ pilots:
       xwa_cost: 13
       xwa_restricted_count: null
       name: Outer Rim Enforcer
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 2
@@ -118,7 +118,7 @@ pilots:
       xwa_cost: 15
       xwa_restricted_count: null
       name: • Q9-0
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Zero
       initiative: 5
@@ -149,7 +149,7 @@ pilots:
       xwa_cost: 16
       xwa_restricted_count: null
       name: • The Mandalorian
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Din Djarin
       initiative: 5

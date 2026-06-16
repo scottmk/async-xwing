@@ -62,7 +62,7 @@ pilots:
       xwa_cost: 16
       xwa_restricted_count: null
       name: • IG-88A
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Aggressive Automaton
       initiative: 4
@@ -97,7 +97,7 @@ pilots:
       xwa_cost: 15
       xwa_restricted_count: null
       name: • IG-88B
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Brutal Battledroid
       initiative: 4
@@ -131,7 +131,7 @@ pilots:
       xwa_cost: 15
       xwa_restricted_count: null
       name: • IG-88C
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Conniving Contraption
       initiative: 4
@@ -164,7 +164,7 @@ pilots:
       xwa_cost: 14
       xwa_restricted_count: null
       name: • IG-88D
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Deadly Device
       initiative: 4

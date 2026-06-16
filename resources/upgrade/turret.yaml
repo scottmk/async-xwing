@@ -7,7 +7,7 @@ burstlaserturret-legendsandrelics:
   slots:
   - turret
   name: Burst Laser Turret
-  unique: false
+  is_unique: false
   limit: null
   ability: null
   flavor_text: null
@@ -49,7 +49,7 @@ dorsalturret:
   slots:
   - turret
   name: Dorsal Turret
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -91,7 +91,7 @@ ioncannonturret:
   slots:
   - turret
   name: Ion Cannon Turret
-  unique: false
+  is_unique: false
   limit: null
   ability: null
   flavor_text: null

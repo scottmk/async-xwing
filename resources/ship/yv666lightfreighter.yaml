@@ -51,7 +51,7 @@ pilots:
       xwa_cost: 17
       xwa_restricted_count: null
       name: • Bossk
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Fearsome Hunter
       initiative: 4
@@ -86,7 +86,7 @@ pilots:
       xwa_cost: 16
       xwa_restricted_count: null
       name: • Doctor Aphra
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Professional Disaster Zone
       initiative: 3
@@ -121,7 +121,7 @@ pilots:
       xwa_cost: 15
       xwa_restricted_count: null
       name: • Latts Razzi
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Martial Artist
       initiative: 3
@@ -157,7 +157,7 @@ pilots:
       xwa_cost: 15
       xwa_restricted_count: null
       name: • Moralo Eval
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Criminal Mastermind
       initiative: 4
@@ -192,7 +192,7 @@ pilots:
       xwa_cost: 14
       xwa_restricted_count: null
       name: Trandoshan Slaver
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 2

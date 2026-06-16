@@ -61,7 +61,7 @@ pilots:
       xwa_cost: 19
       xwa_restricted_count: null
       name: • Dash Rendar
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Hotshot Mercenary
       initiative: 5
@@ -92,7 +92,7 @@ pilots:
       xwa_cost: 19
       xwa_restricted_count: null
       name: • “Leebo”
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Dry-Witted Droid
       initiative: 3
@@ -125,7 +125,7 @@ pilots:
       xwa_cost: 17
       xwa_restricted_count: null
       name: Wild Space Fringer
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 1

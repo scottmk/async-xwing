@@ -74,7 +74,7 @@ pilots:
       xwa_cost: 14
       xwa_restricted_count: null
       name: • Corran Horn
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Tenacious Investigator
       initiative: 5
@@ -106,7 +106,7 @@ pilots:
       xwa_cost: 15
       xwa_restricted_count: null
       name: • Gavin Darklighter
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Bold Wingman
       initiative: 4
@@ -138,7 +138,7 @@ pilots:
       xwa_cost: 12
       xwa_restricted_count: null
       name: Knave Squadron Escort
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 2
@@ -164,7 +164,7 @@ pilots:
       xwa_cost: 14
       xwa_restricted_count: null
       name: Rogue Squadron Escort
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 4

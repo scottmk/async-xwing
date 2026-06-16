@@ -7,7 +7,7 @@ adaptiveshields:
   slots:
   - cargo
   name: Adaptive Shields
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -39,7 +39,7 @@ boostedscanners:
   slots:
   - cargo
   name: Boosted Scanners
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -71,7 +71,7 @@ optimizedpowercore:
   slots:
   - cargo
   name: Optimized Power Core
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -101,7 +101,7 @@ tibannareserves:
   slots:
   - cargo
   name: Tibanna Reserves
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null

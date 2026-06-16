@@ -57,7 +57,7 @@ pilots:
       xwa_cost: 15
       xwa_restricted_count: null
       name: • Asajj Ventress
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Force of Her Own
       initiative: 4
@@ -92,7 +92,7 @@ pilots:
       xwa_cost: 15
       xwa_restricted_count: null
       name: • Ketsu Onyo
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Black Sun Contractor
       initiative: 5
@@ -125,7 +125,7 @@ pilots:
       xwa_cost: 14
       xwa_restricted_count: null
       name: • Sabine Wren
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Artistic Saboteur
       initiative: 3
@@ -157,7 +157,7 @@ pilots:
       xwa_cost: 14
       xwa_restricted_count: null
       name: Shadowport Hunter
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 2

@@ -7,7 +7,7 @@ blazerbomb:
   slots:
   - payload
   name: Blazer Bomb
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -41,7 +41,7 @@ bombletgenerator:
   slots:
   - payload
   name: Bomblet Generator
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -76,7 +76,7 @@ clustermines:
   slots:
   - payload
   name: Cluster Mines
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -110,7 +110,7 @@ concussionbombs:
   slots:
   - payload
   name: Concussion Bombs
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -145,7 +145,7 @@ connernets:
   slots:
   - payload
   name: Conner Nets
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -179,7 +179,7 @@ drk1probedroids:
   slots:
   - payload
   name: • DRK-1 Probe Droids
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -213,7 +213,7 @@ electroprotonbomb:
   slots:
   - payload
   name: • Electro-Proton Bomb
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -248,7 +248,7 @@ ionbombs:
   slots:
   - payload
   name: Ion Bombs
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -282,7 +282,7 @@ protonbombs:
   slots:
   - payload
   name: Proton Bombs
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -311,12 +311,12 @@ proximitymines:
   id_: proximitymines
   amg_cost: null
   xwa_cost: 9
-  xwa_restricted_count: 3
+  xwa_restricted_count: null
   type_: payload
   slots:
   - payload
   name: Proximity Mines
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -350,7 +350,7 @@ seismiccharges:
   slots:
   - payload
   name: Seismic Charges
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -384,7 +384,7 @@ thermaldetonators:
   slots:
   - payload
   name: Thermal Detonators
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null

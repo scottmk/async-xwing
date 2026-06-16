@@ -54,7 +54,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: Black Sun Ace
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 3
@@ -80,7 +80,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: • Captain Jostero
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Aggressive Opportunist
       initiative: 3
@@ -108,7 +108,7 @@ pilots:
       xwa_cost: 9
       xwa_restricted_count: null
       name: Cartel Marauder
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 2
@@ -133,7 +133,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: • Graz
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: The Hunter
       initiative: 4
@@ -164,7 +164,7 @@ pilots:
       xwa_cost: 12
       xwa_restricted_count: null
       name: • Talonbane Cobra
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Scourge of Tansarii Point
       initiative: 5
@@ -193,7 +193,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: • Viktor Hel
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Storied Bounty Hunter
       initiative: 4

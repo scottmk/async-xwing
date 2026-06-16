@@ -56,7 +56,7 @@ pilots:
       xwa_cost: 23
       xwa_restricted_count: null
       name: Echo Base Evacuees
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 7
@@ -86,7 +86,7 @@ pilots:
       xwa_cost: 23
       xwa_restricted_count: null
       name: New Republic Volunteers
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 7

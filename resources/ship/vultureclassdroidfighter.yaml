@@ -64,7 +64,7 @@ pilots:
       xwa_cost: 6
       xwa_restricted_count: null
       name: • DFS-081
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Preservation Programming
       initiative: 3
@@ -93,7 +93,7 @@ pilots:
       xwa_cost: 6
       xwa_restricted_count: null
       name: • DFS-311
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Scouting Drone
       initiative: 1
@@ -122,7 +122,7 @@ pilots:
       xwa_cost: 6
       xwa_restricted_count: null
       name: •• Haor Chall Prototype
-      unique: false
+      is_unique: false
       limit: 2
       subtitle: Xi Char Offering
       initiative: 1
@@ -151,7 +151,7 @@ pilots:
       xwa_cost: 6
       xwa_restricted_count: null
       name: ••• Kelrodo-Ai Holdout
-      unique: false
+      is_unique: false
       limit: 3
       subtitle: Separatist Stalwart
       initiative: 1
@@ -177,7 +177,7 @@ pilots:
       xwa_cost: 6
       xwa_restricted_count: null
       name: ••• Precise Hunter
-      unique: false
+      is_unique: false
       limit: 3
       subtitle: Pinpoint Protocols
       initiative: 3
@@ -206,7 +206,7 @@ pilots:
       xwa_cost: 6
       xwa_restricted_count: null
       name: Separatist Drone
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 3
@@ -232,7 +232,7 @@ pilots:
       xwa_cost: 6
       xwa_restricted_count: null
       name: • The Iron Assembler
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Scintilla Scavenger
       initiative: 1
@@ -265,7 +265,7 @@ pilots:
       xwa_cost: 5
       xwa_restricted_count: null
       name: Trade Federation Drone
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 1

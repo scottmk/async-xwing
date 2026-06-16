@@ -62,7 +62,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: • Aftab Ackbar
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: “Junior”
       initiative: 2
@@ -96,7 +96,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: • C’ai Threnalli
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Tenacious Survivor
       initiative: 2
@@ -130,7 +130,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: • Corus Kapellim
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: “Gentleman Flyer”
       initiative: 1
@@ -164,7 +164,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: Kijimi Spice Runner
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 2
@@ -194,7 +194,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: • Lega Fossang
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Hero of Humbarine
       initiative: 3
@@ -228,7 +228,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: New Republic Patrol
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 3
@@ -258,7 +258,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: • Shasa Zaro
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Artistic Ace
       initiative: 3
@@ -293,7 +293,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: • Teza Nasz
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Old Soldier
       initiative: 4
@@ -328,7 +328,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: • Wilsa Teshlo
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Veiled Sorority Privateer
       initiative: 4
@@ -363,7 +363,7 @@ pilots:
       xwa_cost: 12
       xwa_restricted_count: null
       name: • Zorii Bliss
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Corsair of Kijimi
       initiative: 5

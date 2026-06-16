@@ -63,7 +63,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: • Captain Jonus
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Disciplined Instructor
       initiative: 4
@@ -94,7 +94,7 @@ pilots:
       xwa_cost: 9
       xwa_restricted_count: null
       name: • “Deathfire”
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Unflinching Diehard
       initiative: 2
@@ -124,7 +124,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: Gamma Squadron Ace
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 3
@@ -152,7 +152,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: • Major Rhymer
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Scimitar Leader
       initiative: 4
@@ -183,7 +183,7 @@ pilots:
       xwa_cost: 8
       xwa_restricted_count: null
       name: Scimitar Squadron Pilot
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 2
@@ -210,7 +210,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: • Tomax Bren
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Brash Maverick
       initiative: 5

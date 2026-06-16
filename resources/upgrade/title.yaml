@@ -7,7 +7,7 @@ andrasta:
   slots:
   - title
   name: • Andrasta
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -41,7 +41,7 @@ assailer:
   slots:
   - title
   name: • Assailer
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -75,7 +75,7 @@ b6bladewingprototype:
   slots:
   - title
   name: • B6 Blade Wing Prototype
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -106,7 +106,7 @@ blackone:
   slots:
   - title
   name: • Black One
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -144,7 +144,7 @@ bloodcrow:
   slots:
   - title
   name: • Blood Crow
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -178,7 +178,7 @@ brighthope:
   slots:
   - title
   name: • Bright Hope
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -210,7 +210,7 @@ brokenhorn:
   slots:
   - title
   name: • Broken Horn
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -243,7 +243,7 @@ corvus:
   slots:
   - title
   name: • Corvus
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -277,7 +277,7 @@ dauntless:
   slots:
   - title
   name: • Dauntless
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -308,7 +308,7 @@ dodonnaspride:
   slots:
   - title
   name: • Dodonna's Pride
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -353,7 +353,7 @@ gauntlet:
   slots:
   - title
   name: • Gauntlet
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -388,7 +388,7 @@ ghost:
   slots:
   - title
   name: • Ghost
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -419,7 +419,7 @@ grappler:
   slots:
   - title
   name: • Grappler
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -452,7 +452,7 @@ havoc:
   slots:
   - title
   name: • Havoc
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -485,7 +485,7 @@ houndstooth:
   slots:
   - title
   name: • Hound's Tooth
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -515,7 +515,7 @@ ig2000:
   slots:
   - title
   name: IG-2000
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -546,7 +546,7 @@ impetuous:
   slots:
   - title
   name: • Impetuous
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -580,7 +580,7 @@ insatiableworrt:
   slots:
   - title
   name: • Insatiable Worrt
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -615,7 +615,7 @@ instigator:
   slots:
   - title
   name: • Instigator
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -647,7 +647,7 @@ jainaslight:
   slots:
   - title
   name: • Jaina's Light
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -681,7 +681,7 @@ kazsfireball:
   slots:
   - title
   name: • Kaz's Fireball
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -714,7 +714,7 @@ landosmillenniumfalcon:
   slots:
   - title
   name: • Lando's Millennium Falcon
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -746,7 +746,7 @@ liberator:
   slots:
   - title
   name: • Liberator
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -778,7 +778,7 @@ luminous:
   slots:
   - title
   name: • Luminous
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -811,7 +811,7 @@ marauder:
   slots:
   - title
   name: • Marauder
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -843,7 +843,7 @@ merchantone:
   slots:
   - title
   name: • Merchant One
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -883,7 +883,7 @@ millenniumfalcon:
   slots:
   - title
   name: • Millennium Falcon
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -916,7 +916,7 @@ misthunter:
   slots:
   - title
   name: • Mist Hunter
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -950,7 +950,7 @@ moldycrow:
   slots:
   - title
   name: • Moldy Crow
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -982,7 +982,7 @@ nautolansrevenge:
   slots:
   - title
   name: • Nautolan's Revenge
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -1016,7 +1016,7 @@ neimoidiangrasp:
   slots:
   - title
   name: • Neimoidian Grasp
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -1048,7 +1048,7 @@ nightbrother:
   slots:
   - title
   name: • Nightbrother
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -1083,7 +1083,7 @@ outrider:
   slots:
   - title
   name: • Outrider
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -1115,7 +1115,7 @@ phantom:
   slots:
   - title
   name: • Phantom
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -1145,7 +1145,7 @@ punishingone:
   slots:
   - title
   name: • Punishing One
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -1178,7 +1178,7 @@ quantumstorm:
   slots:
   - title
   name: • Quantum Storm
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -1212,7 +1212,7 @@ razorcrest:
   slots:
   - title
   name: • Razor Crest
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -1250,7 +1250,7 @@ requiem:
   slots:
   - title
   name: • Requiem
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -1281,7 +1281,7 @@ reysmillenniumfalcon:
   slots:
   - title
   name: • Rey's Millennium Falcon
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -1313,7 +1313,7 @@ scimitar:
   slots:
   - title
   name: • Scimitar
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -1350,7 +1350,7 @@ shadowcaster:
   slots:
   - title
   name: • Shadow Caster
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -1381,7 +1381,7 @@ slavei:
   slots:
   - title
   name: • Slave I
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -1414,7 +1414,7 @@ slavei-swz82:
   slots:
   - title
   name: • Slave I
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -1447,7 +1447,7 @@ soullessone:
   slots:
   - title
   name: • Soulless One
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -1479,7 +1479,7 @@ st321:
   slots:
   - title
   name: • ST-321
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -1511,7 +1511,7 @@ suppressor:
   slots:
   - title
   name: • Suppressor
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -1545,7 +1545,7 @@ tantiveiv:
   slots:
   - title
   name: • Tantive IV
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -1577,7 +1577,7 @@ thunderstrike:
   slots:
   - title
   name: • Thunderstrike
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -1611,7 +1611,7 @@ trident:
   slots:
   - title
   name: • Trident
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -1643,7 +1643,7 @@ vector:
   slots:
   - title
   name: • Vector
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -1676,7 +1676,7 @@ virago:
   slots:
   - title
   name: • Virago
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -1712,7 +1712,7 @@ xanadublood:
   slots:
   - title
   name: • Xanadu Blood
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null

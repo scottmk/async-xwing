@@ -7,7 +7,7 @@ advancedsensors:
   slots:
   - sensor
   name: Advanced Sensors
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -38,7 +38,7 @@ blindspottargeter-legendsandrelics:
   slots:
   - sensor
   name: Blindspot Targeter
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -69,7 +69,7 @@ collisiondetector:
   slots:
   - sensor
   name: Collision Detector
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -104,7 +104,7 @@ firecontrolsystem:
   slots:
   - sensor
   name: Fire-Control System
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -135,7 +135,7 @@ passivesensors:
   slots:
   - sensor
   name: Passive Sensors
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -166,12 +166,12 @@ trajectorysimulator:
   id_: trajectorysimulator
   amg_cost: null
   xwa_cost: 8
-  xwa_restricted_count: 2
+  xwa_restricted_count: null
   type_: sensor
   slots:
   - sensor
   name: Trajectory Simulator
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null

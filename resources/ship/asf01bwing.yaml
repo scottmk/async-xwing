@@ -58,7 +58,7 @@ pilots:
       xwa_cost: 12
       xwa_restricted_count: null
       name: Blade Squadron Veteran
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 3
@@ -87,7 +87,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: Blue Squadron Pilot
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 2
@@ -115,7 +115,7 @@ pilots:
       xwa_cost: 12
       xwa_restricted_count: null
       name: • Braylen Stramm
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Blade Leader
       initiative: 4
@@ -148,7 +148,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: • Gina Moonsong
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Insubordinate Ace
       initiative: 5
@@ -181,7 +181,7 @@ pilots:
       xwa_cost: 14
       xwa_restricted_count: null
       name: • Hera Syndulla
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Phoenix Leader
       initiative: 6
@@ -217,7 +217,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: • Netrem Pollard
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Dagger Leader
       initiative: 3
@@ -249,7 +249,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: • Ten Numb
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Blue Five
       initiative: 4

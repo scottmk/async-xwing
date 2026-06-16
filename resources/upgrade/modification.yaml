@@ -7,7 +7,7 @@ ablativeplating:
   slots:
   - modification
   name: Ablative Plating
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -41,7 +41,7 @@ advancedslam:
   slots:
   - modification
   name: Advanced SLAM
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -72,7 +72,7 @@ afterburners:
   slots:
   - modification
   name: Afterburners
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -106,7 +106,7 @@ angleddeflectors:
   slots:
   - modification
   name: Angled Deflectors
-  unique: false
+  is_unique: false
   limit: null
   ability: null
   flavor_text: Starfighter shields often have manual overrides that allow them to
@@ -138,7 +138,7 @@ automatedloaders-legendsandrelics:
   slots:
   - modification
   name: Automated Loaders
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -172,7 +172,7 @@ beskarreinforcedplating:
   slots:
   - modification
   name: Beskar Reinforced Plating
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -207,7 +207,7 @@ burnoutthrusters:
   slots:
   - modification
   name: Burnout Thrusters
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -245,7 +245,7 @@ delayedfuses:
   slots:
   - modification
   name: Delayed Fuses
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -276,7 +276,7 @@ dropseatbay:
   slots:
   - modification
   name: Drop-Seat bay
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -312,7 +312,7 @@ electronicbaffle:
   slots:
   - modification
   name: Electronic Baffle
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -342,7 +342,7 @@ engineupgrade:
   slots:
   - modification
   name: Engine Upgrade
-  unique: false
+  is_unique: false
   limit: null
   ability: null
   flavor_text: Large military forces such as the Galactic Empire have standardized
@@ -374,7 +374,7 @@ hullupgrade:
   slots:
   - modification
   name: Hull Upgrade
-  unique: false
+  is_unique: false
   limit: null
   ability: null
   flavor_text: For those who cannot afford an enhanced shield generator, bolting additional
@@ -402,7 +402,7 @@ imperviumplating:
   slots:
   - modification
   name: Impervium Plating
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -436,7 +436,7 @@ independentcalculations:
   slots:
   - modification
   name: Independent Calculations
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -469,7 +469,7 @@ mandalorianoptics:
   slots:
   - modification
   name: Mandalorian Optics
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -504,7 +504,7 @@ munitionsfailsafe:
   slots:
   - modification
   name: Munitions Failsafe
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -536,7 +536,7 @@ overdrivethruster:
   slots:
   - modification
   name: • Overdrive Thruster
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -567,7 +567,7 @@ precisionionengines:
   slots:
   - modification
   name: Precision Ion Engines
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -602,7 +602,7 @@ retrofittedautothrusters-legendsandrelics:
   slots:
   - modification
   name: Retrofitted Autothrusters
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -638,7 +638,7 @@ shieldupgrade:
   slots:
   - modification
   name: Shield Upgrade
-  unique: false
+  is_unique: false
   limit: null
   ability: null
   flavor_text: Deflector shields are a substantial line of defense on most starships
@@ -668,7 +668,7 @@ sparepartscanisters:
   slots:
   - modification
   name: Spare Parts Canisters
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -703,7 +703,7 @@ staticdischargevanes:
   slots:
   - modification
   name: Static Discharge Vanes
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -735,7 +735,7 @@ stealthdevice:
   slots:
   - modification
   name: Stealth Device
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -769,7 +769,7 @@ synchronizedconsole:
   slots:
   - modification
   name: Synchronized Console
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -802,7 +802,7 @@ tacticalscrambler:
   slots:
   - modification
   name: Tactical Scrambler
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -833,7 +833,7 @@ targetingcomputer:
   slots:
   - modification
   name: Targeting Computer
-  unique: false
+  is_unique: false
   limit: null
   ability: null
   flavor_text: Targeting computers are standard features on many vessels, especially
@@ -864,7 +864,7 @@ targetingmatrix-legendsandrelics:
   slots:
   - modification
   name: Targeting Matrix
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null

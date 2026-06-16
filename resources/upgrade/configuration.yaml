@@ -7,7 +7,7 @@ alpha3bbesh:
   slots:
   - configuration
   name: Alpha-3B “Besh”
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -39,7 +39,7 @@ alpha3eesk:
   slots:
   - configuration
   name: Alpha-3E “Esk”
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -74,7 +74,7 @@ calibratedlasertargeting:
   slots:
   - configuration
   name: Calibrated Laser Targeting
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -105,7 +105,7 @@ corsairrefit:
   slots:
   - configuration
   name: •• Corsair Refit
-  unique: false
+  is_unique: false
   limit: 2
   ability:
     name: null
@@ -142,7 +142,7 @@ enhancedjammingsuite:
   slots:
   - configuration
   name: Enhanced Jamming Suite
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -195,7 +195,7 @@ grapplingstruts:
   slots:
   - configuration
   name: Grappling Struts (Closed)
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -228,7 +228,7 @@ grapplingstruts-rev:
   slots:
   - configuration
   name: Grappling Struts (Closed)
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -261,7 +261,7 @@ graviticwell-legendsandrelics:
   slots:
   - configuration
   name: Gravitic Well
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -293,7 +293,7 @@ integratedsfoils:
   slots:
   - configuration
   name: Integrated S-foils (Closed)
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -333,7 +333,7 @@ integratedsfoils-rev:
   slots:
   - configuration
   name: Integrated S-foils (Closed)
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -373,7 +373,7 @@ interceptbooster:
   slots:
   - configuration
   name: Intercept Booster (Attached)
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -414,7 +414,7 @@ interceptbooster-rev:
   slots:
   - configuration
   name: Intercept Booster (Attached)
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -455,7 +455,7 @@ landingstruts:
   slots:
   - configuration
   name: Landing Struts (Closed)
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -488,7 +488,7 @@ landingstruts-rev:
   slots:
   - configuration
   name: Landing Struts (Closed)
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -521,7 +521,7 @@ maneuverassistmgk300:
   slots:
   - configuration
   name: Maneuver-Assist MGK-300
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -561,7 +561,7 @@ os1arsenalloadout:
   slots:
   - configuration
   name: Os-1 Arsenal Loadout
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -595,7 +595,7 @@ pivotwing:
   slots:
   - configuration
   name: Pivot Wing (Closed)
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -627,7 +627,7 @@ pivotwing-rev:
   slots:
   - configuration
   name: Pivot Wing (Closed)
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -659,7 +659,7 @@ repulsorliftstabilizers:
   slots:
   - configuration
   name: Repulsorlift Stabilizers (Inactive)
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -690,7 +690,7 @@ repulsorliftstabilizers-rev:
   slots:
   - configuration
   name: Repulsorlift Stabilizers (Inactive)
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -721,7 +721,7 @@ sensitivecontrols:
   slots:
   - configuration
   name: Sensitive Controls
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -751,7 +751,7 @@ servomotorsfoils:
   slots:
   - configuration
   name: Servomotor S-foils (Closed)
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -791,7 +791,7 @@ servomotorsfoils-rev:
   slots:
   - configuration
   name: Servomotor S-foils (Closed)
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -831,7 +831,7 @@ stabilizedsfoils:
   slots:
   - configuration
   name: Stabilized S-foils (Closed)
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -871,7 +871,7 @@ stabilizedsfoils-rev:
   slots:
   - configuration
   name: Stabilized S-foils (Closed)
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -911,7 +911,7 @@ swivelwing:
   slots:
   - configuration
   name: Swivel Wing (Down)
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -942,7 +942,7 @@ swivelwing-rev:
   slots:
   - configuration
   name: Swivel Wing (Down)
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -973,7 +973,7 @@ targetassistmgk300:
   slots:
   - configuration
   name: Target-Assist MGK-300
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -1014,7 +1014,7 @@ tiedefenderelite:
   slots:
   - configuration
   name: TIE Defender Elite
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -1046,7 +1046,7 @@ vectoredcannonsrz1:
   slots:
   - configuration
   name: Vectored Cannons (RZ-1)
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -1090,7 +1090,7 @@ wartimeloadout:
   slots:
   - configuration
   name: Wartime Loadout
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -1128,7 +1128,7 @@ wingedreversal-legendsandrelics:
   slots:
   - configuration
   name: Winged Reversal
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -1164,7 +1164,7 @@ xg1assaultconfiguration:
   slots:
   - configuration
   name: Xg-1 Assault Configuration
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null

@@ -52,7 +52,7 @@ pilots:
       xwa_cost: 12
       xwa_restricted_count: null
       name: • Esege Tuketu
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Selfless Hero
       initiative: 3
@@ -83,7 +83,7 @@ pilots:
       xwa_cost: 12
       xwa_restricted_count: null
       name: • Miranda Doni
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Heavy Hitter
       initiative: 4
@@ -116,7 +116,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: Warden Squadron Pilot
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 2

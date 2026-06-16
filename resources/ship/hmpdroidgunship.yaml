@@ -64,7 +64,7 @@ pilots:
       xwa_cost: 9
       xwa_restricted_count: null
       name: Baktoid Drone
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 1
@@ -91,7 +91,7 @@ pilots:
       xwa_cost: 9
       xwa_restricted_count: null
       name: • DGS-047
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Adaptive Intelligence
       initiative: 1
@@ -123,7 +123,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: • DGS-286
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Ambush Protocols
       initiative: 3
@@ -155,7 +155,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: •• Geonosian Prototype
-      unique: false
+      is_unique: false
       limit: 2
       subtitle: Devastation Protocols
       initiative: 2
@@ -185,7 +185,7 @@ pilots:
       xwa_cost: 9
       xwa_restricted_count: null
       name: •• Onderon Oppressor
-      unique: false
+      is_unique: false
       limit: 2
       subtitle: Atmospheric Attack Module
       initiative: 3
@@ -215,7 +215,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: Separatist Predator
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 3

@@ -60,7 +60,7 @@ pilots:
       xwa_cost: 21
       xwa_restricted_count: null
       name: • Boba Fett
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Notorious Bounty Hunter
       initiative: 5
@@ -94,7 +94,7 @@ pilots:
       xwa_cost: 14
       xwa_restricted_count: null
       name: Bounty Hunter
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 2
@@ -123,7 +123,7 @@ pilots:
       xwa_cost: 17
       xwa_restricted_count: null
       name: • Emon Azzameen
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Shipping Magnate
       initiative: 4
@@ -156,7 +156,7 @@ pilots:
       xwa_cost: 16
       xwa_restricted_count: null
       name: • Hondo Ohnaka
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: I Smell Profit!
       initiative: 1
@@ -190,7 +190,7 @@ pilots:
       xwa_cost: 15
       xwa_restricted_count: null
       name: • Kath Scarlet
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Captain of the Binayre Pirates
       initiative: 4
@@ -223,7 +223,7 @@ pilots:
       xwa_cost: 16
       xwa_restricted_count: null
       name: • Koshka Frost
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Icy Professional
       initiative: 3
@@ -257,7 +257,7 @@ pilots:
       xwa_cost: 16
       xwa_restricted_count: null
       name: • Krassis Trelix
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Imperial Deserter
       initiative: 3
@@ -290,7 +290,7 @@ pilots:
       xwa_cost: 17
       xwa_restricted_count: null
       name: • Aurra Sing
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Bane of the Jedi
       initiative: 4
@@ -329,7 +329,7 @@ pilots:
       xwa_cost: 16
       xwa_restricted_count: null
       name: • Boba Fett
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Survivor
       initiative: 3
@@ -362,7 +362,7 @@ pilots:
       xwa_cost: 19
       xwa_restricted_count: null
       name: • Jango Fett
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Simple Man
       initiative: 6
@@ -397,7 +397,7 @@ pilots:
       xwa_cost: 15
       xwa_restricted_count: null
       name: Separatist Racketeer
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 2
@@ -424,7 +424,7 @@ pilots:
       xwa_cost: 18
       xwa_restricted_count: null
       name: • Zam Wesell
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Clawdite Changeling
       initiative: 5

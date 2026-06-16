@@ -71,7 +71,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: • “Breach”
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Ordnance Expert
       initiative: 5
@@ -104,7 +104,7 @@ pilots:
       xwa_cost: 9
       xwa_restricted_count: null
       name: • “Dread”
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Devotee of Devastation
       initiative: 3
@@ -135,7 +135,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: First Order Cadet
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 3
@@ -163,7 +163,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: • “Grudge”
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Hateful Harrier
       initiative: 2
@@ -195,7 +195,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: • Jul Jerjerrod
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Security Commander
       initiative: 4
@@ -231,7 +231,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: • “Scorch”
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Jad Bean
       initiative: 4
@@ -264,7 +264,7 @@ pilots:
       xwa_cost: 9
       xwa_restricted_count: null
       name: Sienar-Jaemus Test Pilot
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 2

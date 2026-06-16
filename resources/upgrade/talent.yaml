@@ -7,7 +7,7 @@ backwardstailslide:
   slots:
   - talent
   name: Backwards Tailslide
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -40,7 +40,7 @@ clantraining:
   slots:
   - talent
   name: Clan Training
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -76,7 +76,7 @@ composure:
   slots:
   - talent
   name: Composure
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -107,7 +107,7 @@ crackshot:
   slots:
   - talent
   name: Crack Shot
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -142,7 +142,7 @@ cutthroat:
   slots:
   - talent
   name: Cutthroat
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -175,7 +175,7 @@ daredevil:
   slots:
   - talent
   name: Daredevil
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -206,7 +206,7 @@ deadeyeshot:
   slots:
   - talent
   name: Deadeye Shot
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -238,7 +238,7 @@ debrisgambit:
   slots:
   - talent
   name: Debris Gambit
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -272,7 +272,7 @@ dedicated:
   slots:
   - talent
   name: Dedicated
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -305,7 +305,7 @@ disciplined:
   slots:
   - talent
   name: Disciplined
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -336,7 +336,7 @@ elusive:
   slots:
   - talent
   name: Elusive
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -370,7 +370,7 @@ enduring:
   slots:
   - talent
   name: Enduring
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -398,12 +398,12 @@ ensnare:
   id_: ensnare
   amg_cost: null
   xwa_cost: 10
-  xwa_restricted_count: 2
+  xwa_restricted_count: null
   type_: talent
   slots:
   - talent
   name: Ensnare
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -435,7 +435,7 @@ experthandling:
   slots:
   - talent
   name: Expert Handling
-  unique: false
+  is_unique: false
   limit: null
   ability: null
   flavor_text: While heavy fighters can often be coaxed into a barrel roll, seasoned
@@ -466,7 +466,7 @@ fanatical:
   slots:
   - talent
   name: Fanatical
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -497,7 +497,7 @@ fearless:
   slots:
   - talent
   name: Fearless
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -529,7 +529,7 @@ feedbackping:
   slots:
   - talent
   name: Feedback Ping
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -560,7 +560,7 @@ graviticdeflection:
   slots:
   - talent
   name: Gravitic Deflection
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -591,7 +591,7 @@ heroic:
   slots:
   - talent
   name: Heroic
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -622,7 +622,7 @@ hopeful:
   slots:
   - talent
   name: Hopeful
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -653,7 +653,7 @@ interloperturn:
   slots:
   - talent
   name: Interloper Turn
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -680,12 +680,12 @@ intimidation:
   id_: intimidation
   amg_cost: null
   xwa_cost: 7
-  xwa_restricted_count: 1
+  xwa_restricted_count: null
   type_: talent
   slots:
   - talent
   name: Intimidation
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -715,7 +715,7 @@ ionlimiteroverride:
   slots:
   - talent
   name: Ion Limiter Override
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -742,12 +742,12 @@ juke:
   id_: juke
   amg_cost: null
   xwa_cost: 7
-  xwa_restricted_count: 2
+  xwa_restricted_count: null
   type_: talent
   slots:
   - talent
   name: Juke
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -778,7 +778,7 @@ lonewolf:
   slots:
   - talent
   name: • Lone Wolf
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -812,7 +812,7 @@ margsablclosure:
   slots:
   - talent
   name: Marg Sabl Closure
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -844,7 +844,7 @@ marksmanship:
   slots:
   - talent
   name: Marksmanship
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -875,7 +875,7 @@ notorious:
   slots:
   - talent
   name: • Notorious
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -910,7 +910,7 @@ outmaneuver:
   slots:
   - talent
   name: Outmaneuver
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -941,7 +941,7 @@ partinggift-legendsandrelics:
   slots:
   - talent
   name: Parting Gift
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -973,7 +973,7 @@ predator:
   slots:
   - talent
   name: Predator
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -1004,7 +1004,7 @@ proudtradition:
   slots:
   - talent
   name: Proud Tradition
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -1037,7 +1037,7 @@ proudtradition-rev:
   slots:
   - talent
   name: Proud Tradition
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -1070,7 +1070,7 @@ ruthless:
   slots:
   - talent
   name: Ruthless
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -1102,7 +1102,7 @@ saturationsalvo:
   slots:
   - talent
   name: Saturation Salvo
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -1134,7 +1134,7 @@ selfless:
   slots:
   - talent
   name: Selfless
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -1161,12 +1161,12 @@ snapshot:
   id_: snapshot
   amg_cost: null
   xwa_cost: 7
-  xwa_restricted_count: 3
+  xwa_restricted_count: null
   type_: talent
   slots:
   - talent
   name: Snap Shot
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -1206,7 +1206,7 @@ squadleader:
   slots:
   - talent
   name: • Squad Leader
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -1240,7 +1240,7 @@ starbirdslash:
   slots:
   - talent
   name: Starbird Slash
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -1267,12 +1267,12 @@ swarmtactics:
   id_: swarmtactics
   amg_cost: null
   xwa_cost: 7
-  xwa_restricted_count: 3
+  xwa_restricted_count: null
   type_: talent
   slots:
   - talent
   name: Swarm Tactics
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -1304,7 +1304,7 @@ tierfonbellyrun:
   slots:
   - talent
   name: Tierfon Belly Run
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -1335,7 +1335,7 @@ treacherous:
   slots:
   - talent
   name: Treacherous
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -1371,7 +1371,7 @@ trickshot:
   slots:
   - talent
   name: Trick Shot
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null

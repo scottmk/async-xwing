@@ -59,7 +59,7 @@ pilots:
       xwa_cost: 12
       xwa_restricted_count: null
       name: Black Squadron Ace
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 4
@@ -88,7 +88,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: Blue Squadron Rookie
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 1
@@ -116,7 +116,7 @@ pilots:
       xwa_cost: 12
       xwa_restricted_count: null
       name: • C’ai Threnalli
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Tenacious Survivor
       initiative: 4
@@ -147,7 +147,7 @@ pilots:
       xwa_cost: 13
       xwa_restricted_count: null
       name: • Ello Asty
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Born to Ill
       initiative: 5
@@ -179,7 +179,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: • Jaycris Tubbs
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Loving Father
       initiative: 1
@@ -209,7 +209,7 @@ pilots:
       xwa_cost: 12
       xwa_restricted_count: null
       name: • Jessika Pava
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: The Great Destroyer
       initiative: 3
@@ -243,7 +243,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: • Joph Seastriker
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Reckless Bodyguard
       initiative: 3
@@ -272,7 +272,7 @@ pilots:
       xwa_cost: 12
       xwa_restricted_count: null
       name: • Karé Kun
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Woman of Action
       initiative: 4
@@ -303,7 +303,7 @@ pilots:
       xwa_cost: 12
       xwa_restricted_count: null
       name: • Kazuda Xiono
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Resistance Spy
       initiative: 4
@@ -335,7 +335,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: • Lieutenant Bastian
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Optimistic Analyst
       initiative: 2
@@ -365,7 +365,7 @@ pilots:
       xwa_cost: 14
       xwa_restricted_count: null
       name: • Nien Nunb
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Sarcastic Survivor
       initiative: 5
@@ -396,7 +396,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: • Nimi Chireen
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Hopeful Hero
       initiative: 2
@@ -426,7 +426,7 @@ pilots:
       xwa_cost: 17
       xwa_restricted_count: null
       name: • Poe Dameron
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Trigger-Happy Flyboy
       initiative: 6
@@ -461,7 +461,7 @@ pilots:
       xwa_cost: 14
       xwa_restricted_count: null
       name: • Poe Dameron
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Resistance Commander
       initiative: 6
@@ -497,7 +497,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: Red Squadron Expert
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 3
@@ -525,7 +525,7 @@ pilots:
       xwa_cost: 12
       xwa_restricted_count: null
       name: • Temmin Wexley
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Snap
       initiative: 4
@@ -556,7 +556,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: • Temmin Wexley
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Black Two
       initiative: 4
@@ -588,7 +588,7 @@ pilots:
       xwa_cost: 13
       xwa_restricted_count: null
       name: • Venisa Doza
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Jade Leader
       initiative: 4
@@ -621,7 +621,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: • Zay Versio
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Her Father's Daughter
       initiative: 3

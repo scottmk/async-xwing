@@ -54,7 +54,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: • “Dutch” Vander
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Gold Leader
       initiative: 4
@@ -87,7 +87,7 @@ pilots:
       xwa_cost: 8
       xwa_restricted_count: null
       name: • Evaan Verlaine
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Gold Three
       initiative: 3
@@ -119,7 +119,7 @@ pilots:
       xwa_cost: 9
       xwa_restricted_count: null
       name: Gold Squadron Veteran
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 3
@@ -147,7 +147,7 @@ pilots:
       xwa_cost: 7
       xwa_restricted_count: null
       name: Gray Squadron Bomber
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 2
@@ -175,7 +175,7 @@ pilots:
       xwa_cost: 9
       xwa_restricted_count: null
       name: • Horton Salm
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Gray Leader
       initiative: 4
@@ -207,7 +207,7 @@ pilots:
       xwa_cost: 12
       xwa_restricted_count: null
       name: • Norra Wexley
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Gold Nine
       initiative: 5
@@ -239,7 +239,7 @@ pilots:
       xwa_cost: 9
       xwa_restricted_count: null
       name: • “Pops” Krail
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Gold Five
       initiative: 3
@@ -271,7 +271,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: Amaxine Warrior
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 3
@@ -302,7 +302,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: • Arliz Hadrassian
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Crimson Blade
       initiative: 4
@@ -336,7 +336,7 @@ pilots:
       xwa_cost: 7
       xwa_restricted_count: null
       name: Crymorah Goon
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 1
@@ -364,7 +364,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: • Drea Renthal
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Pirate Lord
       initiative: 4
@@ -397,7 +397,7 @@ pilots:
       xwa_cost: 9
       xwa_restricted_count: null
       name: Hired Gun
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 2
@@ -425,7 +425,7 @@ pilots:
       xwa_cost: 8
       xwa_restricted_count: null
       name: Jinata Security Officer
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 2
@@ -453,7 +453,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: • Kavil
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Callous Corsair
       initiative: 5
@@ -486,7 +486,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: • Leema Kai
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Opportunity Knocks
       initiative: 5
@@ -518,7 +518,7 @@ pilots:
       xwa_cost: 8
       xwa_restricted_count: null
       name: • Padric
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Napkin Bomber
       initiative: 3

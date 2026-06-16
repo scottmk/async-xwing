@@ -58,7 +58,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: • Commander Malarus
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: First Order Enforcer
       initiative: 5
@@ -94,7 +94,7 @@ pilots:
       xwa_cost: 9
       xwa_restricted_count: null
       name: • DT-798
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Jace Rucklin
       initiative: 4
@@ -122,9 +122,9 @@ pilots:
       id_: epsilonsquadroncadet
       amg_cost: null
       xwa_cost: 6
-      xwa_restricted_count: 4
+      xwa_restricted_count: null
       name: Epsilon Squadron Cadet
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 1
@@ -147,7 +147,7 @@ pilots:
       xwa_cost: 9
       xwa_restricted_count: null
       name: • Lieutenant Galek
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Harsh Instructor
       initiative: 5
@@ -179,7 +179,7 @@ pilots:
       xwa_cost: 7
       xwa_restricted_count: null
       name: • Lieutenant Rivas
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Inconvenient Witness
       initiative: 1
@@ -208,7 +208,7 @@ pilots:
       xwa_cost: 8
       xwa_restricted_count: null
       name: • Lin Gaava
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Impetuous Mechanic
       initiative: 3
@@ -239,7 +239,7 @@ pilots:
       xwa_cost: 7
       xwa_restricted_count: null
       name: • “Longshot”
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Zeta Ace
       initiative: 3
@@ -268,7 +268,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: • “Midnight”
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Omega Leader
       initiative: 6
@@ -299,7 +299,7 @@ pilots:
       xwa_cost: 8
       xwa_restricted_count: null
       name: • “Muse”
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Epsilon Leader
       initiative: 2
@@ -329,7 +329,7 @@ pilots:
       xwa_cost: 8
       xwa_restricted_count: null
       name: • “Null”
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Epsilon Ace
       initiative: 0
@@ -357,7 +357,7 @@ pilots:
       xwa_cost: 8
       xwa_restricted_count: null
       name: Omega Squadron Ace
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 3
@@ -384,7 +384,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: • “Scorch”
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Zeta Leader
       initiative: 4
@@ -414,7 +414,7 @@ pilots:
       xwa_cost: 8
       xwa_restricted_count: null
       name: • “Static”
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Omega Ace
       initiative: 4
@@ -444,7 +444,7 @@ pilots:
       xwa_cost: 9
       xwa_restricted_count: null
       name: • Tamara Ryvora
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: DT-533
       initiative: 4
@@ -475,7 +475,7 @@ pilots:
       xwa_cost: 7
       xwa_restricted_count: null
       name: • TN-3465
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Loose End
       initiative: 2
@@ -505,7 +505,7 @@ pilots:
       xwa_cost: 7
       xwa_restricted_count: null
       name: Zeta Squadron Pilot
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 2

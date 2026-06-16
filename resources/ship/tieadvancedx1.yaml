@@ -64,7 +64,7 @@ pilots:
       xwa_cost: 16
       xwa_restricted_count: null
       name: • Darth Vader
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Black Leader
       initiative: 6
@@ -98,7 +98,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: • Juno Eclipse
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Corulag's Finest
       initiative: 5
@@ -127,7 +127,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: • Maarek Stele
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Servant of the Empire
       initiative: 5
@@ -157,7 +157,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: Storm Squadron Ace
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 3
@@ -184,7 +184,7 @@ pilots:
       xwa_cost: 9
       xwa_restricted_count: null
       name: Tempest Squadron Pilot
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 2
@@ -209,7 +209,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: • Ved Foslo
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Ambitious Engineer
       initiative: 4
@@ -239,7 +239,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: • Zertik Strom
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Pitiless Administrator
       initiative: 3

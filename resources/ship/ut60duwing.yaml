@@ -49,7 +49,7 @@ pilots:
       xwa_cost: 12
       xwa_restricted_count: null
       name: • Benthic Two Tubes
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Cavern Angels Marksman
       initiative: 2
@@ -81,7 +81,7 @@ pilots:
       xwa_cost: 12
       xwa_restricted_count: null
       name: Blue Squadron Scout
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 2
@@ -108,7 +108,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: • Bodhi Rook
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Imperial Defector
       initiative: 4
@@ -137,7 +137,7 @@ pilots:
       xwa_cost: 12
       xwa_restricted_count: null
       name: • Cassian Andor
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Raised by the Rebellion
       initiative: 3
@@ -167,7 +167,7 @@ pilots:
       xwa_cost: 12
       xwa_restricted_count: null
       name: • Heff Tobber
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Blue Eight
       initiative: 2
@@ -197,7 +197,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: • K-2SO
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Cassian Said I Had To
       initiative: 3
@@ -226,7 +226,7 @@ pilots:
       xwa_cost: 13
       xwa_restricted_count: null
       name: • Magva Yarro
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Cavern Angels Spotter
       initiative: 3
@@ -258,7 +258,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: Partisan Renegade
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 1
@@ -286,7 +286,7 @@ pilots:
       xwa_cost: 13
       xwa_restricted_count: null
       name: • Saw Gerrera
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Obsessive Outlaw
       initiative: 4

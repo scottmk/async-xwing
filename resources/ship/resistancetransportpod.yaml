@@ -54,7 +54,7 @@ pilots:
       xwa_cost: 7
       xwa_restricted_count: null
       name: • BB-8
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Full of Surprises
       initiative: 3
@@ -83,7 +83,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: • Finn
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Big Deal
       initiative: 2
@@ -112,7 +112,7 @@ pilots:
       xwa_cost: 8
       xwa_restricted_count: null
       name: • Rose Tico
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Earnest Engineer
       initiative: 3
@@ -141,7 +141,7 @@ pilots:
       xwa_cost: 6
       xwa_restricted_count: null
       name: • Vi Moradi
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Starling
       initiative: 1

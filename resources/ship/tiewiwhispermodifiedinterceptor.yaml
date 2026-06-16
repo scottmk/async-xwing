@@ -79,7 +79,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: 709th Legion Ace
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 4
@@ -108,7 +108,7 @@ pilots:
       xwa_cost: 14
       xwa_restricted_count: null
       name: • Kylo Ren
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Supreme Leader of the First Order
       initiative: 5
@@ -145,7 +145,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: • “Nightfall”
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: 709th Legion Veteran
       initiative: 4
@@ -177,7 +177,7 @@ pilots:
       xwa_cost: 8
       xwa_restricted_count: null
       name: Red Fury Zealot
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 2
@@ -203,7 +203,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: • “Whirlwind”
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Reap What You Sow
       initiative: 3
@@ -235,7 +235,7 @@ pilots:
       xwa_cost: 12
       xwa_restricted_count: null
       name: • “Wrath”
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Herald of Destruction
       initiative: 5

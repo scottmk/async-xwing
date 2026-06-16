@@ -54,7 +54,7 @@ pilots:
       xwa_cost: 9
       xwa_restricted_count: null
       name: • Agent Terex
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Devious Provocateur
       initiative: 3
@@ -85,7 +85,7 @@ pilots:
       xwa_cost: 12
       xwa_restricted_count: null
       name: • Agent Tierny
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Persuasive Recruiter
       initiative: 3
@@ -114,7 +114,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: • Commander Malarus
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Vindictive Taskmaster
       initiative: 5
@@ -144,7 +144,7 @@ pilots:
       xwa_cost: 9
       xwa_restricted_count: null
       name: First Order Courier
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 2
@@ -168,7 +168,7 @@ pilots:
       xwa_cost: 9
       xwa_restricted_count: null
       name: • Gideon Hask
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Merciless Hard-Liner
       initiative: 4

@@ -57,7 +57,7 @@ pilots:
       xwa_cost: 8
       xwa_restricted_count: null
       name: • AP-5
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Escaped Analyst Droid
       initiative: 1
@@ -88,7 +88,7 @@ pilots:
       xwa_cost: 9
       xwa_restricted_count: null
       name: • Ezra Bridger
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Spectre-6
       initiative: 3
@@ -124,7 +124,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: • Fenn Rau
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Reluctant Rebel
       initiative: 6
@@ -157,7 +157,7 @@ pilots:
       xwa_cost: 7
       xwa_restricted_count: null
       name: • “Zeb” Orrelios
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Spectre-4
       initiative: 2

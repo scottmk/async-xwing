@@ -55,7 +55,7 @@ pilots:
       xwa_cost: 16
       xwa_restricted_count: null
       name: • Captain Hark
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Obedient Underling
       initiative: 3
@@ -90,7 +90,7 @@ pilots:
       xwa_cost: 17
       xwa_restricted_count: null
       name: • Gar Saxon
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Treacherous Viceroy
       initiative: 3
@@ -127,7 +127,7 @@ pilots:
       xwa_cost: 15
       xwa_restricted_count: null
       name: Imperial Super Commando
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 2
@@ -155,7 +155,7 @@ pilots:
       xwa_cost: 16
       xwa_restricted_count: null
       name: • Bo-Katan Kryze
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Nite Owl Commander
       initiative: 4
@@ -190,7 +190,7 @@ pilots:
       xwa_cost: 15
       xwa_restricted_count: null
       name: • Nite Owl Liberator
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Resolute Warrior
       initiative: 2
@@ -217,7 +217,7 @@ pilots:
       xwa_cost: 15
       xwa_restricted_count: null
       name: • Ursa Wren
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Countess of Clan Wren
       initiative: 3
@@ -251,7 +251,7 @@ pilots:
       xwa_cost: 15
       xwa_restricted_count: null
       name: • “Chopper”
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Spectre-3
       initiative: 2
@@ -285,7 +285,7 @@ pilots:
       xwa_cost: 16
       xwa_restricted_count: null
       name: • Ezra Bridger
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Spectre-6
       initiative: 3
@@ -324,7 +324,7 @@ pilots:
       xwa_cost: 15
       xwa_restricted_count: null
       name: Mandalorian Resistance Pilot
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: Clan Loyalist
       initiative: 2
@@ -354,7 +354,7 @@ pilots:
       xwa_cost: 18
       xwa_restricted_count: null
       name: • Maul
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Lord of the Shadow Collective
       initiative: 5
@@ -394,7 +394,7 @@ pilots:
       xwa_cost: 17
       xwa_restricted_count: null
       name: • Rook Kast
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Stoic Super Commando
       initiative: 3
@@ -428,7 +428,7 @@ pilots:
       xwa_cost: 15
       xwa_restricted_count: null
       name: Shadow Collective Operator
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 1
@@ -456,7 +456,7 @@ pilots:
       xwa_cost: 16
       xwa_restricted_count: null
       name: • Bo-Katan Kryze
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Vizsla's Lieutenant
       initiative: 4
@@ -494,7 +494,7 @@ pilots:
       xwa_cost: 15
       xwa_restricted_count: null
       name: Death Watch Warrior
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: Fanatical Adherent
       initiative: 2
@@ -521,7 +521,7 @@ pilots:
       xwa_cost: 16
       xwa_restricted_count: null
       name: • Pre Vizsla
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Leader of Death Watch
       initiative: 3

@@ -54,7 +54,7 @@ pilots:
       xwa_cost: 12
       xwa_restricted_count: null
       name: • 4-LOM
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Reprogrammed Protocol Droid
       initiative: 3
@@ -89,7 +89,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: Gand Findsman
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 1
@@ -117,7 +117,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: • Zuckuss
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Meditative Gand
       initiative: 3

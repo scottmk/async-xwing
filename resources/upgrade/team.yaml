@@ -7,7 +7,7 @@ bombardmentspecialists:
   slots:
   - team
   name: Bombardment Specialists
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -44,7 +44,7 @@ commsteam:
   slots:
   - team
   name: Comms Team
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -87,7 +87,7 @@ corsaircrew:
   slots:
   - team
   name: Corsair Crew
-  unique: false
+  is_unique: false
   limit: null
   ability: null
   flavor_text: While you perform an attack against a standard ship, you may spend
@@ -114,7 +114,7 @@ damagecontrolteam:
   slots:
   - team
   name: Damage Control Team
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -152,7 +152,7 @@ droidcrew:
   slots:
   - team
   name: Droid Crew
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -189,7 +189,7 @@ gunneryspecialists:
   slots:
   - team
   name: Gunnery Specialists
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -226,7 +226,7 @@ igrmdroids:
   slots:
   - team
   name: IG-RM Droids
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -260,7 +260,7 @@ ordnanceteam:
   slots:
   - team
   name: Ordnance Team
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -299,7 +299,7 @@ sensorexperts:
   slots:
   - team
   name: Sensor Experts
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -337,7 +337,7 @@ tractortechnicians:
   slots:
   - team
   name: Tractor Technicians
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null

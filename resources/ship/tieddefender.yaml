@@ -64,7 +64,7 @@ pilots:
       xwa_cost: 15
       xwa_restricted_count: null
       name: • Captain Dobbs
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Reliable Replacement
       initiative: 3
@@ -98,7 +98,7 @@ pilots:
       xwa_cost: 16
       xwa_restricted_count: null
       name: • Colonel Vessery
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Contemplative Commander
       initiative: 4
@@ -131,7 +131,7 @@ pilots:
       xwa_cost: 16
       xwa_restricted_count: null
       name: • Countess Ryad
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Cutthroat Politico
       initiative: 4
@@ -165,7 +165,7 @@ pilots:
       xwa_cost: 22
       xwa_restricted_count: null
       name: • Darth Vader
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Dark Lord of the Sith
       initiative: 6
@@ -202,7 +202,7 @@ pilots:
       xwa_cost: 15
       xwa_restricted_count: null
       name: Delta Squadron Pilot
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 1
@@ -230,7 +230,7 @@ pilots:
       xwa_cost: 16
       xwa_restricted_count: null
       name: Onyx Squadron Ace
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 4
@@ -260,7 +260,7 @@ pilots:
       xwa_cost: 18
       xwa_restricted_count: null
       name: • Rexler Brath
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Onyx Leader
       initiative: 5
@@ -293,7 +293,7 @@ pilots:
       xwa_cost: 15
       xwa_restricted_count: null
       name: • Vult Skerris
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Arrogant Ace
       initiative: 5

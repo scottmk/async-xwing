@@ -68,7 +68,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: • Aayla Secura
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Confident Warrior
       initiative: 5
@@ -103,7 +103,7 @@ pilots:
       xwa_cost: 12
       xwa_restricted_count: null
       name: • Anakin Skywalker
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Hero of Coruscant
       initiative: 6
@@ -141,7 +141,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: Jedi General
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 4
@@ -173,7 +173,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: • Kit Fisto
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Enthusiastic Exemplar
       initiative: 4
@@ -209,7 +209,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: • Obi-Wan Kenobi
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Guardian of Democracy
       initiative: 5
@@ -246,7 +246,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: • Quinlan Vos
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Darkness Within
       initiative: 4
@@ -282,7 +282,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: • Shaak Ti
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Compassionate Mentor
       initiative: 4
@@ -318,7 +318,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: • Yoda
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Grand Master
       initiative: 3

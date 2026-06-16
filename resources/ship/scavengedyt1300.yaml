@@ -56,7 +56,7 @@ pilots:
       xwa_cost: 16
       xwa_restricted_count: null
       name: • Chewbacca
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Loyal Companion
       initiative: 4
@@ -90,7 +90,7 @@ pilots:
       xwa_cost: 18
       xwa_restricted_count: null
       name: • Han Solo
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Jaded Smuggler
       initiative: 6
@@ -124,7 +124,7 @@ pilots:
       xwa_cost: 17
       xwa_restricted_count: null
       name: • Lando Calrissian
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Old General
       initiative: 5
@@ -162,7 +162,7 @@ pilots:
       xwa_cost: 20
       xwa_restricted_count: null
       name: • Poe Dameron
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: A Difficult Man
       initiative: 6
@@ -202,7 +202,7 @@ pilots:
       xwa_cost: 15
       xwa_restricted_count: null
       name: Resistance Sympathizer
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 2
@@ -227,7 +227,7 @@ pilots:
       xwa_cost: 19
       xwa_restricted_count: null
       name: • Rey
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Resourceful Scavenger
       initiative: 5

@@ -51,9 +51,9 @@ pilots:
       id_: 104thbattalionpilot
       amg_cost: null
       xwa_cost: 10
-      xwa_restricted_count: 2
+      xwa_restricted_count: null
       name: 104th Battalion Pilot
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 2
@@ -82,7 +82,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: • “Jag”
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: CT-55/11-9009
       initiative: 3
@@ -113,7 +113,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: • “Odd Ball”
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: CC-2237
       initiative: 5
@@ -146,7 +146,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: • “Sinker”
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Wolfpack Veteran
       initiative: 3
@@ -178,7 +178,7 @@ pilots:
       xwa_cost: 12
       xwa_restricted_count: null
       name: Squad Seven Veteran
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 3
@@ -207,7 +207,7 @@ pilots:
       xwa_cost: 12
       xwa_restricted_count: null
       name: • “Wolffe”
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: CC-3636
       initiative: 4
@@ -244,7 +244,7 @@ pilots:
       xwa_cost: 12
       xwa_restricted_count: null
       name: • Garven Dreis
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Red Leader
       initiative: 4
@@ -275,7 +275,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: • Ibtisam
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Survivor of Endor
       initiative: 3
@@ -306,7 +306,7 @@ pilots:
       xwa_cost: 13
       xwa_restricted_count: null
       name: • Norra Wexley
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Gold Nine
       initiative: 5
@@ -337,7 +337,7 @@ pilots:
       xwa_cost: 12
       xwa_restricted_count: null
       name: • Shara Bey
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Green Four
       initiative: 4

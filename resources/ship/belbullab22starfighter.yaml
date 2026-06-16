@@ -64,7 +64,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: • Captain Sear
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Kage Infiltrator
       initiative: 2
@@ -92,7 +92,7 @@ pilots:
       xwa_cost: 9
       xwa_restricted_count: null
       name: Feethan Ottraw Autopilot
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 1
@@ -117,7 +117,7 @@ pilots:
       xwa_cost: 13
       xwa_restricted_count: null
       name: • General Grievous
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Ambitious Cyborg
       initiative: 4
@@ -145,7 +145,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: Skakoan Ace
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 3
@@ -169,7 +169,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: • Wat Tambor
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Techno Union Foreman
       initiative: 3

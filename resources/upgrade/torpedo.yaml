@@ -7,7 +7,7 @@ advprotontorpedoes:
   slots:
   - torpedo
   name: Adv. Proton Torpedoes
-  unique: false
+  is_unique: false
   limit: null
   ability: null
   flavor_text: null
@@ -43,12 +43,12 @@ homingtorpedoes:
   id_: homingtorpedoes
   amg_cost: null
   xwa_cost: 4
-  xwa_restricted_count: 2
+  xwa_restricted_count: null
   type_: torpedo
   slots:
   - torpedo
   name: Homing Torpedoes
-  unique: false
+  is_unique: false
   limit: null
   ability: null
   flavor_text: null
@@ -89,7 +89,7 @@ iontorpedoes:
   slots:
   - torpedo
   name: Ion Torpedoes
-  unique: false
+  is_unique: false
   limit: null
   ability: null
   flavor_text: null
@@ -130,7 +130,7 @@ plasmatorpedoes:
   slots:
   - torpedo
   name: Plasma Torpedoes
-  unique: false
+  is_unique: false
   limit: null
   ability: null
   flavor_text: null
@@ -166,12 +166,12 @@ protontorpedoes:
   id_: protontorpedoes
   amg_cost: null
   xwa_cost: 14
-  xwa_restricted_count: 3
+  xwa_restricted_count: null
   type_: torpedo
   slots:
   - torpedo
   name: Proton Torpedoes
-  unique: false
+  is_unique: false
   limit: null
   ability: null
   flavor_text: null
@@ -213,7 +213,7 @@ trackingtorpedoes:
   slots:
   - torpedo
   name: • Tracking Torpedoes
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null

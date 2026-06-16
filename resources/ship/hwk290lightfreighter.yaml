@@ -63,7 +63,7 @@ pilots:
       xwa_cost: 14
       xwa_restricted_count: null
       name: • Jan Ors
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Espionage Expert
       initiative: 5
@@ -95,7 +95,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: • Kyle Katarn
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Relentless Operative
       initiative: 3
@@ -126,7 +126,7 @@ pilots:
       xwa_cost: 7
       xwa_restricted_count: null
       name: Rebel Scout
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 2
@@ -153,7 +153,7 @@ pilots:
       xwa_cost: 13
       xwa_restricted_count: null
       name: • Roark Garnet
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Good-Hearted Smuggler
       initiative: 4
@@ -186,7 +186,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: • Dace Bonearm
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Outer Rim Mercenary
       initiative: 4
@@ -221,7 +221,7 @@ pilots:
       xwa_cost: 8
       xwa_restricted_count: null
       name: • Gamut Key
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Collaborationist Gover- nor
       initiative: 3
@@ -256,7 +256,7 @@ pilots:
       xwa_cost: 9
       xwa_restricted_count: null
       name: • Kanan Jarrus
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Lost Padawan
       initiative: 3
@@ -292,7 +292,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: • Palob Godalhi
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Tethan Resister
       initiative: 3
@@ -325,7 +325,7 @@ pilots:
       xwa_cost: 7
       xwa_restricted_count: null
       name: Spice Runner
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 1
@@ -352,7 +352,7 @@ pilots:
       xwa_cost: 8
       xwa_restricted_count: null
       name: • Tápusk
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Order 66 Informant
       initiative: 5
@@ -384,7 +384,7 @@ pilots:
       xwa_cost: 9
       xwa_restricted_count: null
       name: • Torkil Mux
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Mercenary Miner
       initiative: 2

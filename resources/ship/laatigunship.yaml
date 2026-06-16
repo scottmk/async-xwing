@@ -63,7 +63,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: 212th Battalion Pilot
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 2
@@ -94,7 +94,7 @@ pilots:
       xwa_cost: 12
       xwa_restricted_count: null
       name: • “Hawk”
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Valkyrie 2929
       initiative: 4
@@ -130,7 +130,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: • “Hound”
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Vigilant Tracker
       initiative: 2
@@ -165,7 +165,7 @@ pilots:
       xwa_cost: 12
       xwa_restricted_count: null
       name: • “Sicko”
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: CT-1127/549
       initiative: 2
@@ -199,7 +199,7 @@ pilots:
       xwa_cost: 12
       xwa_restricted_count: null
       name: • “Warthog”
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Veteran of Kadavo
       initiative: 3

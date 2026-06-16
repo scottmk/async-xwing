@@ -62,7 +62,7 @@ pilots:
       xwa_cost: 16
       xwa_restricted_count: null
       name: • Captain Cardinal
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Principled Instructor
       initiative: 4
@@ -98,7 +98,7 @@ pilots:
       xwa_cost: 17
       xwa_restricted_count: null
       name: • Lieutenant Dormitz
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Hypercomms Specialist
       initiative: 2
@@ -128,7 +128,7 @@ pilots:
       xwa_cost: 16
       xwa_restricted_count: null
       name: • Lieutenant Tavson
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Obedient Shuttle Pilot
       initiative: 3
@@ -160,7 +160,7 @@ pilots:
       xwa_cost: 17
       xwa_restricted_count: null
       name: • Major Stridan
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Stentorian Commander
       initiative: 4
@@ -191,7 +191,7 @@ pilots:
       xwa_cost: 15
       xwa_restricted_count: null
       name: • Petty Officer Thanisson
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Alert Flight Controller
       initiative: 1
@@ -225,7 +225,7 @@ pilots:
       xwa_cost: 15
       xwa_restricted_count: null
       name: Starkiller Base Pilot
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 2

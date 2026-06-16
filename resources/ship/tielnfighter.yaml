@@ -52,7 +52,7 @@ pilots:
       xwa_cost: 5
       xwa_restricted_count: null
       name: Academy Pilot
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 1
@@ -74,7 +74,7 @@ pilots:
       xwa_cost: 6
       xwa_restricted_count: null
       name: Black Squadron Ace
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 3
@@ -98,7 +98,7 @@ pilots:
       xwa_cost: 9
       xwa_restricted_count: null
       name: • Del Meeko
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Inferno Three
       initiative: 4
@@ -128,7 +128,7 @@ pilots:
       xwa_cost: 9
       xwa_restricted_count: null
       name: • Gideon Hask
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Inferno Two
       initiative: 4
@@ -158,7 +158,7 @@ pilots:
       xwa_cost: 8
       xwa_restricted_count: null
       name: • “Howlrunner”
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Obsidian Leader
       initiative: 5
@@ -186,7 +186,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: • Iden Versio
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Inferno Leader
       initiative: 4
@@ -219,7 +219,7 @@ pilots:
       xwa_cost: 8
       xwa_restricted_count: null
       name: •• ISB Jingoist
-      unique: false
+      is_unique: false
       limit: 2
       subtitle: Heartless Enforcer
       initiative: 4
@@ -248,7 +248,7 @@ pilots:
       xwa_cost: 8
       xwa_restricted_count: null
       name: • Magna Tolvan
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Cold Tyrant
       initiative: 3
@@ -277,7 +277,7 @@ pilots:
       xwa_cost: 8
       xwa_restricted_count: null
       name: • “Mauler” Mithel
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Black Two
       initiative: 5
@@ -305,7 +305,7 @@ pilots:
       xwa_cost: 9
       xwa_restricted_count: null
       name: • Moff Gideon
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Ruthless Remnant Leader
       initiative: 4
@@ -339,7 +339,7 @@ pilots:
       xwa_cost: 8
       xwa_restricted_count: null
       name: • “Night Beast”
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Obsidian Two
       initiative: 2
@@ -365,7 +365,7 @@ pilots:
       xwa_cost: 5
       xwa_restricted_count: null
       name: Obsidian Squadron Pilot
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 2
@@ -388,7 +388,7 @@ pilots:
       xwa_cost: 8
       xwa_restricted_count: null
       name: • “Scourge” Skutu
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Seasoned Veteran
       initiative: 5
@@ -416,7 +416,7 @@ pilots:
       xwa_cost: 8
       xwa_restricted_count: null
       name: • Seyn Marana
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Inferno Four
       initiative: 4
@@ -447,7 +447,7 @@ pilots:
       xwa_cost: 8
       xwa_restricted_count: null
       name: • Valen Rudor
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Braggadocious Baron
       initiative: 3
@@ -475,7 +475,7 @@ pilots:
       xwa_cost: 6
       xwa_restricted_count: null
       name: • “Wampa”
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Black Eleven
       initiative: 1
@@ -505,7 +505,7 @@ pilots:
       xwa_cost: 7
       xwa_restricted_count: null
       name: • Yrica Quell
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Consumed by Duty
       initiative: 3
@@ -534,7 +534,7 @@ pilots:
       xwa_cost: 7
       xwa_restricted_count: null
       name: • Captain Rex
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Clone Wars Veteran
       initiative: 2
@@ -563,7 +563,7 @@ pilots:
       xwa_cost: 9
       xwa_restricted_count: null
       name: • Ezra Bridger
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Spectre-6
       initiative: 3
@@ -597,7 +597,7 @@ pilots:
       xwa_cost: 8
       xwa_restricted_count: null
       name: • Sabine Wren
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Spectre-5
       initiative: 3
@@ -626,7 +626,7 @@ pilots:
       xwa_cost: 6
       xwa_restricted_count: null
       name: • “Zeb” Orrelios
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Spectre-4
       initiative: 2

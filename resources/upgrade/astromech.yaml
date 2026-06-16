@@ -7,7 +7,7 @@ bb8:
   slots:
   - astromech
   name: • BB-8
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -41,7 +41,7 @@ bbastromech:
   slots:
   - astromech
   name: BB Astromech
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -75,7 +75,7 @@ c110p:
   slots:
   - astromech
   name: • C1-10P
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -110,7 +110,7 @@ c110p-rev:
   slots:
   - astromech
   name: • C1-10P
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -145,7 +145,7 @@ chopper:
   slots:
   - astromech
   name: • “Chopper”
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -177,7 +177,7 @@ flightassistastromech-legendsandrelics:
   slots:
   - astromech
   name: Flight-Assist Astromech
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -212,7 +212,7 @@ genius:
   slots:
   - astromech
   name: • “Genius”
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -243,7 +243,7 @@ l4er5:
   slots:
   - astromech
   name: • L4E-R5
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -280,7 +280,7 @@ m9g8:
   slots:
   - astromech
   name: • M9-G8
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -311,7 +311,7 @@ modifiedr4punit-legendsandrelics:
   slots:
   - astromech
   name: Modified R4-P Unit
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -345,7 +345,7 @@ q7astromech:
   slots:
   - astromech
   name: Q7 Astromech
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -375,7 +375,7 @@ r1j5:
   slots:
   - astromech
   name: • R1-J5
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -410,7 +410,7 @@ r2a6:
   slots:
   - astromech
   name: • R2-A6
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -441,7 +441,7 @@ r2astromech:
   slots:
   - astromech
   name: R2 Astromech
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -475,7 +475,7 @@ r2c4:
   slots:
   - astromech
   name: • R2-C4
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -506,7 +506,7 @@ r2d2:
   slots:
   - astromech
   name: • R2-D2
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -544,7 +544,7 @@ r2d2-republic:
   slots:
   - astromech
   name: • R2-D2
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -578,7 +578,7 @@ r2d2-resistance:
   slots:
   - astromech
   name: • R2-D2
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -613,7 +613,7 @@ r2ha:
   slots:
   - astromech
   name: • R2-HA
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -644,7 +644,7 @@ r3astromech:
   slots:
   - astromech
   name: R3 Astromech
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -675,7 +675,7 @@ r4astromech:
   slots:
   - astromech
   name: R4 Astromech
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -706,7 +706,7 @@ r4b11:
   slots:
   - astromech
   name: • R4-B11
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -737,7 +737,7 @@ r4p17:
   slots:
   - astromech
   name: • R4-P17
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -771,7 +771,7 @@ r4p44:
   slots:
   - astromech
   name: • R4-P44
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -802,7 +802,7 @@ r4pastromech:
   slots:
   - astromech
   name: R4-P Astromech
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -836,7 +836,7 @@ r5astromech:
   slots:
   - astromech
   name: R5 Astromech
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -870,7 +870,7 @@ r5d8:
   slots:
   - astromech
   name: • R5-D8
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -904,7 +904,7 @@ r5p8:
   slots:
   - astromech
   name: • R5-P8
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -939,7 +939,7 @@ r5tk:
   slots:
   - astromech
   name: • R5-TK
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -969,7 +969,7 @@ r5x3:
   slots:
   - astromech
   name: • R5-X3
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -1003,7 +1003,7 @@ r6d8:
   slots:
   - astromech
   name: • R6-D8
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -1035,7 +1035,7 @@ r7a7:
   slots:
   - astromech
   name: • R7-A7
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -1069,7 +1069,7 @@ r7t1-legendsandrelics:
   slots:
   - astromech
   name: • R7-T1
-  unique: true
+  is_unique: true
   limit: 1
   ability: null
   flavor_text: R7-T1, nicknamed Artee, served as Luke Skywalker's in-flight astromech
@@ -1103,7 +1103,7 @@ unhingedastromech-legendsandrelics:
   slots:
   - astromech
   name: Unhinged Astromech
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -1134,7 +1134,7 @@ watchfulastromech:
   slots:
   - astromech
   name: Watchful Astromech
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null

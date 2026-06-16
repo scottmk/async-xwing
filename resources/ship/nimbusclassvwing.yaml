@@ -64,7 +64,7 @@ pilots:
       xwa_cost: 8
       xwa_restricted_count: null
       name: • “Contrail”
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: CT-4981
       initiative: 5
@@ -95,7 +95,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: • “Klick”
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: GC-1000
       initiative: 4
@@ -128,7 +128,7 @@ pilots:
       xwa_cost: 7
       xwa_restricted_count: null
       name: Loyalist Volunteer
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 2
@@ -154,7 +154,7 @@ pilots:
       xwa_cost: 9
       xwa_restricted_count: null
       name: • “Odd Ball”
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: CC-2237
       initiative: 5
@@ -185,7 +185,7 @@ pilots:
       xwa_cost: 9
       xwa_restricted_count: null
       name: Shadow Squadron Escort
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 3
@@ -212,7 +212,7 @@ pilots:
       xwa_cost: 7
       xwa_restricted_count: null
       name: • Wilhuff Tarkin
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Aspiring Admiral
       initiative: 3

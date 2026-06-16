@@ -60,7 +60,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: Cartel Executioner
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 3
@@ -87,7 +87,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: • Dalan Oberos
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Returned from the Grave
       initiative: 3
@@ -123,7 +123,7 @@ pilots:
       xwa_cost: 12
       xwa_restricted_count: null
       name: • Torani Kulda
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Rodian Freelancer
       initiative: 4

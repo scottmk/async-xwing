@@ -63,7 +63,7 @@ pilots:
       xwa_cost: 8
       xwa_restricted_count: null
       name: Alpha Squadron Pilot
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 1
@@ -87,7 +87,7 @@ pilots:
       xwa_cost: 12
       xwa_restricted_count: null
       name: Carnor Jax
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: Royal Guard
       initiative: 5
@@ -120,7 +120,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: • Ciena Ree
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Look Through My Eyes
       initiative: 6
@@ -150,7 +150,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: • Commandant Goran
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Skystrike Superintendent
       initiative: 4
@@ -180,7 +180,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: • Gideon Hask
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Inferno Two
       initiative: 4
@@ -209,7 +209,7 @@ pilots:
       xwa_cost: 9
       xwa_restricted_count: null
       name: • Lieutenant Lorrir
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Requiem for Brentaal
       initiative: 3
@@ -238,7 +238,7 @@ pilots:
       xwa_cost: 9
       xwa_restricted_count: null
       name: • Nash Windrider
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Alderaanian Zealot
       initiative: 2
@@ -271,7 +271,7 @@ pilots:
       xwa_cost: 9
       xwa_restricted_count: null
       name: Saber Squadron Ace
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 4
@@ -297,7 +297,7 @@ pilots:
       xwa_cost: 12
       xwa_restricted_count: null
       name: • Second Sister
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Manipulative Monster
       initiative: 4
@@ -332,7 +332,7 @@ pilots:
       xwa_cost: 13
       xwa_restricted_count: null
       name: • Soontir Fel
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Ace of Legend
       initiative: 6
@@ -361,7 +361,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: • Turr Phennir
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Ambitious Ace
       initiative: 4
@@ -390,7 +390,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: • Vult Skerris
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Arrogant Ace
       initiative: 5

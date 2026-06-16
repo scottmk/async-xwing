@@ -61,7 +61,7 @@ pilots:
       xwa_cost: 9
       xwa_restricted_count: null
       name: • Ezra Bridger
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Spectre-6
       initiative: 3
@@ -97,7 +97,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: • Hera Syndulla
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Spectre-2
       initiative: 5
@@ -128,7 +128,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: • Sabine Wren
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Spectre-5
       initiative: 3
@@ -159,7 +159,7 @@ pilots:
       xwa_cost: 8
       xwa_restricted_count: null
       name: • “Zeb” Orrelios
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Spectre-4
       initiative: 2

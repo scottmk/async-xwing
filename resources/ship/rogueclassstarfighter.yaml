@@ -77,7 +77,7 @@ pilots:
       xwa_cost: 12
       xwa_restricted_count: null
       name: • Cad Bane
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Infamous Bounty Hunter
       initiative: 4
@@ -112,7 +112,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: • Durge
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Hard to Kill
       initiative: 5
@@ -143,7 +143,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: • Nom Lumb
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Laughing Bandit
       initiative: 1
@@ -173,7 +173,7 @@ pilots:
       xwa_cost: 9
       xwa_restricted_count: null
       name: Outer Rim Hunter
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 3
@@ -198,7 +198,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: • Viktor Hel
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Storied Bounty Hunter
       initiative: 4
@@ -229,7 +229,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: • Cad Bane
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Needs No Introduction
       initiative: 4
@@ -264,7 +264,7 @@ pilots:
       xwa_cost: 12
       xwa_restricted_count: null
       name: • Durge
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: On His Own Time
       initiative: 5
@@ -299,7 +299,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: • IG-101
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Tenacious Bodyguard
       initiative: 4
@@ -327,7 +327,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: • IG-102
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Dueling Droid
       initiative: 4
@@ -356,7 +356,7 @@ pilots:
       xwa_cost: 9
       xwa_restricted_count: null
       name: • IG-111
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: One Eye
       initiative: 1
@@ -385,7 +385,7 @@ pilots:
       xwa_cost: 9
       xwa_restricted_count: null
       name: MagnaGuard Executioner
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 3
@@ -410,7 +410,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: •• MagnaGuard Protector
-      unique: false
+      is_unique: false
       limit: 2
       subtitle: Implacable Escort
       initiative: 4

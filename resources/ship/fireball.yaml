@@ -63,7 +63,7 @@ pilots:
       xwa_cost: 6
       xwa_restricted_count: null
       name: Colossus Station Mechanic
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 2
@@ -89,7 +89,7 @@ pilots:
       xwa_cost: 9
       xwa_restricted_count: null
       name: • Jarek Yeager
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Too Old for This
       initiative: 5
@@ -121,7 +121,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: • Kazuda Xiono
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Best Pilot in the Galaxy
       initiative: 4
@@ -153,7 +153,7 @@ pilots:
       xwa_cost: 7
       xwa_restricted_count: null
       name: • R1-J5
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Bucket
       initiative: 1

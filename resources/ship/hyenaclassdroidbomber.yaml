@@ -68,7 +68,7 @@ pilots:
       xwa_cost: 8
       xwa_restricted_count: null
       name: •• Baktoid Prototype
-      unique: false
+      is_unique: false
       limit: 2
       subtitle: Function over Form
       initiative: 1
@@ -99,7 +99,7 @@ pilots:
       xwa_cost: 9
       xwa_restricted_count: null
       name: ••• Bombardment Drone
-      unique: false
+      is_unique: false
       limit: 3
       subtitle: Time on Target
       initiative: 3
@@ -127,7 +127,7 @@ pilots:
       xwa_cost: 9
       xwa_restricted_count: null
       name: • DBS-32C
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Droid Control Signal Relay
       initiative: 3
@@ -160,7 +160,7 @@ pilots:
       xwa_cost: 9
       xwa_restricted_count: null
       name: • DBS-404
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Preservation Protocol Not Found
       initiative: 4
@@ -190,7 +190,7 @@ pilots:
       xwa_cost: 9
       xwa_restricted_count: null
       name: Separatist Bomber
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 3
@@ -216,7 +216,7 @@ pilots:
       xwa_cost: 8
       xwa_restricted_count: null
       name: Techno Union Bomber
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 1

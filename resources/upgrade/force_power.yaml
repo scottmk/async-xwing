@@ -2,12 +2,12 @@ battlemeditation:
   id_: battlemeditation
   amg_cost: null
   xwa_cost: 6
-  xwa_restricted_count: 3
+  xwa_restricted_count: null
   type_: force_power
   slots:
   - force_power
   name: Battle Meditation
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -42,7 +42,7 @@ brilliantevasion:
   slots:
   - force_power
   name: Brilliant Evasion
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -73,7 +73,7 @@ compassion:
   slots:
   - force_power
   name: Compassion
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -106,7 +106,7 @@ extrememaneuvers:
   slots:
   - force_power
   name: Extreme Maneuvers
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -137,7 +137,7 @@ foresight:
   slots:
   - force_power
   name: Foresight
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -181,7 +181,7 @@ hate:
   slots:
   - force_power
   name: Hate
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -211,7 +211,7 @@ heightenedperception:
   slots:
   - force_power
   name: Heightened Perception
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -242,7 +242,7 @@ instinctiveaim:
   slots:
   - force_power
   name: Instinctive Aim
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -273,7 +273,7 @@ malice:
   slots:
   - force_power
   name: Malice
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -306,7 +306,7 @@ patience:
   slots:
   - force_power
   name: Patience
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -337,7 +337,7 @@ precognitivereflexes:
   slots:
   - force_power
   name: Precognitive Reflexes
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -370,7 +370,7 @@ predictiveshot:
   slots:
   - force_power
   name: Predictive Shot
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -402,7 +402,7 @@ roilinganger-legendsandrelics:
   slots:
   - force_power
   name: Roiling Anger
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -428,12 +428,12 @@ sense:
   id_: sense
   amg_cost: null
   xwa_cost: 7
-  xwa_restricted_count: 1
+  xwa_restricted_count: null
   type_: force_power
   slots:
   - force_power
   name: Sense
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -464,7 +464,7 @@ shatteringshot:
   slots:
   - force_power
   name: Shattering Shot
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -496,7 +496,7 @@ supernaturalreflexes:
   slots:
   - force_power
   name: Supernatural Reflexes
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null

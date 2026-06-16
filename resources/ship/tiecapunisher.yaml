@@ -61,7 +61,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: Cutlass Squadron Pilot
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 2
@@ -89,7 +89,7 @@ pilots:
       xwa_cost: 13
       xwa_restricted_count: null
       name: • “Deathrain”
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Dexterous Bombardier
       initiative: 4
@@ -120,7 +120,7 @@ pilots:
       xwa_cost: 14
       xwa_restricted_count: null
       name: • “Redline”
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Adrenaline Junkie
       initiative: 5

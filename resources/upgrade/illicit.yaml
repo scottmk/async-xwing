@@ -7,7 +7,7 @@ babufrik:
   slots:
   - illicit
   name: • Babu Frik
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -43,7 +43,7 @@ cloakingdevice:
   slots:
   - illicit
   name: • Cloaking Device
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -78,7 +78,7 @@ coaxiumhyperfuel:
   slots:
   - illicit
   name: Coaxium Hyperfuel
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -111,7 +111,7 @@ contrabandcybernetics:
   slots:
   - illicit
   name: Contraband Cybernetics
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -146,7 +146,7 @@ deadmansswitch:
   slots:
   - illicit
   name: Deadman's Switch
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -171,12 +171,12 @@ falsetranspondercodes:
   id_: falsetranspondercodes
   amg_cost: null
   xwa_cost: 5
-  xwa_restricted_count: 3
+  xwa_restricted_count: null
   type_: illicit
   slots:
   - illicit
   name: False Transponder Codes
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -211,7 +211,7 @@ feedbackarray:
   slots:
   - illicit
   name: Feedback Array
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -242,7 +242,7 @@ hotshottailblaster:
   slots:
   - illicit
   name: Hotshot Tail Blaster
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -284,7 +284,7 @@ inertialdampeners:
   slots:
   - illicit
   name: Inertial Dampeners
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -316,7 +316,7 @@ overtunedmodulators:
   slots:
   - illicit
   name: Overtuned Modulators
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -351,7 +351,7 @@ quickreleaselocks:
   slots:
   - illicit
   name: • Quick-Release Locks
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -386,7 +386,7 @@ riggedcargochute:
   slots:
   - illicit
   name: Rigged Cargo Chute
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -419,7 +419,7 @@ saboteursmap:
   slots:
   - illicit
   name: • Saboteur's Map
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -451,7 +451,7 @@ scannerbaffler:
   slots:
   - illicit
   name: • Scanner Baffler
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -483,7 +483,7 @@ trackingfob:
   slots:
   - illicit
   name: ••• Tracking Fob
-  unique: false
+  is_unique: false
   limit: 3
   ability:
     name: null

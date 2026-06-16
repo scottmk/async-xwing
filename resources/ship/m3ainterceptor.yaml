@@ -57,9 +57,9 @@ pilots:
       id_: cartelspacer
       amg_cost: null
       xwa_cost: 6
-      xwa_restricted_count: 3
+      xwa_restricted_count: null
       name: Cartel Spacer
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 1
@@ -82,7 +82,7 @@ pilots:
       xwa_cost: 7
       xwa_restricted_count: null
       name: • G4R-G0R V/M
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Tilted Droid
       initiative: 0
@@ -109,7 +109,7 @@ pilots:
       xwa_cost: 9
       xwa_restricted_count: null
       name: • Genesis Red
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Tansarii Point Crime Lord
       initiative: 4
@@ -138,7 +138,7 @@ pilots:
       xwa_cost: 8
       xwa_restricted_count: null
       name: • Inaldra
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Tansarii Point Boss
       initiative: 2
@@ -165,7 +165,7 @@ pilots:
       xwa_cost: 9
       xwa_restricted_count: null
       name: • Laetin A’shera
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Car’das Enforcer
       initiative: 3
@@ -193,7 +193,7 @@ pilots:
       xwa_cost: 9
       xwa_restricted_count: null
       name: • Quinn Jast
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Fortune Seeker
       initiative: 3
@@ -222,7 +222,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: • Serissu
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Flight Instructor
       initiative: 5
@@ -248,7 +248,7 @@ pilots:
       xwa_cost: 8
       xwa_restricted_count: null
       name: • Sunny Bounder
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Incurable Optimist
       initiative: 1
@@ -275,7 +275,7 @@ pilots:
       xwa_cost: 8
       xwa_restricted_count: null
       name: Tansarii Point Veteran
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 3

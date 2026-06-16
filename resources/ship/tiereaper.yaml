@@ -61,7 +61,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: • Captain Feroph
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Imperial Courier
       initiative: 3
@@ -89,7 +89,7 @@ pilots:
       xwa_cost: 12
       xwa_restricted_count: null
       name: • Major Vermeil
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Veteran of Scarif
       initiative: 4
@@ -118,7 +118,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: Scarif Base Pilot
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 1
@@ -143,7 +143,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: • “Vizier”
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Ruthless Tactician
       initiative: 2

@@ -7,7 +7,7 @@ agilegunner:
   slots:
   - gunner
   name: Agile Gunner
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -37,7 +37,7 @@ ahsokatano:
   slots:
   - gunner
   name: • Ahsoka Tano
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -72,7 +72,7 @@ bistan:
   slots:
   - gunner
   name: • Bistan
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -104,7 +104,7 @@ bobafett-gunner:
   slots:
   - gunner
   name: • Boba Fett
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -135,7 +135,7 @@ bossk:
   slots:
   - gunner
   name: • Bossk
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -167,7 +167,7 @@ bt1:
   slots:
   - gunner
   name: • BT-1
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -198,7 +198,7 @@ clonecaptainrex:
   slots:
   - gunner
   name: • Clone Captain Rex
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -230,7 +230,7 @@ clonecommandercody:
   slots:
   - gunner
   name: • Clone Commander Cody
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -261,7 +261,7 @@ dengar:
   slots:
   - gunner
   name: • Dengar
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -297,7 +297,7 @@ dt798:
   slots:
   - gunner
   name: DT-798
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -330,7 +330,7 @@ ezrabridger:
   slots:
   - gunner
   name: • Ezra Bridger
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -365,7 +365,7 @@ fifthbrother:
   slots:
   - gunner
   name: • Fifth Brother
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -399,7 +399,7 @@ finn:
   slots:
   - gunner
   name: • Finn
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -431,7 +431,7 @@ firstorderordnancetech:
   slots:
   - gunner
   name: First Order Ordnance Tech
-  unique: false
+  is_unique: false
   limit: null
   ability: null
   flavor_text: The First Order trains its pilots and gunners to be fanatically loyal,
@@ -464,7 +464,7 @@ garsaxon-gunner:
   slots:
   - gunner
   name: • Gar Saxon
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -497,7 +497,7 @@ greedo:
   slots:
   - gunner
   name: • Greedo
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -532,7 +532,7 @@ hansolo:
   slots:
   - gunner
   name: • Han Solo
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -564,7 +564,7 @@ hansolo-gunner:
   slots:
   - gunner
   name: • Han Solo
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -589,12 +589,12 @@ hotshotgunner:
   id_: hotshotgunner
   amg_cost: null
   xwa_cost: 7
-  xwa_restricted_count: 2
+  xwa_restricted_count: null
   type_: gunner
   slots:
   - gunner
   name: Hotshot Gunner
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -625,7 +625,7 @@ lukeskywalker:
   slots:
   - gunner
   name: • Luke Skywalker
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -659,7 +659,7 @@ migsmayfeld:
   slots:
   - gunner
   name: • Migs Mayfeld
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -691,7 +691,7 @@ paigetico:
   slots:
   - gunner
   name: • Paige Tico
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -722,7 +722,7 @@ rey-gunner:
   slots:
   - gunner
   name: • Rey
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -757,7 +757,7 @@ sabinewren-gunner:
   slots:
   - gunner
   name: • Sabine Wren
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -790,7 +790,7 @@ seventhfleetgunner:
   slots:
   - gunner
   name: Seventh Fleet Gunner
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -826,7 +826,7 @@ skilledbombardier:
   slots:
   - gunner
   name: Skilled Bombardier
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -857,7 +857,7 @@ specialforcesgunner:
   slots:
   - gunner
   name: Special Forces Gunner
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -885,12 +885,12 @@ suppressivegunner:
   id_: suppressivegunner
   amg_cost: null
   xwa_cost: 6
-  xwa_restricted_count: 2
+  xwa_restricted_count: null
   type_: gunner
   slots:
   - gunner
   name: Suppressive Gunner
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -921,7 +921,7 @@ tibersaxon:
   slots:
   - gunner
   name: • Tiber Saxon
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -956,7 +956,7 @@ ursawren-gunner:
   slots:
   - gunner
   name: • Ursa Wren
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -982,12 +982,12 @@ veterantailgunner:
   id_: veterantailgunner
   amg_cost: null
   xwa_cost: 5
-  xwa_restricted_count: 3
+  xwa_restricted_count: null
   type_: gunner
   slots:
   - gunner
   name: Veteran Tail Gunner
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -1018,7 +1018,7 @@ veteranturretgunner:
   slots:
   - gunner
   name: Veteran Turret Gunner
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -1050,7 +1050,7 @@ weaponssystemsofficer:
   slots:
   - gunner
   name: Weapons Systems Officer
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -1081,7 +1081,7 @@ wedgeantilles-legendsandrelics:
   slots:
   - gunner
   name: • Wedge Antilles
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null

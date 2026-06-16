@@ -57,7 +57,7 @@ pilots:
       xwa_cost: 7
       xwa_restricted_count: null
       name: 7th Sky Corps Pilot
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 2
@@ -80,7 +80,7 @@ pilots:
       xwa_cost: 8
       xwa_restricted_count: null
       name: • “Boost”
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: CT-4860
       initiative: 3
@@ -109,7 +109,7 @@ pilots:
       xwa_cost: 8
       xwa_restricted_count: null
       name: • “Drift”
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: CT-1020
       initiative: 3
@@ -139,7 +139,7 @@ pilots:
       xwa_cost: 8
       xwa_restricted_count: null
       name: • “Hawk”
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Valkyrie 2929
       initiative: 4
@@ -169,7 +169,7 @@ pilots:
       xwa_cost: 7
       xwa_restricted_count: null
       name: • “Killer”
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Dependable Closer
       initiative: 2
@@ -198,7 +198,7 @@ pilots:
       xwa_cost: 8
       xwa_restricted_count: null
       name: • “Knack”
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Incautious Instructor
       initiative: 5
@@ -228,7 +228,7 @@ pilots:
       xwa_cost: 8
       xwa_restricted_count: null
       name: Reaper Squadron Scout
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 3
@@ -254,7 +254,7 @@ pilots:
       xwa_cost: 7
       xwa_restricted_count: null
       name: • “Slider”
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Evasive Aviator
       initiative: 4
@@ -286,7 +286,7 @@ pilots:
       xwa_cost: 8
       xwa_restricted_count: null
       name: • “Stub”
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Scrappy Flier
       initiative: 3
@@ -316,7 +316,7 @@ pilots:
       xwa_cost: 9
       xwa_restricted_count: null
       name: • “Warthog”
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Veteran of Kadavo
       initiative: 3

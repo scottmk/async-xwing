@@ -58,7 +58,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: • Cova Nell
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Evacuation Escort
       initiative: 4
@@ -90,7 +90,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: Logistics Division Pilot
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 1
@@ -118,7 +118,7 @@ pilots:
       xwa_cost: 9
       xwa_restricted_count: null
       name: • Nodin Chavdri
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Insubordinate Insurgent
       initiative: 2
@@ -150,7 +150,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: • Pammich Nerro Goode
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: D’Qar Dispatcher
       initiative: 3
@@ -181,7 +181,7 @@ pilots:
       xwa_cost: 8
       xwa_restricted_count: null
       name: • Taka Jamoreesa
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Snograth Enthusiast
       initiative: 2

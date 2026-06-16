@@ -2,12 +2,12 @@ autoblasters:
   id_: autoblasters
   amg_cost: null
   xwa_cost: 7
-  xwa_restricted_count: 2
+  xwa_restricted_count: null
   type_: cannon
   slots:
   - cannon
   name: Autoblasters
-  unique: false
+  is_unique: false
   limit: null
   ability: null
   flavor_text: null
@@ -44,7 +44,7 @@ heavylasercannon:
   slots:
   - cannon
   name: Heavy Laser Cannon
-  unique: false
+  is_unique: false
   limit: null
   ability: null
   flavor_text: null
@@ -80,7 +80,7 @@ ioncannon:
   slots:
   - cannon
   name: Ion Cannon
-  unique: false
+  is_unique: false
   limit: null
   ability: null
   flavor_text: null
@@ -118,7 +118,7 @@ jammingbeam:
   slots:
   - cannon
   name: Jamming Beam
-  unique: false
+  is_unique: false
   limit: null
   ability: null
   flavor_text: null
@@ -154,7 +154,7 @@ precisiontunedcannons-legendsandrelics:
   slots:
   - cannon
   name: Precision-Tuned Cannons
-  unique: false
+  is_unique: false
   limit: null
   ability: null
   flavor_text: null
@@ -189,7 +189,7 @@ protoncannons:
   slots:
   - cannon
   name: Proton Cannons
-  unique: false
+  is_unique: false
   limit: null
   ability: null
   flavor_text: null
@@ -228,7 +228,7 @@ syncedlasercannons:
   slots:
   - cannon
   name: Synced Laser Cannons
-  unique: false
+  is_unique: false
   limit: null
   ability: null
   flavor_text: null
@@ -263,7 +263,7 @@ tractorbeam:
   slots:
   - cannon
   name: Tractor Beam
-  unique: false
+  is_unique: false
   limit: null
   ability: null
   flavor_text: null
@@ -300,7 +300,7 @@ underslungblastercannon:
   slots:
   - cannon
   name: Underslung Blaster Cannon
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null

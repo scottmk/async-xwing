@@ -7,7 +7,7 @@
   slots:
   - crew
   name: • 0-0-0
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -39,7 +39,7 @@
   slots:
   - crew
   name: • 4-LOM
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -71,7 +71,7 @@ aaylasecura:
   slots:
   - crew
   name: • Aayla Secura
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -112,7 +112,7 @@ admiralsloane:
   slots:
   - crew
   name: • Admiral Sloane
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -144,7 +144,7 @@ agentkallus:
   slots:
   - crew
   name: • Agent Kallus
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -176,7 +176,7 @@ agentterex:
   slots:
   - crew
   name: • Agent Terex
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -209,7 +209,7 @@ agentterex-rev:
   slots:
   - crew
   name: • Agent Terex
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -242,7 +242,7 @@ ahsokatano-crew:
   slots:
   - crew
   name: • Ahsoka Tano
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -277,7 +277,7 @@ ahsokatano-legendsandrelics:
   slots:
   - crew
   name: • Ahsoka Tano
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -312,7 +312,7 @@ amilynholdo:
   slots:
   - crew
   name: • Amilyn Holdo
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -344,7 +344,7 @@ bazemalbus:
   slots:
   - crew
   name: • Baze Malbus
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -376,7 +376,7 @@ bobafett:
   slots:
   - crew
   name: • Boba Fett
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -407,7 +407,7 @@ bokatankryze:
   slots:
   - crew
   name: • Bo-Katan Kryze
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -438,7 +438,7 @@ bokatankryze-rebel-scum:
   slots:
   - crew
   name: • Bo-Katan Kryze
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -469,7 +469,7 @@ c3po:
   slots:
   - crew
   name: • C-3PO
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -505,7 +505,7 @@ c3po-crew:
   slots:
   - crew
   name: • C-3PO
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -543,7 +543,7 @@ c3po-republic:
   slots:
   - crew
   name: • C-3PO
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -577,7 +577,7 @@ cadbane:
   slots:
   - crew
   name: • Cad Bane
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -607,7 +607,7 @@ captainhark:
   slots:
   - crew
   name: • Captain Hark
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -641,7 +641,7 @@ captainphasma:
   slots:
   - crew
   name: • Captain Phasma
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -672,7 +672,7 @@ captive-legendsandrelics:
   slots:
   - crew
   name: • Captive
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -706,7 +706,7 @@ cassianandor:
   slots:
   - crew
   name: • Cassian Andor
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -738,7 +738,7 @@ chancellorpalpatine:
   slots:
   - crew
   name: • Chancellor Palpatine
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -776,7 +776,7 @@ chancellorpalpatine-rev:
   slots:
   - crew
   name: • Chancellor Palpatine
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -814,7 +814,7 @@ chewbacca:
   slots:
   - crew
   name: • Chewbacca
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -848,7 +848,7 @@ chewbacca-crew:
   slots:
   - crew
   name: • Chewbacca
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -879,7 +879,7 @@ chewbacca-crew-swz19:
   slots:
   - crew
   name: • Chewbacca
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -914,7 +914,7 @@ chopper-crew:
   slots:
   - crew
   name: • “Chopper”
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -946,7 +946,7 @@ cienaree:
   slots:
   - crew
   name: • Ciena Ree
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -977,7 +977,7 @@ cikatrovizago:
   slots:
   - crew
   name: • Cikatro Vizago
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -1009,7 +1009,7 @@ clanwrencommandos:
   slots:
   - crew
   name: • Clan Wren Commandos
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -1044,7 +1044,7 @@ commandermalarus:
   slots:
   - crew
   name: • Commander Malarus
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -1076,7 +1076,7 @@ commandermalarus-rev:
   slots:
   - crew
   name: • Commander Malarus
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -1108,7 +1108,7 @@ commanderpyre:
   slots:
   - crew
   name: • Commander Pyre
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -1139,7 +1139,7 @@ countdooku:
   slots:
   - crew
   name: • Count Dooku
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -1175,7 +1175,7 @@ darthvader:
   slots:
   - crew
   name: • Darth Vader
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -1210,7 +1210,7 @@ deathtroopers:
   slots:
   - crew
   name: • Death Troopers
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -1241,7 +1241,7 @@ deathwatchcommandos:
   slots:
   - crew
   name: • Death Watch Commandos
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -1276,7 +1276,7 @@ directorkrennic:
   slots:
   - crew
   name: • Director Krennic
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -1310,7 +1310,7 @@ emperorpalpatine:
   slots:
   - crew
   name: • Emperor Palpatine
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -1344,7 +1344,7 @@ fennecshand-legendsandrelics:
   slots:
   - crew
   name: • Fennec Shand
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -1379,7 +1379,7 @@ fennrau:
   slots:
   - crew
   name: • Fenn Rau
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -1411,7 +1411,7 @@ fives:
   slots:
   - crew
   name: • “Fives”
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -1444,7 +1444,7 @@ freelanceslicer:
   slots:
   - crew
   name: Freelance Slicer
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -1476,7 +1476,7 @@ ga97:
   slots:
   - crew
   name: • GA-97
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -1513,7 +1513,7 @@ gamutkey:
   slots:
   - crew
   name: • Gamut Key
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -1548,7 +1548,7 @@ garsaxon:
   slots:
   - crew
   name: • Gar Saxon
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -1580,7 +1580,7 @@ generalgrievous:
   slots:
   - crew
   name: • General Grievous
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -1615,7 +1615,7 @@ generalhux:
   slots:
   - crew
   name: • General Hux
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -1648,7 +1648,7 @@ ghostcompany:
   slots:
   - crew
   name: • Ghost Company
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -1686,7 +1686,7 @@ gnkgonkdroid:
   slots:
   - crew
   name: GNK “Gonk” Droid
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -1720,7 +1720,7 @@ grandinquisitor:
   slots:
   - crew
   name: • Grand Inquisitor
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -1754,7 +1754,7 @@ grandmofftarkin:
   slots:
   - crew
   name: • Grand Moff Tarkin
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -1788,7 +1788,7 @@ greefkarga:
   slots:
   - crew
   name: • Greef Karga
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -1822,7 +1822,7 @@ hansolo-crew:
   slots:
   - crew
   name: • Han Solo
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -1856,7 +1856,7 @@ herasyndulla:
   slots:
   - crew
   name: • Hera Syndulla
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -1888,7 +1888,7 @@ hondoohnaka:
   slots:
   - crew
   name: • Hondo Ohnaka
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -1919,7 +1919,7 @@ ig11:
   slots:
   - crew
   name: • IG-11
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -1954,7 +1954,7 @@ ig11-rev:
   slots:
   - crew
   name: • IG-11
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -1989,7 +1989,7 @@ ig88d:
   slots:
   - crew
   name: • IG-88D
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -2023,7 +2023,7 @@ imperialsupercommandos:
   slots:
   - crew
   name: • Imperial Super Commandos
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -2058,7 +2058,7 @@ informant:
   slots:
   - crew
   name: • Informant
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -2089,7 +2089,7 @@ isbslicer:
   slots:
   - crew
   name: ISB Slicer
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -2119,7 +2119,7 @@ jabbathehutt:
   slots:
   - crew
   name: • Jabba the Hutt
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -2154,7 +2154,7 @@ jangofett:
   slots:
   - crew
   name: • Jango Fett
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -2185,7 +2185,7 @@ jynerso:
   slots:
   - crew
   name: • Jyn Erso
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -2216,7 +2216,7 @@ k2so:
   slots:
   - crew
   name: • K-2SO
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -2253,7 +2253,7 @@ kananjarrus:
   slots:
   - crew
   name: • Kanan Jarrus
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -2287,7 +2287,7 @@ kaydelconnix:
   slots:
   - crew
   name: • Kaydel Connix
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -2318,7 +2318,7 @@ ketsuonyo:
   slots:
   - crew
   name: • Ketsu Onyo
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -2349,7 +2349,7 @@ kitfisto:
   slots:
   - crew
   name: • Kit Fisto
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -2386,7 +2386,7 @@ korkiekryze:
   slots:
   - crew
   name: • Korkie Kryze
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -2419,7 +2419,7 @@ korrsella:
   slots:
   - crew
   name: • Korr Sella
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -2449,7 +2449,7 @@ kuiil:
   slots:
   - crew
   name: • Kuiil
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -2482,7 +2482,7 @@ kyloren:
   slots:
   - crew
   name: • Kylo Ren
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -2516,7 +2516,7 @@ l337:
   slots:
   - crew
   name: • L3-37
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -2547,7 +2547,7 @@ l337-rev:
   slots:
   - crew
   name: • L3-37
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -2578,7 +2578,7 @@ landocalrissian:
   slots:
   - crew
   name: • Lando Calrissian
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -2610,7 +2610,7 @@ landocalrissian-crew:
   slots:
   - crew
   name: • Lando Calrissian
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -2641,7 +2641,7 @@ larmadacy:
   slots:
   - crew
   name: • Larma D'Acy
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -2673,7 +2673,7 @@ lattsrazzi:
   slots:
   - crew
   name: • Latts Razzi
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -2704,7 +2704,7 @@ leiaorgana:
   slots:
   - crew
   name: • Leia Organa
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -2738,7 +2738,7 @@ leiaorgana-resistance:
   slots:
   - crew
   name: • Leia Organa
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -2775,7 +2775,7 @@ magvayarro:
   slots:
   - crew
   name: • Magva Yarro
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -2805,7 +2805,7 @@ mandaloriansupercommandos:
   slots:
   - crew
   name: • Mandalorian Super Commandos
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -2840,7 +2840,7 @@ maul:
   slots:
   - crew
   name: • Maul
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -2875,7 +2875,7 @@ maul-crew:
   slots:
   - crew
   name: • Maul
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -2912,7 +2912,7 @@ ministertua:
   slots:
   - crew
   name: • Minister Tua
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -2943,7 +2943,7 @@ moffjerjerrod:
   slots:
   - crew
   name: • Moff Jerjerrod
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -2978,7 +2978,7 @@ niennunb:
   slots:
   - crew
   name: • Nien Nunb
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -3008,7 +3008,7 @@ niteowlcommandos:
   slots:
   - crew
   name: • Nite Owl Commandos
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -3043,7 +3043,7 @@ novicetechnician:
   slots:
   - crew
   name: Novice Technician
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -3074,7 +3074,7 @@ obiwankenobi:
   slots:
   - crew
   name: • Obi-wan Kenobi
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -3108,7 +3108,7 @@ pelimotto:
   slots:
   - crew
   name: • Peli Motto
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -3141,7 +3141,7 @@ perceptivecopilot:
   slots:
   - crew
   name: Perceptive Copilot
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -3171,7 +3171,7 @@ pettyofficerthanisson:
   slots:
   - crew
   name: • Petty Officer Thanisson
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -3204,7 +3204,7 @@ plokoon:
   slots:
   - crew
   name: • Plo Koon
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -3242,7 +3242,7 @@ previzsla:
   slots:
   - crew
   name: • Pre Vizsla
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -3278,7 +3278,7 @@ primeministeralmec:
   slots:
   - crew
   name: • Prime Minister Almec
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -3311,7 +3311,7 @@ primeministeralmec-rev:
   slots:
   - crew
   name: • Prime Minister Almec
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -3344,7 +3344,7 @@ protectorategleb:
   slots:
   - crew
   name: • Protectorate Gleb
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -3378,7 +3378,7 @@ pz4co:
   slots:
   - crew
   name: • PZ-4CO
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -3413,7 +3413,7 @@ qira:
   slots:
   - crew
   name: • Qi'ra
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -3443,7 +3443,7 @@ r2d2-crew:
   slots:
   - crew
   name: • R2-D2
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -3475,7 +3475,7 @@ rookkast:
   slots:
   - crew
   name: • Rook Kast
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -3510,7 +3510,7 @@ rosetico:
   slots:
   - crew
   name: • Rose Tico
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -3541,7 +3541,7 @@ sabinewren:
   slots:
   - crew
   name: • Sabine Wren
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -3574,7 +3574,7 @@ satinekryze:
   slots:
   - crew
   name: • Satine Kryze
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -3609,7 +3609,7 @@ savageopress:
   slots:
   - crew
   name: • Savage Opress
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -3643,7 +3643,7 @@ sawgerrera:
   slots:
   - crew
   name: • Saw Gerrera
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -3674,7 +3674,7 @@ seasonednavigator:
   slots:
   - crew
   name: Seasoned Navigator
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null
@@ -3705,7 +3705,7 @@ seventhsister:
   slots:
   - crew
   name: • Seventh Sister
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -3739,7 +3739,7 @@ supremeleadersnoke:
   slots:
   - crew
   name: • Supreme Leader Snoke
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -3774,7 +3774,7 @@ tacticalofficer:
   slots:
   - crew
   name: Tactical Officer
-  unique: false
+  is_unique: false
   limit: null
   ability: null
   flavor_text: In the chaos of a starfighter battle, a single order can mean the difference
@@ -3804,7 +3804,7 @@ talmerrik:
   slots:
   - crew
   name: • Tal Merrik
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -3836,7 +3836,7 @@ thechild:
   slots:
   - crew
   name: • The Child
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -3871,7 +3871,7 @@ themandalorian:
   slots:
   - crew
   name: • The Mandalorian
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -3905,7 +3905,7 @@ thrawn-legendsandrelics:
   slots:
   - crew
   name: • Thrawn
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -3944,7 +3944,7 @@ tobiasbeckett:
   slots:
   - crew
   name: • Tobias Beckett
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -3976,7 +3976,7 @@ torynfarr:
   slots:
   - crew
   name: • Toryn Farr
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -4013,7 +4013,7 @@ tristanwren:
   slots:
   - crew
   name: • Tristan Wren
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -4048,7 +4048,7 @@ unkarplutt:
   slots:
   - crew
   name: • Unkar Plutt
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -4079,7 +4079,7 @@ ursawren:
   slots:
   - crew
   name: • Ursa Wren
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -4111,7 +4111,7 @@ wolfpack:
   slots:
   - crew
   name: • Wolfpack
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -4142,7 +4142,7 @@ yoda:
   slots:
   - crew
   name: • Yoda
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -4180,7 +4180,7 @@ zamwesell:
   slots:
   - crew
   name: • Zam Wesell
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -4215,7 +4215,7 @@ zeborrelios:
   slots:
   - crew
   name: • “Zeb” Orrelios
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -4247,7 +4247,7 @@ zoriibliss-legendsandrelics:
   slots:
   - crew
   name: • Zorii Bliss
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null
@@ -4284,7 +4284,7 @@ zuckuss:
   slots:
   - crew
   name: • Zuckuss
-  unique: true
+  is_unique: true
   limit: 1
   ability:
     name: null

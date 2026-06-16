@@ -7,7 +7,7 @@ syliure31hyperdrive:
   slots:
   - hyperdrive
   name: Syliure-31 Hyperdrive
-  unique: false
+  is_unique: false
   limit: null
   ability:
     name: null

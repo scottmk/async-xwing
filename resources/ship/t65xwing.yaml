@@ -55,7 +55,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: • Biggs Darklighter
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Red Three
       initiative: 3
@@ -86,7 +86,7 @@ pilots:
       xwa_cost: 9
       xwa_restricted_count: null
       name: Blue Squadron Escort
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 2
@@ -113,7 +113,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: Cavern Angels Zealot
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 1
@@ -142,7 +142,7 @@ pilots:
       xwa_cost: 13
       xwa_restricted_count: null
       name: • Corran Horn
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Rogue Nine
       initiative: 5
@@ -174,7 +174,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: • Edrio Two Tubes
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Cavern Angels Veteran
       initiative: 2
@@ -205,7 +205,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: • Garven Dreis
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Red Leader
       initiative: 4
@@ -236,7 +236,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: • Jek Porkins
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Red Six
       initiative: 4
@@ -271,7 +271,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: • Kullbee Sperado
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Enigmatic Gunslinger
       initiative: 4
@@ -304,7 +304,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: • Leevan Tenza
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Rebel Alliance Defector
       initiative: 3
@@ -337,7 +337,7 @@ pilots:
       xwa_cost: 14
       xwa_restricted_count: null
       name: • Luke Skywalker
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Red Five
       initiative: 5
@@ -374,7 +374,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: Red Squadron Veteran
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 3
@@ -401,7 +401,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: • Thane Kyrell
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Corona Four
       initiative: 5
@@ -433,7 +433,7 @@ pilots:
       xwa_cost: 14
       xwa_restricted_count: null
       name: • Wedge Antilles
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Red Two
       initiative: 6
@@ -463,7 +463,7 @@ pilots:
       xwa_cost: 12
       xwa_restricted_count: null
       name: • Wes Janson
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Wisecracking Wingman
       initiative: 5

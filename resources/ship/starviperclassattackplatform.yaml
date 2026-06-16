@@ -67,7 +67,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: Black Sun Assassin
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 3
@@ -95,7 +95,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: Black Sun Enforcer
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 2
@@ -122,7 +122,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: • Dalan Oberos
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Elite Bounty Hunter
       initiative: 4
@@ -154,7 +154,7 @@ pilots:
       xwa_cost: 13
       xwa_restricted_count: null
       name: • Guri
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Prince Xizor’s Bodyguard
       initiative: 5
@@ -187,7 +187,7 @@ pilots:
       xwa_cost: 12
       xwa_restricted_count: null
       name: • Prince Xizor
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Black Sun Kingpin
       initiative: 4
@@ -220,7 +220,7 @@ pilots:
       xwa_cost: 12
       xwa_restricted_count: null
       name: • Thweek
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Versatile Spy
       initiative: 4

@@ -57,7 +57,7 @@ pilots:
       xwa_cost: 16
       xwa_restricted_count: null
       name: • Captain Oicunn
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Inspired Tactician
       initiative: 3
@@ -89,7 +89,7 @@ pilots:
       xwa_cost: 17
       xwa_restricted_count: null
       name: • Morna Kee
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Determined Attaché
       initiative: 4
@@ -124,7 +124,7 @@ pilots:
       xwa_cost: 16
       xwa_restricted_count: null
       name: Patrol Leader
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 2
@@ -150,7 +150,7 @@ pilots:
       xwa_cost: 19
       xwa_restricted_count: null
       name: • Rear Admiral Chiraneau
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Advisor to Admiral Piett
       initiative: 5

@@ -54,7 +54,7 @@ pilots:
       xwa_cost: 9
       xwa_restricted_count: null
       name: • “Double Edge”
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Contingency Planner
       initiative: 2
@@ -85,7 +85,7 @@ pilots:
       xwa_cost: 9
       xwa_restricted_count: null
       name: • Lieutenant Kestal
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Innate Deadeye
       initiative: 4
@@ -118,7 +118,7 @@ pilots:
       xwa_cost: 8
       xwa_restricted_count: null
       name: Onyx Squadron Scout
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 3
@@ -147,7 +147,7 @@ pilots:
       xwa_cost: 7
       xwa_restricted_count: null
       name: Sienar Specialist
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 2

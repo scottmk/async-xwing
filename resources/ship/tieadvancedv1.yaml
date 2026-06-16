@@ -69,7 +69,7 @@ pilots:
       xwa_cost: 9
       xwa_restricted_count: null
       name: Baron of the Empire
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 3
@@ -95,7 +95,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: • Fifth Brother
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Ruthless Brute
       initiative: 4
@@ -129,7 +129,7 @@ pilots:
       xwa_cost: 13
       xwa_restricted_count: null
       name: • Grand Inquisitor
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Master of the Inquisitorious
       initiative: 5
@@ -164,7 +164,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: Inquisitor
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 3
@@ -195,7 +195,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: • Seventh Sister
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Sadistic Interrogator
       initiative: 4

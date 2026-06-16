@@ -55,7 +55,7 @@ pilots:
       xwa_cost: 8
       xwa_restricted_count: null
       name: • Ahhav
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Vengeful Survivor
       initiative: 3
@@ -83,7 +83,7 @@ pilots:
       xwa_cost: 8
       xwa_restricted_count: null
       name: • Captain Seevor
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Noisy Nuisance
       initiative: 3
@@ -115,7 +115,7 @@ pilots:
       xwa_cost: 8
       xwa_restricted_count: null
       name: • Foreman Proach
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Slave Driver
       initiative: 4
@@ -145,7 +145,7 @@ pilots:
       xwa_cost: 8
       xwa_restricted_count: null
       name: • Lapin
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Stickler for Details
       initiative: 3
@@ -173,7 +173,7 @@ pilots:
       xwa_cost: 5
       xwa_restricted_count: null
       name: Mining Guild Sentry
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 1
@@ -198,7 +198,7 @@ pilots:
       xwa_cost: 6
       xwa_restricted_count: null
       name: Mining Guild Surveyor
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 2
@@ -222,7 +222,7 @@ pilots:
       xwa_cost: 6
       xwa_restricted_count: null
       name: • Overseer Yushyn
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Overbearing Boss
       initiative: 2

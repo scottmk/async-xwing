@@ -79,7 +79,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: • “Backdraft”
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Fiery Fanatic
       initiative: 4
@@ -111,7 +111,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: • Captain Phasma
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Scyre Survivor
       initiative: 4
@@ -144,7 +144,7 @@ pilots:
       xwa_cost: 12
       xwa_restricted_count: null
       name: • Lieutenant LeHuse
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Unflinching Executioner
       initiative: 5
@@ -176,7 +176,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: Omega Squadron Expert
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 3
@@ -205,7 +205,7 @@ pilots:
       xwa_cost: 14
       xwa_restricted_count: null
       name: • “Quickdraw”
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Defiant Duelist
       initiative: 6
@@ -240,7 +240,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: Zeta Squadron Survivor
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 2

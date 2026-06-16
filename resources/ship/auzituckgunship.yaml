@@ -51,7 +51,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: Kashyyyk Defender
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 1
@@ -75,7 +75,7 @@ pilots:
       xwa_cost: 12
       xwa_restricted_count: null
       name: • Lowhhrick
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Escaped Gladiator
       initiative: 3
@@ -103,7 +103,7 @@ pilots:
       xwa_cost: 13
       xwa_restricted_count: null
       name: • Wullffwarro
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Wookiee Chief
       initiative: 4

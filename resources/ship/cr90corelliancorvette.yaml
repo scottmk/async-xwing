@@ -60,7 +60,7 @@ pilots:
       xwa_cost: 35
       xwa_restricted_count: null
       name: Republic Judiciary
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 8
@@ -88,7 +88,7 @@ pilots:
       xwa_cost: 36
       xwa_restricted_count: null
       name: Alderaanian Guard
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 8

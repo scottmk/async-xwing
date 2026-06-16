@@ -59,7 +59,7 @@ pilots:
       xwa_cost: 12
       xwa_restricted_count: null
       name: • Anakin Skywalker
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Hero of the Republic
       initiative: 6
@@ -98,7 +98,7 @@ pilots:
       xwa_cost: 9
       xwa_restricted_count: null
       name: • “Broadside”
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Shadow Three
       initiative: 3
@@ -132,7 +132,7 @@ pilots:
       xwa_cost: 9
       xwa_restricted_count: null
       name: • “Goji”
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Payload Specialist
       initiative: 2
@@ -165,7 +165,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: • “Matchstick”
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Shadow Two
       initiative: 4
@@ -199,7 +199,7 @@ pilots:
       xwa_cost: 11
       xwa_restricted_count: null
       name: • “Odd Ball”
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: CC-2237
       initiative: 5
@@ -234,7 +234,7 @@ pilots:
       xwa_cost: 10
       xwa_restricted_count: null
       name: • R2-D2
-      unique: true
+      is_unique: true
       limit: 1
       subtitle: Bucket of Bolts
       initiative: 2
@@ -267,7 +267,7 @@ pilots:
       xwa_cost: 8
       xwa_restricted_count: null
       name: Red Squadron Bomber
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 2
@@ -296,7 +296,7 @@ pilots:
       xwa_cost: 9
       xwa_restricted_count: null
       name: Shadow Squadron Veteran
-      unique: false
+      is_unique: false
       limit: 0
       subtitle: null
       initiative: 3
