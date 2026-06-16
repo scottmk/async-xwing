@@ -119,6 +119,8 @@ class Upgrade(FrozenBaseStruct, frozen=True):
     @classmethod
     @cache
     def _read_card_file(cls, type_: str | None) -> dict[str, catalog.UpgradeCard]:
+        if not type_:
+            raise ValueError('No upgrade type found')
         filepath = CATALOG_ROOT_PATH / 'upgrade' / f'{type_}.yaml'
         return msgspec.yaml.decode(filepath.read_bytes(), type=dict[str, catalog.UpgradeCard])
 
@@ -162,8 +164,18 @@ class Ship(MutableBaseStruct, kw_only=True):
     def get_pilot_card(self) -> catalog.PilotCard:
         ship_attr: catalog.ShipAttr | None = self.get_catalog_entry()
         if not ship_attr:
-            raise ValueError(f'Ship data for {self.card_type()} has no pilot entry for {self.id_}')
-        return ship_attr.pilots.get(self.id_)
+            raise ValueError(f'Unable to find ship data for {self.id_}')
+        return ship_attr.pilots.get(self.faction).get(self.id_)
+
+    @classmethod
+    def get_pilot_card_for_id(cls, id_: str) -> catalog.PilotCard:
+        ship_attr: catalog.ShipAttr | None = cls.get_catalog_entry_for_id(id_)
+        faction: str | None = (
+            entry.get('faction') if (entry := cls._get_manifest().get(id_)) else None
+        )
+        if not ship_attr:
+            raise ValueError(f'Unable to find ship data for {id_}')
+        return ship_attr.pilots.get(faction).get(id_)
 
     @staticmethod
     def card_type():
@@ -173,7 +185,7 @@ class Ship(MutableBaseStruct, kw_only=True):
     @cache
     def _read_card_file(cls, type_: str | None) -> dict[str, catalog.ShipAttr]:
         if not type_:
-            raise ValueError('type_ is required')
+            raise ValueError('No ship type found')
         filepath = CATALOG_ROOT_PATH / 'ship' / f'{type_}.yaml'
         ship_attr: catalog.ShipAttr = msgspec.yaml.decode(
             filepath.read_bytes(), type=catalog.ShipAttr
@@ -184,7 +196,7 @@ class Ship(MutableBaseStruct, kw_only=True):
 
     @classmethod
     def _lookup_catalog_entry(cls, id_: str) -> catalog.ShipAttr | None:
-        type_: str | None = cls._get_manifest().get(id_)
+        type_: str | None = entry.get('type') if (entry := cls._get_manifest().get(id_)) else None
         if not type_:
             raise ValueError(
                 f'Ship manifest missing or malformed or entry for {id_} missing from manifest'

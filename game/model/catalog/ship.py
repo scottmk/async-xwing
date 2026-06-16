@@ -92,7 +92,7 @@ class ShipAttr(msgspec.Struct, kw_only=True, frozen=True):
     energy_recurring: int | None = None
     action_bar: list[Action]
     ship_ability: Ability | None = None
-    maneuver_dial: dict[ManeuverBearing, dict[ManeuverSpeed, ManeuverDifficulty]] | None
+    maneuver_dial: dict[ManeuverBearing, dict[ManeuverSpeed, ManeuverDifficulty]]
     pilots: Annotated[
         dict[str, dict[str, PilotCard]],
         msgspec.Meta(
