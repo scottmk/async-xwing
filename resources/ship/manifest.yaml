@@ -1,4 +1,1812 @@
----
-lukeskywalker: t65xwing
-jekporkins: t65xwing
-redsquadronveteran: t65xwing
+'066':
+  faction: separatistalliance
+  type: sithinfiltrator
+104thbattalionpilot:
+  faction: galacticrepublic
+  type: arc170starfighter
+212thbattalionpilot:
+  faction: galacticrepublic
+  type: laatigunship
+4lom:
+  faction: scumandvillainy
+  type: g1astarfighter
+709thlegionace:
+  faction: firstorder
+  type: tiewiwhispermodifiedinterceptor
+7thskycorpspilot:
+  faction: galacticrepublic
+  type: clonez95headhunter
+aaylasecura:
+  faction: galacticrepublic
+  type: eta2actis
+academypilot:
+  faction: galacticempire
+  type: tielnfighter
+adigallia:
+  faction: galacticrepublic
+  type: delta7aethersprite
+adigallia-delta7baethersprite:
+  faction: galacticrepublic
+  type: delta7baethersprite
+aftabackbar:
+  faction: resistance
+  type: btanr2ywing
+aftabackbar-wartime:
+  faction: resistance
+  type: btanr2wywing
+agentterex:
+  faction: firstorder
+  type: xiclasslightshuttle
+agenttierny:
+  faction: firstorder
+  type: xiclasslightshuttle
+ahhav:
+  faction: scumandvillainy
+  type: modifiedtielnfighter
+ahsokatano:
+  faction: galacticrepublic
+  type: delta7aethersprite
+ahsokatano-delta7baethersprite:
+  faction: galacticrepublic
+  type: delta7baethersprite
+ahsokatano-rz1awing:
+  faction: rebelalliance
+  type: rz1awing
+airencracken:
+  faction: rebelalliance
+  type: z95af4headhunter
+alderaanianguard:
+  faction: rebelalliance
+  type: cr90corelliancorvette
+alexsandrkallus:
+  faction: rebelalliance
+  type: vcx100lightfreighter
+alphasquadronpilot:
+  faction: galacticempire
+  type: tieininterceptor
+amaxinewarrior:
+  faction: scumandvillainy
+  type: btla4ywing
+anakinskywalker:
+  faction: galacticrepublic
+  type: delta7aethersprite
+anakinskywalker-btlbywing:
+  faction: galacticrepublic
+  type: btlbywing
+anakinskywalker-delta7baethersprite:
+  faction: galacticrepublic
+  type: delta7baethersprite
+anakinskywalker-eta2actis:
+  faction: galacticrepublic
+  type: eta2actis
+anakinskywalker-nabooroyaln1starfighter:
+  faction: galacticrepublic
+  type: nabooroyaln1starfighter
+ap5:
+  faction: rebelalliance
+  type: sheathipedeclassshuttle
+arlizhadrassian:
+  faction: scumandvillainy
+  type: btla4ywing
+arvelcrynyd:
+  faction: rebelalliance
+  type: rz1awing
+asajjventress:
+  faction: scumandvillainy
+  type: lancerclasspursuitcraft
+aurrasing:
+  faction: separatistalliance
+  type: firesprayclasspatrolcraft
+autopilotdrone:
+  faction: scumandvillainy
+  type: escapecraft
+avenger:
+  faction: firstorder
+  type: tievnsilencer
+axe:
+  faction: galacticrepublic
+  type: v19torrentstarfighter
+backdraft:
+  faction: firstorder
+  type: tiesffighter
+baktoiddrone:
+  faction: separatistalliance
+  type: hmpdroidgunship
+baktoidprototype:
+  faction: separatistalliance
+  type: hyenaclassdroidbomber
+banditsquadronpilot:
+  faction: rebelalliance
+  type: z95af4headhunter
+baronoftheempire:
+  faction: galacticempire
+  type: tieadvancedv1
+barrissoffee:
+  faction: galacticrepublic
+  type: delta7aethersprite
+barrissoffee-delta7baethersprite:
+  faction: galacticrepublic
+  type: delta7baethersprite
+bb8:
+  faction: resistance
+  type: resistancetransportpod
+benteene:
+  faction: resistance
+  type: mg100starfortress
+benthictwotubes:
+  faction: rebelalliance
+  type: ut60duwing
+berwerkret:
+  faction: separatistalliance
+  type: nantexclassstarfighter
+biggsdarklighter:
+  faction: rebelalliance
+  type: t65xwing
+binayrepirate:
+  faction: scumandvillainy
+  type: z95af4headhunter
+blackout:
+  faction: firstorder
+  type: tievnsilencer
+blacksquadronace:
+  faction: galacticempire
+  type: tielnfighter
+blacksquadronace-t70xwing:
+  faction: resistance
+  type: t70xwing
+blacksquadronscout:
+  faction: galacticempire
+  type: tieskstriker
+blacksunace:
+  faction: scumandvillainy
+  type: kihraxzfighter
+blacksunassassin:
+  faction: scumandvillainy
+  type: starviperclassattackplatform
+blacksunenforcer:
+  faction: scumandvillainy
+  type: starviperclassattackplatform
+blacksunsoldier:
+  faction: scumandvillainy
+  type: z95af4headhunter
+bladesquadronveteran:
+  faction: rebelalliance
+  type: asf01bwing
+bluesquadronescort:
+  faction: rebelalliance
+  type: t65xwing
+bluesquadronpilot:
+  faction: rebelalliance
+  type: asf01bwing
+bluesquadronprotector:
+  faction: galacticrepublic
+  type: v19torrentstarfighter
+bluesquadronrecruit:
+  faction: resistance
+  type: rz2awing
+bluesquadronrookie:
+  faction: resistance
+  type: t70xwing
+bluesquadronscout:
+  faction: rebelalliance
+  type: ut60duwing
+bobafett:
+  faction: scumandvillainy
+  type: firesprayclasspatrolcraft
+bobafett-firesprayclasspatrolcraft:
+  faction: separatistalliance
+  type: firesprayclasspatrolcraft
+bodhirook:
+  faction: rebelalliance
+  type: ut60duwing
+bodicavenj:
+  faction: rebelalliance
+  type: fangfighter
+bokatankryze:
+  faction: galacticrepublic
+  type: gauntletfighter
+bokatankryze-separatistalliance:
+  faction: separatistalliance
+  type: gauntletfighter
+bombardmentdrone:
+  faction: separatistalliance
+  type: hyenaclassdroidbomber
+boost:
+  faction: galacticrepublic
+  type: clonez95headhunter
+bossk:
+  faction: scumandvillainy
+  type: yv666lightfreighter
+bossk-z95af4headhunter:
+  faction: scumandvillainy
+  type: z95af4headhunter
+bountyhunter:
+  faction: scumandvillainy
+  type: firesprayclasspatrolcraft
+bravoflightofficer:
+  faction: galacticrepublic
+  type: nabooroyaln1starfighter
+braylenstramm:
+  faction: rebelalliance
+  type: asf01bwing
+breach:
+  faction: firstorder
+  type: tiesebomber
+broadside:
+  faction: galacticrepublic
+  type: btlbywing
+cadbane:
+  faction: scumandvillainy
+  type: rogueclassstarfighter
+cadbane-separatistalliance:
+  faction: separatistalliance
+  type: rogueclassstarfighter
+caithrenalli:
+  faction: resistance
+  type: t70xwing
+caithrenalli-btanr2ywing:
+  faction: resistance
+  type: btanr2ywing
+caithrenalli-wartime:
+  faction: resistance
+  type: btanr2wywing
+captaincardinal:
+  faction: firstorder
+  type: upsilonclassshuttle
+captaindobbs:
+  faction: galacticempire
+  type: tieddefender
+captainferoph:
+  faction: galacticempire
+  type: tiereaper
+captainhark:
+  faction: galacticempire
+  type: gauntletfighter
+captainjonus:
+  faction: galacticempire
+  type: tiesabomber
+captainjostero:
+  faction: scumandvillainy
+  type: kihraxzfighter
+captainkagi:
+  faction: galacticempire
+  type: lambdaclasst4ashuttle
+captainnym:
+  faction: scumandvillainy
+  type: scurrgh6bomber
+captainoicunn:
+  faction: galacticempire
+  type: vt49decimator
+captainphasma:
+  faction: firstorder
+  type: tiesffighter
+captainrex:
+  faction: rebelalliance
+  type: tielnfighter
+captainsear:
+  faction: separatistalliance
+  type: belbullab22starfighter
+captainseevor:
+  faction: scumandvillainy
+  type: modifiedtielnfighter
+caridaacademycadet:
+  faction: galacticempire
+  type: tierbheavy
+carnorjax-legendsandrelics:
+  faction: galacticempire
+  type: tieininterceptor
+cartelexecutioner:
+  faction: scumandvillainy
+  type: m12lkimogilafighter
+cartelmarauder:
+  faction: scumandvillainy
+  type: kihraxzfighter
+cartelspacer:
+  faction: scumandvillainy
+  type: m3ainterceptor
+cassianandor:
+  faction: rebelalliance
+  type: ut60duwing
+cat:
+  faction: resistance
+  type: mg100starfortress
+cavernangelszealot:
+  faction: rebelalliance
+  type: t65xwing
+chertek:
+  faction: separatistalliance
+  type: nantexclassstarfighter
+chewbacca:
+  faction: rebelalliance
+  type: modifiedyt1300lightfreighter
+chewbacca-scavengedyt1300:
+  faction: resistance
+  type: scavengedyt1300
+chopper:
+  faction: rebelalliance
+  type: vcx100lightfreighter
+chopper-gauntletfighter:
+  faction: rebelalliance
+  type: gauntletfighter
+cienaree:
+  faction: galacticempire
+  type: tieininterceptor
+clanwrenvolunteer:
+  faction: rebelalliance
+  type: fangfighter
+cobaltsquadronbomber:
+  faction: resistance
+  type: mg100starfortress
+colicoiddestroyer:
+  faction: separatistalliance
+  type: tridentclassassaultship
+colicoidinterceptor:
+  faction: separatistalliance
+  type: droidtrifighter
+coloneljendon:
+  faction: galacticempire
+  type: lambdaclasst4ashuttle
+colonelvessery:
+  faction: galacticempire
+  type: tieddefender
+colossusstationmechanic:
+  faction: resistance
+  type: fireball
+commandantgoran:
+  faction: galacticempire
+  type: tieininterceptor
+commandermalarus:
+  faction: firstorder
+  type: tiefofighter
+commandermalarus-xiclasslightshuttle:
+  faction: firstorder
+  type: xiclasslightshuttle
+constablezuvio:
+  faction: scumandvillainy
+  type: quadrijettransferspacetug
+contractedscout:
+  faction: scumandvillainy
+  type: jumpmaster5000
+contrail:
+  faction: galacticrepublic
+  type: nimbusclassvwing
+corranhorn:
+  faction: rebelalliance
+  type: ewing
+corranhorn-t65xwing:
+  faction: rebelalliance
+  type: t65xwing
+coruskapellim:
+  faction: resistance
+  type: btanr2ywing
+coruskapellim-wartime:
+  faction: resistance
+  type: btanr2wywing
+countdooku:
+  faction: separatistalliance
+  type: sithinfiltrator
+countdown:
+  faction: galacticempire
+  type: tieskstriker
+countessryad:
+  faction: galacticempire
+  type: tieddefender
+covanell:
+  faction: resistance
+  type: resistancetransport
+crymorahgoon:
+  faction: scumandvillainy
+  type: btla4ywing
+cutlasssquadronpilot:
+  faction: galacticempire
+  type: tiecapunisher
+dacebonearm:
+  faction: scumandvillainy
+  type: hwk290lightfreighter
+dalanoberos:
+  faction: scumandvillainy
+  type: m12lkimogilafighter
+dalanoberos-starviperclassattackplatform:
+  faction: scumandvillainy
+  type: starviperclassattackplatform
+darkcourier:
+  faction: separatistalliance
+  type: sithinfiltrator
+darthmaul:
+  faction: separatistalliance
+  type: sithinfiltrator
+darthvader:
+  faction: galacticempire
+  type: tieadvancedx1
+darthvader-tieddefender:
+  faction: galacticempire
+  type: tieddefender
+dashrendar:
+  faction: rebelalliance
+  type: yt2400lightfreighter
+dashrendar-swz103-rebelalliance:
+  faction: rebelalliance
+  type: yt2400lightfreighter
+dbs32c:
+  faction: separatistalliance
+  type: hyenaclassdroidbomber
+dbs404:
+  faction: separatistalliance
+  type: hyenaclassdroidbomber
+deathfire:
+  faction: galacticempire
+  type: tiesabomber
+deathrain:
+  faction: galacticempire
+  type: tiecapunisher
+deathwatchwarrior:
+  faction: separatistalliance
+  type: gauntletfighter
+delmeeko:
+  faction: galacticempire
+  type: tielnfighter
+deltasquadronpilot:
+  faction: galacticempire
+  type: tieddefender
+dengar:
+  faction: scumandvillainy
+  type: jumpmaster5000
+derekklivian:
+  faction: rebelalliance
+  type: rz1awing
+dfs081:
+  faction: separatistalliance
+  type: vultureclassdroidfighter
+dfs311:
+  faction: separatistalliance
+  type: vultureclassdroidfighter
+dgs047:
+  faction: separatistalliance
+  type: hmpdroidgunship
+dgs286:
+  faction: separatistalliance
+  type: hmpdroidgunship
+dineeellberger:
+  faction: galacticrepublic
+  type: nabooroyaln1starfighter
+dirkullodin:
+  faction: rebelalliance
+  type: fangfighter
+dis347:
+  faction: separatistalliance
+  type: droidtrifighter
+disl9b2-legendsandrelics:
+  faction: separatistalliance
+  type: droidtrifighter
+dist81:
+  faction: separatistalliance
+  type: droidtrifighter
+doctoraphra:
+  faction: scumandvillainy
+  type: yv666lightfreighter
+doubleedge:
+  faction: galacticempire
+  type: tieagaggressor
+dread:
+  faction: firstorder
+  type: tiesebomber
+drearenthal:
+  faction: scumandvillainy
+  type: btla4ywing
+drift:
+  faction: galacticrepublic
+  type: clonez95headhunter
+dt798:
+  faction: firstorder
+  type: tiefofighter
+duchess:
+  faction: galacticempire
+  type: tieskstriker
+durge:
+  faction: scumandvillainy
+  type: rogueclassstarfighter
+durge-separatistalliance:
+  faction: separatistalliance
+  type: rogueclassstarfighter
+dutchvander:
+  faction: rebelalliance
+  type: btla4ywing
+echo:
+  faction: galacticempire
+  type: tiephphantom
+echobaseevacuees:
+  faction: rebelalliance
+  type: gr75mediumtransport
+edonkappehl:
+  faction: resistance
+  type: mg100starfortress
+edriotwotubes:
+  faction: rebelalliance
+  type: t65xwing
+elloasty:
+  faction: resistance
+  type: t70xwing
+ember:
+  faction: firstorder
+  type: tiebainterceptor
+emonazzameen:
+  faction: scumandvillainy
+  type: firesprayclasspatrolcraft
+epsilonsquadroncadet:
+  faction: firstorder
+  type: tiefofighter
+esegetuketu:
+  faction: rebelalliance
+  type: btls8kwing
+evaanverlaine:
+  faction: rebelalliance
+  type: btla4ywing
+ezrabridger:
+  faction: rebelalliance
+  type: attackshuttle
+ezrabridger-gauntletfighter:
+  faction: rebelalliance
+  type: gauntletfighter
+ezrabridger-sheathipedeclassshuttle:
+  faction: rebelalliance
+  type: sheathipedeclassshuttle
+ezrabridger-tielnfighter:
+  faction: rebelalliance
+  type: tielnfighter
+fearsomepredator:
+  faction: separatistalliance
+  type: droidtrifighter
+feethanottrawautopilot:
+  faction: separatistalliance
+  type: belbullab22starfighter
+fennrau:
+  faction: scumandvillainy
+  type: fangfighter
+fennrau-fangfighter:
+  faction: rebelalliance
+  type: fangfighter
+fennrau-sheathipedeclassshuttle:
+  faction: rebelalliance
+  type: sheathipedeclassshuttle
+fifthbrother:
+  faction: galacticempire
+  type: tieadvancedv1
+finchdallow:
+  faction: resistance
+  type: mg100starfortress
+finn:
+  faction: resistance
+  type: resistancetransportpod
+firstordercadet:
+  faction: firstorder
+  type: tiesebomber
+firstordercollaborators:
+  faction: firstorder
+  type: raiderclasscorvette
+firstordercourier:
+  faction: firstorder
+  type: xiclasslightshuttle
+firstorderprovocateur:
+  faction: firstorder
+  type: tiebainterceptor
+firstordersympathizers:
+  faction: firstorder
+  type: gozanticlasscruiser
+firstordertestpilot:
+  faction: firstorder
+  type: tievnsilencer
+flightleaderubbel:
+  faction: galacticempire
+  type: tierbheavy
+foremanproach:
+  faction: scumandvillainy
+  type: modifiedtielnfighter
+freightercaptain:
+  faction: scumandvillainy
+  type: customizedyt1300lightfreighter
+g4rgorvm:
+  faction: scumandvillainy
+  type: m3ainterceptor
+gammasquadronace:
+  faction: galacticempire
+  type: tiesabomber
+gamutkey:
+  faction: scumandvillainy
+  type: hwk290lightfreighter
+gandfindsman:
+  faction: scumandvillainy
+  type: g1astarfighter
+garsaxon:
+  faction: galacticempire
+  type: gauntletfighter
+garvendreis:
+  faction: rebelalliance
+  type: arc170starfighter
+garvendreis-t65xwing:
+  faction: rebelalliance
+  type: t65xwing
+gavindarklighter:
+  faction: rebelalliance
+  type: ewing
+gavynsykes:
+  faction: galacticrepublic
+  type: nabooroyaln1starfighter
+generalgrievous:
+  faction: separatistalliance
+  type: belbullab22starfighter
+genesisred:
+  faction: scumandvillainy
+  type: m3ainterceptor
+geonosianprototype:
+  faction: separatistalliance
+  type: hmpdroidgunship
+gideonhask:
+  faction: galacticempire
+  type: tielnfighter
+gideonhask-tieininterceptor:
+  faction: galacticempire
+  type: tieininterceptor
+gideonhask-xiclasslightshuttle:
+  faction: firstorder
+  type: xiclasslightshuttle
+ginamoonsong:
+  faction: rebelalliance
+  type: asf01bwing
+goji:
+  faction: galacticrepublic
+  type: btlbywing
+goldsquadrontrooper:
+  faction: galacticrepublic
+  type: v19torrentstarfighter
+goldsquadronveteran:
+  faction: rebelalliance
+  type: btla4ywing
+gorgol:
+  faction: separatistalliance
+  type: nantexclassstarfighter
+grandinquisitor:
+  faction: galacticempire
+  type: tieadvancedv1
+graysquadronbomber:
+  faction: rebelalliance
+  type: btla4ywing
+graz:
+  faction: scumandvillainy
+  type: kihraxzfighter
+greensquadronexpert:
+  faction: resistance
+  type: rz2awing
+greensquadronpilot:
+  faction: rebelalliance
+  type: rz1awing
+greersonnel:
+  faction: resistance
+  type: rz2awing
+grudge:
+  faction: firstorder
+  type: tiesebomber
+guildbountyhunter:
+  faction: scumandvillainy
+  type: st70assaultship
+guri:
+  faction: scumandvillainy
+  type: starviperclassattackplatform
+hansolo:
+  faction: scumandvillainy
+  type: customizedyt1300lightfreighter
+hansolo-modifiedyt1300lightfreighter:
+  faction: rebelalliance
+  type: modifiedyt1300lightfreighter
+hansolo-scavengedyt1300:
+  faction: resistance
+  type: scavengedyt1300
+haorchallprototype:
+  faction: separatistalliance
+  type: vultureclassdroidfighter
+hawk:
+  faction: galacticrepublic
+  type: laatigunship
+hawk-clonez95headhunter:
+  faction: galacticrepublic
+  type: clonez95headhunter
+hefftobber:
+  faction: rebelalliance
+  type: ut60duwing
+herasyndulla:
+  faction: rebelalliance
+  type: attackshuttle
+herasyndulla-asf01bwing:
+  faction: rebelalliance
+  type: asf01bwing
+herasyndulla-legendsandrelics:
+  faction: rebelalliance
+  type: vcx100lightfreighter
+herasyndulla-rz1awing:
+  faction: rebelalliance
+  type: rz1awing
+herasyndulla-vcx100lightfreighter:
+  faction: rebelalliance
+  type: vcx100lightfreighter
+hiredgun:
+  faction: scumandvillainy
+  type: btla4ywing
+holo:
+  faction: firstorder
+  type: tiebainterceptor
+hondoohnaka:
+  faction: scumandvillainy
+  type: firesprayclasspatrolcraft
+hortonsalm:
+  faction: rebelalliance
+  type: btla4ywing
+hound:
+  faction: galacticrepublic
+  type: laatigunship
+howlrunner:
+  faction: galacticempire
+  type: tielnfighter
+ibtisam:
+  faction: rebelalliance
+  type: arc170starfighter
+idenversio:
+  faction: galacticempire
+  type: tielnfighter
+ig101:
+  faction: separatistalliance
+  type: rogueclassstarfighter
+ig102:
+  faction: separatistalliance
+  type: rogueclassstarfighter
+ig111:
+  faction: separatistalliance
+  type: rogueclassstarfighter
+ig88a:
+  faction: scumandvillainy
+  type: aggressorassaultfighter
+ig88b:
+  faction: scumandvillainy
+  type: aggressorassaultfighter
+ig88c:
+  faction: scumandvillainy
+  type: aggressorassaultfighter
+ig88d:
+  faction: scumandvillainy
+  type: aggressorassaultfighter
+imdaartestpilot:
+  faction: galacticempire
+  type: tiephphantom
+imperialsupercommando:
+  faction: galacticempire
+  type: gauntletfighter
+inaldra:
+  faction: scumandvillainy
+  type: m3ainterceptor
+inquisitor:
+  faction: galacticempire
+  type: tieadvancedv1
+isbjingoist:
+  faction: galacticempire
+  type: tielnfighter
+jag:
+  faction: galacticrepublic
+  type: arc170starfighter
+jakefarrell:
+  faction: rebelalliance
+  type: rz1awing
+jakkugunrunner:
+  faction: scumandvillainy
+  type: quadrijettransferspacetug
+jangofett:
+  faction: separatistalliance
+  type: firesprayclasspatrolcraft
+janors:
+  faction: rebelalliance
+  type: hwk290lightfreighter
+jarekyeager:
+  faction: resistance
+  type: fireball
+jaycristubbs:
+  faction: resistance
+  type: t70xwing
+jedigeneral:
+  faction: galacticrepublic
+  type: eta2actis
+jediknight:
+  faction: galacticrepublic
+  type: delta7aethersprite
+jediknight-delta7baethersprite:
+  faction: galacticrepublic
+  type: delta7baethersprite
+jekporkins:
+  faction: rebelalliance
+  type: t65xwing
+jessikapava:
+  faction: resistance
+  type: t70xwing
+jinatasecurityofficer:
+  faction: scumandvillainy
+  type: btla4ywing
+jophseastriker:
+  faction: resistance
+  type: t70xwing
+joyrekkoff:
+  faction: scumandvillainy
+  type: fangfighter
+juljerjerrod:
+  faction: firstorder
+  type: tiesebomber
+junoeclipse:
+  faction: galacticempire
+  type: tieadvancedx1
+k2so:
+  faction: rebelalliance
+  type: ut60duwing
+kaatoleeachos:
+  faction: scumandvillainy
+  type: z95af4headhunter
+kadsolus:
+  faction: scumandvillainy
+  type: fangfighter
+kananjarrus:
+  faction: rebelalliance
+  type: vcx100lightfreighter
+kananjarrus-hwk290lightfreighter:
+  faction: scumandvillainy
+  type: hwk290lightfreighter
+karekun:
+  faction: resistance
+  type: t70xwing
+kashyyykdefender:
+  faction: rebelalliance
+  type: auzituckgunship
+kathscarlet:
+  faction: scumandvillainy
+  type: firesprayclasspatrolcraft
+kavil:
+  faction: scumandvillainy
+  type: btla4ywing
+kazudaxiono:
+  faction: resistance
+  type: fireball
+kazudaxiono-legendsandrelics:
+  faction: resistance
+  type: t70xwing
+kelrodoaiholdout:
+  faction: separatistalliance
+  type: vultureclassdroidfighter
+keovenzee:
+  faction: rebelalliance
+  type: rz1awing
+ketsuonyo:
+  faction: scumandvillainy
+  type: lancerclasspursuitcraft
+kickback:
+  faction: galacticrepublic
+  type: v19torrentstarfighter
+kijimispicerunner:
+  faction: resistance
+  type: btanr2ywing
+kijimispicerunner-wartime:
+  faction: resistance
+  type: btanr2wywing
+killer:
+  faction: galacticrepublic
+  type: clonez95headhunter
+kitfisto:
+  faction: galacticrepublic
+  type: eta2actis
+klick:
+  faction: galacticrepublic
+  type: nimbusclassvwing
+knack:
+  faction: galacticrepublic
+  type: clonez95headhunter
+knavesquadronescort:
+  faction: rebelalliance
+  type: ewing
+koshkafrost:
+  faction: scumandvillainy
+  type: firesprayclasspatrolcraft
+krassistrelix:
+  faction: scumandvillainy
+  type: firesprayclasspatrolcraft
+kullbeesperado:
+  faction: rebelalliance
+  type: t65xwing
+kylekatarn:
+  faction: rebelalliance
+  type: hwk290lightfreighter
+kyloren:
+  faction: firstorder
+  type: tievnsilencer
+kyloren-tiewiwhispermodifiedinterceptor:
+  faction: firstorder
+  type: tiewiwhispermodifiedinterceptor
+l337:
+  faction: scumandvillainy
+  type: customizedyt1300lightfreighter
+l337-escapecraft:
+  faction: scumandvillainy
+  type: escapecraft
+laetinashera:
+  faction: scumandvillainy
+  type: m3ainterceptor
+landocalrissian:
+  faction: scumandvillainy
+  type: customizedyt1300lightfreighter
+landocalrissian-escapecraft:
+  faction: scumandvillainy
+  type: escapecraft
+landocalrissian-modifiedyt1300lightfreighter:
+  faction: rebelalliance
+  type: modifiedyt1300lightfreighter
+landocalrissian-scavengedyt1300:
+  faction: resistance
+  type: scavengedyt1300
+lapin:
+  faction: scumandvillainy
+  type: modifiedtielnfighter
+lattsrazzi:
+  faction: scumandvillainy
+  type: yv666lightfreighter
+lawlesspirates:
+  faction: scumandvillainy
+  type: tridentclassassaultship
+leebo:
+  faction: rebelalliance
+  type: yt2400lightfreighter
+leebo-swz103-rebelalliance:
+  faction: rebelalliance
+  type: yt2400lightfreighter
+leemakai:
+  faction: scumandvillainy
+  type: btla4ywing
+leevantenza:
+  faction: rebelalliance
+  type: t65xwing
+legafossang:
+  faction: resistance
+  type: btanr2ywing
+legafossang-wartime:
+  faction: resistance
+  type: btanr2wywing
+leiaorgana:
+  faction: rebelalliance
+  type: modifiedyt1300lightfreighter
+lieutenantbastian:
+  faction: resistance
+  type: t70xwing
+lieutenantblount:
+  faction: rebelalliance
+  type: z95af4headhunter
+lieutenantdormitz:
+  faction: firstorder
+  type: upsilonclassshuttle
+lieutenantgalek:
+  faction: firstorder
+  type: tiefofighter
+lieutenantkarsabi:
+  faction: galacticempire
+  type: alphaclassstarwing
+lieutenantkestal:
+  faction: galacticempire
+  type: tieagaggressor
+lieutenantlehuse:
+  faction: firstorder
+  type: tiesffighter
+lieutenantlorrir:
+  faction: galacticempire
+  type: tieininterceptor
+lieutenantrivas:
+  faction: firstorder
+  type: tiefofighter
+lieutenantsai:
+  faction: galacticempire
+  type: lambdaclasst4ashuttle
+lieutenanttavson:
+  faction: firstorder
+  type: upsilonclassshuttle
+lingaava:
+  faction: firstorder
+  type: tiefofighter
+logisticsdivisionpilot:
+  faction: resistance
+  type: resistancetransport
+lokrevenant:
+  faction: scumandvillainy
+  type: scurrgh6bomber
+longshot:
+  faction: firstorder
+  type: tiefofighter
+lothalrebel:
+  faction: rebelalliance
+  type: vcx100lightfreighter
+lowhhrick:
+  faction: rebelalliance
+  type: auzituckgunship
+loyalistvolunteer:
+  faction: galacticrepublic
+  type: nimbusclassvwing
+lukeskywalker:
+  faction: rebelalliance
+  type: t65xwing
+lulolampar:
+  faction: resistance
+  type: rz2awing
+luminaraunduli:
+  faction: galacticrepublic
+  type: delta7aethersprite
+luminaraunduli-delta7baethersprite:
+  faction: galacticrepublic
+  type: delta7baethersprite
+lyttandree:
+  faction: galacticempire
+  type: tierbheavy
+maarekstele:
+  faction: galacticempire
+  type: tieadvancedx1
+macewindu:
+  faction: galacticrepublic
+  type: delta7aethersprite
+macewindu-delta7baethersprite:
+  faction: galacticrepublic
+  type: delta7baethersprite
+magnaguardexecutioner:
+  faction: separatistalliance
+  type: rogueclassstarfighter
+magnaguardprotector:
+  faction: separatistalliance
+  type: rogueclassstarfighter
+magnatolvan:
+  faction: galacticempire
+  type: tielnfighter
+magvayarro:
+  faction: rebelalliance
+  type: ut60duwing
+majorrhymer:
+  faction: galacticempire
+  type: tiesabomber
+majorstridan:
+  faction: firstorder
+  type: upsilonclassshuttle
+majorvermeil:
+  faction: galacticempire
+  type: tiereaper
+majorvonreg:
+  faction: firstorder
+  type: tiebainterceptor
+majorvynder:
+  faction: galacticempire
+  type: alphaclassstarwing
+manaroo:
+  faction: scumandvillainy
+  type: jumpmaster5000
+mandalorianresistancepilot:
+  faction: rebelalliance
+  type: gauntletfighter
+mandalorianroyalguard:
+  faction: scumandvillainy
+  type: fangfighter
+matchstick:
+  faction: galacticrepublic
+  type: btlbywing
+maul:
+  faction: scumandvillainy
+  type: gauntletfighter
+maulermithel:
+  faction: galacticempire
+  type: tielnfighter
+merlcobben:
+  faction: resistance
+  type: rz2awing
+midnight:
+  faction: firstorder
+  type: tiefofighter
+miningguildsentry:
+  faction: scumandvillainy
+  type: modifiedtielnfighter
+miningguildsurveyor:
+  faction: scumandvillainy
+  type: modifiedtielnfighter
+mirandadoni:
+  faction: rebelalliance
+  type: btls8kwing
+moffgideon:
+  faction: galacticempire
+  type: tielnfighter
+moraloeval:
+  faction: scumandvillainy
+  type: yv666lightfreighter
+mornakee:
+  faction: galacticempire
+  type: vt49decimator
+muse:
+  faction: firstorder
+  type: tiefofighter
+naboohandmaiden:
+  faction: galacticrepublic
+  type: nabooroyaln1starfighter
+nashtahpup:
+  faction: scumandvillainy
+  type: z95af4headhunter
+nashwindrider:
+  faction: galacticempire
+  type: tieininterceptor
+ndrusuhlak:
+  faction: scumandvillainy
+  type: z95af4headhunter
+netrempollard:
+  faction: rebelalliance
+  type: asf01bwing
+newrepublicpatrol:
+  faction: resistance
+  type: btanr2ywing
+newrepublicpatrol-wartime:
+  faction: resistance
+  type: btanr2wywing
+newrepublicvolunteers:
+  faction: resistance
+  type: gr75mediumtransport
+niennunb:
+  faction: resistance
+  type: t70xwing
+nightbeast:
+  faction: galacticempire
+  type: tielnfighter
+nightfall:
+  faction: firstorder
+  type: tiewiwhispermodifiedinterceptor
+nimichireen:
+  faction: resistance
+  type: t70xwing
+niteowlliberator:
+  faction: galacticrepublic
+  type: gauntletfighter
+nodinchavdri:
+  faction: resistance
+  type: resistancetransport
+nomlumb:
+  faction: scumandvillainy
+  type: jumpmaster5000
+nomlumb-rogueclassstarfighter:
+  faction: scumandvillainy
+  type: rogueclassstarfighter
+norrawexley:
+  faction: rebelalliance
+  type: arc170starfighter
+norrawexley-btla4ywing:
+  faction: rebelalliance
+  type: btla4ywing
+'null':
+  faction: firstorder
+  type: tiefofighter
+nusquadronpilot:
+  faction: galacticempire
+  type: alphaclassstarwing
+obiwankenobi:
+  faction: galacticrepublic
+  type: delta7aethersprite
+obiwankenobi-delta7baethersprite:
+  faction: galacticrepublic
+  type: delta7baethersprite
+obiwankenobi-eta2actis:
+  faction: galacticrepublic
+  type: eta2actis
+obsidiansquadronpilot:
+  faction: galacticempire
+  type: tielnfighter
+oddball:
+  faction: galacticrepublic
+  type: v19torrentstarfighter
+oddball-arc170starfighter:
+  faction: galacticrepublic
+  type: arc170starfighter
+oddball-btlbywing:
+  faction: galacticrepublic
+  type: btlbywing
+oddball-nimbusclassvwing:
+  faction: galacticrepublic
+  type: nimbusclassvwing
+oldteroch:
+  faction: scumandvillainy
+  type: fangfighter
+omegasquadronace:
+  faction: firstorder
+  type: tiefofighter
+omegasquadronexpert:
+  faction: firstorder
+  type: tiesffighter
+omicrongrouppilot:
+  faction: galacticempire
+  type: lambdaclasst4ashuttle
+onderonoppressor:
+  faction: separatistalliance
+  type: hmpdroidgunship
+onyxsquadronace:
+  faction: galacticempire
+  type: tieddefender
+onyxsquadronscout:
+  faction: galacticempire
+  type: tieagaggressor
+onyxsquadronsentry:
+  faction: galacticempire
+  type: tierbheavy
+outerrimenforcer:
+  faction: scumandvillainy
+  type: st70assaultship
+outerrimgarrison:
+  faction: galacticempire
+  type: gozanticlasscruiser
+outerrimhunter:
+  faction: scumandvillainy
+  type: rogueclassstarfighter
+outerrimpatrol:
+  faction: galacticempire
+  type: raiderclasscorvette
+outerrimpioneer:
+  faction: scumandvillainy
+  type: escapecraft
+outerrimsmuggler:
+  faction: rebelalliance
+  type: modifiedyt1300lightfreighter
+overseeryushyn:
+  faction: scumandvillainy
+  type: modifiedtielnfighter
+padmeamidala:
+  faction: galacticrepublic
+  type: nabooroyaln1starfighter
+padric:
+  faction: scumandvillainy
+  type: btla4ywing
+paigetico:
+  faction: resistance
+  type: mg100starfortress
+palobgodalhi:
+  faction: scumandvillainy
+  type: hwk290lightfreighter
+pammichnerrogoode:
+  faction: resistance
+  type: resistancetransport
+partisanrenegade:
+  faction: rebelalliance
+  type: ut60duwing
+patrolleader:
+  faction: galacticempire
+  type: vt49decimator
+petranakiarenaace:
+  faction: separatistalliance
+  type: nantexclassstarfighter
+pettyofficerthanisson:
+  faction: firstorder
+  type: upsilonclassshuttle
+phlacarphoccprototype:
+  faction: separatistalliance
+  type: droidtrifighter
+phoenixsquadronpilot:
+  faction: rebelalliance
+  type: rz1awing
+planetarysentinel:
+  faction: galacticempire
+  type: tieskstriker
+plokoon:
+  faction: galacticrepublic
+  type: delta7aethersprite
+plokoon-delta7baethersprite:
+  faction: galacticrepublic
+  type: delta7baethersprite
+poedameron:
+  faction: resistance
+  type: t70xwing
+poedameron-scavengedyt1300:
+  faction: resistance
+  type: scavengedyt1300
+poedameron-swz68:
+  faction: resistance
+  type: t70xwing
+popskrail:
+  faction: rebelalliance
+  type: btla4ywing
+precisehunter:
+  faction: separatistalliance
+  type: vultureclassdroidfighter
+previzsla:
+  faction: separatistalliance
+  type: gauntletfighter
+princexizor:
+  faction: scumandvillainy
+  type: starviperclassattackplatform
+puresabacc:
+  faction: galacticempire
+  type: tieskstriker
+q90:
+  faction: scumandvillainy
+  type: st70assaultship
+quickdraw:
+  faction: firstorder
+  type: tiesffighter
+quinlanvos-legendsandrelics:
+  faction: galacticrepublic
+  type: eta2actis
+quinnjast:
+  faction: scumandvillainy
+  type: m3ainterceptor
+r1j5:
+  faction: resistance
+  type: fireball
+r2d2:
+  faction: galacticrepublic
+  type: btlbywing
+rampage:
+  faction: galacticempire
+  type: tierbheavy
+reapersquadronscout:
+  faction: galacticrepublic
+  type: clonez95headhunter
+rearadmiralchiraneau:
+  faction: galacticempire
+  type: vt49decimator
+rebelscout:
+  faction: rebelalliance
+  type: hwk290lightfreighter
+recoil:
+  faction: firstorder
+  type: tievnsilencer
+redfuryzealot:
+  faction: firstorder
+  type: tiewiwhispermodifiedinterceptor
+redline:
+  faction: galacticempire
+  type: tiecapunisher
+redsquadronbomber:
+  faction: galacticrepublic
+  type: btlbywing
+redsquadronexpert:
+  faction: resistance
+  type: t70xwing
+redsquadronveteran:
+  faction: rebelalliance
+  type: t65xwing
+republicjudiciary:
+  faction: galacticrepublic
+  type: cr90corelliancorvette
+resistancesympathizer:
+  faction: resistance
+  type: scavengedyt1300
+rexlerbrath:
+  faction: galacticempire
+  type: tieddefender
+rey:
+  faction: resistance
+  type: scavengedyt1300
+rhosquadronpilot:
+  faction: galacticempire
+  type: alphaclassstarwing
+ricolie:
+  faction: galacticrepublic
+  type: nabooroyaln1starfighter
+roarkgarnet:
+  faction: rebelalliance
+  type: hwk290lightfreighter
+roguesquadronescort:
+  faction: rebelalliance
+  type: ewing
+ronithblario:
+  faction: resistance
+  type: rz2awing
+rookkast:
+  faction: scumandvillainy
+  type: gauntletfighter
+rosetico:
+  faction: resistance
+  type: resistancetransportpod
+rush:
+  faction: firstorder
+  type: tievnsilencer
+sabersquadronace:
+  faction: galacticempire
+  type: tieininterceptor
+sabinewren:
+  faction: rebelalliance
+  type: attackshuttle
+sabinewren-lancerclasspursuitcraft:
+  faction: scumandvillainy
+  type: lancerclasspursuitcraft
+sabinewren-rz1awing:
+  faction: rebelalliance
+  type: rz1awing
+sabinewren-tielnfighter:
+  faction: rebelalliance
+  type: tielnfighter
+saeseetiin:
+  faction: galacticrepublic
+  type: delta7aethersprite
+saeseetiin-delta7baethersprite:
+  faction: galacticrepublic
+  type: delta7baethersprite
+sarcoplank:
+  faction: scumandvillainy
+  type: quadrijettransferspacetug
+sawgerrera:
+  faction: rebelalliance
+  type: ut60duwing
+scarifbasepilot:
+  faction: galacticempire
+  type: tiereaper
+scimitarsquadronpilot:
+  faction: galacticempire
+  type: tiesabomber
+scorch:
+  faction: firstorder
+  type: tiefofighter
+scorch-tiesebomber:
+  faction: firstorder
+  type: tiesebomber
+scourgeskutu:
+  faction: galacticempire
+  type: tielnfighter
+secondsister:
+  faction: galacticempire
+  type: tieininterceptor
+seftinvanik:
+  faction: resistance
+  type: rz2awing
+separatistbomber:
+  faction: separatistalliance
+  type: hyenaclassdroidbomber
+separatistdrone:
+  faction: separatistalliance
+  type: vultureclassdroidfighter
+separatistinterceptor:
+  faction: separatistalliance
+  type: droidtrifighter
+separatistpredator:
+  faction: separatistalliance
+  type: hmpdroidgunship
+separatistprivateers:
+  faction: separatistalliance
+  type: croccruiser
+separatistracketeer:
+  faction: separatistalliance
+  type: firesprayclasspatrolcraft
+serissu:
+  faction: scumandvillainy
+  type: m3ainterceptor
+seventhsister:
+  faction: galacticempire
+  type: tieadvancedv1
+seynmarana:
+  faction: galacticempire
+  type: tielnfighter
+shaakti:
+  faction: galacticrepublic
+  type: eta2actis
+shadowcollectiveoperator:
+  faction: scumandvillainy
+  type: gauntletfighter
+shadowporthunter:
+  faction: scumandvillainy
+  type: lancerclasspursuitcraft
+shadowsquadronescort:
+  faction: galacticrepublic
+  type: nimbusclassvwing
+shadowsquadronveteran:
+  faction: galacticrepublic
+  type: btlbywing
+sharabey:
+  faction: rebelalliance
+  type: arc170starfighter
+sharabey-rz1awing:
+  faction: rebelalliance
+  type: rz1awing
+shasazaro:
+  faction: resistance
+  type: btanr2ywing
+shasazaro-wartime:
+  faction: resistance
+  type: btanr2wywing
+sicko:
+  faction: galacticrepublic
+  type: laatigunship
+sienarjaemusengineer:
+  faction: firstorder
+  type: tievnsilencer
+sienarjaemustestpilot:
+  faction: firstorder
+  type: tiesebomber
+sienarspecialist:
+  faction: galacticempire
+  type: tieagaggressor
+sigmasquadronace:
+  faction: galacticempire
+  type: tiephphantom
+sinker:
+  faction: galacticrepublic
+  type: arc170starfighter
+skakoanace:
+  faction: separatistalliance
+  type: belbullab22starfighter
+skullsquadronpilot:
+  faction: scumandvillainy
+  type: fangfighter
+slammer:
+  faction: galacticrepublic
+  type: v19torrentstarfighter
+slider:
+  faction: galacticrepublic
+  type: clonez95headhunter
+solsixxa:
+  faction: scumandvillainy
+  type: scurrgh6bomber
+soontirfel:
+  faction: galacticempire
+  type: tieininterceptor
+spicerunner:
+  faction: scumandvillainy
+  type: hwk290lightfreighter
+squadsevenveteran:
+  faction: galacticrepublic
+  type: arc170starfighter
+stalgasinhiveguard:
+  faction: separatistalliance
+  type: nantexclassstarfighter
+starkillerbasepilot:
+  faction: firstorder
+  type: upsilonclassshuttle
+static:
+  faction: firstorder
+  type: tiefofighter
+stormsquadronace:
+  faction: galacticempire
+  type: tieadvancedx1
+stub:
+  faction: galacticrepublic
+  type: clonez95headhunter
+sunfac:
+  faction: separatistalliance
+  type: nantexclassstarfighter
+sunnybounder:
+  faction: scumandvillainy
+  type: m3ainterceptor
+suralindajavos:
+  faction: resistance
+  type: rz2awing
+swoop:
+  faction: galacticrepublic
+  type: v19torrentstarfighter
+syndicatesmugglers:
+  faction: scumandvillainy
+  type: croccruiser
+takajamoreesa:
+  faction: resistance
+  type: resistancetransport
+talasquadronpilot:
+  faction: rebelalliance
+  type: z95af4headhunter
+tallissanlintra:
+  faction: resistance
+  type: rz2awing
+talonbanecobra:
+  faction: scumandvillainy
+  type: kihraxzfighter
+tamararyvora-legendsandrelics:
+  faction: firstorder
+  type: tiefofighter
+tansariipointveteran:
+  faction: scumandvillainy
+  type: m3ainterceptor
+tapusk:
+  faction: scumandvillainy
+  type: hwk290lightfreighter
+technounionbomber:
+  faction: separatistalliance
+  type: hyenaclassdroidbomber
+teltrevura:
+  faction: scumandvillainy
+  type: jumpmaster5000
+temminwexley:
+  faction: resistance
+  type: t70xwing
+temminwexley-swz68:
+  faction: resistance
+  type: t70xwing
+tempestsquadronpilot:
+  faction: galacticempire
+  type: tieadvancedx1
+tennumb:
+  faction: rebelalliance
+  type: asf01bwing
+tezanasz:
+  faction: resistance
+  type: btanr2ywing
+tezanasz-wartime:
+  faction: resistance
+  type: btanr2wywing
+thanekyrell:
+  faction: rebelalliance
+  type: t65xwing
+theironassembler:
+  faction: separatistalliance
+  type: vultureclassdroidfighter
+themandalorian:
+  faction: scumandvillainy
+  type: st70assaultship
+thweek-legendsandrelics:
+  faction: scumandvillainy
+  type: starviperclassattackplatform
+tn3465:
+  faction: firstorder
+  type: tiefofighter
+tomaxbren:
+  faction: galacticempire
+  type: tiesabomber
+toranikulda:
+  faction: scumandvillainy
+  type: m12lkimogilafighter
+torkilmux:
+  faction: scumandvillainy
+  type: hwk290lightfreighter
+torphun:
+  faction: scumandvillainy
+  type: fangfighter
+tradefederationdrone:
+  faction: separatistalliance
+  type: vultureclassdroidfighter
+trandoshanslaver:
+  faction: scumandvillainy
+  type: yv666lightfreighter
+transgalmegcontrollink:
+  faction: galacticrepublic
+  type: syliureclasshyperspacering
+tucker:
+  faction: galacticrepublic
+  type: v19torrentstarfighter
+turrphennir:
+  faction: galacticempire
+  type: tieininterceptor
+tychocelchu:
+  faction: rebelalliance
+  type: rz1awing
+unkarplutt:
+  faction: scumandvillainy
+  type: quadrijettransferspacetug
+ursawren-legendsandrelics:
+  faction: galacticrepublic
+  type: gauntletfighter
+vagabond:
+  faction: galacticempire
+  type: tieskstriker
+valenrudor:
+  faction: galacticempire
+  type: tielnfighter
+vedfoslo:
+  faction: galacticempire
+  type: tieadvancedx1
+venisadoza:
+  faction: resistance
+  type: t70xwing
+vennie:
+  faction: resistance
+  type: mg100starfortress
+viktorhel:
+  faction: scumandvillainy
+  type: kihraxzfighter
+viktorhel-rogueclassstarfighter:
+  faction: scumandvillainy
+  type: rogueclassstarfighter
+vimoradi:
+  faction: resistance
+  type: resistancetransportpod
+vizier:
+  faction: galacticempire
+  type: tiereaper
+volandas:
+  faction: separatistalliance
+  type: droidtrifighter
+vultskerris:
+  faction: galacticempire
+  type: tieddefender
+vultskerris-tieininterceptor:
+  faction: galacticempire
+  type: tieininterceptor
+wampa:
+  faction: galacticempire
+  type: tielnfighter
+wardensquadronpilot:
+  faction: rebelalliance
+  type: btls8kwing
+warthog:
+  faction: galacticrepublic
+  type: laatigunship
+warthog-clonez95headhunter:
+  faction: galacticrepublic
+  type: clonez95headhunter
+wattambor:
+  faction: separatistalliance
+  type: belbullab22starfighter
+wedgeantilles:
+  faction: rebelalliance
+  type: t65xwing
+wedgeantilles-rz1awing:
+  faction: rebelalliance
+  type: rz1awing
+wesjanson:
+  faction: rebelalliance
+  type: t65xwing
+whirlwind:
+  faction: firstorder
+  type: tiewiwhispermodifiedinterceptor
+whisper:
+  faction: galacticempire
+  type: tiephphantom
+wildspacefringer:
+  faction: rebelalliance
+  type: yt2400lightfreighter
+wilhufftarkin:
+  faction: galacticrepublic
+  type: nimbusclassvwing
+wilsateshlo:
+  faction: resistance
+  type: btanr2ywing
+wilsateshlo-wartime:
+  faction: resistance
+  type: btanr2wywing
+wolffe:
+  faction: galacticrepublic
+  type: arc170starfighter
+wrath:
+  faction: firstorder
+  type: tiewiwhispermodifiedinterceptor
+wrobietyce:
+  faction: resistance
+  type: rz2awing
+wullffwarro:
+  faction: rebelalliance
+  type: auzituckgunship
+yoda:
+  faction: galacticrepublic
+  type: eta2actis
+yricaquell:
+  faction: galacticempire
+  type: tielnfighter
+zamwesell:
+  faction: separatistalliance
+  type: firesprayclasspatrolcraft
+zaribangel:
+  faction: resistance
+  type: rz2awing
+zayversio:
+  faction: resistance
+  type: t70xwing
+zealousrecruit:
+  faction: scumandvillainy
+  type: fangfighter
+zeborrelios:
+  faction: rebelalliance
+  type: attackshuttle
+zeborrelios-sheathipedeclassshuttle:
+  faction: rebelalliance
+  type: sheathipedeclassshuttle
+zeborrelios-tielnfighter:
+  faction: rebelalliance
+  type: tielnfighter
+zertikstrom:
+  faction: galacticempire
+  type: tieadvancedx1
+zetasquadronpilot:
+  faction: firstorder
+  type: tiefofighter
+zetasquadronsurvivor:
+  faction: firstorder
+  type: tiesffighter
+zizitlo:
+  faction: resistance
+  type: rz2awing
+zoriibliss:
+  faction: resistance
+  type: btanr2ywing
+zoriibliss-wartime:
+  faction: resistance
+  type: btanr2wywing
+zuckuss:
+  faction: scumandvillainy
+  type: g1astarfighter
