@@ -5,6 +5,7 @@ from typing import Iterable
 
 import msgspec
 
+from game.model.faction import Faction
 from discord_helpers.emoji import get_emoji
 from game.model import catalog
 from game.model.base import CATALOG_ROOT_PATH, FrozenBaseStruct, MutableBaseStruct
@@ -136,7 +137,7 @@ class Ship(MutableBaseStruct, kw_only=True):
     id_: str
     ship_name: str
     pilot_name: str
-    faction: str
+    faction: Faction
     shields: int
     energy: int | None = None
     damage_cards: list[DamageCard]
@@ -199,7 +200,7 @@ class Ship(MutableBaseStruct, kw_only=True):
         type_: str | None = entry.get('type') if (entry := cls._get_manifest().get(id_)) else None
         if not type_:
             raise ValueError(
-                f'Ship manifest missing or malformed or entry for {id_} missing from manifest'
+                f'Ship manifest missing or malformed entry for {id_} missing from manifest'
             )
 
         return cls._read_card_file(type_).get(type_)

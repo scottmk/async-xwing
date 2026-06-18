@@ -80,6 +80,7 @@ version = "0.0.1"
 source = { virtual = "." }
 dependencies = [
     { name = "aiohttp" },
+    { name = "case-converter" },
     { name = "click" },
     { name = "discord-py" },
     { name = "dotenv" },
@@ -102,6 +103,7 @@ dev = [
 [package.metadata]
 requires-dist = [
     { name = "aiohttp", specifier = ">=3.13.5" },
+    { name = "case-converter" },
     { name = "click" },
     { name = "discord-py", specifier = ">=2.7.1" },
     { name = "dotenv" },
@@ -177,6 +179,15 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/54/93/badd4f5ccf25209f3fef2573073da9fe4a45a3da99fca2f800f942130c0f/braceexpand-0.1.7.tar.gz", hash = "sha256:e6e539bd20eaea53547472ff94f4fb5c3d3bf9d0a89388c4b56663aba765f705", size = 7777, upload-time = "2021-05-07T13:49:07.323Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/fa/93/e8c04e80e82391a6e51f218ca49720f64236bc824e92152a2633b74cf7ab/braceexpand-0.1.7-py2.py3-none-any.whl", hash = "sha256:91332d53de7828103dcae5773fb43bc34950b0c8160e35e0f44c4427a3b85014", size = 5923, upload-time = "2021-05-07T13:49:05.146Z" },
+]
+
+[[package]]
+name = "case-converter"
+version = "1.2.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/83/09/f5b4cf1f5da361e7c6f5f5f5d8bbf313a57d01574194f84abed68447fbb6/case_converter-1.2.0.tar.gz", hash = "sha256:4e0281ae60d4335e57300bafd61cfb3fa65734587fe9efd32f6cec1a506685c5", size = 8760, upload-time = "2025-02-19T16:49:34.891Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/42/8e/32a7ab1ac97de46e6a0d45b1fcfe1ad7ba9a523a6fb449662ccf39b9591e/case_converter-1.2.0-py3-none-any.whl", hash = "sha256:bb5bc6b1e121c394a6de6526cd3f8be0f5c5817c40d32251cce28a2cf4a72d8c", size = 16250, upload-time = "2025-02-19T16:49:30.48Z" },
 ]
 
 [[package]]

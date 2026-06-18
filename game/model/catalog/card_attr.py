@@ -3,6 +3,8 @@ from typing import Annotated
 
 import msgspec
 
+from discord_helpers.emoji import get_emoji
+
 
 class Ability(msgspec.Struct, kw_only=True):
     name: str | None = None
@@ -13,11 +15,11 @@ class Ability(msgspec.Struct, kw_only=True):
 
 class ActionName(StrEnum):
     FOCUS = auto()
+    CALCULATE = auto()
     EVADE = auto()
     BARREL_ROLL = auto()
     BOOST = auto()
     LOCK = auto()
-    CALCULATE = auto()
     CLOAK = auto()
     COORDINATE = auto()
     JAM = auto()
@@ -38,6 +40,17 @@ class Action(msgspec.Struct):
     color: ActionDifficulty = ActionDifficulty.WHITE
     linked_action: 'Action | None' = None
 
+    @property
+    def emoji(self) -> str:
+        emoji_name: str = self.action_name if self.action_name != 'lock' else 'target_lock'
+        if self.color != ActionDifficulty.WHITE:
+            emoji_name += f'_{self.color}'
+        emoji_str: str = get_emoji(emoji_name)
+
+        if self.linked_action:
+            emoji_str += f' ► {self.linked_action.emoji}'
+        return emoji_str
+
 
 class Arc(StrEnum):
     FRONT = auto()
@@ -49,6 +62,10 @@ class Arc(StrEnum):
     BULLSEYE = auto()
     SINGLE_TURRET = auto()
     DOUBLE_TURRET = auto()
+
+    @property
+    def emoji(self) -> str:
+        return get_emoji(f'{self.value}_arc')
 
 
 class Attack(msgspec.Struct):

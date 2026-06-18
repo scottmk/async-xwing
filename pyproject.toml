@@ -4,6 +4,7 @@ version = "0.0.1"
 requires-python = ">=3.14"
 dependencies = [
     "aiohttp>=3.13.5",
+    "case-converter",
     "click",
     "discord.py>=2.7.1",
     "dotenv",

@@ -110,8 +110,10 @@ class PlayerCog(commands.GroupCog, name='player'):
         ]
         if shields:
             new_shields_val = ship.shields + shields
-            max_shields: int = cast(catalog.ShipAttr, ship.get_catalog_entry()).shield_val
-            if new_shields_val < 0:
+            max_shields: int | None = cast(catalog.ShipAttr, ship.get_catalog_entry()).shield_val
+            if max_shields is None:
+                response_str_builder.append("Ship doesn't have a shields attribute!")
+            elif new_shields_val < 0:
                 response_str_builder.append(
                     f"> - Can't set shields to negative values ({ship.shields + shields})"
                 )
