@@ -2,7 +2,9 @@ import os
 import discord
 import re
 
+from caseconverter import snakecase
 from discord.ext import commands
+
 
 SERVER_EMOJI_CACHE: dict[str, discord.Emoji] = {}
 
@@ -22,12 +24,21 @@ async def load_emoji_cache(bot: commands.Bot) -> bool:
 def get_emoji(name: str) -> str:
     global SERVER_EMOJI_CACHE
     emoji: discord.Emoji | None = SERVER_EMOJI_CACHE.get(name)
-    return str(emoji if emoji else '❓')
+    return str(emoji if emoji else f':{name}:')
 
 
-def _get_emoji_from_placeholder(match: re.Match) -> str:
-    return get_emoji(match.group(1))
+def _get_emoji_from_placeholder(placeholder: str) -> str:
+    formatted_placeholder: str = snakecase(placeholder)
+    match formatted_placeholder:
+        case 'force':
+            return get_emoji('force_charge')
+        case 'lock':
+            return get_emoji('target_lock')
+        case _:
+            return get_emoji(formatted_placeholder)
 
 
-def replace_emoji_placeholders(interaction: discord.Interaction, text: str) -> str:
-    return re.sub(r':(\w+):', _get_emoji_from_placeholder, text)
+def replace_emoji_placeholders(text: str) -> str:
+    return re.sub(
+        r'\[([\w ]+)\]', lambda match: str(_get_emoji_from_placeholder(match.group(1))), text
+    )
