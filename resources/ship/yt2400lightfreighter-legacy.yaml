@@ -1,4 +1,4 @@
-id_: yt2400lightfreighter
+id_: yt2400lightfreighter-legacy
 name: YT-2400 Light Freighter
 size: large
 attacks:
@@ -60,11 +60,12 @@ pilots:
       xwa_cost: 16
       xwa_restricted_count: null
       name: • “Leebo”
-      unique: true
+      is_unique: true
+      limit: 1
       subtitle: Wisdom of Ages
       initiative: 3
       faction: rebelalliance
-      is_droid: false
+      is_droid: true
       pilot_ability:
         name: null
         text: After you defend or perform an attack, if you spent a calculate token,
@@ -74,8 +75,8 @@ pilots:
       flavor_text: null
       charges: null
       keywords:
-      - Freighter
       - Droid
+      - Freighter
       amg_upgrade_bar: null
       amg_loadout_val: null
       xwa_upgrade_bar:
@@ -93,7 +94,8 @@ pilots:
       xwa_cost: 18
       xwa_restricted_count: null
       name: • Dash Rendar
-      unique: true
+      is_unique: true
+      limit: 1
       subtitle: Freighter for Hire
       initiative: 5
       faction: rebelalliance
