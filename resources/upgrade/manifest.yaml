@@ -1,501 +1,1002 @@
-'000': crew
-4lom: crew
-aaylasecura: crew
-ablativeplating: modification
-adaptiveshields: cargo
-admiralozzel: command
-admiralsloane: crew
-advancedoptics: tech
-advancedsensors: sensor
-advancedslam: modification
-advprotontorpedoes: torpedo
-afterburners: modification
-agentkallus: crew
-agentoftheempire: command
-agentterex: crew
-agentterex-rev: crew
-agilegunner: gunner
-ahsokatano: gunner
-ahsokatano-crew: crew
-ahsokatano-legendsandrelics: crew
-alpha3bbesh: configuration
-alpha3eesk: configuration
-amilynholdo: crew
-andrasta: title
-angleddeflectors: modification
-asajjventresscommand: command
-assailer: title
-autoblasters: cannon
-automatedloaders-legendsandrelics: modification
-automatedtargetpriority: tech
-azmorigan: command
-b6bladewingprototype: title
-b6bladewingprototype-command: command
-babufrik: illicit
-backwardstailslide: talent
-barragerockets: missile
-battlemeditation: force_power
-bazemalbus: crew
-bb8: astromech
-bbastromech: astromech
-beskarreinforcedplating: modification
-biohexacryptcodes: tech
-bistan: gunner
-blackone: title
-blazerbomb: payload
-blindspottargeter-legendsandrelics: sensor
-bloodcrow: title
-bobafett: crew
-bobafett-gunner: gunner
-bokatankryze: crew
-bokatankryze-rebel-scum: crew
-bombardmentspecialists: team
-bombletgenerator: payload
-boostedscanners: cargo
-bossk: gunner
-bounty: command
-bounty-rev: command
-brighthope: title
-brilliantevasion: force_power
-brokenhorn: title
-bt1: gunner
-burnoutthrusters: modification
-burstlaserturret-legendsandrelics: turret
-c110p: astromech
-c110p-rev: astromech
-c3po: crew
-c3po-crew: crew
-c3po-republic: crew
-cadbane: crew
-calibratedlasertargeting: configuration
-captainhark: crew
-captainneeda: command
-captainphasma: crew
-captive-legendsandrelics: crew
-carlistrieekan: command
-cassianandor: crew
-chancellorpalpatine: crew
-chancellorpalpatine-rev: crew
-chewbacca: crew
-chewbacca-crew: crew
-chewbacca-crew-swz19: crew
-chopper: astromech
-chopper-crew: crew
-cienaree: crew
-cikatrovizago: crew
-clantraining: talent
-clanwrencommandos: crew
-cloakingdevice: illicit
-clonecaptainrex: gunner
-clonecommandercody: gunner
-clustermines: payload
-clustermissiles: missile
-coaxiumhyperfuel: illicit
-collisiondetector: sensor
-combatboardingtube: command
-commandermalarus: crew
-commandermalarus-rev: crew
-commanderpyre: crew
-commsteam: team
-compassion: force_power
-composure: talent
-concussionbombs: payload
-concussionmissiles: missile
-connernets: payload
-contrabandcybernetics: illicit
-corsaircrew: team
-corsairrefit: configuration
-corvus: title
-countdooku: crew
-crackshot: talent
-cutthroat: talent
-damagecontrolteam: team
-daredevil: talent
-darthvader: crew
-dauntless: title
-deadeyeshot: talent
-deadmansswitch: illicit
-deathtroopers: crew
-deathwatchcommandos: crew
-debrisgambit: talent
-dedicated: talent
-delayedfuses: modification
-dengar: gunner
-deuteriumpowercells: tech
-diamondboronmissiles: missile
-directorkrennic: crew
-disciplined: talent
-discordmissiles: missile
-dodonnaspride: title
-dorsalturret: turret
-dreadnoughthunter: command
-drk1probedroids: payload
-droidcrew: team
-dropseatbay: modification
-dt798: gunner
-electrochaffmissiles: missile
-electronicbaffle: modification
-electroprotonbomb: payload
-elusive: talent
-emperorpalpatine: crew
-enduring: talent
-energyshellcharges: missile
-engineupgrade: modification
-enhancedjammingsuite: configuration
-ensnare: talent
-experthandling: talent
-extrememaneuvers: force_power
-ezrabridger: gunner
-falsetranspondercodes: illicit
-fanatical: talent
-fearless: talent
-feedbackarray: illicit
-feedbackping: talent
-fennecshand-legendsandrelics: crew
-fennrau: crew
-ferrospherepaint: tech
-fifthbrother: gunner
-finn: gunner
-firecontrolsystem: sensor
-firstorderelite: command
-firstorderordnancetech: gunner
-fives: crew
-flightassistastromech-legendsandrelics: astromech
-foresight: force_power
-freelanceslicer: crew
-ga97: crew
-gamutkey: crew
-garsaxon: crew
-garsaxon-gunner: gunner
-gauntlet: title
-generalgrievous: crew
-generalgrievouscommand: command
-generalhux: crew
-genius: astromech
-ghost: title
-ghostcompany: crew
-gnkgonkdroid: crew
-grandinquisitor: crew
-grandmofftarkin: crew
-grappler: title
-grapplingstruts: configuration
-grapplingstruts-rev: configuration
-graviticdeflection: talent
-graviticwell-legendsandrelics: configuration
-greedo: gunner
-greefkarga: crew
-gunneryspecialists: team
-hansolo: gunner
-hansolo-crew: crew
-hansolo-gunner: gunner
-hate: force_power
-havoc: title
-heavylasercannon: cannon
-heightenedperception: force_power
-herasyndulla: crew
-heroic: talent
-homingmissiles: missile
-homingtorpedoes: torpedo
-hondoohnaka: crew
-hondoohnakacommand: command
-hopeful: talent
-hotshotgunner: gunner
-hotshottailblaster: illicit
-houndstooth: title
-hullupgrade: modification
-hyperspacetrackingdata: tech
-ig11: crew
-ig11-rev: crew
-ig2000: title
-ig88d: crew
-igrmdroids: team
-imperialsupercommandos: crew
-imperviumplating: modification
-impetuous: title
-independentcalculations: modification
-inertialdampeners: illicit
-informant: crew
-initforthemoneyrebellion: command
-initforthemoneyrebellion-rev: command
-insatiableworrt: title
-instigator: title
-instinctiveaim: force_power
-integratedsfoils: configuration
-integratedsfoils-rev: configuration
-interceptbooster: configuration
-interceptbooster-rev: configuration
-interloperturn: talent
-intimidation: talent
-ionbombs: payload
-ioncannon: cannon
-ioncannonturret: turret
-ionlimiteroverride: talent
-ionmissiles: missile
-iontorpedoes: torpedo
-isbslicer: crew
-jabbathehutt: crew
-jainaslight: title
-jammingbeam: cannon
-jandodonna: command
-jangofett: crew
-jedicommander: command
-jedicommander-rev: command
-juke: talent
-jynerso: crew
-k2b4: tactical_relay
-k2so: crew
-kalani: tactical_relay
-kananjarrus: crew
-kaydelconnix: crew
-kazsfireball: title
-ketsuonyo: crew
-kitfisto: crew
-korkiekryze: crew
-korrsella: crew
-kraken: tactical_relay
-kuiil: crew
-kyloren: crew
-l337: crew
-l337-rev: crew
-l4er5: astromech
-landingstruts: configuration
-landingstruts-rev: configuration
-landocalrissian: crew
-landocalrissian-crew: crew
-landosmillenniumfalcon: title
-larmadacy: crew
-lattsrazzi: crew
-leiaorgana: crew
-leiaorgana-resistance: crew
-liberator: title
-lonewolf: talent
-lukeskywalker: gunner
-luminous: title
-m9g8: astromech
-magpulsewarheads: missile
-magvayarro: crew
-malice: force_power
-mandalorianoptics: modification
-mandaloriansupercommandos: crew
-maneuverassistmgk300: configuration
-marauder: title
-margsablclosure: talent
-marksmanship: talent
-martuuk: command
-maul: crew
-maul-crew: crew
-merchantone: title
-migsmayfeld: gunner
-millenniumfalcon: title
-ministertua: crew
-misthunter: title
-modifiedr4punit-legendsandrelics: astromech
-moffjerjerrod: crew
-moldycrow: title
-multimissilepods: missile
-munitionsfailsafe: modification
-nautolansrevenge: title
-neimoidiangrasp: title
-niennunb: crew
-nightbrother: title
-niteowlcommandos: crew
-notorious: talent
-novicetechnician: crew
-obiwankenobi: crew
-optimizedpowercore: cargo
-ordnanceteam: team
-os1arsenalloadout: configuration
-outmaneuver: talent
-outrider: title
-overdrivethruster: modification
-overtunedmodulators: illicit
-paigetico: gunner
-partinggift-legendsandrelics: talent
-passivesensors: sensor
-patience: force_power
-patternanalyzer: tech
-pelimotto: crew
-perceptivecopilot: crew
-pettyofficerthanisson: crew
-phantom: title
-phoenixsquadron: command
-phoenixsquadron-rev: command
-pivotwing: configuration
-pivotwing-rev: configuration
-plasmatorpedoes: torpedo
-plokoon: crew
-precisionionengines: modification
-precisiontunedcannons-legendsandrelics: cannon
-precognitivereflexes: force_power
-predator: talent
-predictiveshot: force_power
-previzsla: crew
-primedthrusters: tech
-primeministeralmec: crew
-primeministeralmec-rev: crew
-protectorategleb: crew
-protonbombs: payload
-protoncannons: cannon
-protonrockets: missile
-protontorpedoes: torpedo
-proudtradition: talent
-proudtradition-rev: talent
-proximitymines: payload
-punishingone: title
-pz4co: crew
-q7astromech: astromech
-qira: crew
-quantumstorm: title
-quickreleaselocks: illicit
-r1j5: astromech
-r2a6: astromech
-r2astromech: astromech
-r2c4: astromech
-r2d2: astromech
-r2d2-crew: crew
-r2d2-republic: astromech
-r2d2-resistance: astromech
-r2ha: astromech
-r3astromech: astromech
-r4astromech: astromech
-r4b11: astromech
-r4p17: astromech
-r4p44: astromech
-r4pastromech: astromech
-r5astromech: astromech
-r5d8: astromech
-r5p8: astromech
-r5tk: astromech
-r5x3: astromech
-r6d8: astromech
-r7a7: astromech
-r7t1-legendsandrelics: astromech
-raymusantilles: command
-razorcrest: title
-repulsorliftstabilizers: configuration
-repulsorliftstabilizers-rev: configuration
-requiem: title
-retrofittedautothrusters-legendsandrelics: modification
-rey-gunner: gunner
-reysmillenniumfalcon: title
-rifftamson: command
-riggedcargochute: illicit
-roilinganger-legendsandrelics: force_power
-rookkast: crew
-rosetico: crew
-ruthless: talent
-sabinewren: crew
-sabinewren-command: command
-sabinewren-gunner: gunner
-saboteursmap: illicit
-satinekryze: crew
-saturationsalvo: talent
-savageopress: crew
-sawgerrera: crew
-scannerbaffler: illicit
-scimitar: title
-seasonednavigator: crew
-seekermissiles-legendsandrelics: missile
-seekermissiles-swz103: missile
-seismiccharges: payload
-selfless: talent
-sense: force_power
-sensitivecontrols: configuration
-sensorbuoysuite: tech
-sensorexperts: team
-sensorscramblers: tech
-servomotorsfoils: configuration
-servomotorsfoils-rev: configuration
-seventhfleetgunner: gunner
-seventhsister: crew
-shadowcaster: title
-shadowwing: command
-shadowwing-rev: command
-shatteringshot: force_power
-shieldupgrade: modification
-skilledbombardier: gunner
-skystrikeacademyclass: command
-skystrikeacademyclass-rev: command
-slavei: title
-slavei-swz82: title
-snapshot: talent
-soullessone: title
-sparepartscanisters: modification
-specialforcesgunner: gunner
-squadleader: talent
-st321: title
-stabilizedsfoils: configuration
-stabilizedsfoils-rev: configuration
-stalwartcaptain: command
-starbirdslash: talent
-staticdischargevanes: modification
-stealthdevice: modification
-strategiccommander: command
-supernaturalreflexes: force_power
-suppressivegunner: gunner
-suppressor: title
-supremeleadersnoke: crew
-swarmtactics: talent
-swivelwing: configuration
-swivelwing-rev: configuration
-syliure31hyperdrive: hyperdrive
-syncedlasercannons: cannon
-synchronizedconsole: modification
-ta175: tactical_relay
-tacticalofficer: crew
-tacticalscrambler: modification
-talmerrik: crew
-tantiveiv: title
-targetassistmgk300: configuration
-targetingcomputer: modification
-targetingmatrix-legendsandrelics: modification
-targetingrelay-legendsandrelics: tech
-targetingsynchronizer: tech
-thechild: crew
-themandalorian: crew
-thermaldetonators: payload
-thrawn-legendsandrelics: crew
-thunderstrike: title
-tibannareserves: cargo
-tibersaxon: gunner
-tiedefenderelite: configuration
-tierfonbellyrun: talent
-tobiasbeckett: crew
-torynfarr: crew
-trackingfob: illicit
-trackingtorpedoes: torpedo
-tractorbeam: cannon
-tractortechnicians: team
-trajectorysimulator: sensor
-treacherous: talent
-trickshot: talent
-trident: title
-tristanwren: crew
-tsj1atargetingcomputer-legendsandrelics: tech
-tv94: tactical_relay
-underslungblastercannon: cannon
-unhingedastromech-legendsandrelics: astromech
-unkarplutt: crew
-ursawren: crew
-ursawren-gunner: gunner
-vector: title
-vectoredcannonsrz1: configuration
-veterantailgunner: gunner
-veteranturretgunner: gunner
-veteranwingleader: command
-virago: title
-wartimeloadout: configuration
-watchfulastromech: astromech
-weaponssystemsofficer: gunner
-wedgeantilles-legendsandrelics: gunner
-wingedreversal-legendsandrelics: configuration
-wolfpack: crew
-xanadublood: title
-xg1assaultconfiguration: configuration
-xx23sthreadtracers: missile
-yoda: crew
-zamwesell: crew
-zealouscaptain: command
-zeborrelios: crew
-zoriibliss-legendsandrelics: crew
-zuckuss: crew
+'000':
+  type: crew
+4lom:
+  type: crew
+aaylasecura:
+  type: crew
+ablativeplating:
+  type: modification
+adaptiveshields:
+  type: cargo
+admiralozzel:
+  type: command
+admiralsloane:
+  type: crew
+advancedoptics:
+  type: tech
+advancedsensors:
+  type: sensor
+advancedslam:
+  type: modification
+advprotontorpedoes:
+  type: torpedo
+afterburners:
+  type: modification
+agentkallus:
+  type: crew
+agentoftheempire:
+  type: command
+agentterex:
+  type: crew
+agentterex-rev:
+  type: crew
+agilegunner:
+  type: gunner
+ahsokatano:
+  type: gunner
+ahsokatano-crew:
+  type: crew
+ahsokatano-legendsandrelics:
+  type: crew
+alpha3bbesh:
+  type: configuration
+alpha3eesk:
+  type: configuration
+amilynholdo:
+  type: crew
+andrasta:
+  type: title
+angleddeflectors:
+  type: modification
+asajjventresscommand:
+  type: command
+assailer:
+  type: title
+autoblasters:
+  type: cannon
+automatedloaders-legendsandrelics:
+  type: modification
+automatedtargetpriority:
+  type: tech
+azmorigan:
+  type: command
+b6bladewingprototype:
+  type: title
+b6bladewingprototype-command:
+  type: command
+babufrik:
+  type: illicit
+backwardstailslide:
+  type: talent
+barragerockets:
+  type: missile
+battlemeditation:
+  type: force_power
+bazemalbus:
+  type: crew
+bb8:
+  type: astromech
+bbastromech:
+  type: astromech
+beskarreinforcedplating:
+  type: modification
+biohexacryptcodes:
+  type: tech
+bistan:
+  type: gunner
+blackone:
+  type: title
+blazerbomb:
+  type: payload
+blindspottargeter-legendsandrelics:
+  type: sensor
+bloodcrow:
+  type: title
+bobafett:
+  type: crew
+bobafett-gunner:
+  type: gunner
+bokatankryze:
+  type: crew
+bokatankryze-rebel-scum:
+  type: crew
+bombardmentspecialists:
+  type: team
+bombletgenerator:
+  type: payload
+boostedscanners:
+  type: cargo
+bossk:
+  type: gunner
+bounty:
+  type: command
+bounty-rev:
+  type: command
+brighthope:
+  type: title
+brilliantevasion:
+  type: force_power
+brokenhorn:
+  type: title
+bt1:
+  type: gunner
+burnoutthrusters:
+  type: modification
+burstlaserturret-legendsandrelics:
+  type: turret
+c110p:
+  type: astromech
+c110p-rev:
+  type: astromech
+c3po:
+  type: crew
+c3po-crew:
+  type: crew
+c3po-republic:
+  type: crew
+cadbane:
+  type: crew
+calibratedlasertargeting:
+  type: configuration
+captainhark:
+  type: crew
+captainneeda:
+  type: command
+captainphasma:
+  type: crew
+captive-legendsandrelics:
+  type: crew
+carlistrieekan:
+  type: command
+cassianandor:
+  type: crew
+chancellorpalpatine:
+  type: crew
+chancellorpalpatine-rev:
+  type: crew
+chewbacca:
+  type: crew
+chewbacca-crew:
+  type: crew
+chewbacca-crew-swz19:
+  type: crew
+chopper:
+  type: astromech
+chopper-crew:
+  type: crew
+cienaree:
+  type: crew
+cikatrovizago:
+  type: crew
+clantraining:
+  type: talent
+clanwrencommandos:
+  type: crew
+cloakingdevice:
+  type: illicit
+clonecaptainrex:
+  type: gunner
+clonecommandercody:
+  type: gunner
+clustermines:
+  type: payload
+clustermissiles:
+  type: missile
+coaxiumhyperfuel:
+  type: illicit
+collisiondetector:
+  type: sensor
+combatboardingtube:
+  type: command
+commandermalarus:
+  type: crew
+commandermalarus-rev:
+  type: crew
+commanderpyre:
+  type: crew
+commsteam:
+  type: team
+compassion:
+  type: force_power
+composure:
+  type: talent
+concussionbombs:
+  type: payload
+concussionmissiles:
+  type: missile
+connernets:
+  type: payload
+contrabandcybernetics:
+  type: illicit
+corsaircrew:
+  type: team
+corsairrefit:
+  type: configuration
+corvus:
+  type: title
+countdooku:
+  type: crew
+crackshot:
+  type: talent
+cutthroat:
+  type: talent
+damagecontrolteam:
+  type: team
+daredevil:
+  type: talent
+darthvader:
+  type: crew
+dauntless:
+  type: title
+deadeyeshot:
+  type: talent
+deadmansswitch:
+  type: illicit
+deathtroopers:
+  type: crew
+deathwatchcommandos:
+  type: crew
+debrisgambit:
+  type: talent
+dedicated:
+  type: talent
+delayedfuses:
+  type: modification
+dengar:
+  type: gunner
+deuteriumpowercells:
+  type: tech
+diamondboronmissiles:
+  type: missile
+directorkrennic:
+  type: crew
+disciplined:
+  type: talent
+discordmissiles:
+  type: missile
+dodonnaspride:
+  type: title
+dorsalturret:
+  type: turret
+dreadnoughthunter:
+  type: command
+drk1probedroids:
+  type: payload
+droidcrew:
+  type: team
+dropseatbay:
+  type: modification
+dt798:
+  type: gunner
+electrochaffmissiles:
+  type: missile
+electronicbaffle:
+  type: modification
+electroprotonbomb:
+  type: payload
+elusive:
+  type: talent
+emperorpalpatine:
+  type: crew
+enduring:
+  type: talent
+energyshellcharges:
+  type: missile
+engineupgrade:
+  type: modification
+enhancedjammingsuite:
+  type: configuration
+ensnare:
+  type: talent
+experthandling:
+  type: talent
+extrememaneuvers:
+  type: force_power
+ezrabridger:
+  type: gunner
+falsetranspondercodes:
+  type: illicit
+fanatical:
+  type: talent
+fearless:
+  type: talent
+feedbackarray:
+  type: illicit
+feedbackping:
+  type: talent
+fennecshand-legendsandrelics:
+  type: crew
+fennrau:
+  type: crew
+ferrospherepaint:
+  type: tech
+fifthbrother:
+  type: gunner
+finn:
+  type: gunner
+firecontrolsystem:
+  type: sensor
+firstorderelite:
+  type: command
+firstorderordnancetech:
+  type: gunner
+fives:
+  type: crew
+flightassistastromech-legendsandrelics:
+  type: astromech
+foresight:
+  type: force_power
+freelanceslicer:
+  type: crew
+ga97:
+  type: crew
+gamutkey:
+  type: crew
+garsaxon:
+  type: crew
+garsaxon-gunner:
+  type: gunner
+gauntlet:
+  type: title
+generalgrievous:
+  type: crew
+generalgrievouscommand:
+  type: command
+generalhux:
+  type: crew
+genius:
+  type: astromech
+ghost:
+  type: title
+ghostcompany:
+  type: crew
+gnkgonkdroid:
+  type: crew
+grandinquisitor:
+  type: crew
+grandmofftarkin:
+  type: crew
+grappler:
+  type: title
+grapplingstruts:
+  type: configuration
+grapplingstruts-rev:
+  type: configuration
+graviticdeflection:
+  type: talent
+graviticwell-legendsandrelics:
+  type: configuration
+greedo:
+  type: gunner
+greefkarga:
+  type: crew
+gunneryspecialists:
+  type: team
+hansolo:
+  type: gunner
+hansolo-crew:
+  type: crew
+hansolo-gunner:
+  type: gunner
+hate:
+  type: force_power
+havoc:
+  type: title
+heavylasercannon:
+  type: cannon
+heightenedperception:
+  type: force_power
+herasyndulla:
+  type: crew
+heroic:
+  type: talent
+homingmissiles:
+  type: missile
+homingtorpedoes:
+  type: torpedo
+hondoohnaka:
+  type: crew
+hondoohnakacommand:
+  type: command
+hopeful:
+  type: talent
+hotshotgunner:
+  type: gunner
+hotshottailblaster:
+  type: illicit
+houndstooth:
+  type: title
+hullupgrade:
+  type: modification
+hyperspacetrackingdata:
+  type: tech
+ig11:
+  type: crew
+ig11-rev:
+  type: crew
+ig2000:
+  type: title
+ig88d:
+  type: crew
+igrmdroids:
+  type: team
+imperialsupercommandos:
+  type: crew
+imperviumplating:
+  type: modification
+impetuous:
+  type: title
+independentcalculations:
+  type: modification
+inertialdampeners:
+  type: illicit
+informant:
+  type: crew
+initforthemoneyrebellion:
+  type: command
+initforthemoneyrebellion-rev:
+  type: command
+insatiableworrt:
+  type: title
+instigator:
+  type: title
+instinctiveaim:
+  type: force_power
+integratedsfoils:
+  type: configuration
+integratedsfoils-rev:
+  type: configuration
+interceptbooster:
+  type: configuration
+interceptbooster-rev:
+  type: configuration
+interloperturn:
+  type: talent
+intimidation:
+  type: talent
+ionbombs:
+  type: payload
+ioncannon:
+  type: cannon
+ioncannonturret:
+  type: turret
+ionlimiteroverride:
+  type: talent
+ionmissiles:
+  type: missile
+iontorpedoes:
+  type: torpedo
+isbslicer:
+  type: crew
+jabbathehutt:
+  type: crew
+jainaslight:
+  type: title
+jammingbeam:
+  type: cannon
+jandodonna:
+  type: command
+jangofett:
+  type: crew
+jedicommander:
+  type: command
+jedicommander-rev:
+  type: command
+juke:
+  type: talent
+jynerso:
+  type: crew
+k2b4:
+  type: tactical_relay
+k2so:
+  type: crew
+kalani:
+  type: tactical_relay
+kananjarrus:
+  type: crew
+kaydelconnix:
+  type: crew
+kazsfireball:
+  type: title
+ketsuonyo:
+  type: crew
+kitfisto:
+  type: crew
+korkiekryze:
+  type: crew
+korrsella:
+  type: crew
+kraken:
+  type: tactical_relay
+kuiil:
+  type: crew
+kyloren:
+  type: crew
+l337:
+  type: crew
+l337-rev:
+  type: crew
+l4er5:
+  type: astromech
+landingstruts:
+  type: configuration
+landingstruts-rev:
+  type: configuration
+landocalrissian:
+  type: crew
+landocalrissian-crew:
+  type: crew
+landosmillenniumfalcon:
+  type: title
+larmadacy:
+  type: crew
+lattsrazzi:
+  type: crew
+leiaorgana:
+  type: crew
+leiaorgana-resistance:
+  type: crew
+liberator:
+  type: title
+lonewolf:
+  type: talent
+lukeskywalker:
+  type: gunner
+luminous:
+  type: title
+m9g8:
+  type: astromech
+magpulsewarheads:
+  type: missile
+magvayarro:
+  type: crew
+malice:
+  type: force_power
+mandalorianoptics:
+  type: modification
+mandaloriansupercommandos:
+  type: crew
+maneuverassistmgk300:
+  type: configuration
+marauder:
+  type: title
+margsablclosure:
+  type: talent
+marksmanship:
+  type: talent
+martuuk:
+  type: command
+maul:
+  type: crew
+maul-crew:
+  type: crew
+merchantone:
+  type: title
+migsmayfeld:
+  type: gunner
+millenniumfalcon:
+  type: title
+ministertua:
+  type: crew
+misthunter:
+  type: title
+modifiedr4punit-legendsandrelics:
+  type: astromech
+moffjerjerrod:
+  type: crew
+moldycrow:
+  type: title
+multimissilepods:
+  type: missile
+munitionsfailsafe:
+  type: modification
+nautolansrevenge:
+  type: title
+neimoidiangrasp:
+  type: title
+niennunb:
+  type: crew
+nightbrother:
+  type: title
+niteowlcommandos:
+  type: crew
+notorious:
+  type: talent
+novicetechnician:
+  type: crew
+obiwankenobi:
+  type: crew
+optimizedpowercore:
+  type: cargo
+ordnanceteam:
+  type: team
+os1arsenalloadout:
+  type: configuration
+outmaneuver:
+  type: talent
+outrider:
+  type: title
+overdrivethruster:
+  type: modification
+overtunedmodulators:
+  type: illicit
+paigetico:
+  type: gunner
+partinggift-legendsandrelics:
+  type: talent
+passivesensors:
+  type: sensor
+patience:
+  type: force_power
+patternanalyzer:
+  type: tech
+pelimotto:
+  type: crew
+perceptivecopilot:
+  type: crew
+pettyofficerthanisson:
+  type: crew
+phantom:
+  type: title
+phoenixsquadron:
+  type: command
+phoenixsquadron-rev:
+  type: command
+pivotwing:
+  type: configuration
+pivotwing-rev:
+  type: configuration
+plasmatorpedoes:
+  type: torpedo
+plokoon:
+  type: crew
+precisionionengines:
+  type: modification
+precisiontunedcannons-legendsandrelics:
+  type: cannon
+precognitivereflexes:
+  type: force_power
+predator:
+  type: talent
+predictiveshot:
+  type: force_power
+previzsla:
+  type: crew
+primedthrusters:
+  type: tech
+primeministeralmec:
+  type: crew
+primeministeralmec-rev:
+  type: crew
+protectorategleb:
+  type: crew
+protonbombs:
+  type: payload
+protoncannons:
+  type: cannon
+protonrockets:
+  type: missile
+protontorpedoes:
+  type: torpedo
+proudtradition:
+  type: talent
+proudtradition-rev:
+  type: talent
+proximitymines:
+  type: payload
+punishingone:
+  type: title
+pz4co:
+  type: crew
+q7astromech:
+  type: astromech
+qira:
+  type: crew
+quantumstorm:
+  type: title
+quickreleaselocks:
+  type: illicit
+r1j5:
+  type: astromech
+r2a6:
+  type: astromech
+r2astromech:
+  type: astromech
+r2c4:
+  type: astromech
+r2d2:
+  type: astromech
+r2d2-crew:
+  type: crew
+r2d2-republic:
+  type: astromech
+r2d2-resistance:
+  type: astromech
+r2ha:
+  type: astromech
+r3astromech:
+  type: astromech
+r4astromech:
+  type: astromech
+r4b11:
+  type: astromech
+r4p17:
+  type: astromech
+r4p44:
+  type: astromech
+r4pastromech:
+  type: astromech
+r5astromech:
+  type: astromech
+r5d8:
+  type: astromech
+r5p8:
+  type: astromech
+r5tk:
+  type: astromech
+r5x3:
+  type: astromech
+r6d8:
+  type: astromech
+r7a7:
+  type: astromech
+r7t1-legendsandrelics:
+  type: astromech
+raymusantilles:
+  type: command
+razorcrest:
+  type: title
+repulsorliftstabilizers:
+  type: configuration
+repulsorliftstabilizers-rev:
+  type: configuration
+requiem:
+  type: title
+retrofittedautothrusters-legendsandrelics:
+  type: modification
+rey-gunner:
+  type: gunner
+reysmillenniumfalcon:
+  type: title
+rifftamson:
+  type: command
+riggedcargochute:
+  type: illicit
+roilinganger-legendsandrelics:
+  type: force_power
+rookkast:
+  type: crew
+rosetico:
+  type: crew
+ruthless:
+  type: talent
+sabinewren:
+  type: crew
+sabinewren-command:
+  type: command
+sabinewren-gunner:
+  type: gunner
+saboteursmap:
+  type: illicit
+satinekryze:
+  type: crew
+saturationsalvo:
+  type: talent
+savageopress:
+  type: crew
+sawgerrera:
+  type: crew
+scannerbaffler:
+  type: illicit
+scimitar:
+  type: title
+seasonednavigator:
+  type: crew
+seekermissiles-legendsandrelics:
+  type: missile
+seekermissiles-swz103:
+  type: missile
+seismiccharges:
+  type: payload
+selfless:
+  type: talent
+sense:
+  type: force_power
+sensitivecontrols:
+  type: configuration
+sensorbuoysuite:
+  type: tech
+sensorexperts:
+  type: team
+sensorscramblers:
+  type: tech
+servomotorsfoils:
+  type: configuration
+servomotorsfoils-rev:
+  type: configuration
+seventhfleetgunner:
+  type: gunner
+seventhsister:
+  type: crew
+shadowcaster:
+  type: title
+shadowwing:
+  type: command
+shadowwing-rev:
+  type: command
+shatteringshot:
+  type: force_power
+shieldupgrade:
+  type: modification
+skilledbombardier:
+  type: gunner
+skystrikeacademyclass:
+  type: command
+skystrikeacademyclass-rev:
+  type: command
+slavei:
+  type: title
+slavei-swz82:
+  type: title
+snapshot:
+  type: talent
+soullessone:
+  type: title
+sparepartscanisters:
+  type: modification
+specialforcesgunner:
+  type: gunner
+squadleader:
+  type: talent
+st321:
+  type: title
+stabilizedsfoils:
+  type: configuration
+stabilizedsfoils-rev:
+  type: configuration
+stalwartcaptain:
+  type: command
+starbirdslash:
+  type: talent
+staticdischargevanes:
+  type: modification
+stealthdevice:
+  type: modification
+strategiccommander:
+  type: command
+supernaturalreflexes:
+  type: force_power
+suppressivegunner:
+  type: gunner
+suppressor:
+  type: title
+supremeleadersnoke:
+  type: crew
+swarmtactics:
+  type: talent
+swivelwing:
+  type: configuration
+swivelwing-rev:
+  type: configuration
+syliure31hyperdrive:
+  type: hyperdrive
+syncedlasercannons:
+  type: cannon
+synchronizedconsole:
+  type: modification
+ta175:
+  type: tactical_relay
+tacticalofficer:
+  type: crew
+tacticalscrambler:
+  type: modification
+talmerrik:
+  type: crew
+tantiveiv:
+  type: title
+targetassistmgk300:
+  type: configuration
+targetingcomputer:
+  type: modification
+targetingmatrix-legendsandrelics:
+  type: modification
+targetingrelay-legendsandrelics:
+  type: tech
+targetingsynchronizer:
+  type: tech
+thechild:
+  type: crew
+themandalorian:
+  type: crew
+thermaldetonators:
+  type: payload
+thrawn-legendsandrelics:
+  type: crew
+thunderstrike:
+  type: title
+tibannareserves:
+  type: cargo
+tibersaxon:
+  type: gunner
+tiedefenderelite:
+  type: configuration
+tierfonbellyrun:
+  type: talent
+tobiasbeckett:
+  type: crew
+torynfarr:
+  type: crew
+trackingfob:
+  type: illicit
+trackingtorpedoes:
+  type: torpedo
+tractorbeam:
+  type: cannon
+tractortechnicians:
+  type: team
+trajectorysimulator:
+  type: sensor
+treacherous:
+  type: talent
+trickshot:
+  type: talent
+trident:
+  type: title
+tristanwren:
+  type: crew
+tsj1atargetingcomputer-legendsandrelics:
+  type: tech
+tv94:
+  type: tactical_relay
+underslungblastercannon:
+  type: cannon
+unhingedastromech-legendsandrelics:
+  type: astromech
+unkarplutt:
+  type: crew
+ursawren:
+  type: crew
+ursawren-gunner:
+  type: gunner
+vector:
+  type: title
+vectoredcannonsrz1:
+  type: configuration
+veterantailgunner:
+  type: gunner
+veteranturretgunner:
+  type: gunner
+veteranwingleader:
+  type: command
+virago:
+  type: title
+wartimeloadout:
+  type: configuration
+watchfulastromech:
+  type: astromech
+weaponssystemsofficer:
+  type: gunner
+wedgeantilles-legendsandrelics:
+  type: gunner
+wingedreversal-legendsandrelics:
+  type: configuration
+wolfpack:
+  type: crew
+xanadublood:
+  type: title
+xg1assaultconfiguration:
+  type: configuration
+xx23sthreadtracers:
+  type: missile
+yoda:
+  type: crew
+zamwesell:
+  type: crew
+zealouscaptain:
+  type: command
+zeborrelios:
+  type: crew
+zoriibliss-legendsandrelics:
+  type: crew
+zuckuss:
+  type: crew

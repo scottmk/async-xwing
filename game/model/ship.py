@@ -172,7 +172,7 @@ class Ship(MutableBaseStruct, kw_only=True):
     def get_pilot_card_for_id(cls, id_: str) -> catalog.PilotCard:
         ship_attr: catalog.ShipAttr | None = cls.get_catalog_entry_for_id(id_)
         faction: str | None = (
-            entry.get('faction') if (entry := cls._get_manifest().get(id_)) else None
+            entry.get('faction') if (entry := cls.get_manifest().get(id_)) else None
         )
         if not ship_attr:
             raise ValueError(f'Unable to find ship data for {id_}')
@@ -197,7 +197,7 @@ class Ship(MutableBaseStruct, kw_only=True):
 
     @classmethod
     def _lookup_catalog_entry(cls, id_: str) -> catalog.ShipAttr | None:
-        type_: str | None = entry.get('type') if (entry := cls._get_manifest().get(id_)) else None
+        type_: str | None = entry.get('type') if (entry := cls.get_manifest().get(id_)) else None
         if not type_:
             raise ValueError(
                 f'Ship manifest missing or malformed entry for {id_} missing from manifest'
