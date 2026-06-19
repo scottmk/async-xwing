@@ -426,7 +426,7 @@ dashrendar:
   type: yt2400lightfreighter
 dashrendar-swz103-rebelalliance:
   faction: rebelalliance
-  type: yt2400lightfreighter
+  type: yt2400lightfreighter-legacy
 dbs32c:
   faction: separatistalliance
   type: hyenaclassdroidbomber
@@ -957,7 +957,7 @@ leebo:
   type: yt2400lightfreighter
 leebo-swz103-rebelalliance:
   faction: rebelalliance
-  type: yt2400lightfreighter
+  type: yt2400lightfreighter-legacy
 leemakai:
   faction: scumandvillainy
   type: btla4ywing
