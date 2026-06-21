@@ -1,6 +1,6 @@
 from functools import cache
 import logging
-from typing import Any, cast
+from typing import Any, Iterable, Iterator, cast
 
 import discord
 from discord_helpers.emoji import get_emoji, replace_emoji_placeholders
@@ -37,8 +37,124 @@ BEARING_POSITIONS_MAP: dict[int, set[movement.ManeuverBearing]] = {
     },
 }
 
+EMBED_MESSAGE_MAX_CHARS = 6000
+MAX_NUM_EMBEDS = 10
+
 
 logger = logging.getLogger()
+
+
+class LazyEmbedPaginatorView(discord.ui.View):
+    """An interactive UI View that manages flipping through chunks of embeds, lazily evaluated on-demand."""
+
+    # The message inside the thread, which needs to be set after the view is created
+    message: discord.Message | discord.WebhookMessage | None = None
+
+    def __init__(self, embed_pool: Iterable[discord.Embed], timeout_sec: float = 600.0) -> None:
+        super().__init__(timeout=timeout_sec)
+
+        # Initialize the generator and track evaluated chunks
+        self.chunk_iterator: Iterator[list[discord.Embed]] = self._chunk_generator(embed_pool)
+        self.cached_chunks: list[list[discord.Embed]] = []
+        self.current_page: int = 0
+        self.has_more_pages: bool = True
+
+        self.logger = logging.getLogger(self.__class__.__name__)
+
+        # Pre-load the first two pages from our generator, for lookahead
+        self._load_next_page()
+        self._load_next_page()
+        self._update_button_states()
+
+    @staticmethod
+    def _chunk_generator(embeds: Iterable[discord.Embed]) -> Iterator[list[discord.Embed]]:
+        """Groups a flat collection of embeds into a collection of chunks, respecting character and array limits."""
+        current_chunk: list[discord.Embed] = []
+        current_char_count: int = 0
+        for embed in embeds:
+            embed_len: int = len(embed)
+            if embed_len >= EMBED_MESSAGE_MAX_CHARS:
+                raise ValueError(
+                    f"The '{embed.title}' exceeds the message character limit of {EMBED_MESSAGE_MAX_CHARS} ({embed_len})"
+                )
+
+            # Check if adding this embed violates either the character limit or the count limit
+            is_over_char_limit: bool = (current_char_count + embed_len) >= EMBED_MESSAGE_MAX_CHARS
+            is_over_embed_limit: bool = len(current_chunk) >= MAX_NUM_EMBEDS
+
+            if is_over_char_limit or is_over_embed_limit:
+                # Add the current chunk and start a new one
+                yield current_chunk
+                current_chunk = []
+                current_char_count = 0
+
+            # Add the embed to the active chunk
+            current_chunk.append(embed)
+            current_char_count += embed_len
+
+        # Append the final remaining chunk if it contains any items
+        if current_chunk:
+            yield current_chunk
+
+    def _load_next_page(self) -> None:
+        try:
+            next_chunk: list[discord.Embed] = next(self.chunk_iterator)
+            self.cached_chunks.append(next_chunk)
+        except StopIteration:
+            self.has_more_pages = False
+
+    def _update_button_states(self) -> None:
+        self.prev_button.disabled = self.current_page == 0
+        is_at_cache_end: bool = self.current_page >= len(self.cached_chunks) - 1
+        self.next_button.disabled = is_at_cache_end and not self.has_more_pages
+
+    @property
+    def current_embeds(self) -> list[discord.Embed]:
+        return self.cached_chunks[self.current_page]
+
+    @discord.ui.button(label='◀ Previous', style=discord.ButtonStyle.secondary)
+    async def prev_button(self, interaction: discord.Interaction, _: discord.ui.Button) -> None:
+        if self.current_page > 0:
+            self.current_page -= 1
+            self._update_button_states()
+            await interaction.response.edit_message(embeds=self.current_embeds, view=self)
+
+    @discord.ui.button(label='Next ▶', style=discord.ButtonStyle.primary)
+    async def next_button(self, interaction: discord.Interaction, _: discord.ui.Button) -> None:
+        if self.current_page < len(self.cached_chunks) - 1:
+            self.current_page += 1
+
+            # load next page for lookahead
+            if self.current_page == len(self.cached_chunks) - 1:
+                self._load_next_page()
+
+            self._update_button_states()
+            await interaction.response.edit_message(embeds=self.current_embeds, view=self)
+
+    async def on_timeout(self) -> None:
+        """Triggers automatically when the timeout expires to clean up the UI."""
+        if not self.message:
+            return
+
+        for item in self.children:
+            if isinstance(item, discord.ui.Button):
+                item.disabled = True
+
+        try:
+            await self.message.edit(
+                content='This search session has timed out due to inactivity.', view=self
+            )
+        except discord.HTTPException:
+            pass
+
+
+def _get_recurring_emoji(type_: str, recurring: int) -> str:
+    if recurring < -1 or recurring > 3:
+        logger.warning('Got a request for an OOB recurring value: {recurring}')
+        return ''
+    if recurring == -1:
+        return get_emoji(f'{type_}_recur_neg1')
+    return get_emoji(f'{type_}_recur_{recurring}')
 
 
 def _get_ship_embed(card_id: str) -> discord.Embed | None:
@@ -82,21 +198,21 @@ def _get_ship_embed(card_id: str) -> discord.Embed | None:
     if shield_val := ship_info.shield_val:
         stats_str += f'\u2001{get_emoji("shields")} **{shield_val}**'
         if shields_recurring := ship_info.shields_recurring:
-            stats_str += f'{"▴" * shields_recurring}'
+            stats_str += _get_recurring_emoji('shields', shields_recurring)
 
     charges: dict[catalog.card_attr.ChargeType, catalog.card_attr.ChargeValues] | None = (
         pilot_info.charges
     )
     if charges:
         if force_charges := charges.get(catalog.card_attr.ChargeType.FORCE):
-            stats_str += f'\u2001{get_emoji("force_charge")} **{force_charges.limit}**{"▴" * force_charges.recurring_val}'
+            stats_str += f'\u2001{get_emoji("force_charge")} **{force_charges.limit}**{_get_recurring_emoji("force_charge", force_charges.recurring_val)}'
         if std_charges := charges.get(catalog.card_attr.ChargeType.STANDARD):
-            stats_str += f'\u2001{get_emoji("std_charge")} **{std_charges.limit}**{"▴" * std_charges.recurring_val}'
+            stats_str += f'\u2001{get_emoji("std_charge")} **{std_charges.limit}**{_get_recurring_emoji("std_charge", std_charges.recurring_val)}'
 
     if energy_val := ship_info.energy_val:
         stats_str += f'\u2001{get_emoji("energy")} **{energy_val}**'
         if energy_recurring := ship_info.energy_recurring:
-            stats_str += f'{"▴" * energy_recurring}'
+            stats_str += _get_recurring_emoji('energy', energy_recurring)
 
     embed.add_field(name='Stats', value=stats_str, inline=False)
 
