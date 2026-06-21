@@ -11,6 +11,7 @@ from logging.handlers import RotatingFileHandler
 
 import aiohttp
 import click
+import colorlog
 import discord
 from discord.ext import commands
 from dotenv import load_dotenv
@@ -47,7 +48,33 @@ formatter = logging.Formatter(
     datefmt='%Y-%m-%d %H:%M:%S',
     style='{',
 )
-console_handler.setFormatter(formatter)
+color_formatter = colorlog.ColoredFormatter(
+    fmt='%(asctime_log_color)s%(asctime)s%(reset)s %(log_color)s%(levelname)-8s%(reset)s %(name_log_color)s%(name)s%(reset)s %(message)s',
+    datefmt='%Y-%m-%d %H:%M:%S',
+    log_colors={
+        'INFO': 'blue',
+        'WARNING': 'yellow',
+        'ERROR': 'red',
+        'CRITICAL': 'red,bg_white',
+    },
+    secondary_log_colors={
+        'asctime': {
+            'DEBUG': 'bold_black',
+            'INFO': 'bold_black',
+            'WARNING': 'bold_black',
+            'ERROR': 'bold_black',
+            'CRITICAL': 'bold_black',
+        },
+        'name': {
+            'DEBUG': 'purple',
+            'INFO': 'purple',
+            'WARNING': 'purple',
+            'ERROR': 'purple',
+            'CRITICAL': 'purple',
+        },
+    },
+)
+console_handler.setFormatter(color_formatter)
 file_handler.setFormatter(formatter)
 
 if not root_logger.handlers:
