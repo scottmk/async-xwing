@@ -15,6 +15,7 @@ dependencies = [
 
 [dependency-groups]
 dev = [
+    "colorlog",
     "pytest",
     "pytest-bdd",
     "pytest-asyncio",
