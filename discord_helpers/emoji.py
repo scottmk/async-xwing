@@ -64,6 +64,10 @@ def _get_emoji_from_placeholder(placeholder: str) -> str:
             return get_emoji('force_charge')
         case 'lock':
             return get_emoji('target_lock')
+        case 'charge':
+            return get_emoji('std_charge')
+        case 'koiogran_turn':
+            return get_emoji('k_turn')
         case _:
             return get_emoji(formatted_placeholder)
 
