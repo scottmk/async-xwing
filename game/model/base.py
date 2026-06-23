@@ -20,7 +20,7 @@ class BaseStructMeta(msgspec.StructMeta, ABCMeta):
 T_Struct = TypeVar('T_Struct', bound=msgspec.Struct, covariant=True)
 
 
-class BaseStruct(ABC, Generic[T_Struct], metaclass=BaseStructMeta):
+class BaseStruct(Generic[T_Struct], ABC, metaclass=BaseStructMeta):
     id_: str
 
     def get_catalog_entry(self) -> T_Struct | None:

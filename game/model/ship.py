@@ -97,6 +97,10 @@ class Condition(FrozenBaseStruct, frozen=True):
         return 'condition'
 
     @classmethod
+    def get_all_card_ids(cls) -> Iterable[str]:
+        return cls._read_card_file().keys()
+
+    @classmethod
     @cache
     def _read_card_file(cls, type_: str | None = None) -> dict[str, catalog.ConditionCard]:
         filepath = CATALOG_ROOT_PATH / 'condition.yaml'

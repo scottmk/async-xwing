@@ -3,6 +3,8 @@ All the models necessary to represent the game state.
 """
 
 from .faction import Faction as Faction
+from .ship import Condition as Condition
+from .ship import DamageCard as DamageCard
 from .ship import Ship as Ship
 from .player import Player as Player
 from .gamestate import GameState as GameState

@@ -5,7 +5,7 @@ from typing import Any, Iterable, Iterator, cast
 import discord
 from discord_helpers.emoji import get_emoji, replace_emoji_placeholders
 from game.model.base import BaseStruct
-from game.model import catalog, Faction, Ship
+from game.model import catalog, Condition, Faction, Ship
 from game import movement
 
 
@@ -278,9 +278,26 @@ def _get_ship_embed(card_id: str) -> discord.Embed | None:
     return embed
 
 
+def _get_condition_embed(card_id: str) -> discord.Embed | None:
+    condition_info: catalog.ConditionCard | None = cast(
+        catalog.ConditionCard, Condition.get_catalog_entry_for_id(card_id)
+    )
+
+    if condition_info is None:
+        return None
+
+    return discord.Embed(
+        color=discord.Color.ash_embed(),
+        title=condition_info.name,
+        description=replace_emoji_placeholders(condition_info.text),
+    )
+
+
 @cache
 def get_card_embed(card_id: str, card_type: type[BaseStruct[Any]]) -> discord.Embed | None:
     if issubclass(card_type, Ship):
         return _get_ship_embed(card_id)
+    elif issubclass(card_type, Condition):
+        return _get_condition_embed(card_id)
     else:
         raise ValueError(f'{card_type} is not supported for embeds')
