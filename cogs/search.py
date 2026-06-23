@@ -6,6 +6,7 @@ from discord.ext import commands
 from discord_helpers.embeds import LazyEmbedPaginatorView, get_card_embed
 from game.model import Condition, Ship, catalog
 from game.model.base import BaseStruct
+from game.model.ship import DamageCard
 
 
 class SearchCog(commands.GroupCog, name='search'):
@@ -178,6 +179,59 @@ class SearchCog(commands.GroupCog, name='search'):
             all_card_ids=Condition.get_all_card_ids(),
             card_type=Condition,
             search_function=self._search_conditions,
+        )
+
+    @staticmethod
+    def _search_damage_cards(query: str) -> list[tuple[str, str]]:
+        dmg_card_ids: Iterable[str] | None = DamageCard.get_all_card_ids()
+
+        if not dmg_card_ids:
+            return []
+
+        matches = []
+        for dmg_card_id in dmg_card_ids:
+            dmg_card: catalog.DamageCard | None = cast(
+                catalog.DamageCard, DamageCard.get_catalog_entry_for_id(dmg_card_id)
+            )
+            if not dmg_card:
+                continue
+
+            display_name = f'{dmg_card.name} [{dmg_card_id}]'
+
+            # Match against what they see (name) or what is hidden (ID)
+            query_lower = query.lower()
+            if query_lower in display_name.lower() or query_lower in dmg_card_id.lower():
+                matches.append((display_name, dmg_card_id))
+
+        return matches
+
+    async def damage_card_id_autocomplete(
+        self, interaction: discord.Interaction, current: str
+    ) -> list[app_commands.Choice[str]]:
+        choices = self._search_damage_cards(current)
+        return [app_commands.Choice(name=display_name, value=key) for display_name, key in choices][
+            :25
+        ]
+
+    @app_commands.command(
+        name='damagecards', description='Search all damage cards in the catalog by ID'
+    )
+    @app_commands.autocomplete(damage_card_id=damage_card_id_autocomplete)
+    @app_commands.describe(
+        damage_card_id='The ID of the damage card',
+    )
+    async def search_damage_cards(
+        self,
+        interaction: discord.Interaction,
+        damage_card_id: str,
+    ) -> None:
+        return await self._search(
+            interaction=interaction,
+            function_name='damagecard',
+            target_card_id=damage_card_id,
+            all_card_ids=DamageCard.get_all_card_ids(),
+            card_type=DamageCard,
+            search_function=self._search_damage_cards,
         )
 
 

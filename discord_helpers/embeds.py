@@ -7,6 +7,7 @@ from discord_helpers.emoji import get_emoji, replace_emoji_placeholders
 from game.model.base import BaseStruct
 from game.model import catalog, Condition, Faction, Ship
 from game import movement
+from game.model.ship import DamageCard
 
 
 REVERSE_MANEUVERS: set[movement.ManeuverBearing] = {
@@ -293,11 +294,28 @@ def _get_condition_embed(card_id: str) -> discord.Embed | None:
     )
 
 
+def _get_damage_card_embed(card_id: str) -> discord.Embed | None:
+    dmg_card_info: catalog.DamageCard | None = cast(
+        catalog.DamageCard, DamageCard.get_catalog_entry_for_id(card_id)
+    )
+
+    if dmg_card_info is None:
+        return None
+
+    return discord.Embed(
+        color=discord.Color.dark_red(),
+        title=dmg_card_info.name,
+        description=replace_emoji_placeholders(dmg_card_info.text),
+    )
+
+
 @cache
 def get_card_embed(card_id: str, card_type: type[BaseStruct[Any]]) -> discord.Embed | None:
     if issubclass(card_type, Ship):
         return _get_ship_embed(card_id)
     elif issubclass(card_type, Condition):
         return _get_condition_embed(card_id)
+    elif issubclass(card_type, DamageCard):
+        return _get_damage_card_embed(card_id)
     else:
         raise ValueError(f'{card_type} is not supported for embeds')

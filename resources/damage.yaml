@@ -2,16 +2,20 @@ blinded_pilot:
   id_: blinded_pilot
   name: Blinded Pilot
   type_: pilot
-  text: 'While you perform an attack, you can modify your dice only by spending [Force]
-    for their default effect. **Action**: Repair this card.'
+  text: |
+    While you perform an attack, you can modify your dice only by spending [Force] for their default effect.
+
+    **Action**: Repair this card.
   count: 2
   automations: null
 console_fire:
   id_: console_fire
   name: Console Fire
   type_: ship
-  text: 'Before you engage, roll 1 attack die. On a [Hit] result, suffer 1 [Hit] damage.
-    **Action**: Repair this card.'
+  text: |
+    Before you engage, roll 1 attack die. On a [Hit] result, suffer 1 [Hit] damage.
+
+    **Action**: Repair this card.
   count: 2
   automations:
   - ON_HIT_SUFFER_HIT:1
@@ -29,8 +33,11 @@ damaged_sensor_array:
   id_: damaged_sensor_array
   name: Damaged Sensor Array
   type_: ship
-  text: 'You cannot perform any actions except the [Focus] action and actions from
-    damage cards. **Action**: Repair this card.'
+  text: |
+    You cannot perform any actions except the [Focus] action and actions from
+    damage cards.
+
+    **Action**: Repair this card.
   count: 2
   automations: null
 direct_hit:
@@ -52,24 +59,30 @@ fuel_leak:
   id_: fuel_leak
   name: Fuel Leak
   type_: ship
-  text: 'After you suffer 1 [Critical Hit] damage, suffer 1 [Hit] damage and repair
-    this card. **Action**: Repair this card.'
+  text: |
+    After you suffer 1 [Critical Hit] damage, suffer 1 [Hit] damage and repair this card.
+
+    **Action**: Repair this card.
   count: 4
   automations: null
 hull_breach:
   id_: hull_breach
   name: Hull Breach
   type_: ship
-  text: 'Before you would suffer 1 or more [Hit] damage, suffer that much [Critical
-    Hit] damage instead. **Action**: Repair this card.'
+  text: |
+    Before you would suffer 1 or more [Hit] damage, suffer that much [Critical Hit] damage instead.
+
+    **Action**: Repair this card.
   count: 2
   automations: null
 loose_stabilizer:
   id_: loose_stabilizer
   name: Loose Stabilizer
   type_: ship
-  text: 'After you execute a non-straight maneuver ([Straight]), suffer 1 [Hit] damage
-    and repair this card. **Action**: Repair this card.'
+  text: |
+    After you execute a non-straight maneuver ([Straight]), suffer 1 [Hit] damage and repair this card.
+
+    **Action**: Repair this card.
   count: 2
   automations: null
 panicked_pilot:
@@ -100,15 +113,19 @@ weapons_failure:
   id_: weapons_failure
   name: Weapons Failure
   type_: ship
-  text: 'While you perform an attack, roll 1 fewer attack die. **Action**: Repair this
-    card.'
+  text: |
+    While you perform an attack, roll 1 fewer attack die.
+
+    **Action**: Repair this card.
   count: 2
   automations: null
 wounded_pilot:
   id_: wounded_pilot
   name: Wounded Pilot
   type_: pilot
-  text: 'After you perform an action, roll 1 attack die. On a [Hit] or [Critical Hit]
-    result, gain 1 stress token. **Action**: Repair this card.'
+  text: |
+    After you perform an action, roll 1 attack die. On a [Hit] or [Critical Hit] result, gain 1 stress token.
+
+    **Action**: Repair this card.
   count: 2
   automations: null
