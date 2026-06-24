@@ -166,6 +166,13 @@ class Ship(MutableBaseStruct, kw_only=True):
 
         return faceup, facedown
 
+    def get_ship_info(self) -> catalog.ShipAttr:
+        return self.get_catalog_entry()  # pyright: ignore[reportReturnType]
+
+    @classmethod
+    def get_ship_info_by_type(cls, type_: str) -> catalog.ShipAttr:
+        return cls._read_card_file(type_)[type_]
+
     def get_pilot_card(self) -> catalog.PilotCard:
         ship_attr: catalog.ShipAttr | None = self.get_catalog_entry()
         if not ship_attr:

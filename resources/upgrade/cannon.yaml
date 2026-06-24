@@ -188,6 +188,7 @@ protoncannons:
   type_: cannon
   slots:
   - cannon
+  - cannon
   name: Proton Cannons
   is_unique: false
   limit: null
@@ -226,6 +227,7 @@ syncedlasercannons:
   xwa_restricted_count: null
   type_: cannon
   slots:
+  - cannon
   - cannon
   name: Synced Laser Cannons
   is_unique: false
@@ -332,7 +334,21 @@ underslungblastercannon:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - resistance
+    names: null
+    ships: null
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords:
+    - X-wing
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null

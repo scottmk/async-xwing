@@ -28,7 +28,22 @@ andrasta:
     payload: 1
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - scumandvillainy
+    names: null
+    ships:
+    - name: Firespray-class Patrol Craft
+      id_: firesprayclasspatrolcraft
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -62,7 +77,22 @@ assailer:
     gunner: 1
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - galacticempire
+    names: null
+    ships:
+    - name: Raider-class Corvette
+      id_: raiderclasscorvette
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -93,7 +123,22 @@ b6bladewingprototype:
     gunner: 1
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - rebelalliance
+    names: null
+    ships:
+    - name: A/SF-01 B-wing
+      id_: asf01bwing
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -131,7 +176,22 @@ blackone:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - resistance
+    names: null
+    ships:
+    - name: T-70 X-wing
+      id_: t70xwing
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -165,7 +225,22 @@ bloodcrow:
     gunner: 1
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - galacticempire
+    names: null
+    ships:
+    - name: Gozanti-class Cruiser
+      id_: gozanticlasscruiser
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -197,7 +272,22 @@ brighthope:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - rebelalliance
+    names: null
+    ships:
+    - name: GR-75 Medium Transport
+      id_: gr75mediumtransport
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -230,7 +320,22 @@ brokenhorn:
     illicit: 1
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - scumandvillainy
+    names: null
+    ships:
+    - name: C-ROC Cruiser
+      id_: croccruiser
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -264,7 +369,22 @@ corvus:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - galacticempire
+    names: null
+    ships:
+    - name: Raider-class Corvette
+      id_: raiderclasscorvette
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -295,7 +415,22 @@ dauntless:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - galacticempire
+    names: null
+    ships:
+    - name: VT-49 Decimator
+      id_: vt49decimator
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -340,7 +475,22 @@ dodonnaspride:
     team: 1
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - rebelalliance
+    names: null
+    ships:
+    - name: CR90 Corellian Corvette
+      id_: cr90corelliancorvette
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -352,6 +502,7 @@ gauntlet:
   type_: title
   slots:
   - title
+  - modification
   name: • Gauntlet
   is_unique: true
   limit: 1
@@ -375,7 +526,23 @@ gauntlet:
     crew: -1
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - galacticrepublic
+    - separatistalliance
+    names: null
+    ships:
+    - name: Gauntlet Fighter
+      id_: gauntletfighter
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -406,7 +573,22 @@ ghost:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - rebelalliance
+    names: null
+    ships:
+    - name: VCX-100 Light Freighter
+      id_: vcx100lightfreighter
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -439,7 +621,21 @@ grappler:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships:
+    - name: Trident-Class Assault Ship
+      id_: tridentclassassaultship
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -472,7 +668,22 @@ havoc:
     sensor: 1
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - scumandvillainy
+    names: null
+    ships:
+    - name: Scurrg H-6 bomber
+      id_: scurrgh6bomber
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -502,7 +713,22 @@ houndstooth:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - scumandvillainy
+    names: null
+    ships:
+    - name: YV-666 Light Freighter
+      id_: yv666lightfreighter
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -533,7 +759,22 @@ ig2000:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - scumandvillainy
+    names: null
+    ships:
+    - name: Aggressor Assault Fighter
+      id_: aggressorassaultfighter
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -567,7 +808,22 @@ impetuous:
     crew: 1
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - galacticempire
+    names: null
+    ships:
+    - name: Raider-class Corvette
+      id_: raiderclasscorvette
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -602,7 +858,22 @@ insatiableworrt:
     cargo: 1
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - scumandvillainy
+    names: null
+    ships:
+    - name: C-ROC Cruiser
+      id_: croccruiser
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -634,7 +905,22 @@ instigator:
     team: 1
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - galacticempire
+    names: null
+    ships:
+    - name: Raider-class Corvette
+      id_: raiderclasscorvette
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -668,7 +954,22 @@ jainaslight:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - rebelalliance
+    names: null
+    ships:
+    - name: CR90 Corellian Corvette
+      id_: cr90corelliancorvette
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -701,7 +1002,22 @@ kazsfireball:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - resistance
+    names: null
+    ships:
+    - name: Fireball
+      id_: fireball
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -733,7 +1049,22 @@ landosmillenniumfalcon:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - scumandvillainy
+    names: null
+    ships:
+    - name: Customized YT-1300 Light Freighter
+      id_: customizedyt1300lightfreighter
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -765,7 +1096,22 @@ liberator:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - rebelalliance
+    names: null
+    ships:
+    - name: CR90 Corellian Corvette
+      id_: cr90corelliancorvette
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -798,7 +1144,22 @@ luminous:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - rebelalliance
+    names: null
+    ships:
+    - name: GR-75 Medium Transport
+      id_: gr75mediumtransport
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -830,7 +1191,22 @@ marauder:
     gunner: 1
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - scumandvillainy
+    names: null
+    ships:
+    - name: Firespray-class Patrol Craft
+      id_: firesprayclasspatrolcraft
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -870,7 +1246,22 @@ merchantone:
     turret: 1
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - scumandvillainy
+    names: null
+    ships:
+    - name: C-ROC Cruiser
+      id_: croccruiser
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -903,7 +1294,22 @@ millenniumfalcon:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - rebelalliance
+    names: null
+    ships:
+    - name: Modified YT-1300 Light Freighter
+      id_: modifiedyt1300lightfreighter
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -937,7 +1343,22 @@ misthunter:
     cannon: 1
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - scumandvillainy
+    names: null
+    ships:
+    - name: G-1A Starfighter
+      id_: g1astarfighter
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -969,7 +1390,23 @@ moldycrow:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - rebelalliance
+    - scumandvillainy
+    names: null
+    ships:
+    - name: HWK-290 Light Freighter
+      id_: hwk290lightfreighter
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -1003,7 +1440,22 @@ nautolansrevenge:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - scumandvillainy
+    names: null
+    ships:
+    - name: Trident-Class Assault Ship
+      id_: tridentclassassaultship
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -1035,7 +1487,22 @@ neimoidiangrasp:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - separatistalliance
+    names: null
+    ships:
+    - name: Trident-Class Assault Ship
+      id_: tridentclassassaultship
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -1047,6 +1514,7 @@ nightbrother:
   type_: title
   slots:
   - title
+  - modification
   name: • Nightbrother
   is_unique: true
   limit: 1
@@ -1070,7 +1538,23 @@ nightbrother:
     crew: 1
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - rebelalliance
+    - scumandvillainy
+    names: null
+    ships:
+    - name: Gauntlet Fighter
+      id_: gauntletfighter
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -1102,7 +1586,22 @@ outrider:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - rebelalliance
+    names: null
+    ships:
+    - name: YT-2400 Light Freighter
+      id_: yt2400lightfreighter
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -1132,7 +1631,24 @@ phantom:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - rebelalliance
+    names: null
+    ships:
+    - name: Attack Shuttle
+      id_: attackshuttle
+    - name: Sheathipede-class Shuttle
+      id_: sheathipedeclassshuttle
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -1165,7 +1681,22 @@ punishingone:
     crew: -1
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - scumandvillainy
+    names: null
+    ships:
+    - name: JumpMaster 5000
+      id_: jumpmaster5000
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -1199,7 +1730,22 @@ quantumstorm:
     team: 1
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - rebelalliance
+    names: null
+    ships:
+    - name: GR-75 Medium Transport
+      id_: gr75mediumtransport
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -1237,7 +1783,21 @@ razorcrest:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships:
+    - name: ST-70 Assault Ship
+      id_: st70assaultship
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -1268,7 +1828,22 @@ requiem:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - galacticempire
+    names: null
+    ships:
+    - name: Gozanti-class Cruiser
+      id_: gozanticlasscruiser
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -1300,7 +1875,22 @@ reysmillenniumfalcon:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - resistance
+    names: null
+    ships:
+    - name: Scavenged YT-1300
+      id_: scavengedyt1300
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -1337,7 +1927,22 @@ scimitar:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - separatistalliance
+    names: null
+    ships:
+    - name: Sith Infiltrator
+      id_: sithinfiltrator
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -1368,7 +1973,22 @@ shadowcaster:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - scumandvillainy
+    names: null
+    ships:
+    - name: Lancer-class Pursuit Craft
+      id_: lancerclasspursuitcraft
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -1401,7 +2021,22 @@ slavei:
     torpedo: 1
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - scumandvillainy
+    names: null
+    ships:
+    - name: Firespray-class Patrol Craft
+      id_: firesprayclasspatrolcraft
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -1434,7 +2069,23 @@ slavei-swz82:
     gunner: 1
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - scumandvillainy
+    - separatistalliance
+    names: null
+    ships:
+    - name: Firespray-class Patrol Craft
+      id_: firesprayclasspatrolcraft
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -1466,7 +2117,22 @@ soullessone:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - separatistalliance
+    names: null
+    ships:
+    - name: Belbullab-22 Starfighter
+      id_: belbullab22starfighter
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -1498,7 +2164,22 @@ st321:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - galacticempire
+    names: null
+    ships:
+    - name: Lambda-class T-4a Shuttle
+      id_: lambdaclasst4ashuttle
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -1532,7 +2213,22 @@ suppressor:
     sensor: 1
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - galacticempire
+    names: null
+    ships:
+    - name: Gozanti-class Cruiser
+      id_: gozanticlasscruiser
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -1564,7 +2260,22 @@ tantiveiv:
     crew: 2
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - rebelalliance
+    names: null
+    ships:
+    - name: CR90 Corellian Corvette
+      id_: cr90corelliancorvette
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -1598,7 +2309,22 @@ thunderstrike:
     gunner: 1
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - rebelalliance
+    names: null
+    ships:
+    - name: CR90 Corellian Corvette
+      id_: cr90corelliancorvette
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -1630,7 +2356,22 @@ trident:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - separatistalliance
+    names: null
+    ships:
+    - name: Trident-Class Assault Ship
+      id_: tridentclassassaultship
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -1663,7 +2404,22 @@ vector:
     crew: 1
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - galacticempire
+    names: null
+    ships:
+    - name: Gozanti-class Cruiser
+      id_: gozanticlasscruiser
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -1699,7 +2455,21 @@ virago:
     modification: 1
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships:
+    - name: StarViper-class Attack Platform
+      id_: starviperclassattackplatform
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -1734,7 +2504,21 @@ xanadublood:
     payload: 1
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships:
+    - name: Rogue-class Starfighter
+      id_: rogueclassstarfighter
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null

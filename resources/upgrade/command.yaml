@@ -6,6 +6,7 @@ admiralozzel:
   type_: command
   slots:
   - command
+  - crew
   name: • Admiral Ozzel
   is_unique: true
   limit: 1
@@ -70,6 +71,7 @@ asajjventresscommand:
   type_: command
   slots:
   - command
+  - crew
   name: • Asajj Ventress
   is_unique: true
   limit: 1
@@ -97,7 +99,22 @@ asajjventresscommand:
   bonus_keywords:
   - Dark Side
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - scumandvillainy
+    - separatistalliance
+    names: null
+    ships: null
+    ship_sizes:
+    - huge
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -109,6 +126,7 @@ azmorigan:
   type_: command
   slots:
   - command
+  - crew
   name: • Azmorigan
   is_unique: true
   limit: 1
@@ -140,6 +158,7 @@ b6bladewingprototype-command:
   type_: command
   slots:
   - command
+  - title
   name: • B6 Blade Wing Prototype
   is_unique: true
   limit: 1
@@ -160,7 +179,22 @@ b6bladewingprototype-command:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - rebelalliance
+    names: null
+    ships:
+    - name: A/SF-01 B-wing
+      id_: asf01bwing
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -238,6 +272,7 @@ captainneeda:
   type_: command
   slots:
   - command
+  - crew
   name: • Captain Needa
   is_unique: true
   limit: 1
@@ -272,6 +307,7 @@ carlistrieekan:
   type_: command
   slots:
   - command
+  - crew
   name: • Carlist Rieekan
   is_unique: true
   limit: 1
@@ -306,6 +342,7 @@ combatboardingtube:
   type_: command
   slots:
   - command
+  - configuration
   name: Combat Boarding Tube
   is_unique: false
   limit: null
@@ -328,7 +365,21 @@ combatboardingtube:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships:
+    - name: Gauntlet Fighter
+      id_: gauntletfighter
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -404,6 +455,7 @@ generalgrievouscommand:
   type_: command
   slots:
   - command
+  - crew
   name: • General Grievous
   is_unique: true
   limit: 1
@@ -425,7 +477,21 @@ generalgrievouscommand:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - separatistalliance
+    names: null
+    ships: null
+    ship_sizes:
+    - huge
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -437,6 +503,7 @@ hondoohnakacommand:
   type_: command
   slots:
   - command
+  - crew
   name: • Hondo Ohnaka
   is_unique: true
   limit: 1
@@ -466,7 +533,20 @@ hondoohnakacommand:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships: null
+    ship_sizes:
+    - huge
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -498,7 +578,20 @@ initforthemoneyrebellion:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - scumandvillainy
+    names: null
+    ships: null
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: true
   is_reverse: false
   reverse_side_id: initforthemoneyrebellion-rev
   setup_automations: null
@@ -530,7 +623,20 @@ initforthemoneyrebellion-rev:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - scumandvillainy
+    names: null
+    ships: null
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: true
   is_reverse: false
   reverse_side_id: initforthemoneyrebellion
   setup_automations: null
@@ -542,6 +648,7 @@ jandodonna:
   type_: command
   slots:
   - command
+  - crew
   name: • Jan Dodonna
   is_unique: true
   limit: 1
@@ -592,7 +699,24 @@ jedicommander:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - galacticrepublic
+    names: null
+    ships:
+    - name: Delta-7 Aethersprite
+      id_: delta7aethersprite
+    - name: Eta-2 Actis
+      id_: eta2actis
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: jedicommander-rev
   setup_automations: null
@@ -624,7 +748,24 @@ jedicommander-rev:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - galacticrepublic
+    names: null
+    ships:
+    - name: Delta-7 Aethersprite
+      id_: delta7aethersprite
+    - name: Eta-2 Actis
+      id_: eta2actis
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: jedicommander
   setup_automations: null
@@ -636,6 +777,7 @@ martuuk:
   type_: command
   slots:
   - command
+  - crew
   name: • Mar Tuuk
   is_unique: true
   limit: 1
@@ -658,7 +800,21 @@ martuuk:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - separatistalliance
+    names: null
+    ships: null
+    ship_sizes:
+    - huge
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -734,6 +890,7 @@ raymusantilles:
   type_: command
   slots:
   - command
+  - crew
   name: • Raymus Antilles
   is_unique: true
   limit: 1
@@ -765,6 +922,7 @@ rifftamson:
   type_: command
   slots:
   - command
+  - crew
   name: • Riff Tamson
   is_unique: true
   limit: 1
@@ -785,18 +943,33 @@ rifftamson:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - separatistalliance
+    names: null
+    ships: null
+    ship_sizes:
+    - huge
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
 sabinewren-command:
   id_: sabinewren-command
   amg_cost: null
-  xwa_cost: '5'
+  xwa_cost: 5
   xwa_restricted_count: null
   type_: command
   slots:
   - command
+  - crew
   name: • Sabine Wren
   is_unique: true
   limit: 1
@@ -820,7 +993,23 @@ sabinewren-command:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - rebelalliance
+    names: null
+    ships: null
+    ship_sizes:
+    - large
+    - medium
+    - small
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -958,6 +1147,7 @@ stalwartcaptain:
   type_: command
   slots:
   - command
+  - crew
   name: • Stalwart Captain
   is_unique: true
   limit: 1
@@ -976,7 +1166,20 @@ stalwartcaptain:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships: null
+    ship_sizes:
+    - huge
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -988,6 +1191,7 @@ strategiccommander:
   type_: command
   slots:
   - command
+  - crew
   name: • Strategic Commander
   is_unique: true
   limit: 1
@@ -1010,7 +1214,20 @@ strategiccommander:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships: null
+    ship_sizes:
+    - huge
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -1054,6 +1271,7 @@ zealouscaptain:
   type_: command
   slots:
   - command
+  - crew
   name: • Zealous Captain
   is_unique: true
   limit: 1
@@ -1073,7 +1291,20 @@ zealouscaptain:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships: null
+    ship_sizes:
+    - huge
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
