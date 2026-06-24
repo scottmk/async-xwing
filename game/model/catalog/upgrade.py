@@ -99,7 +99,9 @@ class UpgradeRestrictions(msgspec.Struct, kw_only=True, frozen=True):
     def __str__(self):
         items: list[str] = []
         if self.factions:
-            items.append(f'*{" or ".join(sorted(self.factions))}*')
+            items.append(
+                f'*{" or ".join(sorted([faction.upgrade_str for faction in self.factions]))}*'
+            )
         if self.names:
             prefix_str: str = ''
             if self.factions:

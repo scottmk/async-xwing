@@ -7,7 +7,7 @@ from discord_helpers.emoji import get_emoji, replace_emoji_placeholders
 from game.model.base import BaseStruct
 from game.model import catalog, Condition, Faction, Ship
 from game import movement
-from game.model.ship import DamageCard
+from game.model.ship import DamageCard, Upgrade
 
 
 REVERSE_MANEUVERS: set[movement.ManeuverBearing] = {
@@ -155,6 +155,8 @@ def _get_recurring_emoji(type_: str, recurring: int) -> str:
         return ''
     if recurring == -1:
         return get_emoji(f'{type_}_recur_neg1')
+    elif recurring == 0:
+        return ''
     return get_emoji(f'{type_}_recur_{recurring}')
 
 
@@ -226,9 +228,7 @@ def _get_ship_embed(card_id: str) -> discord.Embed | None:
         for speed, difficulty in speed_difficulty_dict.items()
     }
     maneuver_lines: list[str] = []
-    for speed in sorted(
-        {speed for speed, bearing in speed_bearing_to_difficulty.keys()}, reverse=True
-    ):
+    for speed in sorted({speed for speed, _ in speed_bearing_to_difficulty.keys()}, reverse=True):
         # Start the line with the current speed
         maneuver_line = f'{abs(speed)}\u20e3'
 
@@ -279,6 +279,107 @@ def _get_ship_embed(card_id: str) -> discord.Embed | None:
     return embed
 
 
+def _get_upgrade_embed(card_id: str) -> discord.Embed | None:
+    upgrade_info: catalog.UpgradeCard | None = cast(
+        catalog.UpgradeCard, Upgrade.get_catalog_entry_for_id(card_id)
+    )
+
+    if upgrade_info is None:
+        return None
+
+    description_lines: list[str] = [
+        line
+        for line in [
+            f'-# *Reverse side of {upgrade_info.reverse_side_id}*'
+            if upgrade_info.is_reverse
+            else '',
+            f'-# *Reverse side: {upgrade_info.reverse_side_id}*'
+            if upgrade_info.reverse_side_id
+            else '',
+        ]
+        if line
+    ]
+
+    embed: discord.Embed = discord.Embed(
+        color=discord.Color.light_gray(),
+        title=f'{upgrade_info.name} {upgrade_info.type_.emoji}',
+        description=replace_emoji_placeholders(
+            '\n\n'.join(line for line in description_lines if line),
+        ),
+    )
+
+    embed.add_field(
+        name='Slots', value=''.join([slot.emoji for slot in upgrade_info.slots]), inline=False
+    )
+
+    if upgrade_info.special_attacks:
+        for atk in upgrade_info.special_attacks:
+            atk_str: str = (
+                f'{atk.arc.emoji} **{atk.val}**\n{get_emoji("ordnance") if atk.is_ordnance else ""}'
+            )
+            if len(atk.range) == 1:
+                atk_str += str(atk.range.pop())
+            else:
+                atk_str += f'{min(atk.range)}–{max(atk.range)}'
+            embed.add_field(name='', value=atk_str, inline=True)
+
+    charges: dict[catalog.card_attr.ChargeType, catalog.card_attr.ChargeValues] | None = (
+        upgrade_info.charges
+    )
+    if charges:
+        charge_str: str = ''
+        if force_charges := charges.get(catalog.card_attr.ChargeType.FORCE):
+            charge_str += f'\u2001{get_emoji("force_charge")} **{force_charges.limit}**{_get_recurring_emoji("force_charge", force_charges.recurring_val)}'
+        if std_charges := charges.get(catalog.card_attr.ChargeType.STANDARD):
+            charge_str += f'\u2001{get_emoji("std_charge")} **{std_charges.limit}**{_get_recurring_emoji("std_charge", std_charges.recurring_val)}'
+        embed.add_field(name='Charges', value=charge_str, inline=True)
+
+    if upgrade_info.action_bar:
+        embed.add_field(
+            name='Actions',
+            value=f'{"\n".join(action.emoji for action in upgrade_info.action_bar)}',
+            inline=True,
+        )
+
+    ability_lines: list[str] = [
+        line
+        for line in [
+            replace_emoji_placeholders(upgrade_info.ability.text) if upgrade_info.ability else '',
+            f'*{upgrade_info.flavor_text}*' if upgrade_info.flavor_text else '',
+        ]
+        if line
+    ]
+
+    if upgrade_info.special_attacks:
+        ability_lines.extend(
+            replace_emoji_placeholders(atk.text) for atk in upgrade_info.special_attacks if atk.text
+        )
+
+    if ability_lines:
+        embed.add_field(name='', value='\n\n'.join(ability_lines), inline=False)
+
+    embed.add_field(
+        name='Restrictions',
+        value=str(upgrade_info.restrictions) if upgrade_info.restrictions else 'None',
+    )
+
+    embed.add_field(
+        name='XWA Cost',
+        value=upgrade_info.xwa_cost,
+        inline=True,
+    )
+
+    if upgrade_info.xwa_restricted_count is not None:
+        embed.add_field(
+            name='XWA Restriction',
+            value=upgrade_info.xwa_restricted_count,
+            inline=True,
+        )
+
+    embed.set_footer(text='©LFL ©FFG')
+    return embed
+
+
 def _get_condition_embed(card_id: str) -> discord.Embed | None:
     condition_info: catalog.ConditionCard | None = cast(
         catalog.ConditionCard, Condition.get_catalog_entry_for_id(card_id)
@@ -313,6 +414,8 @@ def _get_damage_card_embed(card_id: str) -> discord.Embed | None:
 def get_card_embed(card_id: str, card_type: type[BaseStruct[Any]]) -> discord.Embed | None:
     if issubclass(card_type, Ship):
         return _get_ship_embed(card_id)
+    elif issubclass(card_type, Upgrade):
+        return _get_upgrade_embed(card_id)
     elif issubclass(card_type, Condition):
         return _get_condition_embed(card_id)
     elif issubclass(card_type, DamageCard):

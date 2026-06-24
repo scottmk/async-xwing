@@ -6,7 +6,7 @@ from discord.ext import commands
 from discord_helpers.embeds import LazyEmbedPaginatorView, get_card_embed
 from game.model import Condition, Ship, catalog
 from game.model.base import BaseStruct
-from game.model.ship import DamageCard
+from game.model.ship import DamageCard, Upgrade
 
 
 class SearchCog(commands.GroupCog, name='search'):
@@ -126,6 +126,59 @@ class SearchCog(commands.GroupCog, name='search'):
             all_card_ids=Ship.get_manifest().keys(),
             card_type=Ship,
             search_function=self._search_pilots,
+        )
+
+    @staticmethod
+    def _search_upgrade_cards(query: str) -> list[tuple[str, str]]:
+        upgrade_ids: Iterable[str] | None = Upgrade.get_manifest().keys()
+
+        if not upgrade_ids:
+            return []
+
+        matches = []
+        for upgrade_id in upgrade_ids:
+            upgrade: catalog.UpgradeCard | None = cast(
+                catalog.UpgradeCard, Upgrade.get_catalog_entry_for_id(upgrade_id)
+            )
+            if not upgrade:
+                continue
+
+            display_name = f'{upgrade.name} ({upgrade.type_}) [{upgrade_id}]'
+
+            # Match against what they see (name) or what is hidden (ID)
+            query_lower = query.lower()
+            if query_lower in display_name.lower() or query_lower in upgrade_id.lower():
+                matches.append((display_name, upgrade_id))
+
+        return matches
+
+    async def upgrade_id_autocomplete(
+        self, interaction: discord.Interaction, current: str
+    ) -> list[app_commands.Choice[str]]:
+        choices = self._search_upgrade_cards(current)
+        return [app_commands.Choice(name=display_name, value=key) for display_name, key in choices][
+            :25
+        ]
+
+    @app_commands.command(
+        name='upgrades', description='Search all upgrade cards in the catalog by ID'
+    )
+    @app_commands.autocomplete(upgrade_id=upgrade_id_autocomplete)
+    @app_commands.describe(
+        upgrade_id='The ID of the upgrade card',
+    )
+    async def search_upgrade_cards(
+        self,
+        interaction: discord.Interaction,
+        upgrade_id: str,
+    ) -> None:
+        return await self._search(
+            interaction=interaction,
+            function_name='upgrade',
+            target_card_id=upgrade_id,
+            all_card_ids=Upgrade.get_manifest().keys(),
+            card_type=Upgrade,
+            search_function=self._search_upgrade_cards,
         )
 
     @staticmethod

@@ -61,15 +61,19 @@ def _get_emoji_from_placeholder(placeholder: str) -> str:
     formatted_placeholder: str = snakecase(placeholder)
     match formatted_placeholder:
         case 'force':
-            return get_emoji('force_charge')
+            return get_emoji('force_charge_txt')
         case 'lock':
-            return get_emoji('target_lock')
+            return get_emoji('target_lock_txt')
         case 'charge':
-            return get_emoji('std_charge')
+            return get_emoji('std_charge_txt')
         case 'koiogran_turn':
-            return get_emoji('k_turn')
-        case _:
+            return get_emoji('k_turn_txt')
+        case 'shield':
+            return get_emoji('shields_txt')
+        case 'hit' | 'critical_hit':
             return get_emoji(formatted_placeholder)
+        case _:
+            return get_emoji(f'{formatted_placeholder}_txt')
 
 
 def replace_emoji_placeholders(text: str) -> str:
