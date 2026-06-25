@@ -29,7 +29,20 @@ battlemeditation:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - galacticrepublic
+    names: null
+    ships: null
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -93,7 +106,20 @@ compassion:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships: null
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords:
+    - Light Side
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -124,7 +150,22 @@ extrememaneuvers:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships: null
+    ship_sizes:
+    - small
+    actions:
+    - action_name: boost
+      color: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -198,7 +239,20 @@ hate:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships: null
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords:
+    - Dark Side
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -293,7 +347,20 @@ malice:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships: null
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords:
+    - Dark Side
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -324,7 +391,20 @@ patience:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships: null
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords:
+    - Light Side
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -357,7 +437,20 @@ precognitivereflexes:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships: null
+    ship_sizes:
+    - small
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -420,7 +513,20 @@ roilinganger-legendsandrelics:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships: null
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords:
+    - Dark Side
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -515,7 +621,20 @@ supernaturalreflexes:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships: null
+    ship_sizes:
+    - small
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null

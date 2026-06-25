@@ -6,6 +6,7 @@ barragerockets:
   type_: missile
   slots:
   - missile
+  - missile
   name: Barrage Rockets
   is_unique: false
   limit: null
@@ -127,6 +128,7 @@ diamondboronmissiles:
   type_: missile
   slots:
   - missile
+  - missile
   name: • Diamond-Boron Missiles
   is_unique: true
   limit: 1
@@ -192,7 +194,20 @@ discordmissiles:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - separatistalliance
+    names: null
+    ships: null
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -204,6 +219,7 @@ electrochaffmissiles:
   type_: missile
   slots:
   - missile
+  - payload
   name: •• Electro-Chaff Missiles
   is_unique: false
   limit: 2
@@ -268,7 +284,22 @@ energyshellcharges:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - separatistalliance
+    names: null
+    ships: null
+    ship_sizes: null
+    actions:
+    - action_name: calculate
+      color: white
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -403,6 +434,7 @@ multimissilepods:
   xwa_restricted_count: null
   type_: missile
   slots:
+  - missile
   - missile
   name: Multi-Missile Pods
   is_unique: false

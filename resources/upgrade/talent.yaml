@@ -27,7 +27,21 @@ backwardstailslide:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships: null
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades:
+    - configuration
+    min_shields: null
+    keywords:
+    - X-wing
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -63,7 +77,20 @@ clantraining:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships: null
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords:
+    - Mandalorian
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -94,7 +121,21 @@ composure:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships: null
+    ship_sizes: null
+    actions:
+    - action_name: focus
+      color: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -162,7 +203,20 @@ cutthroat:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - scumandvillainy
+    names: null
+    ships: null
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -193,7 +247,22 @@ daredevil:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships: null
+    ship_sizes:
+    - small
+    actions:
+    - action_name: boost
+      color: white
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -225,7 +294,21 @@ deadeyeshot:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships: null
+    ship_sizes:
+    - medium
+    - small
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -259,7 +342,21 @@ debrisgambit:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships: null
+    ship_sizes:
+    - medium
+    - small
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -292,7 +389,21 @@ dedicated:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - galacticrepublic
+    names: null
+    ships: null
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords:
+    - Clone
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -323,7 +434,20 @@ disciplined:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - galacticempire
+    names: null
+    ships: null
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -357,7 +481,21 @@ elusive:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships: null
+    ship_sizes:
+    - medium
+    - small
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -422,7 +560,21 @@ ensnare:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships:
+    - name: Nantex-class Starfighter
+      id_: nantexclassstarfighter
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -453,7 +605,21 @@ experthandling:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships: null
+    ship_sizes: null
+    actions:
+    - action_name: barrel_roll
+      color: red
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -484,7 +650,20 @@ fanatical:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - firstorder
+    names: null
+    ships: null
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -516,7 +695,20 @@ fearless:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - scumandvillainy
+    names: null
+    ships: null
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -547,7 +739,22 @@ feedbackping:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships: null
+    ship_sizes: null
+    actions:
+    - action_name: reload
+      color: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords:
+    - TIE
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -578,7 +785,21 @@ graviticdeflection:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships:
+    - name: Nantex-class Starfighter
+      id_: nantexclassstarfighter
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -609,7 +830,20 @@ heroic:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - resistance
+    names: null
+    ships: null
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -640,7 +874,20 @@ hopeful:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - rebelalliance
+    names: null
+    ships: null
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -672,7 +919,21 @@ interloperturn:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships:
+    - name: TIE/D Defender
+      id_: tieddefender
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -734,7 +995,20 @@ ionlimiteroverride:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships: null
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords:
+    - TIE
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -765,7 +1039,21 @@ juke:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships: null
+    ship_sizes:
+    - medium
+    - small
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -831,7 +1119,21 @@ margsablclosure:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships: null
+    ship_sizes:
+    - medium
+    - small
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -897,7 +1199,20 @@ notorious:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships: null
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades:
+    - illicit
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -1024,7 +1339,20 @@ proudtradition:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - firstorder
+    names: null
+    ships: null
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: proudtradition-rev
   setup_automations: null
@@ -1036,15 +1364,12 @@ proudtradition-rev:
   type_: talent
   slots:
   - talent
-  name: Proud Tradition
+  name: False Tradition
   is_unique: false
   limit: null
   ability:
     name: null
-    text: 'Setup: Equip this side faceup. While you have 2 or fewer stress tokens,
-      you may perform [Focus] actions even while stressed. After you perform an attack,
-      if you are stressed, the defender may spend 1 focus token or suffer 1 [Critical
-      Hit] damage to flip this card.'
+    text: Treat your [Focus] actions as red.
     automations: []
     is_action: false
   flavor_text: null
@@ -1057,7 +1382,20 @@ proudtradition-rev:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - firstorder
+    names: null
+    ships: null
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: proudtradition
   setup_automations: null
@@ -1089,7 +1427,20 @@ ruthless:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - galacticempire
+    names: null
+    ships: null
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -1121,7 +1472,21 @@ saturationsalvo:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships: null
+    ship_sizes: null
+    actions:
+    - action_name: reload
+      color: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -1153,7 +1518,20 @@ selfless:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - rebelalliance
+    names: null
+    ships: null
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -1259,7 +1637,20 @@ starbirdslash:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships: null
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords:
+    - A-wing
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -1322,7 +1713,20 @@ tierfonbellyrun:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships: null
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords:
+    - Y-wing
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -1358,7 +1762,20 @@ treacherous:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - separatistalliance
+    names: null
+    ships: null
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null

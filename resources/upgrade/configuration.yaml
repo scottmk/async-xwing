@@ -26,7 +26,21 @@ alpha3bbesh:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships:
+    - name: Nimbus-class V-wing
+      id_: nimbusclassvwing
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -61,7 +75,21 @@ alpha3eesk:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships:
+    - name: Nimbus-class V-wing
+      id_: nimbusclassvwing
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -73,6 +101,7 @@ calibratedlasertargeting:
   type_: configuration
   slots:
   - configuration
+  - modification
   name: Calibrated Laser Targeting
   is_unique: false
   limit: null
@@ -92,7 +121,21 @@ calibratedlasertargeting:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships:
+    - name: Delta-7 Aethersprite
+      id_: delta7aethersprite
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -129,7 +172,21 @@ corsairrefit:
     turret: 1
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships:
+    - name: C-ROC Cruiser
+      id_: croccruiser
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -141,6 +198,7 @@ enhancedjammingsuite:
   type_: configuration
   slots:
   - configuration
+  - tech
   name: Enhanced Jamming Suite
   is_unique: false
   limit: null
@@ -182,7 +240,21 @@ enhancedjammingsuite:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships:
+    - name: TIE/wi Whisper Modified Interceptor
+      id_: tiewiwhispermodifiedinterceptor
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -215,7 +287,21 @@ grapplingstruts:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships:
+    - name: Vulture-class Droid Fighter
+      id_: vultureclassdroidfighter
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: grapplingstruts-rev
   setup_automations: null
@@ -227,15 +313,16 @@ grapplingstruts-rev:
   type_: configuration
   slots:
   - configuration
-  name: Grappling Struts (Closed)
+  name: Grappling Struts (Open)
   is_unique: false
   limit: null
   ability:
     name: null
-    text: 'Setup: Equip this side faceup. After you execute a maneuver, if you overlap
-      an asteroid or debris cloud and there are 1 or fewer other friendly ships at
-      range 0 of that obstacle, you may flip this card. If you do, you do not suffer
-      the effects of overlapping the asteroid or debris cloud.'
+    text: You ignore obstacles at range 0. You cannot perform [Barrel Roll] actions.
+      After you reveal your dial, if you reveal a maneuver other than a [2 [Straight]]
+      and are at range 0 of an asteroid or debris cloud, skip your Execute Maneuver
+      step and remove 1 stress token; if you revealed a right or left maneuver, rotate
+      your ship 90° in that direction. After you execute a maneuver, flip this card.
     automations: []
     is_action: false
   flavor_text: null
@@ -248,7 +335,21 @@ grapplingstruts-rev:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships:
+    - name: Vulture-class Droid Fighter
+      id_: vultureclassdroidfighter
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: grapplingstruts
   setup_automations: null
@@ -280,7 +381,21 @@ graviticwell-legendsandrelics:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships:
+    - name: Nantex-class Starfighter
+      id_: nantexclassstarfighter
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: true
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -320,7 +435,21 @@ integratedsfoils:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships:
+    - name: T-70 X-wing
+      id_: t70xwing
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: integratedsfoils-rev
   setup_automations: null
@@ -332,13 +461,12 @@ integratedsfoils-rev:
   type_: configuration
   slots:
   - configuration
-  name: Integrated S-foils (Closed)
+  name: Integrated S-foils (Open)
   is_unique: false
   limit: null
   ability:
     name: null
-    text: While you perform a primary attack, if the defender is not in your [Bullseye
-      Arc], roll 1 fewer attack die. Before you activate, you may flip this card.
+    text: Before you activate, you may flip this card.
     automations: []
     is_action: false
   flavor_text: null
@@ -346,21 +474,26 @@ integratedsfoils-rev:
   special_attacks: null
   huge_ship_bonus_attacks: null
   replacement_arc: null
-  action_bar:
-  - action_name: barrel_roll
-    color: white
-    linked_action: null
-  - action_name: focus
-    color: white
-    linked_action:
-      action_name: barrel_roll
-      color: red
-      linked_action: null
+  action_bar: null
   ship_stat_modifiers: null
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships:
+    - name: T-70 X-wing
+      id_: t70xwing
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: integratedsfoils
   setup_automations: null
@@ -401,7 +534,21 @@ interceptbooster:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships:
+    - name: Droid Tri-Fighter
+      id_: droidtrifighter
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: interceptbooster-rev
   setup_automations: null
@@ -413,36 +560,38 @@ interceptbooster-rev:
   type_: configuration
   slots:
   - configuration
-  name: Intercept Booster (Attached)
+  name: Intercept Booster (Detached)
   is_unique: false
   limit: null
-  ability:
-    name: null
-    text: 'Setup: Equip this side faceup. During the System Phase, gain 1 disarm token
-      unless you flip this card. At the end of the End Phase, if you have no active
-      [Charge], flip this card.'
-    automations: []
-    is_action: false
-  flavor_text: null
-  charges:
-    standard:
-      limit: 3
-      recurring_val: -1
+  ability: null
+  flavor_text: Unhindered by the frailty of an organic pilot, Droid Tri-Fighters are
+    capable of radical acceleration and acute maneuvering. Fitted with booster rockets
+    and fired from the missile tubes of Separatist capital ships, they can intercept
+    hostiles well beyond the range of conventionally deployed starfighters.
+  charges: null
   special_attacks: null
   huge_ship_bonus_attacks: null
   replacement_arc: null
-  action_bar:
-  - action_name: slam
-    color: white
-    linked_action:
-      action_name: lock
-      color: red
-      linked_action: null
+  action_bar: null
   ship_stat_modifiers: null
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships:
+    - name: Droid Tri-Fighter
+      id_: droidtrifighter
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: interceptbooster
   setup_automations: null
@@ -475,7 +624,21 @@ landingstruts:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships:
+    - name: Hyena-class Droid Bomber
+      id_: hyenaclassdroidbomber
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: landingstruts-rev
   setup_automations: null
@@ -487,15 +650,16 @@ landingstruts-rev:
   type_: configuration
   slots:
   - configuration
-  name: Landing Struts (Closed)
+  name: Landing Struts (Open)
   is_unique: false
   limit: null
   ability:
     name: null
-    text: 'Setup: Equip this side faceup. After you execute a maneuver, if you overlap
-      an asteroid or debris cloud and there are 1 or fewer other friendly ships at
-      range 0 of that obstacle, you may flip this card. If you do, you do not suffer
-      the effects of overlapping the asteroid or debris cloud.'
+    text: You ignore obstacles at range 0. You cannot perform [Barrel Roll] actions.
+      After you reveal your dial, if you reveal a maneuver other than a [2 [Straight]]
+      and are at range 0 of an asteroid or debris cloud, skip your Execute Maneuver
+      step and remove 1 stress token; if you revealed a right or left maneuver, rotate
+      your ship 90° in that direction. After you execute a maneuver, flip this card.
     automations: []
     is_action: false
   flavor_text: null
@@ -508,7 +672,21 @@ landingstruts-rev:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships:
+    - name: Hyena-class Droid Bomber
+      id_: hyenaclassdroidbomber
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: landingstruts
   setup_automations: null
@@ -548,7 +726,21 @@ maneuverassistmgk300:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships:
+    - name: TIE/rb Heavy
+      id_: tierbheavy
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -582,7 +774,21 @@ os1arsenalloadout:
     torpedo: 1
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships:
+    - name: Alpha-class Star Wing
+      id_: alphaclassstarwing
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -614,7 +820,21 @@ pivotwing:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships:
+    - name: UT-60D U-wing
+      id_: ut60duwing
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: pivotwing-rev
   setup_automations: null
@@ -626,14 +846,12 @@ pivotwing-rev:
   type_: configuration
   slots:
   - configuration
-  name: Pivot Wing (Closed)
+  name: Pivot Wing (Open)
   is_unique: false
   limit: null
   ability:
     name: null
-    text: While you defend, roll 1 fewer defense die. After you execute a [0 [Stationary]]
-      maneuver, you may rotate your ship 90° or 180°. Before you activate, you may
-      flip this card.
+    text: Before you activate, you may flip this card.
     automations: []
     is_action: false
   flavor_text: null
@@ -646,7 +864,21 @@ pivotwing-rev:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships:
+    - name: UT-60D U-wing
+      id_: ut60duwing
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: pivotwing
   setup_automations: null
@@ -677,7 +909,21 @@ repulsorliftstabilizers:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships:
+    - name: HMP Droid Gunship
+      id_: hmpdroidgunship
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: repulsorliftstabilizers-rev
   setup_automations: null
@@ -689,13 +935,15 @@ repulsorliftstabilizers-rev:
   type_: configuration
   slots:
   - configuration
-  name: Repulsorlift Stabilizers (Inactive)
+  name: Repulsorlift Stabilizers (Active)
   is_unique: false
   limit: null
   ability:
     name: null
-    text: 'Setup: Equip this side faceup. Reduce the difficulty of your straight ([Straight])
-      maneuvers. After you fully execute a maneuver, you may flip this card.'
+    text: After you reveal a bank ([Bank Left] or [Bank Right]) or turn ([Turn Left]
+      or [Turn Right]) maneuver, you must perform that maneuver as a sideslip, then
+      flip this card. After you fully execute a non-sideslip maneuver, you may flip
+      this card.
     automations: []
     is_action: false
   flavor_text: null
@@ -708,7 +956,21 @@ repulsorliftstabilizers-rev:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships:
+    - name: HMP Droid Gunship
+      id_: hmpdroidgunship
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: repulsorliftstabilizers
   setup_automations: null
@@ -738,7 +1000,19 @@ sensitivecontrols:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships: null
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: Autothrusters
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: true
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -778,7 +1052,21 @@ servomotorsfoils:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships:
+    - name: T-65 X-wing
+      id_: t65xwing
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: servomotorsfoils-rev
   setup_automations: null
@@ -790,13 +1078,12 @@ servomotorsfoils-rev:
   type_: configuration
   slots:
   - configuration
-  name: Servomotor S-foils (Closed)
+  name: Servomotor S-foils (Open)
   is_unique: false
   limit: null
   ability:
     name: null
-    text: While you perform a primary attack, roll 1 fewer attack die. Before you
-      activate, you may flip this card.
+    text: Before you activate, you may flip this card.
     automations: []
     is_action: false
   flavor_text: null
@@ -804,21 +1091,26 @@ servomotorsfoils-rev:
   special_attacks: null
   huge_ship_bonus_attacks: null
   replacement_arc: null
-  action_bar:
-  - action_name: boost
-    color: white
-    linked_action: null
-  - action_name: focus
-    color: white
-    linked_action:
-      action_name: boost
-      color: red
-      linked_action: null
+  action_bar: null
   ship_stat_modifiers: null
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships:
+    - name: T-65 X-wing
+      id_: t65xwing
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: servomotorsfoils
   setup_automations: null
@@ -858,7 +1150,21 @@ stabilizedsfoils:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships:
+    - name: A/SF-01 B-wing
+      id_: asf01bwing
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: stabilizedsfoils-rev
   setup_automations: null
@@ -870,13 +1176,15 @@ stabilizedsfoils-rev:
   type_: configuration
   slots:
   - configuration
-  name: Stabilized S-foils (Closed)
+  name: Stabilized S-foils (Open)
   is_unique: false
   limit: null
   ability:
     name: null
-    text: Before you activate, if you are not critically damaged, you may flip this
-      card.
+    text: After you perform an attack, you may spend your lock on the defender to
+      perform a bonus [Cannon] attack against that ship using a [Cannon] upgrade you
+      have not attacked with this turn. Before you activate, if you are not critically
+      damaged, you may flip this card.
     automations: []
     is_action: false
   flavor_text: null
@@ -888,17 +1196,28 @@ stabilizedsfoils-rev:
   - action_name: barrel_roll
     color: white
     linked_action:
-      action_name: evade
+      action_name: lock
       color: red
       linked_action: null
-  - action_name: reload
-    color: red
-    linked_action: null
   ship_stat_modifiers: null
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships:
+    - name: A/SF-01 B-wing
+      id_: asf01bwing
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: stabilizedsfoils
   setup_automations: null
@@ -929,7 +1248,21 @@ swivelwing:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships:
+    - name: Gauntlet Fighter
+      id_: gauntletfighter
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: swivelwing-rev
   setup_automations: null
@@ -941,13 +1274,13 @@ swivelwing-rev:
   type_: configuration
   slots:
   - configuration
-  name: Swivel Wing (Down)
+  name: Swivel Wing (Up)
   is_unique: false
   limit: null
   ability:
     name: null
-    text: After you execute a [0 [Stationary]] maneuver, you may rotate your ship
-      90° or 180°. If you do, you must flip this card.
+    text: While you defend, roll 1 fewer defense die. After you fully execute a non-stationary
+      ([Stationary]) maneuver, you may flip this card.
     automations: []
     is_action: false
   flavor_text: null
@@ -960,7 +1293,21 @@ swivelwing-rev:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships:
+    - name: Gauntlet Fighter
+      id_: gauntletfighter
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: swivelwing
   setup_automations: null
@@ -1001,7 +1348,21 @@ targetassistmgk300:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships:
+    - name: TIE/rb Heavy
+      id_: tierbheavy
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -1033,7 +1394,22 @@ tiedefenderelite:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - galacticempire
+    names: null
+    ships:
+    - name: TIE/D Defender
+      id_: tieddefender
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: true
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -1077,7 +1453,19 @@ vectoredcannonsrz1:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships: null
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: Vectored Thrusters
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: true
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -1089,6 +1477,7 @@ wartimeloadout:
   type_: configuration
   slots:
   - configuration
+  - modification
   name: Wartime Loadout
   is_unique: false
   limit: null
@@ -1115,7 +1504,21 @@ wartimeloadout:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships:
+    - name: BTA-NR2 Y-Wing
+      id_: btanr2ywing
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: true
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -1151,7 +1554,23 @@ wingedreversal-legendsandrelics:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships:
+    - name: Gauntlet Fighter
+      id_: gauntletfighter
+    - name: UT-60D U-wing
+      id_: ut60duwing
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -1184,7 +1603,21 @@ xg1assaultconfiguration:
     cannon: 1
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships:
+    - name: Alpha-class Star Wing
+      id_: alphaclassstarwing
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null

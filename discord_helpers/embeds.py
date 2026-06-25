@@ -1,12 +1,13 @@
 from functools import cache
 import logging
-from typing import Any, cast
+from typing import Any, Iterable, Iterator, cast
 
 import discord
 from discord_helpers.emoji import get_emoji, replace_emoji_placeholders
 from game.model.base import BaseStruct
-from game.model import catalog, Faction, Ship
+from game.model import catalog, Condition, Faction, Ship
 from game import movement
+from game.model.ship import DamageCard, Upgrade
 
 
 REVERSE_MANEUVERS: set[movement.ManeuverBearing] = {
@@ -37,8 +38,126 @@ BEARING_POSITIONS_MAP: dict[int, set[movement.ManeuverBearing]] = {
     },
 }
 
+EMBED_MESSAGE_MAX_CHARS = 6000
+MAX_NUM_EMBEDS = 10
+
 
 logger = logging.getLogger()
+
+
+class LazyEmbedPaginatorView(discord.ui.View):
+    """An interactive UI View that manages flipping through chunks of embeds, lazily evaluated on-demand."""
+
+    # The message inside the thread, which needs to be set after the view is created
+    message: discord.Message | discord.WebhookMessage | None = None
+
+    def __init__(self, embed_pool: Iterable[discord.Embed], timeout_sec: float = 600.0) -> None:
+        super().__init__(timeout=timeout_sec)
+
+        # Initialize the generator and track evaluated chunks
+        self.chunk_iterator: Iterator[list[discord.Embed]] = self._chunk_generator(embed_pool)
+        self.cached_chunks: list[list[discord.Embed]] = []
+        self.current_page: int = 0
+        self.has_more_pages: bool = True
+
+        self.logger = logging.getLogger(self.__class__.__name__)
+
+        # Pre-load the first two pages from our generator, for lookahead
+        self._load_next_page()
+        self._load_next_page()
+        self._update_button_states()
+
+    @staticmethod
+    def _chunk_generator(embeds: Iterable[discord.Embed]) -> Iterator[list[discord.Embed]]:
+        """Groups a flat collection of embeds into a collection of chunks, respecting character and array limits."""
+        current_chunk: list[discord.Embed] = []
+        current_char_count: int = 0
+        for embed in embeds:
+            embed_len: int = len(embed)
+            if embed_len >= EMBED_MESSAGE_MAX_CHARS:
+                raise ValueError(
+                    f"The '{embed.title}' exceeds the message character limit of {EMBED_MESSAGE_MAX_CHARS} ({embed_len})"
+                )
+
+            # Check if adding this embed violates either the character limit or the count limit
+            is_over_char_limit: bool = (current_char_count + embed_len) >= EMBED_MESSAGE_MAX_CHARS
+            is_over_embed_limit: bool = len(current_chunk) >= MAX_NUM_EMBEDS
+
+            if is_over_char_limit or is_over_embed_limit:
+                # Add the current chunk and start a new one
+                yield current_chunk
+                current_chunk = []
+                current_char_count = 0
+
+            # Add the embed to the active chunk
+            current_chunk.append(embed)
+            current_char_count += embed_len
+
+        # Append the final remaining chunk if it contains any items
+        if current_chunk:
+            yield current_chunk
+
+    def _load_next_page(self) -> None:
+        try:
+            next_chunk: list[discord.Embed] = next(self.chunk_iterator)
+            self.cached_chunks.append(next_chunk)
+        except StopIteration:
+            self.has_more_pages = False
+
+    def _update_button_states(self) -> None:
+        self.prev_button.disabled = self.current_page == 0
+        is_at_cache_end: bool = self.current_page >= len(self.cached_chunks) - 1
+        self.next_button.disabled = is_at_cache_end and not self.has_more_pages
+
+    @property
+    def current_embeds(self) -> list[discord.Embed]:
+        return self.cached_chunks[self.current_page]
+
+    @discord.ui.button(label='◀ Previous', style=discord.ButtonStyle.secondary)
+    async def prev_button(self, interaction: discord.Interaction, _: discord.ui.Button) -> None:
+        if self.current_page > 0:
+            self.current_page -= 1
+            self._update_button_states()
+            await interaction.response.edit_message(embeds=self.current_embeds, view=self)
+
+    @discord.ui.button(label='Next ▶', style=discord.ButtonStyle.primary)
+    async def next_button(self, interaction: discord.Interaction, _: discord.ui.Button) -> None:
+        if self.current_page < len(self.cached_chunks) - 1:
+            self.current_page += 1
+
+            # load next page for lookahead
+            if self.current_page == len(self.cached_chunks) - 1:
+                self._load_next_page()
+
+            self._update_button_states()
+            await interaction.response.edit_message(embeds=self.current_embeds, view=self)
+
+    async def on_timeout(self) -> None:
+        """Triggers automatically when the timeout expires to clean up the UI."""
+        if not self.message:
+            return
+
+        for item in self.children:
+            if isinstance(item, discord.ui.Button):
+                item.disabled = True
+
+        try:
+            await self.message.edit(
+                content='This search session has timed out due to inactivity.', view=self
+            )
+        except discord.HTTPException:
+            pass
+
+
+def _get_recurring_emoji(type_: str, recurring: int) -> str:
+    if recurring < -1 or recurring > 3:
+        logger.warning('Got a request for an OOB recurring value: {recurring}')
+        return ''
+    if recurring == -1:
+        return get_emoji(f'{type_}_recur_neg1')
+    elif recurring == 0:
+        return ''
+    return get_emoji(f'{type_}_recur_{recurring}')
 
 
 def _get_ship_embed(card_id: str) -> discord.Embed | None:
@@ -82,21 +201,21 @@ def _get_ship_embed(card_id: str) -> discord.Embed | None:
     if shield_val := ship_info.shield_val:
         stats_str += f'\u2001{get_emoji("shields")} **{shield_val}**'
         if shields_recurring := ship_info.shields_recurring:
-            stats_str += f'{"▴" * shields_recurring}'
+            stats_str += _get_recurring_emoji('shields', shields_recurring)
 
     charges: dict[catalog.card_attr.ChargeType, catalog.card_attr.ChargeValues] | None = (
         pilot_info.charges
     )
     if charges:
         if force_charges := charges.get(catalog.card_attr.ChargeType.FORCE):
-            stats_str += f'\u2001{get_emoji("force_charge")} **{force_charges.limit}**{"▴" * force_charges.recurring_val}'
+            stats_str += f'\u2001{get_emoji("force_charge")} **{force_charges.limit}**{_get_recurring_emoji("force_charge", force_charges.recurring_val)}'
         if std_charges := charges.get(catalog.card_attr.ChargeType.STANDARD):
-            stats_str += f'\u2001{get_emoji("std_charge")} **{std_charges.limit}**{"▴" * std_charges.recurring_val}'
+            stats_str += f'\u2001{get_emoji("std_charge")} **{std_charges.limit}**{_get_recurring_emoji("std_charge", std_charges.recurring_val)}'
 
     if energy_val := ship_info.energy_val:
         stats_str += f'\u2001{get_emoji("energy")} **{energy_val}**'
         if energy_recurring := ship_info.energy_recurring:
-            stats_str += f'{"▴" * energy_recurring}'
+            stats_str += _get_recurring_emoji('energy', energy_recurring)
 
     embed.add_field(name='Stats', value=stats_str, inline=False)
 
@@ -109,9 +228,7 @@ def _get_ship_embed(card_id: str) -> discord.Embed | None:
         for speed, difficulty in speed_difficulty_dict.items()
     }
     maneuver_lines: list[str] = []
-    for speed in sorted(
-        {speed for speed, bearing in speed_bearing_to_difficulty.keys()}, reverse=True
-    ):
+    for speed in sorted({speed for speed, _ in speed_bearing_to_difficulty.keys()}, reverse=True):
         # Start the line with the current speed
         maneuver_line = f'{abs(speed)}\u20e3'
 
@@ -162,9 +279,146 @@ def _get_ship_embed(card_id: str) -> discord.Embed | None:
     return embed
 
 
+def _get_upgrade_embed(card_id: str) -> discord.Embed | None:
+    upgrade_info: catalog.UpgradeCard | None = cast(
+        catalog.UpgradeCard, Upgrade.get_catalog_entry_for_id(card_id)
+    )
+
+    if upgrade_info is None:
+        return None
+
+    description_lines: list[str] = [
+        line
+        for line in [
+            f'-# *Reverse side of {upgrade_info.reverse_side_id}*'
+            if upgrade_info.is_reverse
+            else '',
+            f'-# *Reverse side: {upgrade_info.reverse_side_id}*'
+            if upgrade_info.reverse_side_id
+            else '',
+        ]
+        if line
+    ]
+
+    embed: discord.Embed = discord.Embed(
+        color=discord.Color.light_gray(),
+        title=f'{upgrade_info.name} {upgrade_info.type_.emoji}',
+        description=replace_emoji_placeholders(
+            '\n\n'.join(line for line in description_lines if line),
+        ),
+    )
+
+    embed.add_field(
+        name='Slots', value=''.join([slot.emoji for slot in upgrade_info.slots]), inline=False
+    )
+
+    if upgrade_info.special_attacks:
+        for atk in upgrade_info.special_attacks:
+            atk_str: str = (
+                f'{atk.arc.emoji} **{atk.val}**\n{get_emoji("ordnance") if atk.is_ordnance else ""}'
+            )
+            if len(atk.range) == 1:
+                atk_str += str(atk.range.pop())
+            else:
+                atk_str += f'{min(atk.range)}–{max(atk.range)}'
+            embed.add_field(name='', value=atk_str, inline=True)
+
+    charges: dict[catalog.card_attr.ChargeType, catalog.card_attr.ChargeValues] | None = (
+        upgrade_info.charges
+    )
+    if charges:
+        charge_str: str = ''
+        if force_charges := charges.get(catalog.card_attr.ChargeType.FORCE):
+            charge_str += f'\u2001{get_emoji("force_charge")} **{force_charges.limit}**{_get_recurring_emoji("force_charge", force_charges.recurring_val)}'
+        if std_charges := charges.get(catalog.card_attr.ChargeType.STANDARD):
+            charge_str += f'\u2001{get_emoji("std_charge")} **{std_charges.limit}**{_get_recurring_emoji("std_charge", std_charges.recurring_val)}'
+        embed.add_field(name='Charges', value=charge_str, inline=True)
+
+    if upgrade_info.action_bar:
+        embed.add_field(
+            name='Actions',
+            value=f'{"\n".join(action.emoji for action in upgrade_info.action_bar)}',
+            inline=True,
+        )
+
+    ability_lines: list[str] = [
+        line
+        for line in [
+            replace_emoji_placeholders(upgrade_info.ability.text) if upgrade_info.ability else '',
+            f'*{upgrade_info.flavor_text}*' if upgrade_info.flavor_text else '',
+        ]
+        if line
+    ]
+
+    if upgrade_info.special_attacks:
+        ability_lines.extend(
+            replace_emoji_placeholders(atk.text) for atk in upgrade_info.special_attacks if atk.text
+        )
+
+    if ability_lines:
+        embed.add_field(name='', value='\n\n'.join(ability_lines), inline=False)
+
+    embed.add_field(
+        name='Restrictions',
+        value=str(upgrade_info.restrictions) if upgrade_info.restrictions else 'None',
+    )
+
+    embed.add_field(
+        name='XWA Cost',
+        value=upgrade_info.xwa_cost,
+        inline=True,
+    )
+
+    if upgrade_info.xwa_restricted_count is not None:
+        embed.add_field(
+            name='XWA Restriction',
+            value=upgrade_info.xwa_restricted_count,
+            inline=True,
+        )
+
+    embed.set_footer(text='©LFL ©FFG')
+    return embed
+
+
+def _get_condition_embed(card_id: str) -> discord.Embed | None:
+    condition_info: catalog.ConditionCard | None = cast(
+        catalog.ConditionCard, Condition.get_catalog_entry_for_id(card_id)
+    )
+
+    if condition_info is None:
+        return None
+
+    return discord.Embed(
+        color=discord.Color.ash_embed(),
+        title=condition_info.name,
+        description=replace_emoji_placeholders(condition_info.text),
+    )
+
+
+def _get_damage_card_embed(card_id: str) -> discord.Embed | None:
+    dmg_card_info: catalog.DamageCard | None = cast(
+        catalog.DamageCard, DamageCard.get_catalog_entry_for_id(card_id)
+    )
+
+    if dmg_card_info is None:
+        return None
+
+    return discord.Embed(
+        color=discord.Color.dark_red(),
+        title=dmg_card_info.name,
+        description=replace_emoji_placeholders(dmg_card_info.text),
+    )
+
+
 @cache
 def get_card_embed(card_id: str, card_type: type[BaseStruct[Any]]) -> discord.Embed | None:
     if issubclass(card_type, Ship):
         return _get_ship_embed(card_id)
+    elif issubclass(card_type, Upgrade):
+        return _get_upgrade_embed(card_id)
+    elif issubclass(card_type, Condition):
+        return _get_condition_embed(card_id)
+    elif issubclass(card_type, DamageCard):
+        return _get_damage_card_embed(card_id)
     else:
         raise ValueError(f'{card_type} is not supported for embeds')

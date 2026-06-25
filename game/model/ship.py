@@ -97,6 +97,10 @@ class Condition(FrozenBaseStruct, frozen=True):
         return 'condition'
 
     @classmethod
+    def get_all_card_ids(cls) -> Iterable[str]:
+        return cls._read_card_file().keys()
+
+    @classmethod
     @cache
     def _read_card_file(cls, type_: str | None = None) -> dict[str, catalog.ConditionCard]:
         filepath = CATALOG_ROOT_PATH / 'condition.yaml'
@@ -161,6 +165,13 @@ class Ship(MutableBaseStruct, kw_only=True):
                 facedown.append(card)
 
         return faceup, facedown
+
+    def get_ship_info(self) -> catalog.ShipAttr:
+        return self.get_catalog_entry()  # pyright: ignore[reportReturnType]
+
+    @classmethod
+    def get_ship_info_by_type(cls, type_: str) -> catalog.ShipAttr:
+        return cls._read_card_file(type_)[type_]
 
     def get_pilot_card(self) -> catalog.PilotCard:
         ship_attr: catalog.ShipAttr | None = self.get_catalog_entry()

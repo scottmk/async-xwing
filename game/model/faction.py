@@ -33,6 +33,24 @@ class Faction(StrEnum):
                 return get_emoji('separatist')
 
     @property
+    def upgrade_str(self) -> str:
+        match self:
+            case Faction.REBEL_ALLIANCE:
+                return 'Rebel'
+            case Faction.GALACTIC_EMPIRE:
+                return 'Empire'
+            case Faction.SCUM_AND_VILLAINY:
+                return 'Scum'
+            case Faction.FIRST_ORDER:
+                return 'First Order'
+            case Faction.RESISTANCE:
+                return 'Resistance'
+            case Faction.GALACTIC_REPUBLIC:
+                return 'Republic'
+            case Faction.SEPARATIST_ALLIANCE:
+                return 'Separatist'
+
+    @property
     def color(self) -> discord.Color:
         match self:
             case Faction.REBEL_ALLIANCE:

@@ -56,34 +56,18 @@ class ManeuverBearing(StrEnum):
     def get_emoji(self, difficulty: ManeuverDifficulty) -> str:
         emoji_str: str = ''
         match self:
-            case ManeuverBearing.STRAIGHT:
-                emoji_str = 'maneuver_straight'
-            case ManeuverBearing.BANK_LEFT:
-                emoji_str = 'maneuver_bank_left'
-            case ManeuverBearing.BANK_RIGHT:
-                emoji_str = 'maneuver_bank_right'
-            case ManeuverBearing.TURN_LEFT:
-                emoji_str = 'maneuver_turn_left'
-            case ManeuverBearing.TURN_RIGHT:
-                emoji_str = 'maneuver_turn_right'
             case ManeuverBearing.TALLON_ROLL_LEFT:
-                emoji_str = 'maneuver_t_roll_left'
+                emoji_str = 't_roll_left'
             case ManeuverBearing.TALLON_ROLL_RIGHT:
-                emoji_str = 'maneuver_t_roll_right'
+                emoji_str = 't_roll_right'
             case ManeuverBearing.SEGNORS_LOOP_LEFT:
-                emoji_str = 'maneuver_s_loop_left'
+                emoji_str = 's_loop_left'
             case ManeuverBearing.SEGNORS_LOOP_RIGHT:
-                emoji_str = 'maneuver_s_loop_right'
+                emoji_str = 's_loop_right'
             case ManeuverBearing.KOIOGRAN_TURN:
-                emoji_str = 'maneuver_k_turn'
-            case ManeuverBearing.REVERSE_BANK_LEFT:
-                emoji_str = 'maneuver_rev_bank_left'
-            case ManeuverBearing.REVERSE_BANK_RIGHT:
-                emoji_str = 'maneuver_rev_bank_right'
-            case ManeuverBearing.REVERSE_STRAIGHT:
-                emoji_str = 'maneuver_rev_straight'
-            case ManeuverBearing.STATIONARY:
-                emoji_str = 'maneuver_stationary'
+                emoji_str = 'k_turn'
+            case _:
+                emoji_str = self.value
 
         match difficulty:
             case ManeuverDifficulty.PURPLE:

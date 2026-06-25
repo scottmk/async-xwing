@@ -26,7 +26,20 @@ k2b4:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - separatistalliance
+    names: null
+    ships: null
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: true
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -64,7 +77,20 @@ kalani:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - separatistalliance
+    names: null
+    ships: null
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: true
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -98,7 +124,20 @@ kraken:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - separatistalliance
+    names: null
+    ships: null
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: true
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -130,7 +169,20 @@ ta175:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - separatistalliance
+    names: null
+    ships: null
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: true
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -162,7 +214,20 @@ tv94:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - separatistalliance
+    names: null
+    ships: null
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: true
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null

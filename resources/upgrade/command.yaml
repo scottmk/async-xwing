@@ -6,6 +6,7 @@ admiralozzel:
   type_: command
   slots:
   - command
+  - crew
   name: • Admiral Ozzel
   is_unique: true
   limit: 1
@@ -70,6 +71,7 @@ asajjventresscommand:
   type_: command
   slots:
   - command
+  - crew
   name: • Asajj Ventress
   is_unique: true
   limit: 1
@@ -97,7 +99,22 @@ asajjventresscommand:
   bonus_keywords:
   - Dark Side
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - scumandvillainy
+    - separatistalliance
+    names: null
+    ships: null
+    ship_sizes:
+    - huge
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -109,6 +126,7 @@ azmorigan:
   type_: command
   slots:
   - command
+  - crew
   name: • Azmorigan
   is_unique: true
   limit: 1
@@ -140,6 +158,7 @@ b6bladewingprototype-command:
   type_: command
   slots:
   - command
+  - title
   name: • B6 Blade Wing Prototype
   is_unique: true
   limit: 1
@@ -160,7 +179,22 @@ b6bladewingprototype-command:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - rebelalliance
+    names: null
+    ships:
+    - name: A/SF-01 B-wing
+      id_: asf01bwing
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -205,18 +239,13 @@ bounty-rev:
   type_: command
   slots:
   - command
-  name: Bounty (Hired)
+  name: Bounty (Paid)
   is_unique: false
   limit: null
-  ability:
-    name: null
-    text: 'Setup: Equip this side faceup. You can be included in Separatist, Imperial,
-      and First Order squads. After you perform an attack, if the defender was a limited
-      ship and was destroyed, you may recover 1 [Charge] on your ship card and each
-      of your upgrade cards. Then flip this card.'
-    automations: []
-    is_action: false
-  flavor_text: null
+  ability: null
+  flavor_text: Bounty hunting is a complicated profession. Any assassin can kill,
+    but the best hunters are renowned for their ability to bring a mark in alive,
+    as doing so is more difficult but invariably commands a much greater reward.
   charges: null
   special_attacks: null
   huge_ship_bonus_attacks: null
@@ -238,6 +267,7 @@ captainneeda:
   type_: command
   slots:
   - command
+  - crew
   name: • Captain Needa
   is_unique: true
   limit: 1
@@ -272,6 +302,7 @@ carlistrieekan:
   type_: command
   slots:
   - command
+  - crew
   name: • Carlist Rieekan
   is_unique: true
   limit: 1
@@ -306,6 +337,7 @@ combatboardingtube:
   type_: command
   slots:
   - command
+  - configuration
   name: Combat Boarding Tube
   is_unique: false
   limit: null
@@ -328,7 +360,21 @@ combatboardingtube:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships:
+    - name: Gauntlet Fighter
+      id_: gauntletfighter
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -404,6 +450,7 @@ generalgrievouscommand:
   type_: command
   slots:
   - command
+  - crew
   name: • General Grievous
   is_unique: true
   limit: 1
@@ -425,7 +472,21 @@ generalgrievouscommand:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - separatistalliance
+    names: null
+    ships: null
+    ship_sizes:
+    - huge
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -437,6 +498,7 @@ hondoohnakacommand:
   type_: command
   slots:
   - command
+  - crew
   name: • Hondo Ohnaka
   is_unique: true
   limit: 1
@@ -466,7 +528,20 @@ hondoohnakacommand:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships: null
+    ship_sizes:
+    - huge
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -498,7 +573,20 @@ initforthemoneyrebellion:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - scumandvillainy
+    names: null
+    ships: null
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: true
   is_reverse: false
   reverse_side_id: initforthemoneyrebellion-rev
   setup_automations: null
@@ -510,14 +598,12 @@ initforthemoneyrebellion-rev:
   type_: command
   slots:
   - command
-  name: In It For The Money
+  name: In It For Your Rebellion
   is_unique: false
   limit: null
   ability:
     name: null
-    text: 'Setup: Equip this side faceup. You can be included in Republic, Rebel,
-      and Resistance squads. After an allied limited ship in your squad is destroyed,
-      gain 1 focus token and flip this card.'
+    text: Non-Scum ships in your squad are treated as friendly instead of allied.
     automations: []
     is_action: false
   flavor_text: null
@@ -530,7 +616,20 @@ initforthemoneyrebellion-rev:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - scumandvillainy
+    names: null
+    ships: null
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: true
   is_reverse: false
   reverse_side_id: initforthemoneyrebellion
   setup_automations: null
@@ -542,6 +641,7 @@ jandodonna:
   type_: command
   slots:
   - command
+  - crew
   name: • Jan Dodonna
   is_unique: true
   limit: 1
@@ -592,7 +692,24 @@ jedicommander:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - galacticrepublic
+    names: null
+    ships:
+    - name: Delta-7 Aethersprite
+      id_: delta7aethersprite
+    - name: Eta-2 Actis
+      id_: eta2actis
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: jedicommander-rev
   setup_automations: null
@@ -609,9 +726,9 @@ jedicommander-rev:
   limit: null
   ability:
     name: null
-    text: 'Setup: Equip this side faceup. You are a wing leader. Your wingmates must
-      be 2-5 V-19 Torrents or 2-5 Nimbus-class V-wings. After you are placed, flip
-      this card.'
+    text: While your wingmates execute purple maneuvers, they treat those maneuvers
+      as red, instead. While you defend, up to 2 of your wingmates in the attack arc
+      may each suffer 1 [Hit]/[Critical Hit] damage to cancel 1 matching result.
     automations: []
     is_action: false
   flavor_text: null
@@ -624,7 +741,24 @@ jedicommander-rev:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - galacticrepublic
+    names: null
+    ships:
+    - name: Delta-7 Aethersprite
+      id_: delta7aethersprite
+    - name: Eta-2 Actis
+      id_: eta2actis
+    ship_sizes: null
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: jedicommander
   setup_automations: null
@@ -636,6 +770,7 @@ martuuk:
   type_: command
   slots:
   - command
+  - crew
   name: • Mar Tuuk
   is_unique: true
   limit: 1
@@ -658,7 +793,21 @@ martuuk:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - separatistalliance
+    names: null
+    ships: null
+    ship_sizes:
+    - huge
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -707,9 +856,11 @@ phoenixsquadron-rev:
   limit: 1
   ability:
     name: null
-    text: 'Setup: Equip this side faceup. You are a wing leader. Your wingmates must
-      be 2-5 of the following: 0-1 Attack Shuttle 0-1 Sheathipede-class Shuttle 0-5
-      RZ-1 A-wings After you are placed, flip this card.'
+    text: At the start of the Planning Phase, 1 of your wingmates that is docked with
+      you may join your wing without gaining a stress token. While you or your Attack
+      Shuttle wingmate or Sheathipede-class wingmate defends, up to 2 of your RZ-1
+      A-wing wingmates in the attack arc may each suffer 1 [Hit]/[Critical Hit] damage
+      to cancel 1 matching result.
     automations: []
     is_action: false
   flavor_text: null
@@ -734,6 +885,7 @@ raymusantilles:
   type_: command
   slots:
   - command
+  - crew
   name: • Raymus Antilles
   is_unique: true
   limit: 1
@@ -765,6 +917,7 @@ rifftamson:
   type_: command
   slots:
   - command
+  - crew
   name: • Riff Tamson
   is_unique: true
   limit: 1
@@ -785,25 +938,40 @@ rifftamson:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - separatistalliance
+    names: null
+    ships: null
+    ship_sizes:
+    - huge
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
 sabinewren-command:
   id_: sabinewren-command
   amg_cost: null
-  xwa_cost: '5'
+  xwa_cost: 5
   xwa_restricted_count: null
   type_: command
   slots:
   - command
+  - crew
   name: • Sabine Wren
   is_unique: true
   limit: 1
   ability:
     name: null
-    text: 'Setup: Before placing forces, assign the <span class=''keyword''>Trials
-      of the Darksaber</span> condition to yourself.<br>While you perform a [Coordinate]
+    text: 'Setup: Before placing forces, assign the Trials
+      of the Darksaber condition to yourself.\nWhile you perform a [Coordinate]
       action, you may coordinate 1 additional friendly ship.'
     automations: []
     is_action: false
@@ -820,7 +988,23 @@ sabinewren-command:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions:
+    - rebelalliance
+    names: null
+    ships: null
+    ship_sizes:
+    - large
+    - medium
+    - small
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -868,8 +1052,10 @@ shadowwing-rev:
   limit: 1
   ability:
     name: null
-    text: 'Setup: Equip this side faceup. You are a wing leader. Your wingmates must
-      be 2-5 other ships of your type. After you are placed, flip this card.'
+    text: Your wingmates can perform [Barrel Roll] or [Boost] actions. If they do,
+      they voluntarily split from the wing. While you defend, up to 2 of your wingmates
+      in the attack arc may each suffer 1 [Hit]/[Critical Hit] damage to cancel 1
+      matching result.
     automations: []
     is_action: false
   flavor_text: null
@@ -931,9 +1117,9 @@ skystrikeacademyclass-rev:
   limit: 2
   ability:
     name: null
-    text: 'Setup: Equip this side faceup. You are a wing leader. Your wingmates must
-      be 2-5 TIE/ln Fighters with initiative lower than yours. After you are placed,
-      flip this card.'
+    text: After you barrel roll or boost, each of your wingmates is forced to split
+      from the wing. While you defend, up to 5 of your wingmates in the attack arc
+      may each suffer 1 [Hit]/[Critical Hit] damage to cancel 1 matching result.
     automations: []
     is_action: false
   flavor_text: null
@@ -958,6 +1144,7 @@ stalwartcaptain:
   type_: command
   slots:
   - command
+  - crew
   name: • Stalwart Captain
   is_unique: true
   limit: 1
@@ -976,7 +1163,20 @@ stalwartcaptain:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships: null
+    ship_sizes:
+    - huge
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -988,6 +1188,7 @@ strategiccommander:
   type_: command
   slots:
   - command
+  - crew
   name: • Strategic Commander
   is_unique: true
   limit: 1
@@ -1010,7 +1211,20 @@ strategiccommander:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships: null
+    ship_sizes:
+    - huge
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
@@ -1054,6 +1268,7 @@ zealouscaptain:
   type_: command
   slots:
   - command
+  - crew
   name: • Zealous Captain
   is_unique: true
   limit: 1
@@ -1073,7 +1288,20 @@ zealouscaptain:
   bonus_slots: null
   bonus_keywords: null
   deployable_remote: null
-  restrictions: null
+  restrictions:
+    factions: null
+    names: null
+    ships: null
+    ship_sizes:
+    - huge
+    actions: null
+    arcs: null
+    ship_ability: null
+    equipped_upgrades: null
+    min_shields: null
+    keywords: null
+    solitary: false
+    standardized: false
   is_reverse: false
   reverse_side_id: null
   setup_automations: null
