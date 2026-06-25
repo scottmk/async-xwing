@@ -287,15 +287,14 @@ agentterex-rev:
   type_: crew
   slots:
   - crew
-  name: • Agent Terex
+  name: • Agent Terex (Cyborg)
   is_unique: true
   limit: 1
   ability:
     name: null
-    text: 'Setup: Equip this side faceup and place 3 calculate tokens on this card.
-      At the start of the Engagement Phase, you may choose a friendly ship at range
-      0-3 and remove 1 calculate token from this card to have that ship gain a matching
-      token. Then, if there are no calculate tokens on this card, flip it.'
+    text: 'During the System Phase, roll 1 attack die. On a [Hit] or [Critical Hit]
+      result, gain 1 calculate token. Otherwise gain 1 jam token. Action: Transfer
+      1 calculate token or 1 jam token to a ship at range 0-3.'
     automations: []
     is_action: false
   flavor_text: null
@@ -1081,14 +1080,13 @@ chancellorpalpatine-rev:
   type_: crew
   slots:
   - crew
-  name: • Chancellor Palpatine
+  name: • Darth Sidious
   is_unique: true
   limit: 1
   ability:
     name: null
-    text: 'Setup: Equip this side faceup. After you defend, if the attacker is at
-      range 0-2, you may spend 1 [Force]. If you do, the attacker gains 1 stress token.
-      During the End Phase, you may flip this card.'
+    text: After you perform a purple [Coordinate] action, the ship you coordinated
+      gains 1 stress token. Then, it gains 1 focus token or recovers 1 [Force].
     automations: []
     is_action: false
   flavor_text: null
@@ -1505,14 +1503,14 @@ commandermalarus-rev:
   type_: crew
   slots:
   - crew
-  name: • Commander Malarus
+  name: • Commander Malarus (Perfected)
   is_unique: true
   limit: 1
   ability:
     name: null
-    text: 'Setup: Equip this side faceup. While a friendly non-limited ship at range
-      0-1 performs a primary attack, that ship may reroll 1 blank result. If it does
-      and the attack does not hit, you must flip this card.'
+    text: While you perform an attack, if the defender is in your [Bullseye Arc],
+      you must convert all [Focus] results to [Hit] results and gain 1 stress token.
+      Then, if you have 2 or more stress tokens, suffer 1 [Hit] damage.
     automations: []
     is_action: false
   flavor_text: null
@@ -2696,14 +2694,14 @@ ig11-rev:
   type_: crew
   slots:
   - crew
-  name: • IG-11
+  name: • IG-11 (Anti-Capture Protocol)
   is_unique: true
   limit: 1
   ability:
     name: null
-    text: 'Setup: Equip this side faceup. Before you would be dealt a faceup damage
-      card, you must place 1 fuse marker on this card and gain 1 calculate token instead.
-      Then, if there are 2 fuse markers on this card, flip it.'
+    text: 'During the End Phase, remove 1 fuse marker from this card. Then, if this
+      card has no fuse markers on it, you are destroyed and each other ship at range
+      0-1 suffers 1 [Critical Hit] damage. Action: Place 1 fuse marker on this card.'
     automations: []
     is_action: false
   flavor_text: null
@@ -2711,10 +2709,7 @@ ig11-rev:
   special_attacks: null
   huge_ship_bonus_attacks: null
   replacement_arc: null
-  action_bar:
-  - action_name: calculate
-    color: white
-    linked_action: null
+  action_bar: null
   ship_stat_modifiers: null
   bonus_slots: null
   bonus_keywords: null
@@ -3513,16 +3508,16 @@ l337-rev:
   amg_cost: null
   xwa_cost: 5
   xwa_restricted_count: null
-  type_: crew
+  type_: configuration
   slots:
-  - crew
-  name: • L3-37
+  - configuration
+  name: • L3-37's Programming
   is_unique: true
   limit: 1
   ability:
     name: null
-    text: 'Setup: Equip this side faceup. While you defend, you may flip this card.
-      If you do, the attacker must reroll all attack dice.'
+    text: If you are not shielded, decrease the difficulty of your bank ([Bank Left]
+      and [Bank Right]) maneuvers.
     automations: []
     is_action: false
   flavor_text: null
@@ -4570,15 +4565,13 @@ primeministeralmec-rev:
   type_: crew
   slots:
   - crew
-  name: • Prime Minister Almec
+  name: • Almec, Maul's Puppet
   is_unique: true
   limit: 1
   ability:
     name: null
-    text: 'Setup: Equip this side faceup. After a friendly ship at range 0-2 reveals
-      a white maneuver, if it has no green tokens, it may gain 1 stress token to gain
-      1 calculate token. During the End Phase, if you have 2 or more stress tokens,
-      flip this card. '
+    text: After a friendly ship at range 0-2 fully executes a red maneuver, that ship
+      may perform a [Calculate] or [Focus] action on its action bar, even while stressed.
     automations: []
     is_action: false
   flavor_text: null

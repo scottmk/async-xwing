@@ -239,18 +239,13 @@ bounty-rev:
   type_: command
   slots:
   - command
-  name: Bounty (Hired)
+  name: Bounty (Paid)
   is_unique: false
   limit: null
-  ability:
-    name: null
-    text: 'Setup: Equip this side faceup. You can be included in Separatist, Imperial,
-      and First Order squads. After you perform an attack, if the defender was a limited
-      ship and was destroyed, you may recover 1 [Charge] on your ship card and each
-      of your upgrade cards. Then flip this card.'
-    automations: []
-    is_action: false
-  flavor_text: null
+  ability: null
+  flavor_text: Bounty hunting is a complicated profession. Any assassin can kill,
+    but the best hunters are renowned for their ability to bring a mark in alive,
+    as doing so is more difficult but invariably commands a much greater reward.
   charges: null
   special_attacks: null
   huge_ship_bonus_attacks: null
@@ -603,14 +598,12 @@ initforthemoneyrebellion-rev:
   type_: command
   slots:
   - command
-  name: In It For The Money
+  name: In It For Your Rebellion
   is_unique: false
   limit: null
   ability:
     name: null
-    text: 'Setup: Equip this side faceup. You can be included in Republic, Rebel,
-      and Resistance squads. After an allied limited ship in your squad is destroyed,
-      gain 1 focus token and flip this card.'
+    text: Non-Scum ships in your squad are treated as friendly instead of allied.
     automations: []
     is_action: false
   flavor_text: null
@@ -733,9 +726,9 @@ jedicommander-rev:
   limit: null
   ability:
     name: null
-    text: 'Setup: Equip this side faceup. You are a wing leader. Your wingmates must
-      be 2-5 V-19 Torrents or 2-5 Nimbus-class V-wings. After you are placed, flip
-      this card.'
+    text: While your wingmates execute purple maneuvers, they treat those maneuvers
+      as red, instead. While you defend, up to 2 of your wingmates in the attack arc
+      may each suffer 1 [Hit]/[Critical Hit] damage to cancel 1 matching result.
     automations: []
     is_action: false
   flavor_text: null
@@ -863,9 +856,11 @@ phoenixsquadron-rev:
   limit: 1
   ability:
     name: null
-    text: 'Setup: Equip this side faceup. You are a wing leader. Your wingmates must
-      be 2-5 of the following: 0-1 Attack Shuttle 0-1 Sheathipede-class Shuttle 0-5
-      RZ-1 A-wings After you are placed, flip this card.'
+    text: At the start of the Planning Phase, 1 of your wingmates that is docked with
+      you may join your wing without gaining a stress token. While you or your Attack
+      Shuttle wingmate or Sheathipede-class wingmate defends, up to 2 of your RZ-1
+      A-wing wingmates in the attack arc may each suffer 1 [Hit]/[Critical Hit] damage
+      to cancel 1 matching result.
     automations: []
     is_action: false
   flavor_text: null
@@ -975,8 +970,8 @@ sabinewren-command:
   limit: 1
   ability:
     name: null
-    text: 'Setup: Before placing forces, assign the <span class=''keyword''>Trials
-      of the Darksaber</span> condition to yourself.<br>While you perform a [Coordinate]
+    text: 'Setup: Before placing forces, assign the Trials
+      of the Darksaber condition to yourself.\nWhile you perform a [Coordinate]
       action, you may coordinate 1 additional friendly ship.'
     automations: []
     is_action: false
@@ -1057,8 +1052,10 @@ shadowwing-rev:
   limit: 1
   ability:
     name: null
-    text: 'Setup: Equip this side faceup. You are a wing leader. Your wingmates must
-      be 2-5 other ships of your type. After you are placed, flip this card.'
+    text: Your wingmates can perform [Barrel Roll] or [Boost] actions. If they do,
+      they voluntarily split from the wing. While you defend, up to 2 of your wingmates
+      in the attack arc may each suffer 1 [Hit]/[Critical Hit] damage to cancel 1
+      matching result.
     automations: []
     is_action: false
   flavor_text: null
@@ -1120,9 +1117,9 @@ skystrikeacademyclass-rev:
   limit: 2
   ability:
     name: null
-    text: 'Setup: Equip this side faceup. You are a wing leader. Your wingmates must
-      be 2-5 TIE/ln Fighters with initiative lower than yours. After you are placed,
-      flip this card.'
+    text: After you barrel roll or boost, each of your wingmates is forced to split
+      from the wing. While you defend, up to 5 of your wingmates in the attack arc
+      may each suffer 1 [Hit]/[Critical Hit] damage to cancel 1 matching result.
     automations: []
     is_action: false
   flavor_text: null

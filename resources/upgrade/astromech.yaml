@@ -148,21 +148,17 @@ c110p-rev:
   type_: astromech
   slots:
   - astromech
-  name: • C1-10P
+  name: • C1-10P (Erratic)
   is_unique: true
   limit: 1
   ability:
     name: null
-    text: 'Setup: Equip this side faceup. After you fully execute a maneuver, you
-      may spend 1 [Charge] to perform a red [Evade] action, even while stressed. During
-      the End Phase, if this card has 0 active [Charge], flip it.'
+    text: After you fully execute a maneuver, you must choose a ship at range 0-1.
+      It gains 1 jam token.
     automations: []
     is_action: false
   flavor_text: null
-  charges:
-    standard:
-      limit: 2
-      recurring_val: 0
+  charges: null
   special_attacks: null
   huge_ship_bonus_attacks: null
   replacement_arc: null
